@@ -1,0 +1,3488 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clientinteraction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://oneaccess.io/corporateaccess/clientinteraction/2.1.1">
+  <updated>
+    <datetime>2016-05-09T16:43:49.3823692Z</datetime>
+    <timezone>Etc/UTC</timezone>
+  </updated>
+  <broker>Jefferies</broker>
+  <interactions>
+    <investor>
+      <investorName>KATE 02_12</investorName>
+      <interaction>
+        <parentID>1001bcdvz35130</parentID>
+		<interactionID>1001bcdvz35130</interactionID>
+        <interactionType>AnalystMarketing</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionTitle>MISSING DURATION(AnalystMarketing)</interactionTitle>
+        <start>2016-07-28</start>
+        
+          
+          
+        
+        <end>2016-07-31</end>
+        
+          
+          
+        
+        
+          <originatingRegion>North America</originatingRegion>
+        
+       <sectors>
+	   <sector>45</sector>
+	   </sectors>
+        <location>
+          <address>
+            <type>Offsite</type>
+            <city>New York</city>
+          </address>
+        </location>
+        <companies>
+          <company>
+            <companyName>APPLE</companyName>
+            <isPublic>true</isPublic>
+            <identifiers>
+              <identifier type="Ticker">APPL</identifier>
+            </identifiers>
+			<companyParticipants>
+              <participant>
+                <person>
+                  <firstName>Sergei</firstName>
+                  <lastName>Brin</lastName> 
+                  
+                  <email>CompanyPersonemail@email.com</email>
+                  <phone>322223</phone>
+                  <title>some title</title>
+                </person>
+                <roles>
+                  <role>HeadOfBusiness</role>
+                </roles>
+                <status>Confirmed</status>
+              </participant>
+			  </companyParticipants>
+          </company>
+        </companies>
+        <brokerParticipants>
+          <participant>
+            <person>
+              <firstName>George</firstName>
+              <lastName>Notter</lastName>
+              <email>Broker@email.com</email>
+              <email>Broker@email.com</email>
+              
+              <title>Analyst</title>
+            </person>
+            <roles>
+              <role>SellsideAnalyst</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+          <participant>
+            <person>
+              <firstName>Shanelle</firstName>
+              <lastName>Trinidad</lastName>
+              <email>Broker2@email.com</email>
+              
+              <title>Research Sales</title>
+            </person>
+            <roles>
+              <role>SellsideAnalyst</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+        </brokerParticipants>
+        <investorParticipants>
+          <participant>
+            <person>
+              <firstName>Ken</firstName>
+              <lastName>Chang</lastName>
+              <email>investor@email.com</email>
+              
+              <title />
+            </person>
+            <roles>
+              <role>PortfolioManager</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </investorParticipants>
+		<thirdPartyParticipants>
+          <participant>
+            <person>
+              <firstName>Ken1</firstName>
+              <lastName>Chang1</lastName>
+              
+              <title>experttitle</title>
+              
+              <title />
+            </person>
+            <roles>
+              <role>IndustryExpert</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </thirdPartyParticipants>
+      </interaction>
+       <interaction>
+        <parentID>1001bcdvz35129</parentID>
+		<interactionID>1001bcdvz35129</interactionID>
+        <interactionType>Conference</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionTitle>MISSING DURATION(Conference)</interactionTitle>
+        <start>2016-07-28</start>
+        
+          
+          
+        
+        <end>2016-07-31</end>
+        
+          
+          
+        
+        
+          <originatingRegion>North America</originatingRegion>
+        
+       <sectors><sector>45</sector></sectors>
+        <location>
+          <address>
+            <type>Offsite</type>
+            <city>New York</city>
+          </address>
+        </location>
+        <companies>
+          <company>
+            <companyName>APPLE</companyName>
+            <isPublic>true</isPublic>
+            <identifiers>
+              <identifier type="Ticker">APPL</identifier>
+            </identifiers>
+			<companyParticipants>
+              <participant>
+                <person>
+                  <firstName>Sergei</firstName>
+                  <lastName>Brin</lastName> 
+                  
+                  <email>CompanyPersonemail@email.com</email>
+                  <phone>322223</phone>
+                  <title>some title</title>
+                </person>
+                <roles>
+                  <role>HeadOfBusiness</role>
+                </roles>
+                <status>Confirmed</status>
+              </participant>
+			  </companyParticipants>
+          </company>
+        </companies>
+        <brokerParticipants>
+          <participant>
+            <person>
+              <firstName>George</firstName>
+              <lastName>Notter</lastName>
+              <email>Broker@email.com</email>
+              <email>Broker@email.com</email>
+              
+              <title>Analyst</title>
+            </person>
+            <roles>
+              <role>SellsideSales</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+          <participant>
+            <person>
+              <firstName>Shanelle</firstName>
+              <lastName>Trinidad</lastName>
+              <email>Broker2@email.com</email>
+              
+              <title>Research Sales</title>
+            </person>
+            <roles>
+              <role>SellsideSales</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+        </brokerParticipants>
+        <investorParticipants>
+          <participant>
+            <person>
+              <firstName>Ken</firstName>
+              <lastName>Chang</lastName>
+              <email>investor@email.com</email>
+              
+              <title />
+            </person>
+            <roles>
+              <role>PortfolioManager</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </investorParticipants>
+		<thirdPartyParticipants>
+          <participant>
+            <person>
+              <firstName>Ken1</firstName>
+              <lastName>Chang1</lastName>
+              
+              <title>experttitle</title>
+              
+              <title />
+            </person>
+            <roles>
+              <role>IndustryExpert</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </thirdPartyParticipants>
+      </interaction>
+	    <interaction>
+        <parentID>1001bcdvz35128</parentID>
+		<interactionID>1001bcdvz35128</interactionID>
+        <interactionType>CorporateAccessDay</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionTitle>MISSING DURATION(CorporateAccessDay)</interactionTitle>
+        <start>2016-07-28</start>
+        
+          
+          
+        
+        <end>2016-07-31</end>
+        
+          
+          
+        
+        
+          <originatingRegion>North America</originatingRegion>
+        
+       <sectors><sector>45</sector></sectors>
+        <location>
+          <address>
+            <type>Offsite</type>
+            <city>New York</city>
+          </address>
+        </location>
+        <companies>
+          <company>
+            <companyName>APPLE</companyName>
+            <isPublic>true</isPublic>
+            <identifiers>
+              <identifier type="Ticker">APPL</identifier>
+            </identifiers>
+			<companyParticipants>
+              <participant>
+                <person>
+                  <firstName>Sergei</firstName>
+                  <lastName>Brin</lastName> 
+                  
+                  <email>CompanyPersonemail@email.com</email>
+                  <phone>322223</phone>
+                  <title>some title</title>
+                </person>
+                <roles>
+                  <role>HeadOfBusiness</role>
+                </roles>
+                <status>Confirmed</status>
+              </participant>
+			  </companyParticipants>
+          </company>
+        </companies>
+        <brokerParticipants>
+          <participant>
+            <person>
+              <firstName>George</firstName>
+              <lastName>Notter</lastName>
+              <email>Broker@email.com</email>
+              <email>Broker@email.com</email>
+              
+              <title>Analyst</title>
+            </person>
+            <roles>
+              <role>SellsideAnalyst</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+          <participant>
+            <person>
+              <firstName>Shanelle</firstName>
+              <lastName>Trinidad</lastName>
+              <email>Broker2@email.com</email>
+              
+              <title>Research Sales</title>
+            </person>
+            <roles>
+              <role>SellsideSales</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+        </brokerParticipants>
+        <investorParticipants>
+          <participant>
+            <person>
+              <firstName>Ken</firstName>
+              <lastName>Chang</lastName>
+              <email>investor@email.com</email>
+              
+              <title />
+            </person>
+            <roles>
+              <role>PortfolioManager</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </investorParticipants>
+		<thirdPartyParticipants>
+          <participant>
+            <person>
+              <firstName>Ken1</firstName>
+              <lastName>Chang1</lastName>
+              
+              <title>experttitle</title>
+              
+              <title />
+            </person>
+            <roles>
+              <role>IndustryExpert</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </thirdPartyParticipants>
+      </interaction>
+	    <interaction>
+        <parentID>1001bcdvz35127</parentID>
+		<interactionID>1001bcdvz35127</interactionID>
+        <interactionType>InvestorRelationsDay</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionTitle>MISSING DURATION(InvestorRelationsDay)</interactionTitle>
+        <start>2016-07-28</start>
+        
+          
+          
+        
+        <end>2016-07-31</end>
+        
+          
+          
+        
+        
+          <originatingRegion>North America</originatingRegion>
+        
+       <sectors><sector>45</sector></sectors>
+        <location>
+          <address>
+            <type>Offsite</type>
+            <city>New York</city>
+          </address>
+        </location>
+        <companies>
+          <company>
+            <companyName>APPLE</companyName>
+            <isPublic>true</isPublic>
+            <identifiers>
+              <identifier type="Ticker">APPL</identifier>
+            </identifiers>
+			<companyParticipants>
+              <participant>
+                <person>
+                  <firstName>Sergei</firstName>
+                  <lastName>Brin</lastName> 
+                  
+                  <email>CompanyPersonemail@email.com</email>
+                  <phone>322223</phone>
+                  <title>some title</title>
+                </person>
+                <roles>
+                  <role>HeadOfBusiness</role>
+                </roles>
+                <status>Confirmed</status>
+              </participant>
+			  </companyParticipants>
+          </company>
+        </companies>
+        <brokerParticipants>
+          <participant>
+            <person>
+              <firstName>George</firstName>
+              <lastName>Notter</lastName>
+              <email>Broker@email.com</email>
+              <email>Broker@email.com</email>
+              
+              <title>Analyst</title>
+            </person>
+            <roles>
+              <role>SellsideAnalyst</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+          <participant>
+            <person>
+              <firstName>Shanelle</firstName>
+              <lastName>Trinidad</lastName>
+              <email>Broker2@email.com</email>
+              
+              <title>Research Sales</title>
+            </person>
+            <roles>
+              <role>SellsideSales</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+        </brokerParticipants>
+        <investorParticipants>
+          <participant>
+            <person>
+              <firstName>Ken</firstName>
+              <lastName>Chang</lastName>
+              <email>investor@email.com</email>
+              
+              <title />
+            </person>
+            <roles>
+              <role>PortfolioManager</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </investorParticipants>
+		<thirdPartyParticipants>
+          <participant>
+            <person>
+              <firstName>Ken1</firstName>
+              <lastName>Chang1</lastName>
+              
+              <title>experttitle</title>
+              
+              <title />
+            </person>
+            <roles>
+              <role>IndustryExpert</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </thirdPartyParticipants>
+      </interaction>
+	    <interaction>
+        <parentID>1001bcdvz35126</parentID>
+		<interactionID>1001bcdvz35126</interactionID>
+        <interactionType>AnalystDay</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionTitle>MISSING DURATION(AnalystDay)</interactionTitle>
+        <start>2016-07-28</start>
+        
+          
+          
+        
+        <end>2016-07-31</end>
+        
+          
+          
+        
+        
+          <originatingRegion>North America</originatingRegion>
+        
+       <sectors><sector>45</sector></sectors>
+        <location>
+          <address>
+            <type>Offsite</type>
+            <city>New York</city>
+          </address>
+        </location>
+        <companies>
+          <company>
+            <companyName>APPLE</companyName>
+            <isPublic>true</isPublic>
+            <identifiers>
+              <identifier type="Ticker">APPL</identifier>
+            </identifiers>
+			<companyParticipants>
+              <participant>
+                <person>
+                  <firstName>Sergei</firstName>
+                  <lastName>Brin</lastName> 
+                  
+                  <email>CompanyPersonemail@email.com</email>
+                  <phone>322223</phone>
+                  <title>some title</title>
+                </person>
+                <roles>
+                  <role>HeadOfBusiness</role>
+                </roles>
+                <status>Confirmed</status>
+              </participant>
+			  </companyParticipants>
+          </company>
+        </companies>
+        <brokerParticipants>
+          <participant>
+            <person>
+              <firstName>George</firstName>
+              <lastName>Notter</lastName>
+              <email>Broker@email.com</email>
+              <email>Broker@email.com</email>
+              
+              <title>Analyst</title>
+            </person>
+            <roles>
+              <role>SellsideAnalyst</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+          <participant>
+            <person>
+              <firstName>Shanelle</firstName>
+              <lastName>Trinidad</lastName>
+              <email>Broker2@email.com</email>
+              
+              <title>Research Sales</title>
+            </person>
+            <roles>
+              <role>SellsideSales</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+        </brokerParticipants>
+        <investorParticipants>
+          <participant>
+            <person>
+              <firstName>Ken</firstName>
+              <lastName>Chang</lastName>
+              <email>investor@email.com</email>
+              
+              <title />
+            </person>
+            <roles>
+              <role>PortfolioManager</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </investorParticipants>
+		<thirdPartyParticipants>
+          <participant>
+            <person>
+              <firstName>Ken1</firstName>
+              <lastName>Chang1</lastName>
+              
+              <title>experttitle</title>
+              
+              <title />
+            </person>
+            <roles>
+              <role>IndustryExpert</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </thirdPartyParticipants>
+      </interaction>
+	    <interaction>
+        <parentID>1001bcdvz35125</parentID>
+		<interactionID>1001bcdvz35125</interactionID>
+        <interactionType>Show</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionTitle>MISSING DURATION(Show)</interactionTitle>
+        <start>2016-07-28</start>
+        
+          
+          
+        
+        <end>2016-07-31</end>
+        
+          
+          
+        
+        
+          <originatingRegion>North America</originatingRegion>
+        
+       <sectors><sector>45</sector></sectors>
+        <location>
+          <address>
+            <type>Offsite</type>
+            <city>New York</city>
+          </address>
+        </location>
+        <companies>
+          <company>
+            <companyName>APPLE</companyName>
+            <isPublic>true</isPublic>
+            <identifiers>
+              <identifier type="Ticker">APPL</identifier>
+            </identifiers>
+			<companyParticipants>
+              <participant>
+                <person>
+                  <firstName>Sergei</firstName>
+                  <lastName>Brin</lastName> 
+                  
+                  <email>CompanyPersonemail@email.com</email>
+                  <phone>322223</phone>
+                  <title>some title</title>
+                </person>
+                <roles>
+                  <role>HeadOfBusiness</role>
+                </roles>
+                <status>Confirmed</status>
+              </participant>
+			  </companyParticipants>
+          </company>
+        </companies>
+        <brokerParticipants>
+          <participant>
+            <person>
+              <firstName>George</firstName>
+              <lastName>Notter</lastName>
+              <email>Broker@email.com</email>
+              <email>Broker@email.com</email>
+              
+              <title>Analyst</title>
+            </person>
+            <roles>
+              <role>SellsideAnalyst</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+          <participant>
+            <person>
+              <firstName>Shanelle</firstName>
+              <lastName>Trinidad</lastName>
+              <email>Broker2@email.com</email>
+              
+              <title>Research Sales</title>
+            </person>
+            <roles>
+              <role>SellsideSales</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+        </brokerParticipants>
+        <investorParticipants>
+          <participant>
+            <person>
+              <firstName>Ken</firstName>
+              <lastName>Chang</lastName>
+              <email>investor@email.com</email>
+              
+              <title />
+            </person>
+            <roles>
+              <role>PortfolioManager</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </investorParticipants>
+		<thirdPartyParticipants>
+          <participant>
+            <person>
+              <firstName>Ken1</firstName>
+              <lastName>Chang1</lastName>
+              
+              <title>experttitle</title>
+              
+              <title />
+            </person>
+            <roles>
+              <role>IndustryExpert</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </thirdPartyParticipants>
+      </interaction>
+	    <interaction>
+        <parentID>1001bcdvz35124</parentID>
+		<interactionID>1001bcdvz35124</interactionID>
+        <interactionType>MultiCompanyEvent</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionTitle>MISSING DURATION(MultiCompanyEvent)</interactionTitle>
+        <start>2016-07-28</start>
+        
+          
+          
+        
+        <end>2016-07-31</end>
+        
+          
+          
+        
+        
+          <originatingRegion>North America</originatingRegion>
+        
+       <sectors><sector>45</sector></sectors>
+        <location>
+          <address>
+            <type>Offsite</type>
+            <city>New York</city>
+          </address>
+        </location>
+        <companies>
+          <company>
+            <companyName>APPLE</companyName>
+            <isPublic>true</isPublic>
+            <identifiers>
+              <identifier type="Ticker">APPL</identifier>
+            </identifiers>
+			<companyParticipants>
+              <participant>
+                <person>
+                  <firstName>Sergei</firstName>
+                  <lastName>Brin</lastName> 
+                  
+                  <email>CompanyPersonemail@email.com</email>
+                  <phone>322223</phone>
+                  <title>some title</title>
+                </person>
+                <roles>
+                  <role>HeadOfBusiness</role>
+                </roles>
+                <status>Confirmed</status>
+              </participant>
+			  </companyParticipants>
+          </company>
+        </companies>
+        <brokerParticipants>
+          <participant>
+            <person>
+              <firstName>George</firstName>
+              <lastName>Notter</lastName>
+              <email>Broker@email.com</email>
+              <email>Broker@email.com</email>
+              
+              <title>Analyst</title>
+            </person>
+            <roles>
+              <role>SellsideAnalyst</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+          <participant>
+            <person>
+              <firstName>Shanelle</firstName>
+              <lastName>Trinidad</lastName>
+              <email>Broker2@email.com</email>
+              
+              <title>Research Sales</title>
+            </person>
+            <roles>
+              <role>SellsideSales</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+        </brokerParticipants>
+        <investorParticipants>
+          <participant>
+            <person>
+              <firstName>Ken</firstName>
+              <lastName>Chang</lastName>
+              <email>investor@email.com</email>
+              
+              <title />
+            </person>
+            <roles>
+              <role>PortfolioManager</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </investorParticipants>
+		<thirdPartyParticipants>
+          <participant>
+            <person>
+              <firstName>Ken1</firstName>
+              <lastName>Chang1</lastName>
+              
+              <title>experttitle</title>
+              
+              <title />
+            </person>
+            <roles>
+              <role>IndustryExpert</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </thirdPartyParticipants>
+      </interaction>
+	    <interaction>
+        <parentID>1001bcdvz35123</parentID>
+		<interactionID>1001bcdvz35123</interactionID>
+        <interactionType>Forum</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionTitle>MISSING DURATION(Forum)</interactionTitle>
+        <start>2016-07-28</start>
+        
+          
+          
+        
+        <end>2016-07-31</end>
+        
+          
+          
+        
+        
+          <originatingRegion>North America</originatingRegion>
+        
+       <sectors><sector>45</sector></sectors>
+        <location>
+          <address>
+            <type>Offsite</type>
+            <city>New York</city>
+          </address>
+        </location>
+        <companies>
+          <company>
+            <companyName>APPLE</companyName>
+            <isPublic>true</isPublic>
+            <identifiers>
+              <identifier type="Ticker">APPL</identifier>
+            </identifiers>
+			<companyParticipants>
+              <participant>
+                <person>
+                  <firstName>Sergei</firstName>
+                  <lastName>Brin</lastName> 
+                  
+                  <email>CompanyPersonemail@email.com</email>
+                  <phone>322223</phone>
+                  <title>some title</title>
+                </person>
+                <roles>
+                  <role>HeadOfBusiness</role>
+                </roles>
+                <status>Confirmed</status>
+              </participant>
+			  </companyParticipants>
+          </company>
+        </companies>
+        <brokerParticipants>
+          <participant>
+            <person>
+              <firstName>George</firstName>
+              <lastName>Notter</lastName>
+              <email>Broker@email.com</email>
+              <email>Broker@email.com</email>
+              
+              <title>Analyst</title>
+            </person>
+            <roles>
+              <role>SellsideAnalyst</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+          <participant>
+            <person>
+              <firstName>Shanelle</firstName>
+              <lastName>Trinidad</lastName>
+              <email>Broker2@email.com</email>
+              
+              <title>Research Sales</title>
+            </person>
+            <roles>
+              <role>SellsideSales</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+        </brokerParticipants>
+        <investorParticipants>
+          <participant>
+            <person>
+              <firstName>Ken</firstName>
+              <lastName>Chang</lastName>
+              <email>investor@email.com</email>
+              
+              <title />
+            </person>
+            <roles>
+              <role>PortfolioManager</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </investorParticipants>
+		<thirdPartyParticipants>
+          <participant>
+            <person>
+              <firstName>Ken1</firstName>
+              <lastName>Chang1</lastName>
+              
+              <title>experttitle</title>
+              
+              <title />
+            </person>
+            <roles>
+              <role>IndustryExpert</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </thirdPartyParticipants>
+      </interaction>
+	    <interaction>
+        <parentID>1001bcdvz35122</parentID>
+		<interactionID>1001bcdvz35122</interactionID>
+        <interactionType>IndustryEvent</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionTitle>MISSING DURATION(IndustryEvent)</interactionTitle>
+        <start>2016-07-28</start>
+        
+          
+          
+        
+        <end>2016-07-31</end>
+        
+          
+          
+        
+        
+          <originatingRegion>North America</originatingRegion>
+        
+       <sectors><sector>45</sector></sectors>
+        <location>
+          <address>
+            <type>Offsite</type>
+            <city>New York</city>
+          </address>
+        </location>
+        <companies>
+          <company>
+            <companyName>APPLE</companyName>
+            <isPublic>true</isPublic>
+            <identifiers>
+              <identifier type="Ticker">APPL</identifier>
+            </identifiers>
+			<companyParticipants>
+              <participant>
+                <person>
+                  <firstName>Sergei</firstName>
+                  <lastName>Brin</lastName> 
+                  
+                  <email>CompanyPersonemail@email.com</email>
+                  <phone>322223</phone>
+                  <title>some title</title>
+                </person>
+                <roles>
+                  <role>HeadOfBusiness</role>
+                </roles>
+                <status>Confirmed</status>
+              </participant>
+			  </companyParticipants>
+          </company>
+        </companies>
+        <brokerParticipants>
+          <participant>
+            <person>
+              <firstName>George</firstName>
+              <lastName>Notter</lastName>
+              <email>Broker@email.com</email>
+              <email>Broker@email.com</email>
+              
+              <title>Analyst</title>
+            </person>
+            <roles>
+              <role>SellsideAnalyst</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+          <participant>
+            <person>
+              <firstName>Shanelle</firstName>
+              <lastName>Trinidad</lastName>
+              <email>Broker2@email.com</email>
+              
+              <title>Research Sales</title>
+            </person>
+            <roles>
+              <role>SellsideSales</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+        </brokerParticipants>
+        <investorParticipants>
+          <participant>
+            <person>
+              <firstName>Ken</firstName>
+              <lastName>Chang</lastName>
+              <email>investor@email.com</email>
+              
+              <title />
+            </person>
+            <roles>
+              <role>PortfolioManager</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </investorParticipants>
+		<thirdPartyParticipants>
+          <participant>
+            <person>
+              <firstName>Ken1</firstName>
+              <lastName>Chang1</lastName>
+              
+              <title>experttitle</title>
+              
+              <title />
+            </person>
+            <roles>
+              <role>IndustryExpert</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </thirdPartyParticipants>
+      </interaction>
+	    <interaction>
+        <parentID>1001bcdvz35121</parentID>
+		<interactionID>1001bcdvz35121</interactionID>
+        <interactionType>NonDealRoadshow</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionTitle>MISSING DURATION(NonDealRoadshow)</interactionTitle>
+        <start>2016-07-28</start>
+        
+          
+          
+        
+        <end>2016-07-31</end>
+        
+          
+          
+        
+        
+          <originatingRegion>North America</originatingRegion>
+        
+       <sectors><sector>45</sector></sectors>
+        <location>
+          <address>
+            <type>Offsite</type>
+            <city>New York</city>
+          </address>
+        </location>
+        <companies>
+          <company>
+            <companyName>APPLE</companyName>
+            <isPublic>true</isPublic>
+            <identifiers>
+              <identifier type="Ticker">APPL</identifier>
+            </identifiers>
+			<companyParticipants>
+              <participant>
+                <person>
+                  <firstName>Sergei</firstName>
+                  <lastName>Brin</lastName> 
+                  
+                  <email>CompanyPersonemail@email.com</email>
+                  <phone>322223</phone>
+                  <title>some title</title>
+                </person>
+                <roles>
+                  <role>HeadOfBusiness</role>
+                </roles>
+                <status>Confirmed</status>
+              </participant>
+			  </companyParticipants>
+          </company>
+        </companies>
+        <brokerParticipants>
+          <participant>
+            <person>
+              <firstName>George</firstName>
+              <lastName>Notter</lastName>
+              <email>Broker@email.com</email>
+              <email>Broker@email.com</email>
+              
+              <title>Analyst</title>
+            </person>
+            <roles>
+              <role>SellsideAnalyst</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+          <participant>
+            <person>
+              <firstName>Shanelle</firstName>
+              <lastName>Trinidad</lastName>
+              <email>Broker2@email.com</email>
+              
+              <title>Research Sales</title>
+            </person>
+            <roles>
+              <role>SellsideSales</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+        </brokerParticipants>
+        <investorParticipants>
+          <participant>
+            <person>
+              <firstName>Ken</firstName>
+              <lastName>Chang</lastName>
+              <email>investor@email.com</email>
+              
+              <title />
+            </person>
+            <roles>
+              <role>PortfolioManager</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </investorParticipants>
+		<thirdPartyParticipants>
+          <participant>
+            <person>
+              <firstName>Ken1</firstName>
+              <lastName>Chang1</lastName>
+              
+              <title>experttitle</title>
+              
+              <title />
+            </person>
+            <roles>
+              <role>IndustryExpert</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </thirdPartyParticipants>
+      </interaction>
+	    <interaction>
+        <parentID>1001bcdvz35120</parentID>
+		<interactionID>1001bcdvz35120</interactionID>
+        <interactionType>DealRoadshow</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionTitle>MISSING DURATION(DealRoadshow)</interactionTitle>
+        <start>2016-07-28</start>
+        
+          
+          
+        
+        <end>2016-07-31</end>
+        
+          
+          
+        
+        
+          <originatingRegion>North America</originatingRegion>
+        
+       <sectors><sector>45</sector></sectors>
+        <location>
+          <address>
+            <type>Offsite</type>
+            <city>New York</city>
+          </address>
+        </location>
+        <companies>
+          <company>
+            <companyName>APPLE</companyName>
+            <isPublic>true</isPublic>
+            <identifiers>
+              <identifier type="Ticker">APPL</identifier>
+            </identifiers>
+			<companyParticipants>
+              <participant>
+                <person>
+                  <firstName>Sergei</firstName>
+                  <lastName>Brin</lastName> 
+                  
+                  <email>CompanyPersonemail@email.com</email>
+                  <phone>322223</phone>
+                  <title>some title</title>
+                </person>
+                <roles>
+                  <role>HeadOfBusiness</role>
+                </roles>
+                <status>Confirmed</status>
+              </participant>
+			  </companyParticipants>
+          </company>
+        </companies>
+        <brokerParticipants>
+          <participant>
+            <person>
+              <firstName>George</firstName>
+              <lastName>Notter</lastName>
+              <email>Broker@email.com</email>
+              <email>Broker@email.com</email>
+              
+              <title>Analyst</title>
+            </person>
+            <roles>
+              <role>SellsideAnalyst</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+          <participant>
+            <person>
+              <firstName>Shanelle</firstName>
+              <lastName>Trinidad</lastName>
+              <email>Broker2@email.com</email>
+              
+              <title>Research Sales</title>
+            </person>
+            <roles>
+              <role>SellsideSales</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+        </brokerParticipants>
+        <investorParticipants>
+          <participant>
+            <person>
+              <firstName>Ken</firstName>
+              <lastName>Chang</lastName>
+              <email>investor@email.com</email>
+              
+              <title />
+            </person>
+            <roles>
+              <role>PortfolioManager</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </investorParticipants>
+		<thirdPartyParticipants>
+          <participant>
+            <person>
+              <firstName>Ken1</firstName>
+              <lastName>Chang1</lastName>
+              
+              <title>experttitle</title>
+              
+              <title />
+            </person>
+            <roles>
+              <role>IndustryExpert</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </thirdPartyParticipants>
+      </interaction>
+	    <interaction>
+        <parentID>1001bcdvz35119</parentID>
+		<interactionID>1001bcdvz35119</interactionID>
+        <interactionType>CorporateBroking</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionTitle>MISSING DURATION(CorporateBroking)</interactionTitle>
+        <start>2016-07-28</start>
+        
+          
+          
+        
+        <end>2016-07-31</end>
+        
+          
+          
+        
+        
+          <originatingRegion>North America</originatingRegion>
+        
+       <sectors><sector>45</sector></sectors>
+        <location>
+          <address>
+            <type>Offsite</type>
+            <city>New York</city>
+          </address>
+        </location>
+        <companies>
+          <company>
+            <companyName>APPLE</companyName>
+            <isPublic>true</isPublic>
+            <identifiers>
+              <identifier type="Ticker">APPL</identifier>
+            </identifiers>
+			<companyParticipants>
+              <participant>
+                <person>
+                  <firstName>Sergei</firstName>
+                  <lastName>Brin</lastName> 
+                  
+                  <email>CompanyPersonemail@email.com</email>
+                  <phone>322223</phone>
+                  <title>some title</title>
+                </person>
+                <roles>
+                  <role>HeadOfBusiness</role>
+                </roles>
+                <status>Confirmed</status>
+              </participant>
+			  </companyParticipants>
+          </company>
+        </companies>
+        <brokerParticipants>
+          <participant>
+            <person>
+              <firstName>George</firstName>
+              <lastName>Notter</lastName>
+              <email>Broker@email.com</email>
+              <email>Broker@email.com</email>
+              
+              <title>Analyst</title>
+            </person>
+            <roles>
+              <role>SellsideAnalyst</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+          <participant>
+            <person>
+              <firstName>Shanelle</firstName>
+              <lastName>Trinidad</lastName>
+              <email>Broker2@email.com</email>
+              
+              <title>Research Sales</title>
+            </person>
+            <roles>
+              <role>SellsideSales</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+        </brokerParticipants>
+        <investorParticipants>
+          <participant>
+            <person>
+              <firstName>Ken</firstName>
+              <lastName>Chang</lastName>
+              <email>investor@email.com</email>
+              
+              <title />
+            </person>
+            <roles>
+              <role>PortfolioManager</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </investorParticipants>
+		<thirdPartyParticipants>
+          <participant>
+            <person>
+              <firstName>Ken1</firstName>
+              <lastName>Chang1</lastName>
+              
+              <title>experttitle</title>
+              
+              <title />
+            </person>
+            <roles>
+              <role>IndustryExpert</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </thirdPartyParticipants>
+      </interaction>
+	    <interaction>
+        <parentID>1001bcdvz35118</parentID>
+		<interactionID>1001bcdvz35118</interactionID>
+        <interactionType>FieldTrip</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionTitle>MISSING DURATION(FieldTrip)</interactionTitle>
+        <start>2016-07-28</start>
+        
+          
+          
+        
+        <end>2016-07-31</end>
+        
+          
+          
+        
+        
+          <originatingRegion>North America</originatingRegion>
+        
+       <sectors><sector>45</sector></sectors>
+        <location>
+          <address>
+            <type>Offsite</type>
+            <city>New York</city>
+          </address>
+        </location>
+        <companies>
+          <company>
+            <companyName>APPLE</companyName>
+            <isPublic>true</isPublic>
+            <identifiers>
+              <identifier type="Ticker">APPL</identifier>
+            </identifiers>  
+			
+			 <companyParticipants>
+              <participant>
+                <person>
+                  <firstName>Sergei</firstName>
+                  <lastName>Brin</lastName> 
+                  
+                  <email>CompanyPersonemail@email.com</email>
+                  <phone>322223</phone>
+                  <title>some title</title>
+                </person>
+                <roles>
+                  <role>HeadOfBusiness</role>
+                </roles>
+                <status>Confirmed</status>
+              </participant>
+            </companyParticipants>
+          </company>
+        </companies>
+        <brokerParticipants>
+          <participant>
+            <person>
+              <firstName>George</firstName>
+              <lastName>Notter</lastName>
+              <email>Broker@email.com</email>
+              <email>Broker@email.com</email>
+              
+              <title>Analyst</title>
+            </person>
+            <roles>
+              <role>SellsideAnalyst</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+          <participant>
+            <person>
+              <firstName>Shanelle</firstName>
+              <lastName>Trinidad</lastName>
+              <email>Broker2@email.com</email>
+              
+              <title>Research Sales</title>
+            </person>
+            <roles>
+              <role>SellsideSales</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+        </brokerParticipants>
+        <investorParticipants>
+          <participant>
+            <person>
+              <firstName>Ken</firstName>
+              <lastName>Chang</lastName>
+              <email>investor@email.com</email>
+              
+              <title />
+            </person>
+            <roles>
+              <role>PortfolioManager</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </investorParticipants>
+		<thirdPartyParticipants>
+          <participant>
+            <person>
+              <firstName>Ken1</firstName>
+              <lastName>Chang1</lastName>
+              
+              <title>experttitle</title>
+              
+              <title />
+            </person>
+            <roles>
+              <role>IndustryExpert</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </thirdPartyParticipants>
+      </interaction>
+	    <interaction>
+        <parentID>1001bcdvz35117</parentID>
+		<interactionID>1001bcdvz35117</interactionID>
+        <interactionType>BusTour</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionTitle>MISSING DURATION(BusTour)</interactionTitle>
+        <start>2016-07-28</start>
+        
+          
+          
+        
+        <end>2016-07-31</end>
+        
+          
+          
+        
+        
+          <originatingRegion>North America</originatingRegion>
+        
+       <sectors><sector>45</sector></sectors>
+        <location>
+          <address>
+            <type>Offsite</type>
+            <city>New York</city>
+          </address>
+        </location>
+        <companies>
+          <company>
+            <companyName>APPLE</companyName>
+            <isPublic>true</isPublic>
+            <identifiers>
+              <identifier type="Ticker">APPL</identifier>
+            </identifiers>
+			 <companyParticipants>
+              <participant>
+                <person>
+                  <firstName>Sergei</firstName>
+                  <lastName>Brin</lastName> 
+                  
+                  <email>CompanyPersonemail@email.com</email>
+                  <phone>322223</phone>
+                  <title>some title</title>
+                </person>
+                <roles>
+                  <role>HeadOfBusiness</role>
+                </roles>
+                <status>Confirmed</status>
+              </participant>
+            </companyParticipants>
+          </company>
+        </companies>
+        <brokerParticipants>
+          <participant>
+            <person>
+              <firstName>George</firstName>
+              <lastName>Notter</lastName>
+              <email>Broker@email.com</email>
+              <email>Broker@email.com</email>
+              
+              <title>Analyst</title>
+            </person>
+            <roles>
+              <role>SellsideAnalyst</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+          <participant>
+            <person>
+              <firstName>Shanelle</firstName>
+              <lastName>Trinidad</lastName>
+              <email>Broker2@email.com</email>
+              
+              <title>Research Sales</title>
+            </person>
+            <roles>
+              <role>SellsideSales</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+        </brokerParticipants>
+        <investorParticipants>
+          <participant>
+            <person>
+              <firstName>Ken</firstName>
+              <lastName>Chang</lastName>
+              <email>investor@email.com</email>
+              
+              <title />
+            </person>
+            <roles>
+              <role>PortfolioManager</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </investorParticipants>
+		<thirdPartyParticipants>
+          <participant>
+            <person>
+              <firstName>Ken1</firstName>
+              <lastName>Chang1</lastName>
+              
+              <title>experttitle</title>
+              
+              <title />
+            </person>
+            <roles>
+              <role>IndustryExpert</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </thirdPartyParticipants>
+      </interaction>
+	    <interaction>
+        <parentID>1001bcdvz35116</parentID>
+		<interactionID>1001bcdvz35116</interactionID>
+        <interactionType>BoothTour</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionTitle>MISSING DURATION(BoothTour)</interactionTitle>
+        <start>2016-07-28</start>
+        
+          
+          
+        
+        <end>2016-07-31</end>
+        
+          
+          
+        
+        
+          <originatingRegion>North America</originatingRegion>
+        
+       <sectors><sector>45</sector></sectors>
+        <location>
+          <address>
+            <type>Offsite</type>
+            <city>New York</city>
+          </address>
+        </location>
+        <companies>
+          <company>
+            <companyName>APPLE</companyName>
+            <isPublic>true</isPublic>
+            <identifiers>
+              <identifier type="Ticker">APPL</identifier>
+            </identifiers>
+			<companyParticipants>
+              <participant>
+                <person>
+                  <firstName>Sergei</firstName>
+                  <lastName>Brin</lastName> 
+                  
+                  <email>CompanyPersonemail@email.com</email>
+                  <phone>322223</phone>
+                  <title>some title</title>
+                </person>
+                <roles>
+                  <role>HeadOfBusiness</role>
+                </roles>
+                <status>Confirmed</status>
+              </participant>
+			  </companyParticipants>
+          </company>
+        </companies>
+        <brokerParticipants>
+          <participant>
+            <person>
+              <firstName>George</firstName>
+              <lastName>Notter</lastName>
+              <email>Broker@email.com</email>
+              <email>Broker@email.com</email>
+              
+              <title>Analyst</title>
+            </person>
+            <roles>
+              <role>SellsideAnalyst</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+          <participant>
+            <person>
+              <firstName>Shanelle</firstName>
+              <lastName>Trinidad</lastName>
+              <email>Broker2@email.com</email>
+              
+              <title>Research Sales</title>
+            </person>
+            <roles>
+              <role>SellsideSales</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+        </brokerParticipants>
+        <investorParticipants>
+          <participant>
+            <person>
+              <firstName>Ken</firstName>
+              <lastName>Chang</lastName>
+              <email>investor@email.com</email>
+              
+              <title />
+            </person>
+            <roles>
+              <role>PortfolioManager</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </investorParticipants>
+		<thirdPartyParticipants>
+          <participant>
+            <person>
+              <firstName>Ken1</firstName>
+              <lastName>Chang1</lastName>
+              
+              <title>experttitle</title>
+              
+              <title />
+            </person>
+            <roles>
+              <role>IndustryExpert</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </thirdPartyParticipants>
+      </interaction>
+	    <interaction>
+        <parentID>1001bcdvz35115</parentID>
+		<interactionID>1001bcdvz35115</interactionID>
+        <interactionType>IndustryExpert</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionTitle>MISSING DURATION(IndustryExpert)</interactionTitle>
+        <start>2016-07-28</start>
+        
+          
+          
+        
+        <end>2016-07-31</end>
+        
+          
+          
+        
+        
+          <originatingRegion>North America</originatingRegion>
+        
+       <sectors><sector>45</sector></sectors>
+        <location>
+          <address>
+            <type>Offsite</type>
+            <city>New York</city>
+          </address>
+        </location>
+        <companies>
+          <company>
+            <companyName>APPLE</companyName>
+            <isPublic>true</isPublic>
+            <identifiers>
+              <identifier type="Ticker">APPL</identifier>
+            </identifiers>
+			<companyParticipants>
+              <participant>
+                <person>
+                  <firstName>Sergei</firstName>
+                  <lastName>Brin</lastName> 
+                  
+                  <email>CompanyPersonemail@email.com</email>
+                  <phone>322223</phone>
+                  <title>some title</title>
+                </person>
+                <roles>
+                  <role>HeadOfBusiness</role>
+                </roles>
+                <status>Confirmed</status>
+              </participant>
+			  </companyParticipants>
+          </company>
+        </companies>
+        <brokerParticipants>
+          <participant>
+            <person>
+              <firstName>George</firstName>
+              <lastName>Notter</lastName>
+              <email>Broker@email.com</email>
+              <email>Broker@email.com</email>
+              
+              <title>Analyst</title>
+            </person>
+            <roles>
+              <role>SellsideAnalyst</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+          <participant>
+            <person>
+              <firstName>Shanelle</firstName>
+              <lastName>Trinidad</lastName>
+              <email>Broker2@email.com</email>
+              
+              <title>Research Sales</title>
+            </person>
+            <roles>
+              <role>SellsideSales</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+        </brokerParticipants>
+        <investorParticipants>
+          <participant>
+            <person>
+              <firstName>Ken</firstName>
+              <lastName>Chang</lastName>
+              <email>investor@email.com</email>
+              
+              <title />
+            </person>
+            <roles>
+              <role>PortfolioManager</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </investorParticipants>
+		<thirdPartyParticipants>
+          <participant>
+            <person>
+              <firstName>Ken1</firstName>
+              <lastName>Chang1</lastName>
+              
+              <title>experttitle</title>
+              
+              <title />
+            </person>
+            <roles>
+              <role>IndustryExpert</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </thirdPartyParticipants>
+      </interaction>
+	    <interaction>
+        <parentID>1001bcdvz35114</parentID>
+		<interactionID>1001bcdvz35114</interactionID>
+        <interactionType>GovernmentExpert</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionTitle>MISSING DURATION(GovernmentExpert)</interactionTitle>
+        <start>2016-07-28</start>
+        
+          
+          
+        
+        <end>2016-07-31</end>
+        
+          
+          
+        
+        
+          <originatingRegion>North America</originatingRegion>
+        
+       <sectors><sector>45</sector></sectors>
+        <location>
+          <address>
+            <type>Offsite</type>
+            <city>New York</city>
+          </address>
+        </location>
+        <companies>
+          <company>
+            <companyName>APPLE</companyName>
+            <isPublic>true</isPublic>
+            <identifiers>
+              <identifier type="Ticker">APPL</identifier>
+            </identifiers>
+			<companyParticipants>
+              <participant>
+                <person>
+                  <firstName>Sergei</firstName>
+                  <lastName>Brin</lastName> 
+                  
+                  <email>CompanyPersonemail@email.com</email>
+                  <phone>322223</phone>
+                  <title>some title</title>
+                </person>
+                <roles>
+                  <role>HeadOfBusiness</role>
+                </roles>
+                <status>Confirmed</status>
+              </participant>
+			  </companyParticipants>
+          </company>
+        </companies>
+        <brokerParticipants>
+          <participant>
+            <person>
+              <firstName>George</firstName>
+              <lastName>Notter</lastName>
+              <email>Broker@email.com</email>
+              <email>Broker@email.com</email>
+              
+              <title>Analyst</title>
+            </person>
+            <roles>
+              <role>SellsideAnalyst</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+          <participant>
+            <person>
+              <firstName>Shanelle</firstName>
+              <lastName>Trinidad</lastName>
+              <email>Broker2@email.com</email>
+              
+              <title>Research Sales</title>
+            </person>
+            <roles>
+              <role>SellsideSales</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+        </brokerParticipants>
+        <investorParticipants>
+          <participant>
+            <person>
+              <firstName>Ken</firstName>
+              <lastName>Chang</lastName>
+              <email>investor@email.com</email>
+              
+              <title />
+            </person>
+            <roles>
+              <role>PortfolioManager</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </investorParticipants>
+		<thirdPartyParticipants>
+          <participant>
+            <person>
+              <firstName>Ken1</firstName>
+              <lastName>Chang1</lastName>
+              
+              <title>experttitle</title>
+              
+              <title />
+            </person>
+            <roles>
+              <role>IndustryExpert</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </thirdPartyParticipants>
+      </interaction>
+	    <interaction>
+        <parentID>1001bcdvz35113</parentID>
+		<interactionID>1001bcdvz35113</interactionID>
+        <interactionType>KeyOpinionLeader</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionTitle>MISSING DURATION(KeyOpinionLeader)</interactionTitle>
+        <start>2016-07-28</start>
+        
+          
+          
+        
+        <end>2016-07-31</end>
+        
+          
+          
+        
+        
+          <originatingRegion>North America</originatingRegion>
+        
+       <sectors><sector>45</sector></sectors>
+        <location>
+          <address>
+            <type>Offsite</type>
+            <city>New York</city>
+          </address>
+        </location>
+        <companies>
+          <company>
+            <companyName>APPLE</companyName>
+            <isPublic>true</isPublic>
+            <identifiers>
+              <identifier type="Ticker">APPL</identifier>
+            </identifiers>
+			<companyParticipants>
+              <participant>
+                <person>
+                  <firstName>Sergei</firstName>
+                  <lastName>Brin</lastName> 
+                  
+                  <email>CompanyPersonemail@email.com</email>
+                  <phone>322223</phone>
+                  <title>some title</title>
+                </person>
+                <roles>
+                  <role>HeadOfBusiness</role>
+                </roles>
+                <status>Confirmed</status>
+              </participant>
+			  </companyParticipants>
+          </company>
+        </companies>
+        <brokerParticipants>
+          <participant>
+            <person>
+              <firstName>George</firstName>
+              <lastName>Notter</lastName>
+              <email>Broker@email.com</email>
+              <email>Broker@email.com</email>
+              
+              <title>Analyst</title>
+            </person>
+            <roles>
+              <role>SellsideAnalyst</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+          <participant>
+            <person>
+              <firstName>Shanelle</firstName>
+              <lastName>Trinidad</lastName>
+              <email>Broker2@email.com</email>
+              
+              <title>Research Sales</title>
+            </person>
+            <roles>
+              <role>SellsideSales</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+        </brokerParticipants>
+        <investorParticipants>
+          <participant>
+            <person>
+              <firstName>Ken</firstName>
+              <lastName>Chang</lastName>
+              <email>investor@email.com</email>
+              
+              <title />
+            </person>
+            <roles>
+              <role>PortfolioManager</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </investorParticipants>
+		<thirdPartyParticipants>
+          <participant>
+            <person>
+              <firstName>Ken1</firstName>
+              <lastName>Chang1</lastName>
+              
+              <title>experttitle</title>
+              
+              <title />
+            </person>
+            <roles>
+              <role>IndustryExpert</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </thirdPartyParticipants>
+      </interaction>
+	    <interaction>
+        <parentID>1001bcdvz35112</parentID>
+		<interactionID>1001bcdvz35112</interactionID>
+        <interactionType>MacroStrategist</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionTitle>MISSING DURATION(MacroStrategist)</interactionTitle>
+        <start>2016-07-28</start>
+        
+          
+          
+        
+        <end>2016-07-31</end>
+        
+          
+          
+        
+        
+          <originatingRegion>North America</originatingRegion>
+        
+       <sectors><sector>45</sector></sectors>
+        <location>
+          <address>
+            <type>Offsite</type>
+            <city>New York</city>
+          </address>
+        </location>
+        <companies>
+          <company>
+            <companyName>APPLE</companyName>
+            <isPublic>true</isPublic>
+            <identifiers>
+              <identifier type="Ticker">APPL</identifier>
+            </identifiers>
+			<companyParticipants>
+              <participant>
+                <person>
+                  <firstName>Sergei</firstName>
+                  <lastName>Brin</lastName> 
+                  
+                  <email>CompanyPersonemail@email.com</email>
+                  <phone>322223</phone>
+                  <title>some title</title>
+                </person>
+                <roles>
+                  <role>HeadOfBusiness</role>
+                </roles>
+                <status>Confirmed</status>
+              </participant>
+			  </companyParticipants>
+          </company>
+        </companies>
+        <brokerParticipants>
+          <participant>
+            <person>
+              <firstName>George</firstName>
+              <lastName>Notter</lastName>
+              <email>Broker@email.com</email>
+              <email>Broker@email.com</email>
+              
+              <title>Analyst</title>
+            </person>
+            <roles>
+              <role>SellsideAnalyst</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+          <participant>
+            <person>
+              <firstName>Shanelle</firstName>
+              <lastName>Trinidad</lastName>
+              <email>Broker2@email.com</email>
+              
+              <title>Research Sales</title>
+            </person>
+            <roles>
+              <role>SellsideSales</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+        </brokerParticipants>
+        <investorParticipants>
+          <participant>
+            <person>
+              <firstName>Ken</firstName>
+              <lastName>Chang</lastName>
+              <email>investor@email.com</email>
+              
+              <title />
+            </person>
+            <roles>
+              <role>PortfolioManager</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </investorParticipants>
+		<thirdPartyParticipants>
+          <participant>
+            <person>
+              <firstName>Ken1</firstName>
+              <lastName>Chang1</lastName>
+              
+              <title>experttitle</title>
+              
+              <title />
+            </person>
+            <roles>
+              <role>IndustryExpert</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </thirdPartyParticipants>
+      </interaction>
+	    <interaction>
+        <parentID>1001bcdvz35111</parentID>
+		<interactionID>1001bcdvz35111</interactionID>
+        <interactionType>BankerEvent</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionTitle>MISSING DURATION(BankerEvent)</interactionTitle>
+        <start>2016-07-28</start>
+        
+          
+          
+        
+        <end>2016-07-31</end>
+        
+          
+          
+        
+        
+          <originatingRegion>North America</originatingRegion>
+        
+       <sectors><sector>45</sector></sectors>
+        <location>
+          <address>
+            <type>Offsite</type>
+            <city>New York</city>
+          </address>
+        </location>
+        <companies>
+          <company>
+            <companyName>APPLE</companyName>
+            <isPublic>true</isPublic>
+            <identifiers>
+              <identifier type="Ticker">APPL</identifier>
+            </identifiers>
+			<companyParticipants>
+              <participant>
+                <person>
+                  <firstName>Sergei</firstName>
+                  <lastName>Brin</lastName> 
+                  
+                  <email>CompanyPersonemail@email.com</email>
+                  <phone>322223</phone>
+                  <title>some title</title>
+                </person>
+                <roles>
+                  <role>HeadOfBusiness</role>
+                </roles>
+                <status>Confirmed</status>
+              </participant>
+			  </companyParticipants>
+          </company>
+        </companies>
+        <brokerParticipants>
+          <participant>
+            <person>
+              <firstName>George</firstName>
+              <lastName>Notter</lastName>
+              <email>Broker@email.com</email>
+              <email>Broker@email.com</email>
+              
+              <title>Analyst</title>
+            </person>
+            <roles>
+              <role>SellsideAnalyst</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+          <participant>
+            <person>
+              <firstName>Shanelle</firstName>
+              <lastName>Trinidad</lastName>
+              <email>Broker2@email.com</email>
+              
+              <title>Research Sales</title>
+            </person>
+            <roles>
+              <role>SellsideSales</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+        </brokerParticipants>
+        <investorParticipants>
+          <participant>
+            <person>
+              <firstName>Ken</firstName>
+              <lastName>Chang</lastName>
+              <email>investor@email.com</email>
+              
+              <title />
+            </person>
+            <roles>
+              <role>PortfolioManager</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </investorParticipants>
+		<thirdPartyParticipants>
+          <participant>
+            <person>
+              <firstName>Ken1</firstName>
+              <lastName>Chang1</lastName>
+              
+              <title>experttitle</title>
+              
+              <title />
+            </person>
+            <roles>
+              <role>IndustryExpert</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </thirdPartyParticipants>
+      </interaction>
+	    <interaction>
+        <parentID>1001bcdvz351100</parentID>
+		<interactionID>1001bcdvz351100</interactionID>
+        <interactionType>Idea</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionTitle>MISSING DURATION(Other)</interactionTitle>
+        <start>2016-07-28</start>
+        
+          
+          
+        
+        <end>2016-07-31</end>
+        
+          
+          
+        
+        
+          <originatingRegion>North America</originatingRegion>
+        
+       <sectors><sector>45</sector></sectors>
+        <location>
+          <address>
+            <type>Offsite</type>
+            <city>New York</city>
+          </address>
+        </location>
+        <companies>
+          <company>
+            <companyName>APPLE</companyName>
+            <isPublic>true</isPublic>
+            <identifiers>
+              <identifier type="Ticker">APPL</identifier>
+            </identifiers>
+			<companyParticipants>
+              <participant>
+                <person>
+                  <firstName>Sergei</firstName>
+                  <lastName>Brin</lastName> 
+                  
+                  <email>CompanyPersonemail@email.com</email>
+                  <phone>322223</phone>
+                  <title>some title</title>
+                </person>
+                <roles>
+                  <role>HeadOfBusiness</role>
+                </roles>
+                <status>Confirmed</status>
+              </participant>
+			  </companyParticipants>
+          </company>
+        </companies>
+        <brokerParticipants>
+          <participant>
+            <person>
+              <firstName>George</firstName>
+              <lastName>Notter</lastName>
+              <email>Broker@email.com</email>
+              <email>Broker@email.com</email>
+              
+              <title>Analyst</title>
+            </person>
+            <roles>
+              <role>SellsideAnalyst</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+          <participant>
+            <person>
+              <firstName>Shanelle</firstName>
+              <lastName>Trinidad</lastName>
+              <email>Broker2@email.com</email>
+              
+              <title>Research Sales</title>
+            </person>
+            <roles>
+              <role>SellsideSales</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+        </brokerParticipants>
+        <investorParticipants>
+          <participant>
+            <person>
+              <firstName>Ken</firstName>
+              <lastName>Chang</lastName>
+              <email>investor@email.com</email>
+              
+              <title />
+            </person>
+            <roles>
+              <role>PortfolioManager</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </investorParticipants>
+		<thirdPartyParticipants>
+          <participant>
+            <person>
+              <firstName>Ken1</firstName>
+              <lastName>Chang1</lastName>
+              
+              <title>experttitle</title>
+              
+              <title />
+            </person>
+            <roles>
+              <role>IndustryExpert</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </thirdPartyParticipants>
+      </interaction>
+	  <interaction>
+        <parentID>1001bcdvz35110</parentID>
+		<interactionID>1001bcdvz35110</interactionID>
+        <interactionType>Other</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionTitle>MISSING DURATION(Other)</interactionTitle>
+        <start>2016-07-28</start>
+        
+          
+          
+        
+        <end>2016-07-31</end>
+        
+          
+          
+        
+        
+          <originatingRegion>North America</originatingRegion>
+        
+       <sectors><sector>45</sector></sectors>
+        <location>
+          <address>
+            <type>Offsite</type>
+            <city>New York</city>
+          </address>
+        </location>
+        <companies>
+          <company>
+            <companyName>APPLE</companyName>
+            <isPublic>true</isPublic>
+            <identifiers>
+              <identifier type="Ticker">APPL</identifier>
+            </identifiers>
+			<companyParticipants>
+              <participant>
+                <person>
+                  <firstName>Sergei</firstName>
+                  <lastName>Brin</lastName> 
+                  
+                  <email>CompanyPersonemail@email.com</email>
+                  <phone>322223</phone>
+                  <title>some title</title>
+                </person>
+                <roles>
+                  <role>HeadOfBusiness</role>
+                </roles>
+                <status>Confirmed</status>
+              </participant>
+			  </companyParticipants>
+          </company>
+        </companies>
+        <brokerParticipants>
+          <participant>
+            <person>
+              <firstName>George</firstName>
+              <lastName>Notter</lastName>
+              <email>Broker@email.com</email>
+              <email>Broker@email.com</email>
+              
+              <title>Analyst</title>
+            </person>
+            <roles>
+              <role>SellsideAnalyst</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+          <participant>
+            <person>
+              <firstName>Shanelle</firstName>
+              <lastName>Trinidad</lastName>
+              <email>Broker2@email.com</email>
+              
+              <title>Research Sales</title>
+            </person>
+            <roles>
+              <role>SellsideSales</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+        </brokerParticipants>
+        <investorParticipants>
+          <participant>
+            <person>
+              <firstName>Ken</firstName>
+              <lastName>Chang</lastName>
+              <email>investor@email.com</email>
+              
+              <title />
+            </person>
+            <roles>
+              <role>PortfolioManager</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </investorParticipants>
+		<thirdPartyParticipants>
+          <participant>
+            <person>
+              <firstName>Ken1</firstName>
+              <lastName>Chang1</lastName>
+              
+              <title>experttitle</title>
+              
+              <title />
+            </person>
+            <roles>
+              <role>IndustryExpert</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </thirdPartyParticipants>
+      </interaction>
+	    <interaction>
+        <parentID>1001bcdvz3519</parentID>
+		<interactionID>1001bcdvz3519</interactionID>
+        <interactionType>ClientEducation</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionTitle>MISSING DURATION(ClientEducation)</interactionTitle>
+        <start>2016-07-28</start>
+        
+          
+          
+        
+        <end>2016-07-31</end>
+        
+          
+          
+        
+        
+          <originatingRegion>North America</originatingRegion>
+        
+       <sectors><sector>45</sector></sectors>
+        <location>
+          <address>
+            <type>Offsite</type>
+            <city>New York</city>
+          </address>
+        </location>
+        <companies>
+          <company>
+            <companyName>APPLE</companyName>
+            <isPublic>true</isPublic>
+            <identifiers>
+              <identifier type="Ticker">APPL</identifier>
+            </identifiers>
+			<companyParticipants>
+              <participant>
+                <person>
+                  <firstName>Sergei</firstName>
+                  <lastName>Brin</lastName> 
+                  
+                  <email>CompanyPersonemail@email.com</email>
+                  <phone>322223</phone>
+                  <title>some title</title>
+                </person>
+                <roles>
+                  <role>HeadOfBusiness</role>
+                </roles>
+                <status>Confirmed</status>
+              </participant>
+			  </companyParticipants>
+          </company>
+        </companies>
+        <brokerParticipants>
+          <participant>
+            <person>
+              <firstName>George</firstName>
+              <lastName>Notter</lastName>
+              <email>Broker@email.com</email>
+              <email>Broker@email.com</email>
+              
+              <title>Analyst</title>
+            </person>
+            <roles>
+              <role>SellsideAnalyst</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+          <participant>
+            <person>
+              <firstName>Shanelle</firstName>
+              <lastName>Trinidad</lastName>
+              <email>Broker2@email.com</email>
+              
+              <title>Research Sales</title>
+            </person>
+            <roles>
+              <role>SellsideSales</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+        </brokerParticipants>
+        <investorParticipants>
+          <participant>
+            <person>
+              <firstName>Ken</firstName>
+              <lastName>Chang</lastName>
+              <email>investor@email.com</email>
+              
+              <title />
+            </person>
+            <roles>
+              <role>PortfolioManager</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </investorParticipants>
+		<thirdPartyParticipants>
+          <participant>
+            <person>
+              <firstName>Ken1</firstName>
+              <lastName>Chang1</lastName>
+              
+              <title>experttitle</title>
+              
+              <title />
+            </person>
+            <roles>
+              <role>IndustryExpert</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </thirdPartyParticipants>
+      </interaction>
+	    <interaction>
+        <parentID>1001bcdvz3518</parentID>
+		<interactionID>1001bcdvz3518</interactionID>
+        <interactionType>RelationshipMeeting</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionTitle>MISSING DURATION(RelationshipMeeting)</interactionTitle>
+        <start>2016-07-28</start>
+        
+          
+          
+        
+        <end>2016-07-31</end>
+        
+          
+          
+        
+        
+          <originatingRegion>North America</originatingRegion>
+        
+       <sectors><sector>45</sector></sectors>
+        <location>
+          <address>
+            <type>Offsite</type>
+            <city>New York</city>
+          </address>
+        </location>
+        <companies>
+          <company>
+            <companyName>APPLE</companyName>
+            <isPublic>true</isPublic>
+            <identifiers>
+              <identifier type="Ticker">APPL</identifier>
+            </identifiers>
+			<companyParticipants>
+              <participant>
+                <person>
+                  <firstName>Sergei</firstName>
+                  <lastName>Brin</lastName> 
+                  
+                  <email>CompanyPersonemail@email.com</email>
+                  <phone>322223</phone>
+                  <title>some title</title>
+                </person>
+                <roles>
+                  <role>HeadOfBusiness</role>
+                </roles>
+                <status>Confirmed</status>
+              </participant>
+			  </companyParticipants>
+          </company>
+        </companies>
+        <brokerParticipants>
+          <participant>
+            <person>
+              <firstName>George</firstName>
+              <lastName>Notter</lastName>
+              <email>Broker@email.com</email>
+              <email>Broker@email.com</email>
+              
+              <title>Analyst</title>
+            </person>
+            <roles>
+              <role>SellsideAnalyst</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+          <participant>
+            <person>
+              <firstName>Shanelle</firstName>
+              <lastName>Trinidad</lastName>
+              <email>Broker2@email.com</email>
+              
+              <title>Research Sales</title>
+            </person>
+            <roles>
+              <role>SellsideSales</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+        </brokerParticipants>
+        <investorParticipants>
+          <participant>
+            <person>
+              <firstName>Ken</firstName>
+              <lastName>Chang</lastName>
+              <email>investor@email.com</email>
+              
+              <title />
+            </person>
+            <roles>
+              <role>PortfolioManager</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </investorParticipants>
+		<thirdPartyParticipants>
+          <participant>
+            <person>
+              <firstName>Ken1</firstName>
+              <lastName>Chang1</lastName>
+              
+              <title>experttitle</title>
+              
+              <title />
+            </person>
+            <roles>
+              <role>IndustryExpert</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </thirdPartyParticipants>
+      </interaction>
+	    <interaction>
+        <parentID>1001bcdvz3517</parentID>
+		<interactionID>1001bcdvz3517</interactionID>
+        <interactionType>Internal</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionTitle>MISSING DURATION(Internal)</interactionTitle>
+        <start>2016-07-28</start>
+        
+          
+          
+        
+        <end>2016-07-31</end>
+        
+          
+          
+        
+        
+          <originatingRegion>North America</originatingRegion>
+        
+       <sectors><sector>45</sector></sectors>
+        <location>
+          <address>
+            <type>Offsite</type>
+            <city>New York</city>
+          </address>
+        </location>
+        <companies>
+          <company>
+            <companyName>APPLE</companyName>
+            <isPublic>true</isPublic>
+            <identifiers>
+              <identifier type="Ticker">APPL</identifier>
+            </identifiers>
+			<companyParticipants>
+              <participant>
+                <person>
+                  <firstName>Sergei</firstName>
+                  <lastName>Brin</lastName> 
+                  
+                  <email>CompanyPersonemail@email.com</email>
+                  <phone>322223</phone>
+                  <title>some title</title>
+                </person>
+                <roles>
+                  <role>HeadOfBusiness</role>
+                </roles>
+                <status>Confirmed</status>
+              </participant>
+			  </companyParticipants>
+          </company>
+        </companies>
+        <brokerParticipants>
+          <participant>
+            <person>
+              <firstName>George</firstName>
+              <lastName>Notter</lastName>
+              <email>Broker@email.com</email>
+              <email>Broker@email.com</email>
+              
+              <title>Analyst</title>
+            </person>
+            <roles>
+              <role>SellsideAnalyst</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+          <participant>
+            <person>
+              <firstName>Shanelle</firstName>
+              <lastName>Trinidad</lastName>
+              <email>Broker2@email.com</email>
+              
+              <title>Research Sales</title>
+            </person>
+            <roles>
+              <role>SellsideSales</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+        </brokerParticipants>
+        <investorParticipants>
+          <participant>
+            <person>
+              <firstName>Ken</firstName>
+              <lastName>Chang</lastName>
+              <email>investor@email.com</email>
+              
+              <title />
+            </person>
+            <roles>
+              <role>PortfolioManager</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </investorParticipants>
+		<thirdPartyParticipants>
+          <participant>
+            <person>
+              <firstName>Ken1</firstName>
+              <lastName>Chang1</lastName>
+              
+              <title>experttitle</title>
+              
+              <title />
+            </person>
+            <roles>
+              <role>IndustryExpert</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </thirdPartyParticipants>
+      </interaction>
+	    <interaction>
+        <parentID>1001bcdvz3516</parentID>
+		<interactionID>1001bcdvz3516</interactionID>
+        <interactionType>Social</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionTitle>MISSING DURATION(Social)</interactionTitle>
+        <start>2016-07-28</start>
+        
+          
+          
+        
+        <end>2016-07-31</end>
+        
+          
+          
+        
+        
+          <originatingRegion>North America</originatingRegion>
+        
+       <sectors><sector>45</sector></sectors>
+        <location>
+          <address>
+            <type>Offsite</type>
+            <city>New York</city>
+          </address>
+        </location>
+        <companies>
+          <company>
+            <companyName>APPLE</companyName>
+            <isPublic>true</isPublic>
+            <identifiers>
+              <identifier type="Ticker">APPL</identifier>
+            </identifiers>
+			<companyParticipants>
+              <participant>
+                <person>
+                  <firstName>Sergei</firstName>
+                  <lastName>Brin</lastName> 
+                  
+                  <email>CompanyPersonemail@email.com</email>
+                  <phone>322223</phone>
+                  <title>some title</title>
+                </person>
+                <roles>
+                  <role>HeadOfBusiness</role>
+                </roles>
+                <status>Confirmed</status>
+              </participant>
+			  </companyParticipants>
+          </company>
+        </companies>
+        <brokerParticipants>
+          <participant>
+            <person>
+              <firstName>George</firstName>
+              <lastName>Notter</lastName>
+              <email>Broker@email.com</email>
+              <email>Broker@email.com</email>
+              
+              <title>Analyst</title>
+            </person>
+            <roles>
+              <role>SellsideAnalyst</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+          <participant>
+            <person>
+              <firstName>Shanelle</firstName>
+              <lastName>Trinidad</lastName>
+              <email>Broker2@email.com</email>
+              
+              <title>Research Sales</title>
+            </person>
+            <roles>
+              <role>SellsideSales</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+        </brokerParticipants>
+        <investorParticipants>
+          <participant>
+            <person>
+              <firstName>Ken</firstName>
+              <lastName>Chang</lastName>
+              <email>investor@email.com</email>
+              
+              <title />
+            </person>
+            <roles>
+              <role>PortfolioManager</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </investorParticipants>
+		<thirdPartyParticipants>
+          <participant>
+            <person>
+              <firstName>Ken1</firstName>
+              <lastName>Chang1</lastName>
+              
+              <title>experttitle</title>
+              
+              <title />
+            </person>
+            <roles>
+              <role>IndustryExpert</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </thirdPartyParticipants>
+      </interaction>
+	    <interaction>
+        <parentID>1001bcdvz3515</parentID>
+		<interactionID>1001bcdvz3515</interactionID>
+        <interactionType>ModelRequest</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionTitle>MISSING DURATION(ModelRequest)</interactionTitle>
+        <start>2016-07-28</start>
+        
+          
+          
+        
+        <end>2016-07-31</end>
+        
+          
+          
+        
+        
+          <originatingRegion>North America</originatingRegion>
+        
+       <sectors><sector>45</sector></sectors>
+        <location>
+          <address>
+            <type>Offsite</type>
+            <city>New York</city>
+          </address>
+        </location>
+        <companies>
+          <company>
+            <companyName>APPLE</companyName>
+            <isPublic>true</isPublic>
+            <identifiers>
+              <identifier type="Ticker">APPL</identifier>
+            </identifiers>
+			<companyParticipants>
+              <participant>
+                <person>
+                  <firstName>Sergei</firstName>
+                  <lastName>Brin</lastName> 
+                  
+                  <email>CompanyPersonemail@email.com</email>
+                  <phone>322223</phone>
+                  <title>some title</title>
+                </person>
+                <roles>
+                  <role>HeadOfBusiness</role>
+                </roles>
+                <status>Confirmed</status>
+              </participant>
+			  </companyParticipants>
+          </company>
+        </companies>
+        <brokerParticipants>
+          <participant>
+            <person>
+              <firstName>George</firstName>
+              <lastName>Notter</lastName>
+              <email>Broker@email.com</email>
+              <email>Broker@email.com</email>
+              
+              <title>Analyst</title>
+            </person>
+            <roles>
+              <role>SellsideAnalyst</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+          <participant>
+            <person>
+              <firstName>Shanelle</firstName>
+              <lastName>Trinidad</lastName>
+              <email>Broker2@email.com</email>
+              
+              <title>Research Sales</title>
+            </person>
+            <roles>
+              <role>SellsideSales</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+        </brokerParticipants>
+        <investorParticipants>
+          <participant>
+            <person>
+              <firstName>Ken</firstName>
+              <lastName>Chang</lastName>
+              <email>investor@email.com</email>
+              
+              <title />
+            </person>
+            <roles>
+              <role>PortfolioManager</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </investorParticipants>
+		<thirdPartyParticipants>
+          <participant>
+            <person>
+              <firstName>Ken1</firstName>
+              <lastName>Chang1</lastName>
+              
+              <title>experttitle</title>
+              
+              <title />
+            </person>
+            <roles>
+              <role>IndustryExpert</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </thirdPartyParticipants>
+      </interaction>
+	    <interaction>
+        <parentID>1001bcdvz3514</parentID>
+		<interactionID>1001bcdvz3515</interactionID>
+        <interactionType>CustomWork</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionTitle>MISSING DURATION(CustomWork)</interactionTitle>
+        <start>2016-07-28</start>
+        
+          
+          
+        
+        <end>2016-07-31</end>
+        
+          
+          
+        
+        
+          <originatingRegion>North America</originatingRegion>
+        
+       <sectors><sector>45</sector></sectors>
+        <location>
+          <address>
+            <type>Offsite</type>
+            <city>New York</city>
+          </address>
+        </location>
+        <companies>
+          <company>
+            <companyName>APPLE</companyName>
+            <isPublic>true</isPublic>
+            <identifiers>
+              <identifier type="Ticker">APPL</identifier>
+            </identifiers>
+			<companyParticipants>
+              <participant>
+                <person>
+                  <firstName>Sergei</firstName>
+                  <lastName>Brin</lastName> 
+                  
+                  <email>CompanyPersonemail@email.com</email>
+                  <phone>322223</phone>
+                  <title>some title</title>
+                </person>
+                <roles>
+                  <role>HeadOfBusiness</role>
+                </roles>
+                <status>Confirmed</status>
+              </participant>
+			  </companyParticipants>
+          </company>
+        </companies>
+        <brokerParticipants>
+          <participant>
+            <person>
+              <firstName>George</firstName>
+              <lastName>Notter</lastName>
+              <email>Broker@email.com</email>
+              <email>Broker@email.com</email>
+              
+              <title>Analyst</title>
+            </person>
+            <roles>
+              <role>SellsideAnalyst</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+          <participant>
+            <person>
+              <firstName>Shanelle</firstName>
+              <lastName>Trinidad</lastName>
+              <email>Broker2@email.com</email>
+              
+              <title>Research Sales</title>
+            </person>
+            <roles>
+              <role>SellsideSales</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+        </brokerParticipants>
+        <investorParticipants>
+          <participant>
+            <person>
+              <firstName>Ken</firstName>
+              <lastName>Chang</lastName>
+              <email>investor@email.com</email>
+              
+              <title />
+            </person>
+            <roles>
+              <role>PortfolioManager</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </investorParticipants>
+		<thirdPartyParticipants>
+          <participant>
+            <person>
+              <firstName>Ken1</firstName>
+              <lastName>Chang1</lastName>
+              
+              <title>experttitle</title>
+              
+              <title />
+            </person>
+            <roles>
+              <role>IndustryExpert</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </thirdPartyParticipants>
+      </interaction>
+	    <interaction>
+        <parentID>1001bcdvz3513</parentID>
+		<interactionID>1001bcdvz3513</interactionID>
+        <interactionType>BespokeAccess</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionTitle>MISSING DURATION(BespokeAccess)</interactionTitle>
+        <start>2016-07-28</start>
+        
+          
+          
+        
+        <end>2016-07-31</end>
+        
+          
+          
+        
+        
+          <originatingRegion>North America</originatingRegion>
+        
+       <sectors><sector>45</sector></sectors>
+        <location>
+          <address>
+            <type>Offsite</type>
+            <city>New York</city>
+          </address>
+        </location>
+        <companies>
+          <company>
+            <companyName>APPLE</companyName>
+            <isPublic>true</isPublic>
+            <identifiers>
+              <identifier type="Ticker">APPL</identifier>
+            </identifiers>
+			<companyParticipants>
+              <participant>
+                <person>
+                  <firstName>Sergei</firstName>
+                  <lastName>Brin</lastName> 
+                  
+                  <email>CompanyPersonemail@email.com</email>
+                  <phone>322223</phone>
+                  <title>some title</title>
+                </person>
+                <roles>
+                  <role>HeadOfBusiness</role>
+                </roles>
+                <status>Confirmed</status>
+              </participant>
+			  </companyParticipants>
+          </company>
+        </companies>
+        <brokerParticipants>
+          <participant>
+            <person>
+              <firstName>George</firstName>
+              <lastName>Notter</lastName>
+              <email>Broker@email.com</email>
+              <email>Broker@email.com</email>
+              
+              <title>Analyst</title>
+            </person>
+            <roles>
+              <role>SellsideAnalyst</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+          <participant>
+            <person>
+              <firstName>Shanelle</firstName>
+              <lastName>Trinidad</lastName>
+              <email>Broker2@email.com</email>
+              
+              <title>Research Sales</title>
+            </person>
+            <roles>
+              <role>SellsideSales</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+        </brokerParticipants>
+        <investorParticipants>
+          <participant>
+            <person>
+              <firstName>Ken</firstName>
+              <lastName>Chang</lastName>
+              <email>investor@email.com</email>
+              
+              <title />
+            </person>
+            <roles>
+              <role>PortfolioManager</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </investorParticipants>
+		<thirdPartyParticipants>
+          <participant>
+            <person>
+              <firstName>Ken1</firstName>
+              <lastName>Chang1</lastName>
+              
+              <title>experttitle</title>
+              
+              <title />
+            </person>
+            <roles>
+              <role>IndustryExpert</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </thirdPartyParticipants>
+      </interaction>
+	    <interaction>
+        <parentID>1001bcdvz3512</parentID>
+		<interactionID>1001bcdvz3512</interactionID>
+        <interactionType>SalesSpecialist</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionTitle>MISSING DURATION(SalesSpecialist)</interactionTitle>
+        <start>2016-07-28</start>
+        
+          
+          
+        
+        <end>2016-07-31</end>
+        
+          
+          
+        
+        
+          <originatingRegion>North America</originatingRegion>
+        
+       <sectors><sector>45</sector></sectors>
+        <location>
+          <address>
+            <type>Offsite</type>
+            <city>New York</city>
+          </address>
+        </location>
+        <companies>
+          <company>
+            <companyName>APPLE</companyName>
+            <isPublic>true</isPublic>
+            <identifiers>
+              <identifier type="Ticker">APPL</identifier>
+            </identifiers>
+			<companyParticipants>
+              <participant>
+                <person>
+                  <firstName>Sergei</firstName>
+                  <lastName>Brin</lastName> 
+                  
+                  <email>CompanyPersonemail@email.com</email>
+                  <phone>322223</phone>
+                  <title>some title</title>
+                </person>
+                <roles>
+                  <role>HeadOfBusiness</role>
+                </roles>
+                <status>Confirmed</status>
+              </participant>
+			  </companyParticipants>
+          </company>
+        </companies>
+        <brokerParticipants>
+          <participant>
+            <person>
+              <firstName>George</firstName>
+              <lastName>Notter</lastName>
+              <email>Broker@email.com</email>
+              <email>Broker@email.com</email>
+              
+              <title>Analyst</title>
+            </person>
+            <roles>
+              <role>SellsideAnalyst</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+          <participant>
+            <person>
+              <firstName>Shanelle</firstName>
+              <lastName>Trinidad</lastName>
+              <email>Broker2@email.com</email>
+              
+              <title>Research Sales</title>
+            </person>
+            <roles>
+              <role>SellsideSales</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+        </brokerParticipants>
+        <investorParticipants>
+          <participant>
+            <person>
+              <firstName>Ken</firstName>
+              <lastName>Chang</lastName>
+              <email>investor@email.com</email>
+              
+              <title />
+            </person>
+            <roles>
+              <role>PortfolioManager</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </investorParticipants>
+		<thirdPartyParticipants>
+          <participant>
+            <person>
+              <firstName>Ken1</firstName>
+              <lastName>Chang1</lastName>
+              
+              <title>experttitle</title>
+              
+              <title />
+            </person>
+            <roles>
+              <role>IndustryExpert</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </thirdPartyParticipants>
+      </interaction>
+	    <interaction>
+        <parentID>1001bcdvz351131</parentID>
+		<interactionID>1001bcdvz351131</interactionID>
+        <interactionType>Sales</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionTitle>MISSING DURATION(Sales)</interactionTitle>
+        <start>2016-07-28</start>
+        
+          
+          
+        
+        <end>2016-07-31</end>
+        
+          
+          
+        
+        
+          <originatingRegion>North America</originatingRegion>
+        
+       <sectors><sector>45</sector></sectors>
+        <location>
+          <address>
+            <type>Offsite</type>
+            <city>New York</city>
+          </address>
+        </location>
+        <companies>
+          <company>
+            <companyName>APPLE</companyName>
+            <isPublic>true</isPublic>
+            <identifiers>
+              <identifier type="Ticker">APPL</identifier>
+            </identifiers>
+			<companyParticipants>
+              <participant>
+                <person>
+                  <firstName>Sergei</firstName>
+                  <lastName>Brin</lastName> 
+                  
+                  <email>CompanyPersonemail@email.com</email>
+                  <phone>322223</phone>
+                  <title>some title</title>
+                </person>
+                <roles>
+                  <role>HeadOfBusiness</role>
+                </roles>
+                <status>Confirmed</status>
+              </participant>
+			  </companyParticipants>
+          </company>
+        </companies>
+        <brokerParticipants>
+          <participant>
+            <person>
+              <firstName>George</firstName>
+              <lastName>Notter</lastName>
+              <email>Broker@email.com</email>
+              <email>Broker@email.com</email>
+              
+              <title>Analyst</title>
+            </person>
+            <roles>
+              <role>SellsideSales</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+          <participant>
+            <person>
+              <firstName>Shanelle</firstName>
+              <lastName>Trinidad</lastName>
+              <email>Broker2@email.com</email>
+              
+              <title>Research Sales</title>
+            </person>
+            <roles>
+              <role>SellsideSales</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+        </brokerParticipants>
+        <investorParticipants>
+          <participant>
+            <person>
+              <firstName>Ken</firstName>
+              <lastName>Chang</lastName>
+              <email>investor@email.com</email>
+              
+              <title />
+            </person>
+            <roles>
+              <role>PortfolioManager</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </investorParticipants>
+		<thirdPartyParticipants>
+          <participant>
+            <person>
+              <firstName>Ken1</firstName>
+              <lastName>Chang1</lastName>
+              
+              <title>experttitle</title>
+              
+              <title />
+            </person>
+            <roles>
+              <role>IndustryExpert</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </thirdPartyParticipants>
+      </interaction>
+	  </investor>
+  </interactions>
+</clientinteraction>

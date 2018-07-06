@@ -1,0 +1,3728 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clientinteraction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://oneaccess.io/corporateaccess/clientinteraction/2.1.1">
+  <updated>
+    <datetime>2016-05-09T16:43:49.3823692Z</datetime>
+    <timezone>Etc/UTC</timezone>
+  </updated>
+  <broker>HIGH TEST KATE</broker>
+  <interactions>
+    <investor>
+      <investorName>KATE 02_12</investorName>
+      <interaction>
+        <parentID>000735130</parentID>
+		<interactionID>000735130</interactionID>
+        <interactionType>AnalystMarketing</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionTitle>EXPERT ROLE TEST  (AnalystMarketing)</interactionTitle>
+        <start>2016-07-28</start>
+        <startTime>
+          <datetime>2016-07-28T12:00:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </startTime>
+        <end>2016-07-31</end>
+        <endTime>
+          <datetime>2016-07-31T12:05:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </endTime>
+        
+          <originatingRegion>North America</originatingRegion>
+        
+       <sectors>
+	   <sector>45</sector>
+	   </sectors>
+        <location>
+          <address>
+            <type>Offsite</type>
+            <city>New York</city>
+          </address>
+        </location>
+        <companies>
+          <company>
+            <companyName>Corning Inc</companyName>
+            <isPublic>true</isPublic>
+            <identifiers>
+              <identifier type="Ticker">GLW</identifier>
+            </identifiers>
+			<companyParticipants>
+              <participant>
+                <person>
+                  <firstName>Sergei</firstName>
+                  <lastName>Brin</lastName> 
+                  
+                  <email>CompanyPersonemail@email.com</email>
+                  <phone>322223</phone>
+                  <title>some title</title>
+                </person>
+                <roles>
+                  <role>HeadOfBusiness</role>
+                </roles>
+                <status>Confirmed</status>
+              </participant>
+			  </companyParticipants>
+          </company>
+        </companies>
+        <brokerParticipants>
+          <participant>
+            <person>
+              <firstName>George</firstName>
+              <lastName>Notter</lastName>
+              <email>Broker@email.com</email>
+              <email>Broker@email.com</email>
+              
+              <title>Analyst</title>
+            </person>
+            <roles>
+              <role>SellsideAnalyst</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+          <participant>
+            <person>
+              <firstName>Shanelle</firstName>
+              <lastName>Trinidad</lastName>
+              <email>Broker2@email.com</email>
+              
+              <title>Research Sales</title>
+            </person>
+            <roles>
+              <role>SellsideSales</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+        </brokerParticipants>
+        <investorParticipants>
+          <participant>
+            <person>
+              <firstName>Ken</firstName>
+              <lastName>Chang</lastName>
+              <email>investor@email.com</email>
+              
+              <title />
+            </person>
+            <roles>
+              <role>PortfolioManager</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </investorParticipants>
+		<thirdPartyParticipants>
+          <participant>
+            <person>
+              <firstName>Ken1</firstName>
+              <lastName>Chang1</lastName>
+              
+              <title>experttitle</title>
+              
+              <title />
+            </person>
+            <roles>
+              <role>Other</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </thirdPartyParticipants>
+      </interaction>
+       <interaction>
+        <parentID>000735129</parentID>
+		<interactionID>000735129</interactionID>
+        <interactionType>Conference</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionTitle>EXPERT ROLE TEST  (Conference)</interactionTitle>
+        <start>2016-07-28</start>
+        <startTime>
+          <datetime>2016-07-28T12:00:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </startTime>
+        <end>2016-07-31</end>
+        <endTime>
+          <datetime>2016-07-31T12:05:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </endTime>
+        
+          <originatingRegion>North America</originatingRegion>
+        
+       <sectors><sector>45</sector></sectors>
+        <location>
+          <address>
+            <type>Offsite</type>
+            <city>New York</city>
+          </address>
+        </location>
+        <companies>
+          <company>
+            <companyName>Corning Inc</companyName>
+            <isPublic>true</isPublic>
+            <identifiers>
+              <identifier type="Ticker">GLW</identifier>
+            </identifiers>
+			<companyParticipants>
+              <participant>
+                <person>
+                  <firstName>Sergei</firstName>
+                  <lastName>Brin</lastName> 
+                  
+                  <email>CompanyPersonemail@email.com</email>
+                  <phone>322223</phone>
+                  <title>some title</title>
+                </person>
+                <roles>
+                  <role>HeadOfBusiness</role>
+                </roles>
+                <status>Confirmed</status>
+              </participant>
+			  </companyParticipants>
+          </company>
+        </companies>
+        <brokerParticipants>
+          <participant>
+            <person>
+              <firstName>George</firstName>
+              <lastName>Notter</lastName>
+              <email>Broker@email.com</email>
+              <email>Broker@email.com</email>
+              
+              <title>Analyst</title>
+            </person>
+            <roles>
+              <role>SellsideAnalyst</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+          <participant>
+            <person>
+              <firstName>Shanelle</firstName>
+              <lastName>Trinidad</lastName>
+              <email>Broker2@email.com</email>
+              
+              <title>Research Sales</title>
+            </person>
+            <roles>
+              <role>SellsideSales</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+        </brokerParticipants>
+        <investorParticipants>
+          <participant>
+            <person>
+              <firstName>Ken</firstName>
+              <lastName>Chang</lastName>
+              <email>investor@email.com</email>
+              
+              <title />
+            </person>
+            <roles>
+              <role>PortfolioManager</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </investorParticipants>
+		<thirdPartyParticipants>
+          <participant>
+            <person>
+              <firstName>Ken1</firstName>
+              <lastName>Chang1</lastName>
+              
+              <title>experttitle</title>
+              
+              <title />
+            </person>
+            <roles>
+              <role>Other</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </thirdPartyParticipants>
+      </interaction>
+	    <interaction>
+        <parentID>000735128</parentID>
+		<interactionID>000735128</interactionID>
+        <interactionType>CorporateAccessDay</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionTitle>EXPERT ROLE TEST  (CorporateAccessDay)</interactionTitle>
+        <start>2016-07-28</start>
+        <startTime>
+          <datetime>2016-07-28T12:00:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </startTime>
+        <end>2016-07-31</end>
+        <endTime>
+          <datetime>2016-07-31T12:05:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </endTime>
+        
+          <originatingRegion>North America</originatingRegion>
+        
+       <sectors><sector>45</sector></sectors>
+        <location>
+          <address>
+            <type>Offsite</type>
+            <city>New York</city>
+          </address>
+        </location>
+        <companies>
+          <company>
+            <companyName>Corning Inc</companyName>
+            <isPublic>true</isPublic>
+            <identifiers>
+              <identifier type="Ticker">GLW</identifier>
+            </identifiers>
+			<companyParticipants>
+              <participant>
+                <person>
+                  <firstName>Sergei</firstName>
+                  <lastName>Brin</lastName> 
+                  
+                  <email>CompanyPersonemail@email.com</email>
+                  <phone>322223</phone>
+                  <title>some title</title>
+                </person>
+                <roles>
+                  <role>HeadOfBusiness</role>
+                </roles>
+                <status>Confirmed</status>
+              </participant>
+			  </companyParticipants>
+          </company>
+        </companies>
+        <brokerParticipants>
+          <participant>
+            <person>
+              <firstName>George</firstName>
+              <lastName>Notter</lastName>
+              <email>Broker@email.com</email>
+              <email>Broker@email.com</email>
+              
+              <title>Analyst</title>
+            </person>
+            <roles>
+              <role>SellsideAnalyst</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+          <participant>
+            <person>
+              <firstName>Shanelle</firstName>
+              <lastName>Trinidad</lastName>
+              <email>Broker2@email.com</email>
+              
+              <title>Research Sales</title>
+            </person>
+            <roles>
+              <role>SellsideSales</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+        </brokerParticipants>
+        <investorParticipants>
+          <participant>
+            <person>
+              <firstName>Ken</firstName>
+              <lastName>Chang</lastName>
+              <email>investor@email.com</email>
+              
+              <title />
+            </person>
+            <roles>
+              <role>PortfolioManager</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </investorParticipants>
+		<thirdPartyParticipants>
+          <participant>
+            <person>
+              <firstName>Ken1</firstName>
+              <lastName>Chang1</lastName>
+              
+              <title>experttitle</title>
+              
+              <title />
+            </person>
+            <roles>
+              <role>Other</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </thirdPartyParticipants>
+      </interaction>
+	    <interaction>
+        <parentID>000735127</parentID>
+		<interactionID>000735127</interactionID>
+        <interactionType>InvestorRelationsDay</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionTitle>EXPERT ROLE TEST  (InvestorRelationsDay)</interactionTitle>
+        <start>2016-07-28</start>
+        <startTime>
+          <datetime>2016-07-28T12:00:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </startTime>
+        <end>2016-07-31</end>
+        <endTime>
+          <datetime>2016-07-31T12:05:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </endTime>
+        
+          <originatingRegion>North America</originatingRegion>
+        
+       <sectors><sector>45</sector></sectors>
+        <location>
+          <address>
+            <type>Offsite</type>
+            <city>New York</city>
+          </address>
+        </location>
+        <companies>
+          <company>
+            <companyName>Corning Inc</companyName>
+            <isPublic>true</isPublic>
+            <identifiers>
+              <identifier type="Ticker">GLW</identifier>
+            </identifiers>
+			<companyParticipants>
+              <participant>
+                <person>
+                  <firstName>Sergei</firstName>
+                  <lastName>Brin</lastName> 
+                  
+                  <email>CompanyPersonemail@email.com</email>
+                  <phone>322223</phone>
+                  <title>some title</title>
+                </person>
+                <roles>
+                  <role>HeadOfBusiness</role>
+                </roles>
+                <status>Confirmed</status>
+              </participant>
+			  </companyParticipants>
+          </company>
+        </companies>
+        <brokerParticipants>
+          <participant>
+            <person>
+              <firstName>George</firstName>
+              <lastName>Notter</lastName>
+              <email>Broker@email.com</email>
+              <email>Broker@email.com</email>
+              
+              <title>Analyst</title>
+            </person>
+            <roles>
+              <role>SellsideAnalyst</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+          <participant>
+            <person>
+              <firstName>Shanelle</firstName>
+              <lastName>Trinidad</lastName>
+              <email>Broker2@email.com</email>
+              
+              <title>Research Sales</title>
+            </person>
+            <roles>
+              <role>SellsideSales</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+        </brokerParticipants>
+        <investorParticipants>
+          <participant>
+            <person>
+              <firstName>Ken</firstName>
+              <lastName>Chang</lastName>
+              <email>investor@email.com</email>
+              
+              <title />
+            </person>
+            <roles>
+              <role>PortfolioManager</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </investorParticipants>
+		<thirdPartyParticipants>
+          <participant>
+            <person>
+              <firstName>Ken1</firstName>
+              <lastName>Chang1</lastName>
+              
+              <title>experttitle</title>
+              
+              <title />
+            </person>
+            <roles>
+              <role>Other</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </thirdPartyParticipants>
+      </interaction>
+	    <interaction>
+        <parentID>000735126</parentID>
+		<interactionID>000735126</interactionID>
+        <interactionType>AnalystDay</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionTitle>EXPERT ROLE TEST  (AnalystDay)</interactionTitle>
+        <start>2016-07-28</start>
+        <startTime>
+          <datetime>2016-07-28T12:00:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </startTime>
+        <end>2016-07-31</end>
+        <endTime>
+          <datetime>2016-07-31T12:05:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </endTime>
+        
+          <originatingRegion>North America</originatingRegion>
+        
+       <sectors><sector>45</sector></sectors>
+        <location>
+          <address>
+            <type>Offsite</type>
+            <city>New York</city>
+          </address>
+        </location>
+        <companies>
+          <company>
+            <companyName>Corning Inc</companyName>
+            <isPublic>true</isPublic>
+            <identifiers>
+              <identifier type="Ticker">GLW</identifier>
+            </identifiers>
+			<companyParticipants>
+              <participant>
+                <person>
+                  <firstName>Sergei</firstName>
+                  <lastName>Brin</lastName> 
+                  
+                  <email>CompanyPersonemail@email.com</email>
+                  <phone>322223</phone>
+                  <title>some title</title>
+                </person>
+                <roles>
+                  <role>HeadOfBusiness</role>
+                </roles>
+                <status>Confirmed</status>
+              </participant>
+			  </companyParticipants>
+          </company>
+        </companies>
+        <brokerParticipants>
+          <participant>
+            <person>
+              <firstName>George</firstName>
+              <lastName>Notter</lastName>
+              <email>Broker@email.com</email>
+              <email>Broker@email.com</email>
+              
+              <title>Analyst</title>
+            </person>
+            <roles>
+              <role>SellsideAnalyst</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+          <participant>
+            <person>
+              <firstName>Shanelle</firstName>
+              <lastName>Trinidad</lastName>
+              <email>Broker2@email.com</email>
+              
+              <title>Research Sales</title>
+            </person>
+            <roles>
+              <role>SellsideSales</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+        </brokerParticipants>
+        <investorParticipants>
+          <participant>
+            <person>
+              <firstName>Ken</firstName>
+              <lastName>Chang</lastName>
+              <email>investor@email.com</email>
+              
+              <title />
+            </person>
+            <roles>
+              <role>PortfolioManager</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </investorParticipants>
+		<thirdPartyParticipants>
+          <participant>
+            <person>
+              <firstName>Ken1</firstName>
+              <lastName>Chang1</lastName>
+              
+              <title>experttitle</title>
+              
+              <title />
+            </person>
+            <roles>
+              <role>Other</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </thirdPartyParticipants>
+      </interaction>
+	    <interaction>
+        <parentID>000735125</parentID>
+		<interactionID>000735125</interactionID>
+        <interactionType>Show</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionTitle>EXPERT ROLE TEST  (Show)</interactionTitle>
+        <start>2016-07-28</start>
+        <startTime>
+          <datetime>2016-07-28T12:00:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </startTime>
+        <end>2016-07-31</end>
+        <endTime>
+          <datetime>2016-07-31T12:05:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </endTime>
+        
+          <originatingRegion>North America</originatingRegion>
+        
+       <sectors><sector>45</sector></sectors>
+        <location>
+          <address>
+            <type>Offsite</type>
+            <city>New York</city>
+          </address>
+        </location>
+        <companies>
+          <company>
+            <companyName>Corning Inc</companyName>
+            <isPublic>true</isPublic>
+            <identifiers>
+              <identifier type="Ticker">GLW</identifier>
+            </identifiers>
+			<companyParticipants>
+              <participant>
+                <person>
+                  <firstName>Sergei</firstName>
+                  <lastName>Brin</lastName> 
+                  
+                  <email>CompanyPersonemail@email.com</email>
+                  <phone>322223</phone>
+                  <title>some title</title>
+                </person>
+                <roles>
+                  <role>HeadOfBusiness</role>
+                </roles>
+                <status>Confirmed</status>
+              </participant>
+			  </companyParticipants>
+          </company>
+        </companies>
+        <brokerParticipants>
+          <participant>
+            <person>
+              <firstName>George</firstName>
+              <lastName>Notter</lastName>
+              <email>Broker@email.com</email>
+              <email>Broker@email.com</email>
+              
+              <title>Analyst</title>
+            </person>
+            <roles>
+              <role>SellsideAnalyst</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+          <participant>
+            <person>
+              <firstName>Shanelle</firstName>
+              <lastName>Trinidad</lastName>
+              <email>Broker2@email.com</email>
+              
+              <title>Research Sales</title>
+            </person>
+            <roles>
+              <role>SellsideSales</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+        </brokerParticipants>
+        <investorParticipants>
+          <participant>
+            <person>
+              <firstName>Ken</firstName>
+              <lastName>Chang</lastName>
+              <email>investor@email.com</email>
+              
+              <title />
+            </person>
+            <roles>
+              <role>PortfolioManager</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </investorParticipants>
+		<thirdPartyParticipants>
+          <participant>
+            <person>
+              <firstName>Ken1</firstName>
+              <lastName>Chang1</lastName>
+              
+              <title>experttitle</title>
+              
+              <title />
+            </person>
+            <roles>
+              <role>Other</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </thirdPartyParticipants>
+      </interaction>
+	    <interaction>
+        <parentID>000735124</parentID>
+		<interactionID>000735124</interactionID>
+        <interactionType>MultiCompanyEvent</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionTitle>EXPERT ROLE TEST  (MultiCompanyEvent)</interactionTitle>
+        <start>2016-07-28</start>
+        <startTime>
+          <datetime>2016-07-28T12:00:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </startTime>
+        <end>2016-07-31</end>
+        <endTime>
+          <datetime>2016-07-31T12:05:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </endTime>
+        
+          <originatingRegion>North America</originatingRegion>
+        
+       <sectors><sector>45</sector></sectors>
+        <location>
+          <address>
+            <type>Offsite</type>
+            <city>New York</city>
+          </address>
+        </location>
+        <companies>
+          <company>
+            <companyName>Corning Inc</companyName>
+            <isPublic>true</isPublic>
+            <identifiers>
+              <identifier type="Ticker">GLW</identifier>
+            </identifiers>
+			<companyParticipants>
+              <participant>
+                <person>
+                  <firstName>Sergei</firstName>
+                  <lastName>Brin</lastName> 
+                  
+                  <email>CompanyPersonemail@email.com</email>
+                  <phone>322223</phone>
+                  <title>some title</title>
+                </person>
+                <roles>
+                  <role>HeadOfBusiness</role>
+                </roles>
+                <status>Confirmed</status>
+              </participant>
+			  </companyParticipants>
+          </company>
+        </companies>
+        <brokerParticipants>
+          <participant>
+            <person>
+              <firstName>George</firstName>
+              <lastName>Notter</lastName>
+              <email>Broker@email.com</email>
+              <email>Broker@email.com</email>
+              
+              <title>Analyst</title>
+            </person>
+            <roles>
+              <role>SellsideAnalyst</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+          <participant>
+            <person>
+              <firstName>Shanelle</firstName>
+              <lastName>Trinidad</lastName>
+              <email>Broker2@email.com</email>
+              
+              <title>Research Sales</title>
+            </person>
+            <roles>
+              <role>SellsideSales</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+        </brokerParticipants>
+        <investorParticipants>
+          <participant>
+            <person>
+              <firstName>Ken</firstName>
+              <lastName>Chang</lastName>
+              <email>investor@email.com</email>
+              
+              <title />
+            </person>
+            <roles>
+              <role>PortfolioManager</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </investorParticipants>
+		<thirdPartyParticipants>
+          <participant>
+            <person>
+              <firstName>Ken1</firstName>
+              <lastName>Chang1</lastName>
+              
+              <title>experttitle</title>
+              
+              <title />
+            </person>
+            <roles>
+              <role>Other</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </thirdPartyParticipants>
+      </interaction>
+	    <interaction>
+        <parentID>000735123</parentID>
+		<interactionID>000735123</interactionID>
+        <interactionType>Forum</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionTitle>EXPERT ROLE TEST  (Forum)</interactionTitle>
+        <start>2016-07-28</start>
+        <startTime>
+          <datetime>2016-07-28T12:00:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </startTime>
+        <end>2016-07-31</end>
+        <endTime>
+          <datetime>2016-07-31T12:05:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </endTime>
+        
+          <originatingRegion>North America</originatingRegion>
+        
+       <sectors><sector>45</sector></sectors>
+        <location>
+          <address>
+            <type>Offsite</type>
+            <city>New York</city>
+          </address>
+        </location>
+        <companies>
+          <company>
+            <companyName>Corning Inc</companyName>
+            <isPublic>true</isPublic>
+            <identifiers>
+              <identifier type="Ticker">GLW</identifier>
+            </identifiers>
+			<companyParticipants>
+              <participant>
+                <person>
+                  <firstName>Sergei</firstName>
+                  <lastName>Brin</lastName> 
+                  
+                  <email>CompanyPersonemail@email.com</email>
+                  <phone>322223</phone>
+                  <title>some title</title>
+                </person>
+                <roles>
+                  <role>HeadOfBusiness</role>
+                </roles>
+                <status>Confirmed</status>
+              </participant>
+			  </companyParticipants>
+          </company>
+        </companies>
+        <brokerParticipants>
+          <participant>
+            <person>
+              <firstName>George</firstName>
+              <lastName>Notter</lastName>
+              <email>Broker@email.com</email>
+              <email>Broker@email.com</email>
+              
+              <title>Analyst</title>
+            </person>
+            <roles>
+              <role>SellsideAnalyst</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+          <participant>
+            <person>
+              <firstName>Shanelle</firstName>
+              <lastName>Trinidad</lastName>
+              <email>Broker2@email.com</email>
+              
+              <title>Research Sales</title>
+            </person>
+            <roles>
+              <role>SellsideSales</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+        </brokerParticipants>
+        <investorParticipants>
+          <participant>
+            <person>
+              <firstName>Ken</firstName>
+              <lastName>Chang</lastName>
+              <email>investor@email.com</email>
+              
+              <title />
+            </person>
+            <roles>
+              <role>PortfolioManager</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </investorParticipants>
+		<thirdPartyParticipants>
+          <participant>
+            <person>
+              <firstName>Ken1</firstName>
+              <lastName>Chang1</lastName>
+              
+              <title>experttitle</title>
+              
+              <title />
+            </person>
+            <roles>
+              <role>Other</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </thirdPartyParticipants>
+      </interaction>
+	    <interaction>
+        <parentID>000735122</parentID>
+		<interactionID>000735122</interactionID>
+        <interactionType>IndustryEvent</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionTitle>EXPERT ROLE TEST  (IndustryEvent)</interactionTitle>
+        <start>2016-07-28</start>
+        <startTime>
+          <datetime>2016-07-28T12:00:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </startTime>
+        <end>2016-07-31</end>
+        <endTime>
+          <datetime>2016-07-31T12:05:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </endTime>
+        
+          <originatingRegion>North America</originatingRegion>
+        
+       <sectors><sector>45</sector></sectors>
+        <location>
+          <address>
+            <type>Offsite</type>
+            <city>New York</city>
+          </address>
+        </location>
+        <companies>
+          <company>
+            <companyName>Corning Inc</companyName>
+            <isPublic>true</isPublic>
+            <identifiers>
+              <identifier type="Ticker">GLW</identifier>
+            </identifiers>
+			<companyParticipants>
+              <participant>
+                <person>
+                  <firstName>Sergei</firstName>
+                  <lastName>Brin</lastName> 
+                  
+                  <email>CompanyPersonemail@email.com</email>
+                  <phone>322223</phone>
+                  <title>some title</title>
+                </person>
+                <roles>
+                  <role>HeadOfBusiness</role>
+                </roles>
+                <status>Confirmed</status>
+              </participant>
+			  </companyParticipants>
+          </company>
+        </companies>
+        <brokerParticipants>
+          <participant>
+            <person>
+              <firstName>George</firstName>
+              <lastName>Notter</lastName>
+              <email>Broker@email.com</email>
+              <email>Broker@email.com</email>
+              
+              <title>Analyst</title>
+            </person>
+            <roles>
+              <role>SellsideAnalyst</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+          <participant>
+            <person>
+              <firstName>Shanelle</firstName>
+              <lastName>Trinidad</lastName>
+              <email>Broker2@email.com</email>
+              
+              <title>Research Sales</title>
+            </person>
+            <roles>
+              <role>SellsideSales</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+        </brokerParticipants>
+        <investorParticipants>
+          <participant>
+            <person>
+              <firstName>Ken</firstName>
+              <lastName>Chang</lastName>
+              <email>investor@email.com</email>
+              
+              <title />
+            </person>
+            <roles>
+              <role>PortfolioManager</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </investorParticipants>
+		<thirdPartyParticipants>
+          <participant>
+            <person>
+              <firstName>Ken1</firstName>
+              <lastName>Chang1</lastName>
+              
+              <title>experttitle</title>
+              
+              <title />
+            </person>
+            <roles>
+              <role>Other</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </thirdPartyParticipants>
+      </interaction>
+	    <interaction>
+        <parentID>000735121</parentID>
+		<interactionID>000735121</interactionID>
+        <interactionType>NonDealRoadshow</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionTitle>EXPERT ROLE TEST  (NonDealRoadshow)</interactionTitle>
+        <start>2016-07-28</start>
+        <startTime>
+          <datetime>2016-07-28T12:00:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </startTime>
+        <end>2016-07-31</end>
+        <endTime>
+          <datetime>2016-07-31T12:05:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </endTime>
+        
+          <originatingRegion>North America</originatingRegion>
+        
+       <sectors><sector>45</sector></sectors>
+        <location>
+          <address>
+            <type>Offsite</type>
+            <city>New York</city>
+          </address>
+        </location>
+        <companies>
+          <company>
+            <companyName>Corning Inc</companyName>
+            <isPublic>true</isPublic>
+            <identifiers>
+              <identifier type="Ticker">GLW</identifier>
+            </identifiers>
+			<companyParticipants>
+              <participant>
+                <person>
+                  <firstName>Sergei</firstName>
+                  <lastName>Brin</lastName> 
+                  
+                  <email>CompanyPersonemail@email.com</email>
+                  <phone>322223</phone>
+                  <title>some title</title>
+                </person>
+                <roles>
+                  <role>HeadOfBusiness</role>
+                </roles>
+                <status>Confirmed</status>
+              </participant>
+			  </companyParticipants>
+          </company>
+        </companies>
+        <brokerParticipants>
+          <participant>
+            <person>
+              <firstName>George</firstName>
+              <lastName>Notter</lastName>
+              <email>Broker@email.com</email>
+              <email>Broker@email.com</email>
+              
+              <title>Analyst</title>
+            </person>
+            <roles>
+              <role>SellsideAnalyst</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+          <participant>
+            <person>
+              <firstName>Shanelle</firstName>
+              <lastName>Trinidad</lastName>
+              <email>Broker2@email.com</email>
+              
+              <title>Research Sales</title>
+            </person>
+            <roles>
+              <role>SellsideSales</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+        </brokerParticipants>
+        <investorParticipants>
+          <participant>
+            <person>
+              <firstName>Ken</firstName>
+              <lastName>Chang</lastName>
+              <email>investor@email.com</email>
+              
+              <title />
+            </person>
+            <roles>
+              <role>PortfolioManager</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </investorParticipants>
+		<thirdPartyParticipants>
+          <participant>
+            <person>
+              <firstName>Ken1</firstName>
+              <lastName>Chang1</lastName>
+              
+              <title>experttitle</title>
+              
+              <title />
+            </person>
+            <roles>
+              <role>Other</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </thirdPartyParticipants>
+      </interaction>
+	    <interaction>
+        <parentID>000735120</parentID>
+		<interactionID>000735120</interactionID>
+        <interactionType>DealRoadshow</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionTitle>EXPERT ROLE TEST  (DealRoadshow)</interactionTitle>
+        <start>2016-07-28</start>
+        <startTime>
+          <datetime>2016-07-28T12:00:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </startTime>
+        <end>2016-07-31</end>
+        <endTime>
+          <datetime>2016-07-31T12:05:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </endTime>
+        
+          <originatingRegion>North America</originatingRegion>
+        
+       <sectors><sector>45</sector></sectors>
+        <location>
+          <address>
+            <type>Offsite</type>
+            <city>New York</city>
+          </address>
+        </location>
+        <companies>
+          <company>
+            <companyName>Corning Inc</companyName>
+            <isPublic>true</isPublic>
+            <identifiers>
+              <identifier type="Ticker">GLW</identifier>
+            </identifiers>
+			<companyParticipants>
+              <participant>
+                <person>
+                  <firstName>Sergei</firstName>
+                  <lastName>Brin</lastName> 
+                  
+                  <email>CompanyPersonemail@email.com</email>
+                  <phone>322223</phone>
+                  <title>some title</title>
+                </person>
+                <roles>
+                  <role>HeadOfBusiness</role>
+                </roles>
+                <status>Confirmed</status>
+              </participant>
+			  </companyParticipants>
+          </company>
+        </companies>
+        <brokerParticipants>
+          <participant>
+            <person>
+              <firstName>George</firstName>
+              <lastName>Notter</lastName>
+              <email>Broker@email.com</email>
+              <email>Broker@email.com</email>
+              
+              <title>Analyst</title>
+            </person>
+            <roles>
+              <role>SellsideAnalyst</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+          <participant>
+            <person>
+              <firstName>Shanelle</firstName>
+              <lastName>Trinidad</lastName>
+              <email>Broker2@email.com</email>
+              
+              <title>Research Sales</title>
+            </person>
+            <roles>
+              <role>SellsideSales</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+        </brokerParticipants>
+        <investorParticipants>
+          <participant>
+            <person>
+              <firstName>Ken</firstName>
+              <lastName>Chang</lastName>
+              <email>investor@email.com</email>
+              
+              <title />
+            </person>
+            <roles>
+              <role>PortfolioManager</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </investorParticipants>
+		<thirdPartyParticipants>
+          <participant>
+            <person>
+              <firstName>Ken1</firstName>
+              <lastName>Chang1</lastName>
+              
+              <title>experttitle</title>
+              
+              <title />
+            </person>
+            <roles>
+              <role>Other</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </thirdPartyParticipants>
+      </interaction>
+	    <interaction>
+        <parentID>000735119</parentID>
+		<interactionID>000735119</interactionID>
+        <interactionType>CorporateBroking</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionTitle>EXPERT ROLE TEST  (CorporateBroking)</interactionTitle>
+        <start>2016-07-28</start>
+        <startTime>
+          <datetime>2016-07-28T12:00:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </startTime>
+        <end>2016-07-31</end>
+        <endTime>
+          <datetime>2016-07-31T12:05:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </endTime>
+        
+          <originatingRegion>North America</originatingRegion>
+        
+       <sectors><sector>45</sector></sectors>
+        <location>
+          <address>
+            <type>Offsite</type>
+            <city>New York</city>
+          </address>
+        </location>
+        <companies>
+          <company>
+            <companyName>Corning Inc</companyName>
+            <isPublic>true</isPublic>
+            <identifiers>
+              <identifier type="Ticker">GLW</identifier>
+            </identifiers>
+			<companyParticipants>
+              <participant>
+                <person>
+                  <firstName>Sergei</firstName>
+                  <lastName>Brin</lastName> 
+                  
+                  <email>CompanyPersonemail@email.com</email>
+                  <phone>322223</phone>
+                  <title>some title</title>
+                </person>
+                <roles>
+                  <role>HeadOfBusiness</role>
+                </roles>
+                <status>Confirmed</status>
+              </participant>
+			  </companyParticipants>
+          </company>
+        </companies>
+        <brokerParticipants>
+          <participant>
+            <person>
+              <firstName>George</firstName>
+              <lastName>Notter</lastName>
+              <email>Broker@email.com</email>
+              <email>Broker@email.com</email>
+              
+              <title>Analyst</title>
+            </person>
+            <roles>
+              <role>SellsideAnalyst</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+          <participant>
+            <person>
+              <firstName>Shanelle</firstName>
+              <lastName>Trinidad</lastName>
+              <email>Broker2@email.com</email>
+              
+              <title>Research Sales</title>
+            </person>
+            <roles>
+              <role>SellsideSales</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+        </brokerParticipants>
+        <investorParticipants>
+          <participant>
+            <person>
+              <firstName>Ken</firstName>
+              <lastName>Chang</lastName>
+              <email>investor@email.com</email>
+              
+              <title />
+            </person>
+            <roles>
+              <role>PortfolioManager</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </investorParticipants>
+		<thirdPartyParticipants>
+          <participant>
+            <person>
+              <firstName>Ken1</firstName>
+              <lastName>Chang1</lastName>
+              
+              <title>experttitle</title>
+              
+              <title />
+            </person>
+            <roles>
+              <role>Other</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </thirdPartyParticipants>
+      </interaction>
+	    <interaction>
+        <parentID>000735118</parentID>
+		<interactionID>000735118</interactionID>
+        <interactionType>FieldTrip</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionTitle>EXPERT ROLE TEST  (FieldTrip)</interactionTitle>
+        <start>2016-07-28</start>
+        <startTime>
+          <datetime>2016-07-28T12:00:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </startTime>
+        <end>2016-07-31</end>
+        <endTime>
+          <datetime>2016-07-31T12:05:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </endTime>
+        
+          <originatingRegion>North America</originatingRegion>
+        
+       <sectors><sector>45</sector></sectors>
+        <location>
+          <address>
+            <type>Offsite</type>
+            <city>New York</city>
+          </address>
+        </location>
+        <companies>
+          <company>
+            <companyName>Corning Inc</companyName>
+            <isPublic>true</isPublic>
+            <identifiers>
+              <identifier type="Ticker">GLW</identifier>
+            </identifiers>  
+			
+			 <companyParticipants>
+              <participant>
+                <person>
+                  <firstName>Sergei</firstName>
+                  <lastName>Brin</lastName> 
+                  
+                  <email>CompanyPersonemail@email.com</email>
+                  <phone>322223</phone>
+                  <title>some title</title>
+                </person>
+                <roles>
+                  <role>HeadOfBusiness</role>
+                </roles>
+                <status>Confirmed</status>
+              </participant>
+            </companyParticipants>
+          </company>
+        </companies>
+        <brokerParticipants>
+          <participant>
+            <person>
+              <firstName>George</firstName>
+              <lastName>Notter</lastName>
+              <email>Broker@email.com</email>
+              <email>Broker@email.com</email>
+              
+              <title>Analyst</title>
+            </person>
+            <roles>
+              <role>SellsideAnalyst</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+          <participant>
+            <person>
+              <firstName>Shanelle</firstName>
+              <lastName>Trinidad</lastName>
+              <email>Broker2@email.com</email>
+              
+              <title>Research Sales</title>
+            </person>
+            <roles>
+              <role>SellsideSales</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+        </brokerParticipants>
+        <investorParticipants>
+          <participant>
+            <person>
+              <firstName>Ken</firstName>
+              <lastName>Chang</lastName>
+              <email>investor@email.com</email>
+              
+              <title />
+            </person>
+            <roles>
+              <role>PortfolioManager</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </investorParticipants>
+		<thirdPartyParticipants>
+          <participant>
+            <person>
+              <firstName>Ken1</firstName>
+              <lastName>Chang1</lastName>
+              
+              <title>experttitle</title>
+              
+              <title />
+            </person>
+            <roles>
+              <role>Other</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </thirdPartyParticipants>
+      </interaction>
+	    <interaction>
+        <parentID>000735117</parentID>
+		<interactionID>000735117</interactionID>
+        <interactionType>BusTour</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionTitle>EXPERT ROLE TEST  (BusTour)</interactionTitle>
+        <start>2016-07-28</start>
+        <startTime>
+          <datetime>2016-07-28T12:00:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </startTime>
+        <end>2016-07-31</end>
+        <endTime>
+          <datetime>2016-07-31T12:05:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </endTime>
+        
+          <originatingRegion>North America</originatingRegion>
+        
+       <sectors><sector>45</sector></sectors>
+        <location>
+          <address>
+            <type>Offsite</type>
+            <city>New York</city>
+          </address>
+        </location>
+        <companies>
+          <company>
+            <companyName>Corning Inc</companyName>
+            <isPublic>true</isPublic>
+            <identifiers>
+              <identifier type="Ticker">GLW</identifier>
+            </identifiers>
+			 <companyParticipants>
+              <participant>
+                <person>
+                  <firstName>Sergei</firstName>
+                  <lastName>Brin</lastName> 
+                  
+                  <email>CompanyPersonemail@email.com</email>
+                  <phone>322223</phone>
+                  <title>some title</title>
+                </person>
+                <roles>
+                  <role>HeadOfBusiness</role>
+                </roles>
+                <status>Confirmed</status>
+              </participant>
+            </companyParticipants>
+          </company>
+        </companies>
+        <brokerParticipants>
+          <participant>
+            <person>
+              <firstName>George</firstName>
+              <lastName>Notter</lastName>
+              <email>Broker@email.com</email>
+              <email>Broker@email.com</email>
+              
+              <title>Analyst</title>
+            </person>
+            <roles>
+              <role>SellsideAnalyst</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+          <participant>
+            <person>
+              <firstName>Shanelle</firstName>
+              <lastName>Trinidad</lastName>
+              <email>Broker2@email.com</email>
+              
+              <title>Research Sales</title>
+            </person>
+            <roles>
+              <role>SellsideSales</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+        </brokerParticipants>
+        <investorParticipants>
+          <participant>
+            <person>
+              <firstName>Ken</firstName>
+              <lastName>Chang</lastName>
+              <email>investor@email.com</email>
+              
+              <title />
+            </person>
+            <roles>
+              <role>PortfolioManager</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </investorParticipants>
+		<thirdPartyParticipants>
+          <participant>
+            <person>
+              <firstName>Ken1</firstName>
+              <lastName>Chang1</lastName>
+              
+              <title>experttitle</title>
+              
+              <title />
+            </person>
+            <roles>
+              <role>Other</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </thirdPartyParticipants>
+      </interaction>
+	    <interaction>
+        <parentID>000735116</parentID>
+		<interactionID>000735116</interactionID>
+        <interactionType>BoothTour</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionTitle>EXPERT ROLE TEST  (BoothTour)</interactionTitle>
+        <start>2016-07-28</start>
+        <startTime>
+          <datetime>2016-07-28T12:00:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </startTime>
+        <end>2016-07-31</end>
+        <endTime>
+          <datetime>2016-07-31T12:05:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </endTime>
+        
+          <originatingRegion>North America</originatingRegion>
+        
+       <sectors><sector>45</sector></sectors>
+        <location>
+          <address>
+            <type>Offsite</type>
+            <city>New York</city>
+          </address>
+        </location>
+        <companies>
+          <company>
+            <companyName>Corning Inc</companyName>
+            <isPublic>true</isPublic>
+            <identifiers>
+              <identifier type="Ticker">GLW</identifier>
+            </identifiers>
+			<companyParticipants>
+              <participant>
+                <person>
+                  <firstName>Sergei</firstName>
+                  <lastName>Brin</lastName> 
+                  
+                  <email>CompanyPersonemail@email.com</email>
+                  <phone>322223</phone>
+                  <title>some title</title>
+                </person>
+                <roles>
+                  <role>HeadOfBusiness</role>
+                </roles>
+                <status>Confirmed</status>
+              </participant>
+			  </companyParticipants>
+          </company>
+        </companies>
+        <brokerParticipants>
+          <participant>
+            <person>
+              <firstName>George</firstName>
+              <lastName>Notter</lastName>
+              <email>Broker@email.com</email>
+              <email>Broker@email.com</email>
+              
+              <title>Analyst</title>
+            </person>
+            <roles>
+              <role>SellsideAnalyst</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+          <participant>
+            <person>
+              <firstName>Shanelle</firstName>
+              <lastName>Trinidad</lastName>
+              <email>Broker2@email.com</email>
+              
+              <title>Research Sales</title>
+            </person>
+            <roles>
+              <role>SellsideSales</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+        </brokerParticipants>
+        <investorParticipants>
+          <participant>
+            <person>
+              <firstName>Ken</firstName>
+              <lastName>Chang</lastName>
+              <email>investor@email.com</email>
+              
+              <title />
+            </person>
+            <roles>
+              <role>PortfolioManager</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </investorParticipants>
+		<thirdPartyParticipants>
+          <participant>
+            <person>
+              <firstName>Ken1</firstName>
+              <lastName>Chang1</lastName>
+              
+              <title>experttitle</title>
+              
+              <title />
+            </person>
+            <roles>
+              <role>Other</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </thirdPartyParticipants>
+      </interaction>
+	    <interaction>
+        <parentID>000735115</parentID>
+		<interactionID>000735115</interactionID>
+        <interactionType>IndustryExpert</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionTitle>EXPERT ROLE TEST  (IndustryExpert)</interactionTitle>
+        <start>2016-07-28</start>
+        <startTime>
+          <datetime>2016-07-28T12:00:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </startTime>
+        <end>2016-07-31</end>
+        <endTime>
+          <datetime>2016-07-31T12:05:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </endTime>
+        
+          <originatingRegion>North America</originatingRegion>
+        
+       <sectors><sector>45</sector></sectors>
+        <location>
+          <address>
+            <type>Offsite</type>
+            <city>New York</city>
+          </address>
+        </location>
+        <companies>
+          <company>
+            <companyName>Corning Inc</companyName>
+            <isPublic>true</isPublic>
+            <identifiers>
+              <identifier type="Ticker">GLW</identifier>
+            </identifiers>
+			<companyParticipants>
+              <participant>
+                <person>
+                  <firstName>Sergei</firstName>
+                  <lastName>Brin</lastName> 
+                  
+                  <email>CompanyPersonemail@email.com</email>
+                  <phone>322223</phone>
+                  <title>some title</title>
+                </person>
+                <roles>
+                  <role>HeadOfBusiness</role>
+                </roles>
+                <status>Confirmed</status>
+              </participant>
+			  </companyParticipants>
+          </company>
+        </companies>
+        <brokerParticipants>
+          <participant>
+            <person>
+              <firstName>George</firstName>
+              <lastName>Notter</lastName>
+              <email>Broker@email.com</email>
+              <email>Broker@email.com</email>
+              
+              <title>Analyst</title>
+            </person>
+            <roles>
+              <role>SellsideAnalyst</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+          <participant>
+            <person>
+              <firstName>Shanelle</firstName>
+              <lastName>Trinidad</lastName>
+              <email>Broker2@email.com</email>
+              
+              <title>Research Sales</title>
+            </person>
+            <roles>
+              <role>SellsideSales</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+        </brokerParticipants>
+        <investorParticipants>
+          <participant>
+            <person>
+              <firstName>Ken</firstName>
+              <lastName>Chang</lastName>
+              <email>investor@email.com</email>
+              
+              <title />
+            </person>
+            <roles>
+              <role>PortfolioManager</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </investorParticipants>
+		<thirdPartyParticipants>
+          <participant>
+            <person>
+              <firstName>Ken1</firstName>
+              <lastName>Chang1</lastName>
+              
+              <title>experttitle</title>
+              
+              <title />
+            </person>
+            <roles>
+              <role>Other</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+		  <participant>
+            <person>
+              <firstName>Ken2</firstName>
+              <lastName>Chang2</lastName>
+              
+              <title />
+            </person>
+            <roles>
+              <role>Industry Expert</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+		  <participant>
+            <person>
+              <firstName>Ken3</firstName>
+              <lastName>Chang3</lastName>
+              
+              <title />
+            </person>
+            <roles>
+              <role>Government Expert</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+		  <participant>
+            <person>
+              <firstName>Ken4</firstName>
+              <lastName>Chang4</lastName>
+              
+              <title />
+            </person>
+            <roles>
+              <role>Medical Expert</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+		  <participant>
+            <person>
+              <firstName>Ken5</firstName>
+              <lastName>Chang5</lastName>
+              
+              <title />
+            </person>
+            <roles>
+              <role>Macro Strategist</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </thirdPartyParticipants>
+      </interaction>
+	    <interaction>
+        <parentID>000735114</parentID>
+		<interactionID>000735114</interactionID>
+        <interactionType>GovernmentExpert</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionTitle>EXPERT ROLE TEST  (GovernmentExpert)</interactionTitle>
+        <start>2016-07-28</start>
+        <startTime>
+          <datetime>2016-07-28T12:00:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </startTime>
+        <end>2016-07-31</end>
+        <endTime>
+          <datetime>2016-07-31T12:05:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </endTime>
+        
+          <originatingRegion>North America</originatingRegion>
+        
+       <sectors><sector>45</sector></sectors>
+        <location>
+          <address>
+            <type>Offsite</type>
+            <city>New York</city>
+          </address>
+        </location>
+        <companies>
+          <company>
+            <companyName>Corning Inc</companyName>
+            <isPublic>true</isPublic>
+            <identifiers>
+              <identifier type="Ticker">GLW</identifier>
+            </identifiers>
+			<companyParticipants>
+              <participant>
+                <person>
+                  <firstName>Sergei</firstName>
+                  <lastName>Brin</lastName> 
+                  
+                  <email>CompanyPersonemail@email.com</email>
+                  <phone>322223</phone>
+                  <title>some title</title>
+                </person>
+                <roles>
+                  <role>HeadOfBusiness</role>
+                </roles>
+                <status>Confirmed</status>
+              </participant>
+			  </companyParticipants>
+          </company>
+        </companies>
+        <brokerParticipants>
+          <participant>
+            <person>
+              <firstName>George</firstName>
+              <lastName>Notter</lastName>
+              <email>Broker@email.com</email>
+              <email>Broker@email.com</email>
+              
+              <title>Analyst</title>
+            </person>
+            <roles>
+              <role>SellsideAnalyst</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+          <participant>
+            <person>
+              <firstName>Shanelle</firstName>
+              <lastName>Trinidad</lastName>
+              <email>Broker2@email.com</email>
+              
+              <title>Research Sales</title>
+            </person>
+            <roles>
+              <role>SellsideSales</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+        </brokerParticipants>
+        <investorParticipants>
+          <participant>
+            <person>
+              <firstName>Ken</firstName>
+              <lastName>Chang</lastName>
+              <email>investor@email.com</email>
+              
+              <title />
+            </person>
+            <roles>
+              <role>PortfolioManager</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </investorParticipants>
+		<thirdPartyParticipants>
+          <participant>
+            <person>
+              <firstName>Ken1</firstName>
+              <lastName>Chang1</lastName>
+              
+              <title>experttitle</title>
+              
+              <title />
+            </person>
+            <roles>
+              <role>Other</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+		  <participant>
+            <person>
+              <firstName>Ken2</firstName>
+              <lastName>Chang2</lastName>
+              
+              <title />
+            </person>
+            <roles>
+              <role>Industry Expert</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+		  <participant>
+            <person>
+              <firstName>Ken3</firstName>
+              <lastName>Chang3</lastName>
+              
+              <title />
+            </person>
+            <roles>
+              <role>Government Expert</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+		  <participant>
+            <person>
+              <firstName>Ken4</firstName>
+              <lastName>Chang4</lastName>
+              
+              <title />
+            </person>
+            <roles>
+              <role>Medical Expert</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+		  <participant>
+            <person>
+              <firstName>Ken5</firstName>
+              <lastName>Chang5</lastName>
+              
+              <title />
+            </person>
+            <roles>
+              <role>Macro Strategist</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </thirdPartyParticipants>
+      </interaction>
+	    <interaction>
+        <parentID>000735113</parentID>
+		<interactionID>000735113</interactionID>
+        <interactionType>KeyOpinionLeader</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionTitle>EXPERT ROLE TEST  (KeyOpinionLeader)</interactionTitle>
+        <start>2016-07-28</start>
+        <startTime>
+          <datetime>2016-07-28T12:00:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </startTime>
+        <end>2016-07-31</end>
+        <endTime>
+          <datetime>2016-07-31T12:05:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </endTime>
+        
+          <originatingRegion>North America</originatingRegion>
+        
+       <sectors><sector>45</sector></sectors>
+        <location>
+          <address>
+            <type>Offsite</type>
+            <city>New York</city>
+          </address>
+        </location>
+        <companies>
+          <company>
+            <companyName>Corning Inc</companyName>
+            <isPublic>true</isPublic>
+            <identifiers>
+              <identifier type="Ticker">GLW</identifier>
+            </identifiers>
+			<companyParticipants>
+              <participant>
+                <person>
+                  <firstName>Sergei</firstName>
+                  <lastName>Brin</lastName> 
+                  
+                  <email>CompanyPersonemail@email.com</email>
+                  <phone>322223</phone>
+                  <title>some title</title>
+                </person>
+                <roles>
+                  <role>HeadOfBusiness</role>
+                </roles>
+                <status>Confirmed</status>
+              </participant>
+			  </companyParticipants>
+          </company>
+        </companies>
+        <brokerParticipants>
+          <participant>
+            <person>
+              <firstName>George</firstName>
+              <lastName>Notter</lastName>
+              <email>Broker@email.com</email>
+              <email>Broker@email.com</email>
+              
+              <title>Analyst</title>
+            </person>
+            <roles>
+              <role>SellsideAnalyst</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+          <participant>
+            <person>
+              <firstName>Shanelle</firstName>
+              <lastName>Trinidad</lastName>
+              <email>Broker2@email.com</email>
+              
+              <title>Research Sales</title>
+            </person>
+            <roles>
+              <role>SellsideSales</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+        </brokerParticipants>
+        <investorParticipants>
+          <participant>
+            <person>
+              <firstName>Ken</firstName>
+              <lastName>Chang</lastName>
+              <email>investor@email.com</email>
+              
+              <title />
+            </person>
+            <roles>
+              <role>PortfolioManager</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </investorParticipants>
+		<thirdPartyParticipants>
+          <participant>
+            <person>
+              <firstName>Ken1</firstName>
+              <lastName>Chang1</lastName>
+              
+              <title>experttitle</title>
+              
+              <title />
+            </person>
+            <roles>
+              <role>Other</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+		  <participant>
+            <person>
+              <firstName>Ken2</firstName>
+              <lastName>Chang2</lastName>
+              
+              <title />
+            </person>
+            <roles>
+              <role>Industry Expert</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+		  <participant>
+            <person>
+              <firstName>Ken3</firstName>
+              <lastName>Chang3</lastName>
+              
+              <title />
+            </person>
+            <roles>
+              <role>Government Expert</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+		  <participant>
+            <person>
+              <firstName>Ken4</firstName>
+              <lastName>Chang4</lastName>
+              
+              <title />
+            </person>
+            <roles>
+              <role>Medical Expert</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+		  <participant>
+            <person>
+              <firstName>Ken5</firstName>
+              <lastName>Chang5</lastName>
+              
+              <title />
+            </person>
+            <roles>
+              <role>Macro Strategist</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </thirdPartyParticipants>
+      </interaction>
+	    <interaction>
+        <parentID>000735112</parentID>
+		<interactionID>000735112</interactionID>
+        <interactionType>MacroStrategist</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionTitle>EXPERT ROLE TEST  (MacroStrategist)</interactionTitle>
+        <start>2016-07-28</start>
+        <startTime>
+          <datetime>2016-07-28T12:00:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </startTime>
+        <end>2016-07-31</end>
+        <endTime>
+          <datetime>2016-07-31T12:05:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </endTime>
+        
+          <originatingRegion>North America</originatingRegion>
+        
+       <sectors><sector>45</sector></sectors>
+        <location>
+          <address>
+            <type>Offsite</type>
+            <city>New York</city>
+          </address>
+        </location>
+        <companies>
+          <company>
+            <companyName>Corning Inc</companyName>
+            <isPublic>true</isPublic>
+            <identifiers>
+              <identifier type="Ticker">GLW</identifier>
+            </identifiers>
+			<companyParticipants>
+              <participant>
+                <person>
+                  <firstName>Sergei</firstName>
+                  <lastName>Brin</lastName> 
+                  
+                  <email>CompanyPersonemail@email.com</email>
+                  <phone>322223</phone>
+                  <title>some title</title>
+                </person>
+                <roles>
+                  <role>HeadOfBusiness</role>
+                </roles>
+                <status>Confirmed</status>
+              </participant>
+			  </companyParticipants>
+          </company>
+        </companies>
+        <brokerParticipants>
+          <participant>
+            <person>
+              <firstName>George</firstName>
+              <lastName>Notter</lastName>
+              <email>Broker@email.com</email>
+              <email>Broker@email.com</email>
+              
+              <title>Analyst</title>
+            </person>
+            <roles>
+              <role>SellsideAnalyst</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+          <participant>
+            <person>
+              <firstName>Shanelle</firstName>
+              <lastName>Trinidad</lastName>
+              <email>Broker2@email.com</email>
+              
+              <title>Research Sales</title>
+            </person>
+            <roles>
+              <role>SellsideSales</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+        </brokerParticipants>
+        <investorParticipants>
+          <participant>
+            <person>
+              <firstName>Ken</firstName>
+              <lastName>Chang</lastName>
+              <email>investor@email.com</email>
+              
+              <title />
+            </person>
+            <roles>
+              <role>PortfolioManager</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </investorParticipants>
+		<thirdPartyParticipants>
+          <participant>
+            <person>
+              <firstName>Ken1</firstName>
+              <lastName>Chang1</lastName>
+              
+              <title>experttitle</title>
+              
+              <title />
+            </person>
+            <roles>
+              <role>Other</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+		  <participant>
+            <person>
+              <firstName>Ken2</firstName>
+              <lastName>Chang2</lastName>
+              
+              <title />
+            </person>
+            <roles>
+              <role>Industry Expert</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+		  <participant>
+            <person>
+              <firstName>Ken3</firstName>
+              <lastName>Chang3</lastName>
+              
+              <title />
+            </person>
+            <roles>
+              <role>Government Expert</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+		  <participant>
+            <person>
+              <firstName>Ken4</firstName>
+              <lastName>Chang4</lastName>
+              
+              <title />
+            </person>
+            <roles>
+              <role>Medical Expert</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+		  <participant>
+            <person>
+              <firstName>Ken5</firstName>
+              <lastName>Chang5</lastName>
+              
+              <title />
+            </person>
+            <roles>
+              <role>Macro Strategist</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </thirdPartyParticipants>
+      </interaction>
+	    <interaction>
+        <parentID>000735111</parentID>
+		<interactionID>000735111</interactionID>
+        <interactionType>BankerEvent</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionTitle>EXPERT ROLE TEST  (BankerEvent)</interactionTitle>
+        <start>2016-07-28</start>
+        <startTime>
+          <datetime>2016-07-28T12:00:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </startTime>
+        <end>2016-07-31</end>
+        <endTime>
+          <datetime>2016-07-31T12:05:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </endTime>
+        
+          <originatingRegion>North America</originatingRegion>
+        
+       <sectors><sector>45</sector></sectors>
+        <location>
+          <address>
+            <type>Offsite</type>
+            <city>New York</city>
+          </address>
+        </location>
+        <companies>
+          <company>
+            <companyName>Corning Inc</companyName>
+            <isPublic>true</isPublic>
+            <identifiers>
+              <identifier type="Ticker">GLW</identifier>
+            </identifiers>
+			<companyParticipants>
+              <participant>
+                <person>
+                  <firstName>Sergei</firstName>
+                  <lastName>Brin</lastName> 
+                  
+                  <email>CompanyPersonemail@email.com</email>
+                  <phone>322223</phone>
+                  <title>some title</title>
+                </person>
+                <roles>
+                  <role>HeadOfBusiness</role>
+                </roles>
+                <status>Confirmed</status>
+              </participant>
+			  </companyParticipants>
+          </company>
+        </companies>
+        <brokerParticipants>
+          <participant>
+            <person>
+              <firstName>George</firstName>
+              <lastName>Notter</lastName>
+              <email>Broker@email.com</email>
+              <email>Broker@email.com</email>
+              
+              <title>Analyst</title>
+            </person>
+            <roles>
+              <role>SellsideAnalyst</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+          <participant>
+            <person>
+              <firstName>Shanelle</firstName>
+              <lastName>Trinidad</lastName>
+              <email>Broker2@email.com</email>
+              
+              <title>Research Sales</title>
+            </person>
+            <roles>
+              <role>SellsideSales</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+        </brokerParticipants>
+        <investorParticipants>
+          <participant>
+            <person>
+              <firstName>Ken</firstName>
+              <lastName>Chang</lastName>
+              <email>investor@email.com</email>
+              
+              <title />
+            </person>
+            <roles>
+              <role>PortfolioManager</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </investorParticipants>
+		<thirdPartyParticipants>
+          <participant>
+            <person>
+              <firstName>Ken1</firstName>
+              <lastName>Chang1</lastName>
+              
+              <title>experttitle</title>
+              
+              <title />
+            </person>
+            <roles>
+              <role>Other</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+		  <participant>
+            <person>
+              <firstName>Ken2</firstName>
+              <lastName>Chang2</lastName>
+              
+              <title />
+            </person>
+            <roles>
+              <role>Industry Expert</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+		  <participant>
+            <person>
+              <firstName>Ken3</firstName>
+              <lastName>Chang3</lastName>
+              
+              <title />
+            </person>
+            <roles>
+              <role>Government Expert</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+		  <participant>
+            <person>
+              <firstName>Ken4</firstName>
+              <lastName>Chang4</lastName>
+              
+              <title />
+            </person>
+            <roles>
+              <role>Medical Expert</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+		  <participant>
+            <person>
+              <firstName>Ken5</firstName>
+              <lastName>Chang5</lastName>
+              
+              <title />
+            </person>
+            <roles>
+              <role>Macro Strategist</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </thirdPartyParticipants>
+      </interaction>
+	    <interaction>
+        <parentID>0007351100</parentID>
+		<interactionID>0007351100</interactionID>
+        <interactionType>Idea</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionTitle>EXPERT ROLE TEST  (Other)</interactionTitle>
+        <start>2016-07-28</start>
+        <startTime>
+          <datetime>2016-07-28T12:00:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </startTime>
+        <end>2016-07-31</end>
+        <endTime>
+          <datetime>2016-07-31T12:05:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </endTime>
+        
+          <originatingRegion>North America</originatingRegion>
+        
+       <sectors><sector>45</sector></sectors>
+        <location>
+          <address>
+            <type>Offsite</type>
+            <city>New York</city>
+          </address>
+        </location>
+        <companies>
+          <company>
+            <companyName>Corning Inc</companyName>
+            <isPublic>true</isPublic>
+            <identifiers>
+              <identifier type="Ticker">GLW</identifier>
+            </identifiers>
+			<companyParticipants>
+              <participant>
+                <person>
+                  <firstName>Sergei</firstName>
+                  <lastName>Brin</lastName> 
+                  
+                  <email>CompanyPersonemail@email.com</email>
+                  <phone>322223</phone>
+                  <title>some title</title>
+                </person>
+                <roles>
+                  <role>HeadOfBusiness</role>
+                </roles>
+                <status>Confirmed</status>
+              </participant>
+			  </companyParticipants>
+          </company>
+        </companies>
+        <brokerParticipants>
+          <participant>
+            <person>
+              <firstName>George</firstName>
+              <lastName>Notter</lastName>
+              <email>Broker@email.com</email>
+              <email>Broker@email.com</email>
+              
+              <title>Analyst</title>
+            </person>
+            <roles>
+              <role>SellsideAnalyst</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+          <participant>
+            <person>
+              <firstName>Shanelle</firstName>
+              <lastName>Trinidad</lastName>
+              <email>Broker2@email.com</email>
+              
+              <title>Research Sales</title>
+            </person>
+            <roles>
+              <role>SellsideSales</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+        </brokerParticipants>
+        <investorParticipants>
+          <participant>
+            <person>
+              <firstName>Ken</firstName>
+              <lastName>Chang</lastName>
+              <email>investor@email.com</email>
+              
+              <title />
+            </person>
+            <roles>
+              <role>PortfolioManager</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </investorParticipants>
+		<thirdPartyParticipants>
+          <participant>
+            <person>
+              <firstName>Ken1</firstName>
+              <lastName>Chang1</lastName>
+              
+              <title>experttitle</title>
+              
+              <title />
+            </person>
+            <roles>
+              <role>Other</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </thirdPartyParticipants>
+      </interaction>
+	  <interaction>
+        <parentID>000735110</parentID>
+		<interactionID>000735110</interactionID>
+        <interactionType>Other</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionTitle>EXPERT ROLE TEST  (Other)</interactionTitle>
+        <start>2016-07-28</start>
+        <startTime>
+          <datetime>2016-07-28T12:00:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </startTime>
+        <end>2016-07-31</end>
+        <endTime>
+          <datetime>2016-07-31T12:05:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </endTime>
+        
+          <originatingRegion>North America</originatingRegion>
+        
+       <sectors><sector>45</sector></sectors>
+        <location>
+          <address>
+            <type>Offsite</type>
+            <city>New York</city>
+          </address>
+        </location>
+        <companies>
+          <company>
+            <companyName>Corning Inc</companyName>
+            <isPublic>true</isPublic>
+            <identifiers>
+              <identifier type="Ticker">GLW</identifier>
+            </identifiers>
+			<companyParticipants>
+              <participant>
+                <person>
+                  <firstName>Sergei</firstName>
+                  <lastName>Brin</lastName> 
+                  
+                  <email>CompanyPersonemail@email.com</email>
+                  <phone>322223</phone>
+                  <title>some title</title>
+                </person>
+                <roles>
+                  <role>HeadOfBusiness</role>
+                </roles>
+                <status>Confirmed</status>
+              </participant>
+			  </companyParticipants>
+          </company>
+        </companies>
+        <brokerParticipants>
+          <participant>
+            <person>
+              <firstName>George</firstName>
+              <lastName>Notter</lastName>
+              <email>Broker@email.com</email>
+              <email>Broker@email.com</email>
+              
+              <title>Analyst</title>
+            </person>
+            <roles>
+              <role>SellsideAnalyst</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+          <participant>
+            <person>
+              <firstName>Shanelle</firstName>
+              <lastName>Trinidad</lastName>
+              <email>Broker2@email.com</email>
+              
+              <title>Research Sales</title>
+            </person>
+            <roles>
+              <role>SellsideSales</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+        </brokerParticipants>
+        <investorParticipants>
+          <participant>
+            <person>
+              <firstName>Ken</firstName>
+              <lastName>Chang</lastName>
+              <email>investor@email.com</email>
+              
+              <title />
+            </person>
+            <roles>
+              <role>PortfolioManager</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </investorParticipants>
+		<thirdPartyParticipants>
+          <participant>
+            <person>
+              <firstName>Ken1</firstName>
+              <lastName>Chang1</lastName>
+              
+              <title>experttitle</title>
+              
+              <title />
+            </person>
+            <roles>
+              <role>Other</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </thirdPartyParticipants>
+      </interaction>
+	    <interaction>
+        <parentID>00073519</parentID>
+		<interactionID>00073519</interactionID>
+        <interactionType>ClientEducation</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionTitle>EXPERT ROLE TEST  (ClientEducation)</interactionTitle>
+        <start>2016-07-28</start>
+        <startTime>
+          <datetime>2016-07-28T12:00:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </startTime>
+        <end>2016-07-31</end>
+        <endTime>
+          <datetime>2016-07-31T12:05:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </endTime>
+        
+          <originatingRegion>North America</originatingRegion>
+        
+       <sectors><sector>45</sector></sectors>
+        <location>
+          <address>
+            <type>Offsite</type>
+            <city>New York</city>
+          </address>
+        </location>
+        <companies>
+          <company>
+            <companyName>Corning Inc</companyName>
+            <isPublic>true</isPublic>
+            <identifiers>
+              <identifier type="Ticker">GLW</identifier>
+            </identifiers>
+			<companyParticipants>
+              <participant>
+                <person>
+                  <firstName>Sergei</firstName>
+                  <lastName>Brin</lastName> 
+                  
+                  <email>CompanyPersonemail@email.com</email>
+                  <phone>322223</phone>
+                  <title>some title</title>
+                </person>
+                <roles>
+                  <role>HeadOfBusiness</role>
+                </roles>
+                <status>Confirmed</status>
+              </participant>
+			  </companyParticipants>
+          </company>
+        </companies>
+        <brokerParticipants>
+          <participant>
+            <person>
+              <firstName>George</firstName>
+              <lastName>Notter</lastName>
+              <email>Broker@email.com</email>
+              <email>Broker@email.com</email>
+              
+              <title>Analyst</title>
+            </person>
+            <roles>
+              <role>SellsideAnalyst</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+          <participant>
+            <person>
+              <firstName>Shanelle</firstName>
+              <lastName>Trinidad</lastName>
+              <email>Broker2@email.com</email>
+              
+              <title>Research Sales</title>
+            </person>
+            <roles>
+              <role>SellsideSales</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+        </brokerParticipants>
+        <investorParticipants>
+          <participant>
+            <person>
+              <firstName>Ken</firstName>
+              <lastName>Chang</lastName>
+              <email>investor@email.com</email>
+              
+              <title />
+            </person>
+            <roles>
+              <role>PortfolioManager</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </investorParticipants>
+		<thirdPartyParticipants>
+          <participant>
+            <person>
+              <firstName>Ken1</firstName>
+              <lastName>Chang1</lastName>
+              
+              <title>experttitle</title>
+              
+              <title />
+            </person>
+            <roles>
+              <role>Other</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </thirdPartyParticipants>
+      </interaction>
+	    <interaction>
+        <parentID>00073518</parentID>
+		<interactionID>00073518</interactionID>
+        <interactionType>RelationshipMeeting</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionTitle>EXPERT ROLE TEST  (RelationshipMeeting)</interactionTitle>
+        <start>2016-07-28</start>
+        <startTime>
+          <datetime>2016-07-28T12:00:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </startTime>
+        <end>2016-07-31</end>
+        <endTime>
+          <datetime>2016-07-31T12:05:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </endTime>
+        
+          <originatingRegion>North America</originatingRegion>
+        
+       <sectors><sector>45</sector></sectors>
+        <location>
+          <address>
+            <type>Offsite</type>
+            <city>New York</city>
+          </address>
+        </location>
+        <companies>
+          <company>
+            <companyName>Corning Inc</companyName>
+            <isPublic>true</isPublic>
+            <identifiers>
+              <identifier type="Ticker">GLW</identifier>
+            </identifiers>
+			<companyParticipants>
+              <participant>
+                <person>
+                  <firstName>Sergei</firstName>
+                  <lastName>Brin</lastName> 
+                  
+                  <email>CompanyPersonemail@email.com</email>
+                  <phone>322223</phone>
+                  <title>some title</title>
+                </person>
+                <roles>
+                  <role>HeadOfBusiness</role>
+                </roles>
+                <status>Confirmed</status>
+              </participant>
+			  </companyParticipants>
+          </company>
+        </companies>
+        <brokerParticipants>
+          <participant>
+            <person>
+              <firstName>George</firstName>
+              <lastName>Notter</lastName>
+              <email>Broker@email.com</email>
+              <email>Broker@email.com</email>
+              
+              <title>Analyst</title>
+            </person>
+            <roles>
+              <role>SellsideAnalyst</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+          <participant>
+            <person>
+              <firstName>Shanelle</firstName>
+              <lastName>Trinidad</lastName>
+              <email>Broker2@email.com</email>
+              
+              <title>Research Sales</title>
+            </person>
+            <roles>
+              <role>SellsideSales</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+        </brokerParticipants>
+        <investorParticipants>
+          <participant>
+            <person>
+              <firstName>Ken</firstName>
+              <lastName>Chang</lastName>
+              <email>investor@email.com</email>
+              
+              <title />
+            </person>
+            <roles>
+              <role>PortfolioManager</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </investorParticipants>
+		<thirdPartyParticipants>
+          <participant>
+            <person>
+              <firstName>Ken1</firstName>
+              <lastName>Chang1</lastName>
+              
+              <title>experttitle</title>
+              
+              <title />
+            </person>
+            <roles>
+              <role>Other</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </thirdPartyParticipants>
+      </interaction>
+	    <interaction>
+        <parentID>00073517</parentID>
+		<interactionID>00073517</interactionID>
+        <interactionType>Internal</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionTitle>EXPERT ROLE TEST  (Internal)</interactionTitle>
+        <start>2016-07-28</start>
+        <startTime>
+          <datetime>2016-07-28T12:00:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </startTime>
+        <end>2016-07-31</end>
+        <endTime>
+          <datetime>2016-07-31T12:05:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </endTime>
+        
+          <originatingRegion>North America</originatingRegion>
+        
+       <sectors><sector>45</sector></sectors>
+        <location>
+          <address>
+            <type>Offsite</type>
+            <city>New York</city>
+          </address>
+        </location>
+        <companies>
+          <company>
+            <companyName>Corning Inc</companyName>
+            <isPublic>true</isPublic>
+            <identifiers>
+              <identifier type="Ticker">GLW</identifier>
+            </identifiers>
+			<companyParticipants>
+              <participant>
+                <person>
+                  <firstName>Sergei</firstName>
+                  <lastName>Brin</lastName> 
+                  
+                  <email>CompanyPersonemail@email.com</email>
+                  <phone>322223</phone>
+                  <title>some title</title>
+                </person>
+                <roles>
+                  <role>HeadOfBusiness</role>
+                </roles>
+                <status>Confirmed</status>
+              </participant>
+			  </companyParticipants>
+          </company>
+        </companies>
+        <brokerParticipants>
+          <participant>
+            <person>
+              <firstName>George</firstName>
+              <lastName>Notter</lastName>
+              <email>Broker@email.com</email>
+              <email>Broker@email.com</email>
+              
+              <title>Analyst</title>
+            </person>
+            <roles>
+              <role>SellsideAnalyst</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+          <participant>
+            <person>
+              <firstName>Shanelle</firstName>
+              <lastName>Trinidad</lastName>
+              <email>Broker2@email.com</email>
+              
+              <title>Research Sales</title>
+            </person>
+            <roles>
+              <role>SellsideSales</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+        </brokerParticipants>
+        <investorParticipants>
+          <participant>
+            <person>
+              <firstName>Ken</firstName>
+              <lastName>Chang</lastName>
+              <email>investor@email.com</email>
+              
+              <title />
+            </person>
+            <roles>
+              <role>PortfolioManager</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </investorParticipants>
+		<thirdPartyParticipants>
+          <participant>
+            <person>
+              <firstName>Ken1</firstName>
+              <lastName>Chang1</lastName>
+              
+              <title>experttitle</title>
+              
+              <title />
+            </person>
+            <roles>
+              <role>Other</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </thirdPartyParticipants>
+      </interaction>
+	    <interaction>
+        <parentID>00073516</parentID>
+		<interactionID>00073516</interactionID>
+        <interactionType>Social</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionTitle>EXPERT ROLE TEST  (Social)</interactionTitle>
+        <start>2016-07-28</start>
+        <startTime>
+          <datetime>2016-07-28T12:00:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </startTime>
+        <end>2016-07-31</end>
+        <endTime>
+          <datetime>2016-07-31T12:05:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </endTime>
+        
+          <originatingRegion>North America</originatingRegion>
+        
+       <sectors><sector>45</sector></sectors>
+        <location>
+          <address>
+            <type>Offsite</type>
+            <city>New York</city>
+          </address>
+        </location>
+        <companies>
+          <company>
+            <companyName>Corning Inc</companyName>
+            <isPublic>true</isPublic>
+            <identifiers>
+              <identifier type="Ticker">GLW</identifier>
+            </identifiers>
+			<companyParticipants>
+              <participant>
+                <person>
+                  <firstName>Sergei</firstName>
+                  <lastName>Brin</lastName> 
+                  
+                  <email>CompanyPersonemail@email.com</email>
+                  <phone>322223</phone>
+                  <title>some title</title>
+                </person>
+                <roles>
+                  <role>HeadOfBusiness</role>
+                </roles>
+                <status>Confirmed</status>
+              </participant>
+			  </companyParticipants>
+          </company>
+        </companies>
+        <brokerParticipants>
+          <participant>
+            <person>
+              <firstName>George</firstName>
+              <lastName>Notter</lastName>
+              <email>Broker@email.com</email>
+              <email>Broker@email.com</email>
+              
+              <title>Analyst</title>
+            </person>
+            <roles>
+              <role>SellsideAnalyst</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+          <participant>
+            <person>
+              <firstName>Shanelle</firstName>
+              <lastName>Trinidad</lastName>
+              <email>Broker2@email.com</email>
+              
+              <title>Research Sales</title>
+            </person>
+            <roles>
+              <role>SellsideSales</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+        </brokerParticipants>
+        <investorParticipants>
+          <participant>
+            <person>
+              <firstName>Ken</firstName>
+              <lastName>Chang</lastName>
+              <email>investor@email.com</email>
+              
+              <title />
+            </person>
+            <roles>
+              <role>PortfolioManager</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </investorParticipants>
+		<thirdPartyParticipants>
+          <participant>
+            <person>
+              <firstName>Ken1</firstName>
+              <lastName>Chang1</lastName>
+              
+              <title>experttitle</title>
+              
+              <title />
+            </person>
+            <roles>
+              <role>Other</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </thirdPartyParticipants>
+      </interaction>
+	    <interaction>
+        <parentID>00073515</parentID>
+		<interactionID>00073515</interactionID>
+        <interactionType>ModelRequest</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionTitle>EXPERT ROLE TEST  (ModelRequest)</interactionTitle>
+        <start>2016-07-28</start>
+        <startTime>
+          <datetime>2016-07-28T12:00:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </startTime>
+        <end>2016-07-31</end>
+        <endTime>
+          <datetime>2016-07-31T12:05:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </endTime>
+        
+          <originatingRegion>North America</originatingRegion>
+        
+       <sectors><sector>45</sector></sectors>
+        <location>
+          <address>
+            <type>Offsite</type>
+            <city>New York</city>
+          </address>
+        </location>
+        <companies>
+          <company>
+            <companyName>Corning Inc</companyName>
+            <isPublic>true</isPublic>
+            <identifiers>
+              <identifier type="Ticker">GLW</identifier>
+            </identifiers>
+			<companyParticipants>
+              <participant>
+                <person>
+                  <firstName>Sergei</firstName>
+                  <lastName>Brin</lastName> 
+                  
+                  <email>CompanyPersonemail@email.com</email>
+                  <phone>322223</phone>
+                  <title>some title</title>
+                </person>
+                <roles>
+                  <role>HeadOfBusiness</role>
+                </roles>
+                <status>Confirmed</status>
+              </participant>
+			  </companyParticipants>
+          </company>
+        </companies>
+        <brokerParticipants>
+          <participant>
+            <person>
+              <firstName>George</firstName>
+              <lastName>Notter</lastName>
+              <email>Broker@email.com</email>
+              <email>Broker@email.com</email>
+              
+              <title>Analyst</title>
+            </person>
+            <roles>
+              <role>SellsideAnalyst</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+          <participant>
+            <person>
+              <firstName>Shanelle</firstName>
+              <lastName>Trinidad</lastName>
+              <email>Broker2@email.com</email>
+              
+              <title>Research Sales</title>
+            </person>
+            <roles>
+              <role>SellsideSales</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+        </brokerParticipants>
+        <investorParticipants>
+          <participant>
+            <person>
+              <firstName>Ken</firstName>
+              <lastName>Chang</lastName>
+              <email>investor@email.com</email>
+              
+              <title />
+            </person>
+            <roles>
+              <role>PortfolioManager</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </investorParticipants>
+		<thirdPartyParticipants>
+          <participant>
+            <person>
+              <firstName>Ken1</firstName>
+              <lastName>Chang1</lastName>
+              
+              <title>experttitle</title>
+              
+              <title />
+            </person>
+            <roles>
+              <role>Other</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </thirdPartyParticipants>
+      </interaction>
+	    <interaction>
+        <parentID>00073514</parentID>
+		<interactionID>00073515</interactionID>
+        <interactionType>CustomWork</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionTitle>EXPERT ROLE TEST  (CustomWork)</interactionTitle>
+        <start>2016-07-28</start>
+        <startTime>
+          <datetime>2016-07-28T12:00:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </startTime>
+        <end>2016-07-31</end>
+        <endTime>
+          <datetime>2016-07-31T12:05:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </endTime>
+        
+          <originatingRegion>North America</originatingRegion>
+        
+       <sectors><sector>45</sector></sectors>
+        <location>
+          <address>
+            <type>Offsite</type>
+            <city>New York</city>
+          </address>
+        </location>
+        <companies>
+          <company>
+            <companyName>Corning Inc</companyName>
+            <isPublic>true</isPublic>
+            <identifiers>
+              <identifier type="Ticker">GLW</identifier>
+            </identifiers>
+			<companyParticipants>
+              <participant>
+                <person>
+                  <firstName>Sergei</firstName>
+                  <lastName>Brin</lastName> 
+                  
+                  <email>CompanyPersonemail@email.com</email>
+                  <phone>322223</phone>
+                  <title>some title</title>
+                </person>
+                <roles>
+                  <role>HeadOfBusiness</role>
+                </roles>
+                <status>Confirmed</status>
+              </participant>
+			  </companyParticipants>
+          </company>
+        </companies>
+        <brokerParticipants>
+          <participant>
+            <person>
+              <firstName>George</firstName>
+              <lastName>Notter</lastName>
+              <email>Broker@email.com</email>
+              <email>Broker@email.com</email>
+              
+              <title>Analyst</title>
+            </person>
+            <roles>
+              <role>SellsideAnalyst</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+          <participant>
+            <person>
+              <firstName>Shanelle</firstName>
+              <lastName>Trinidad</lastName>
+              <email>Broker2@email.com</email>
+              
+              <title>Research Sales</title>
+            </person>
+            <roles>
+              <role>SellsideSales</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+        </brokerParticipants>
+        <investorParticipants>
+          <participant>
+            <person>
+              <firstName>Ken</firstName>
+              <lastName>Chang</lastName>
+              <email>investor@email.com</email>
+              
+              <title />
+            </person>
+            <roles>
+              <role>PortfolioManager</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </investorParticipants>
+		<thirdPartyParticipants>
+          <participant>
+            <person>
+              <firstName>Ken1</firstName>
+              <lastName>Chang1</lastName>
+              
+              <title>experttitle</title>
+              
+              <title />
+            </person>
+            <roles>
+              <role>Other</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </thirdPartyParticipants>
+      </interaction>
+	    <interaction>
+        <parentID>00073513</parentID>
+		<interactionID>00073513</interactionID>
+        <interactionType>BespokeAccess</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionTitle>EXPERT ROLE TEST  (BespokeAccess)</interactionTitle>
+        <start>2016-07-28</start>
+        <startTime>
+          <datetime>2016-07-28T12:00:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </startTime>
+        <end>2016-07-31</end>
+        <endTime>
+          <datetime>2016-07-31T12:05:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </endTime>
+        
+          <originatingRegion>North America</originatingRegion>
+        
+       <sectors><sector>45</sector></sectors>
+        <location>
+          <address>
+            <type>Offsite</type>
+            <city>New York</city>
+          </address>
+        </location>
+        <companies>
+          <company>
+            <companyName>Corning Inc</companyName>
+            <isPublic>true</isPublic>
+            <identifiers>
+              <identifier type="Ticker">GLW</identifier>
+            </identifiers>
+			<companyParticipants>
+              <participant>
+                <person>
+                  <firstName>Sergei</firstName>
+                  <lastName>Brin</lastName> 
+                  
+                  <email>CompanyPersonemail@email.com</email>
+                  <phone>322223</phone>
+                  <title>some title</title>
+                </person>
+                <roles>
+                  <role>HeadOfBusiness</role>
+                </roles>
+                <status>Confirmed</status>
+              </participant>
+			  </companyParticipants>
+          </company>
+        </companies>
+        <brokerParticipants>
+          <participant>
+            <person>
+              <firstName>George</firstName>
+              <lastName>Notter</lastName>
+              <email>Broker@email.com</email>
+              <email>Broker@email.com</email>
+              
+              <title>Analyst</title>
+            </person>
+            <roles>
+              <role>SellsideAnalyst</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+          <participant>
+            <person>
+              <firstName>Shanelle</firstName>
+              <lastName>Trinidad</lastName>
+              <email>Broker2@email.com</email>
+              
+              <title>Research Sales</title>
+            </person>
+            <roles>
+              <role>SellsideSales</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+        </brokerParticipants>
+        <investorParticipants>
+          <participant>
+            <person>
+              <firstName>Ken</firstName>
+              <lastName>Chang</lastName>
+              <email>investor@email.com</email>
+              
+              <title />
+            </person>
+            <roles>
+              <role>PortfolioManager</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </investorParticipants>
+		<thirdPartyParticipants>
+          <participant>
+            <person>
+              <firstName>Ken1</firstName>
+              <lastName>Chang1</lastName>
+              
+              <title>experttitle</title>
+              
+              <title />
+            </person>
+            <roles>
+              <role>Other</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </thirdPartyParticipants>
+      </interaction>
+	    <interaction>
+        <parentID>00073512</parentID>
+		<interactionID>00073512</interactionID>
+        <interactionType>SalesSpecialist</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionTitle>EXPERT ROLE TEST  (SalesSpecialist)</interactionTitle>
+        <start>2016-07-28</start>
+        <startTime>
+          <datetime>2016-07-28T12:00:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </startTime>
+        <end>2016-07-31</end>
+        <endTime>
+          <datetime>2016-07-31T12:05:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </endTime>
+        
+          <originatingRegion>North America</originatingRegion>
+        
+       <sectors><sector>45</sector></sectors>
+        <location>
+          <address>
+            <type>Offsite</type>
+            <city>New York</city>
+          </address>
+        </location>
+        <companies>
+          <company>
+            <companyName>Corning Inc</companyName>
+            <isPublic>true</isPublic>
+            <identifiers>
+              <identifier type="Ticker">GLW</identifier>
+            </identifiers>
+			<companyParticipants>
+              <participant>
+                <person>
+                  <firstName>Sergei</firstName>
+                  <lastName>Brin</lastName> 
+                  
+                  <email>CompanyPersonemail@email.com</email>
+                  <phone>322223</phone>
+                  <title>some title</title>
+                </person>
+                <roles>
+                  <role>HeadOfBusiness</role>
+                </roles>
+                <status>Confirmed</status>
+              </participant>
+			  </companyParticipants>
+          </company>
+        </companies>
+        <brokerParticipants>
+          <participant>
+            <person>
+              <firstName>George</firstName>
+              <lastName>Notter</lastName>
+              <email>Broker@email.com</email>
+              <email>Broker@email.com</email>
+              
+              <title>Analyst</title>
+            </person>
+            <roles>
+              <role>SellsideAnalyst</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+          <participant>
+            <person>
+              <firstName>Shanelle</firstName>
+              <lastName>Trinidad</lastName>
+              <email>Broker2@email.com</email>
+              
+              <title>Research Sales</title>
+            </person>
+            <roles>
+              <role>SellsideSales</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+        </brokerParticipants>
+        <investorParticipants>
+          <participant>
+            <person>
+              <firstName>Ken</firstName>
+              <lastName>Chang</lastName>
+              <email>investor@email.com</email>
+              
+              <title />
+            </person>
+            <roles>
+              <role>PortfolioManager</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </investorParticipants>
+		<thirdPartyParticipants>
+          <participant>
+            <person>
+              <firstName>Ken1</firstName>
+              <lastName>Chang1</lastName>
+              
+              <title>experttitle</title>
+              
+              <title />
+            </person>
+            <roles>
+              <role>Other</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </thirdPartyParticipants>
+      </interaction>
+	    <interaction>
+        <parentID>0007351131</parentID>
+		<interactionID>0007351131</interactionID>
+        <interactionType>Sales</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionTitle>EXPERT ROLE TEST  (Sales)</interactionTitle>
+        <start>2016-07-28</start>
+        <startTime>
+          <datetime>2016-07-28T12:00:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </startTime>
+        <end>2016-07-31</end>
+        <endTime>
+          <datetime>2016-07-31T12:05:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </endTime>
+        
+          <originatingRegion>North America</originatingRegion>
+        
+       <sectors><sector>45</sector></sectors>
+        <location>
+          <address>
+            <type>Offsite</type>
+            <city>New York</city>
+          </address>
+        </location>
+        <companies>
+          <company>
+            <companyName>Corning Inc</companyName>
+            <isPublic>true</isPublic>
+            <identifiers>
+              <identifier type="Ticker">GLW</identifier>
+            </identifiers>
+			<companyParticipants>
+              <participant>
+                <person>
+                  <firstName>Sergei</firstName>
+                  <lastName>Brin</lastName> 
+                  
+                  <email>CompanyPersonemail@email.com</email>
+                  <phone>322223</phone>
+                  <title>some title</title>
+                </person>
+                <roles>
+                  <role>HeadOfBusiness</role>
+                </roles>
+                <status>Confirmed</status>
+              </participant>
+			  </companyParticipants>
+          </company>
+        </companies>
+        <brokerParticipants>
+          <participant>
+            <person>
+              <firstName>George</firstName>
+              <lastName>Notter</lastName>
+              <email>Broker@email.com</email>
+              <email>Broker@email.com</email>
+              
+              <title>Analyst</title>
+            </person>
+            <roles>
+              <role>SellsideAnalyst</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+          <participant>
+            <person>
+              <firstName>Shanelle</firstName>
+              <lastName>Trinidad</lastName>
+              <email>Broker2@email.com</email>
+              
+              <title>Research Sales</title>
+            </person>
+            <roles>
+              <role>SellsideSales</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+        </brokerParticipants>
+        <investorParticipants>
+          <participant>
+            <person>
+              <firstName>Ken</firstName>
+              <lastName>Chang</lastName>
+              <email>investor@email.com</email>
+              
+              <title />
+            </person>
+            <roles>
+              <role>PortfolioManager</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </investorParticipants>
+		<thirdPartyParticipants>
+          <participant>
+            <person>
+              <firstName>Ken1</firstName>
+              <lastName>Chang1</lastName>
+              
+              <title>experttitle</title>
+              
+              <title />
+            </person>
+            <roles>
+              <role>Other</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </thirdPartyParticipants>
+      </interaction>
+	  </investor>
+  </interactions>
+</clientinteraction>

@@ -1,0 +1,2620 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clientinteraction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://oneaccess.io/corporateaccess/clientinteraction/2.1.1">
+  <updated>
+    <datetime>2016-05-09T16:43:49.3823692Z</datetime>
+    <timezone>Etc/UTC</timezone>
+  </updated>
+  <broker>HIGH TEST KATE</broker>
+  <interactions>
+    <investor>
+      <investorName>KATE 02_12</investorName>
+      <interaction>
+        <parentID>000088130</parentID>
+		<interactionID>000088130</interactionID>
+        <interactionType>AnalystMarketing</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionTitle>22_MISSING BROCKER (AnalystMarketing)</interactionTitle>
+        <start>2016-07-28</start>
+        <startTime>
+          <datetime>2016-07-28T12:00:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </startTime>
+        <end>2016-07-31</end>
+        <endTime>
+          <datetime>2016-07-31T12:05:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </endTime>
+        
+          <originatingRegion>North America</originatingRegion>
+        
+       <sectors>
+	   <sector>45</sector>
+	   </sectors>
+        <location>
+          <address>
+            <type>Offsite</type>
+            <city>New York</city>
+          </address>
+        </location>
+        <companies>
+          <company>
+            <companyName>Corning Inc</companyName>
+            <isPublic>true</isPublic>
+            <identifiers>
+              <identifier type="Ticker">GLW</identifier>
+            </identifiers>
+			<companyParticipants>
+              <participant>
+                <person>
+                  <firstName>Sergei</firstName>
+                  <lastName>Brin</lastName> 
+                  
+                  <email>CompanyPersonemail@email.com</email>
+                  <phone>322223</phone>
+                  <title>some title</title>
+                </person>
+                <roles>
+                  <role>HeadOfBusiness</role>
+                </roles>
+                <status>Confirmed</status>
+              </participant>
+			  </companyParticipants>
+          </company>
+        </companies>
+   
+        <investorParticipants>
+          <participant>
+            <person>
+              <firstName>Ken</firstName>
+              <lastName>Chang</lastName>
+              <email>investor@email.com</email>
+              
+              <title />
+            </person>
+            <roles>
+              <role>PortfolioManager</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </investorParticipants>
+		<thirdPartyParticipants>
+          <participant>
+            <person>
+              <firstName>Ken1</firstName>
+              <lastName>Chang1</lastName>
+              
+              <title>experttitle</title>
+              
+              <title />
+            </person>
+            <roles>
+              <role>IndustryExpert</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </thirdPartyParticipants>
+      </interaction>
+       <interaction>
+        <parentID>000088129</parentID>
+		<interactionID>000088129</interactionID>
+        <interactionType>Conference</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionTitle>22_MISSING BROCKER (Conference)</interactionTitle>
+        <start>2016-07-28</start>
+        <startTime>
+          <datetime>2016-07-28T12:00:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </startTime>
+        <end>2016-07-31</end>
+        <endTime>
+          <datetime>2016-07-31T12:05:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </endTime>
+        
+          <originatingRegion>North America</originatingRegion>
+        
+       <sectors><sector>45</sector></sectors>
+        <location>
+          <address>
+            <type>Offsite</type>
+            <city>New York</city>
+          </address>
+        </location>
+        <companies>
+          <company>
+            <companyName>Corning Inc</companyName>
+            <isPublic>true</isPublic>
+            <identifiers>
+              <identifier type="Ticker">GLW</identifier>
+            </identifiers>
+			<companyParticipants>
+              <participant>
+                <person>
+                  <firstName>Sergei</firstName>
+                  <lastName>Brin</lastName> 
+                  
+                  <email>CompanyPersonemail@email.com</email>
+                  <phone>322223</phone>
+                  <title>some title</title>
+                </person>
+                <roles>
+                  <role>HeadOfBusiness</role>
+                </roles>
+                <status>Confirmed</status>
+              </participant>
+			  </companyParticipants>
+          </company>
+        </companies>
+        
+        <investorParticipants>
+          <participant>
+            <person>
+              <firstName>Ken</firstName>
+              <lastName>Chang</lastName>
+              <email>investor@email.com</email>
+              
+              <title />
+            </person>
+            <roles>
+              <role>PortfolioManager</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </investorParticipants>
+		<thirdPartyParticipants>
+          <participant>
+            <person>
+              <firstName>Ken1</firstName>
+              <lastName>Chang1</lastName>
+              
+              <title>experttitle</title>
+              
+              <title />
+            </person>
+            <roles>
+              <role>IndustryExpert</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </thirdPartyParticipants>
+      </interaction>
+	    <interaction>
+        <parentID>000088128</parentID>
+		<interactionID>000088128</interactionID>
+        <interactionType>CorporateAccessDay</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionTitle>22_MISSING BROCKER (CorporateAccessDay)</interactionTitle>
+        <start>2016-07-28</start>
+        <startTime>
+          <datetime>2016-07-28T12:00:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </startTime>
+        <end>2016-07-31</end>
+        <endTime>
+          <datetime>2016-07-31T12:05:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </endTime>
+        
+          <originatingRegion>North America</originatingRegion>
+        
+       <sectors><sector>45</sector></sectors>
+        <location>
+          <address>
+            <type>Offsite</type>
+            <city>New York</city>
+          </address>
+        </location>
+        <companies>
+          <company>
+            <companyName>Corning Inc</companyName>
+            <isPublic>true</isPublic>
+            <identifiers>
+              <identifier type="Ticker">GLW</identifier>
+            </identifiers>
+			<companyParticipants>
+              <participant>
+                <person>
+                  <firstName>Sergei</firstName>
+                  <lastName>Brin</lastName> 
+                  
+                  <email>CompanyPersonemail@email.com</email>
+                  <phone>322223</phone>
+                  <title>some title</title>
+                </person>
+                <roles>
+                  <role>HeadOfBusiness</role>
+                </roles>
+                <status>Confirmed</status>
+              </participant>
+			  </companyParticipants>
+          </company>
+        </companies>
+
+        <investorParticipants>
+          <participant>
+            <person>
+              <firstName>Ken</firstName>
+              <lastName>Chang</lastName>
+              <email>investor@email.com</email>
+              
+              <title />
+            </person>
+            <roles>
+              <role>PortfolioManager</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </investorParticipants>
+		<thirdPartyParticipants>
+          <participant>
+            <person>
+              <firstName>Ken1</firstName>
+              <lastName>Chang1</lastName>
+              
+              <title>experttitle</title>
+              
+              <title />
+            </person>
+            <roles>
+              <role>IndustryExpert</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </thirdPartyParticipants>
+      </interaction>
+	    <interaction>
+        <parentID>000088127</parentID>
+		<interactionID>000088127</interactionID>
+        <interactionType>InvestorRelationsDay</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionTitle>22_MISSING BROCKER (InvestorRelationsDay)</interactionTitle>
+        <start>2016-07-28</start>
+        <startTime>
+          <datetime>2016-07-28T12:00:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </startTime>
+        <end>2016-07-31</end>
+        <endTime>
+          <datetime>2016-07-31T12:05:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </endTime>
+        
+          <originatingRegion>North America</originatingRegion>
+        
+       <sectors><sector>45</sector></sectors>
+        <location>
+          <address>
+            <type>Offsite</type>
+            <city>New York</city>
+          </address>
+        </location>
+        <companies>
+          <company>
+            <companyName>Corning Inc</companyName>
+            <isPublic>true</isPublic>
+            <identifiers>
+              <identifier type="Ticker">GLW</identifier>
+            </identifiers>
+			<companyParticipants>
+              <participant>
+                <person>
+                  <firstName>Sergei</firstName>
+                  <lastName>Brin</lastName> 
+                  
+                  <email>CompanyPersonemail@email.com</email>
+                  <phone>322223</phone>
+                  <title>some title</title>
+                </person>
+                <roles>
+                  <role>HeadOfBusiness</role>
+                </roles>
+                <status>Confirmed</status>
+              </participant>
+			  </companyParticipants>
+          </company>
+        </companies>
+
+        <investorParticipants>
+          <participant>
+            <person>
+              <firstName>Ken</firstName>
+              <lastName>Chang</lastName>
+              <email>investor@email.com</email>
+              
+              <title />
+            </person>
+            <roles>
+              <role>PortfolioManager</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </investorParticipants>
+		<thirdPartyParticipants>
+          <participant>
+            <person>
+              <firstName>Ken1</firstName>
+              <lastName>Chang1</lastName>
+              
+              <title>experttitle</title>
+              
+              <title />
+            </person>
+            <roles>
+              <role>IndustryExpert</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </thirdPartyParticipants>
+      </interaction>
+	    <interaction>
+        <parentID>000088126</parentID>
+		<interactionID>000088126</interactionID>
+        <interactionType>AnalystDay</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionTitle>22_MISSING BROCKER (AnalystDay)</interactionTitle>
+        <start>2016-07-28</start>
+        <startTime>
+          <datetime>2016-07-28T12:00:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </startTime>
+        <end>2016-07-31</end>
+        <endTime>
+          <datetime>2016-07-31T12:05:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </endTime>
+        
+          <originatingRegion>North America</originatingRegion>
+        
+       <sectors><sector>45</sector></sectors>
+        <location>
+          <address>
+            <type>Offsite</type>
+            <city>New York</city>
+          </address>
+        </location>
+        <companies>
+          <company>
+            <companyName>Corning Inc</companyName>
+            <isPublic>true</isPublic>
+            <identifiers>
+              <identifier type="Ticker">GLW</identifier>
+            </identifiers>
+			<companyParticipants>
+              <participant>
+                <person>
+                  <firstName>Sergei</firstName>
+                  <lastName>Brin</lastName> 
+                  
+                  <email>CompanyPersonemail@email.com</email>
+                  <phone>322223</phone>
+                  <title>some title</title>
+                </person>
+                <roles>
+                  <role>HeadOfBusiness</role>
+                </roles>
+                <status>Confirmed</status>
+              </participant>
+			  </companyParticipants>
+          </company>
+        </companies>
+
+        <investorParticipants>
+          <participant>
+            <person>
+              <firstName>Ken</firstName>
+              <lastName>Chang</lastName>
+              <email>investor@email.com</email>
+              
+              <title />
+            </person>
+            <roles>
+              <role>PortfolioManager</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </investorParticipants>
+		<thirdPartyParticipants>
+          <participant>
+            <person>
+              <firstName>Ken1</firstName>
+              <lastName>Chang1</lastName>
+              
+              <title>experttitle</title>
+              
+              <title />
+            </person>
+            <roles>
+              <role>IndustryExpert</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </thirdPartyParticipants>
+      </interaction>
+	    <interaction>
+        <parentID>000088125</parentID>
+		<interactionID>000088125</interactionID>
+        <interactionType>Show</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionTitle>22_MISSING BROCKER (Show)</interactionTitle>
+        <start>2016-07-28</start>
+        <startTime>
+          <datetime>2016-07-28T12:00:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </startTime>
+        <end>2016-07-31</end>
+        <endTime>
+          <datetime>2016-07-31T12:05:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </endTime>
+        
+          <originatingRegion>North America</originatingRegion>
+        
+       <sectors><sector>45</sector></sectors>
+        <location>
+          <address>
+            <type>Offsite</type>
+            <city>New York</city>
+          </address>
+        </location>
+        <companies>
+          <company>
+            <companyName>Corning Inc</companyName>
+            <isPublic>true</isPublic>
+            <identifiers>
+              <identifier type="Ticker">GLW</identifier>
+            </identifiers>
+			<companyParticipants>
+              <participant>
+                <person>
+                  <firstName>Sergei</firstName>
+                  <lastName>Brin</lastName> 
+                  
+                  <email>CompanyPersonemail@email.com</email>
+                  <phone>322223</phone>
+                  <title>some title</title>
+                </person>
+                <roles>
+                  <role>HeadOfBusiness</role>
+                </roles>
+                <status>Confirmed</status>
+              </participant>
+			  </companyParticipants>
+          </company>
+        </companies>
+
+        <investorParticipants>
+          <participant>
+            <person>
+              <firstName>Ken</firstName>
+              <lastName>Chang</lastName>
+              <email>investor@email.com</email>
+              
+              <title />
+            </person>
+            <roles>
+              <role>PortfolioManager</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </investorParticipants>
+		<thirdPartyParticipants>
+          <participant>
+            <person>
+              <firstName>Ken1</firstName>
+              <lastName>Chang1</lastName>
+              
+              <title>experttitle</title>
+              
+              <title />
+            </person>
+            <roles>
+              <role>IndustryExpert</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </thirdPartyParticipants>
+      </interaction>
+	    <interaction>
+        <parentID>000088124</parentID>
+		<interactionID>000088124</interactionID>
+        <interactionType>MultiCompanyEvent</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionTitle>22_MISSING BROCKER (MultiCompanyEvent)</interactionTitle>
+        <start>2016-07-28</start>
+        <startTime>
+          <datetime>2016-07-28T12:00:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </startTime>
+        <end>2016-07-31</end>
+        <endTime>
+          <datetime>2016-07-31T12:05:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </endTime>
+        
+          <originatingRegion>North America</originatingRegion>
+        
+       <sectors><sector>45</sector></sectors>
+        <location>
+          <address>
+            <type>Offsite</type>
+            <city>New York</city>
+          </address>
+        </location>
+        <companies>
+          <company>
+            <companyName>Corning Inc</companyName>
+            <isPublic>true</isPublic>
+            <identifiers>
+              <identifier type="Ticker">GLW</identifier>
+            </identifiers>
+			<companyParticipants>
+              <participant>
+                <person>
+                  <firstName>Sergei</firstName>
+                  <lastName>Brin</lastName> 
+                  
+                  <email>CompanyPersonemail@email.com</email>
+                  <phone>322223</phone>
+                  <title>some title</title>
+                </person>
+                <roles>
+                  <role>HeadOfBusiness</role>
+                </roles>
+                <status>Confirmed</status>
+              </participant>
+			  </companyParticipants>
+          </company>
+        </companies>
+
+        <investorParticipants>
+          <participant>
+            <person>
+              <firstName>Ken</firstName>
+              <lastName>Chang</lastName>
+              <email>investor@email.com</email>
+              
+              <title />
+            </person>
+            <roles>
+              <role>PortfolioManager</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </investorParticipants>
+		<thirdPartyParticipants>
+          <participant>
+            <person>
+              <firstName>Ken1</firstName>
+              <lastName>Chang1</lastName>
+              
+              <title>experttitle</title>
+              
+              <title />
+            </person>
+            <roles>
+              <role>IndustryExpert</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </thirdPartyParticipants>
+      </interaction>
+	    <interaction>
+        <parentID>000088123</parentID>
+		<interactionID>000088123</interactionID>
+        <interactionType>Forum</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionTitle>22_MISSING BROCKER (Forum)</interactionTitle>
+        <start>2016-07-28</start>
+        <startTime>
+          <datetime>2016-07-28T12:00:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </startTime>
+        <end>2016-07-31</end>
+        <endTime>
+          <datetime>2016-07-31T12:05:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </endTime>
+        
+          <originatingRegion>North America</originatingRegion>
+        
+       <sectors><sector>45</sector></sectors>
+        <location>
+          <address>
+            <type>Offsite</type>
+            <city>New York</city>
+          </address>
+        </location>
+        <companies>
+          <company>
+            <companyName>Corning Inc</companyName>
+            <isPublic>true</isPublic>
+            <identifiers>
+              <identifier type="Ticker">GLW</identifier>
+            </identifiers>
+			<companyParticipants>
+              <participant>
+                <person>
+                  <firstName>Sergei</firstName>
+                  <lastName>Brin</lastName> 
+                  
+                  <email>CompanyPersonemail@email.com</email>
+                  <phone>322223</phone>
+                  <title>some title</title>
+                </person>
+                <roles>
+                  <role>HeadOfBusiness</role>
+                </roles>
+                <status>Confirmed</status>
+              </participant>
+			  </companyParticipants>
+          </company>
+        </companies>
+
+        <investorParticipants>
+          <participant>
+            <person>
+              <firstName>Ken</firstName>
+              <lastName>Chang</lastName>
+              <email>investor@email.com</email>
+              
+              <title />
+            </person>
+            <roles>
+              <role>PortfolioManager</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </investorParticipants>
+		<thirdPartyParticipants>
+          <participant>
+            <person>
+              <firstName>Ken1</firstName>
+              <lastName>Chang1</lastName>
+              
+              <title>experttitle</title>
+              
+              <title />
+            </person>
+            <roles>
+              <role>IndustryExpert</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </thirdPartyParticipants>
+      </interaction>
+	    <interaction>
+        <parentID>000088122</parentID>
+		<interactionID>000088122</interactionID>
+        <interactionType>IndustryEvent</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionTitle>22_MISSING BROCKER (IndustryEvent)</interactionTitle>
+        <start>2016-07-28</start>
+        <startTime>
+          <datetime>2016-07-28T12:00:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </startTime>
+        <end>2016-07-31</end>
+        <endTime>
+          <datetime>2016-07-31T12:05:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </endTime>
+        
+          <originatingRegion>North America</originatingRegion>
+        
+       <sectors><sector>45</sector></sectors>
+        <location>
+          <address>
+            <type>Offsite</type>
+            <city>New York</city>
+          </address>
+        </location>
+        <companies>
+          <company>
+            <companyName>Corning Inc</companyName>
+            <isPublic>true</isPublic>
+            <identifiers>
+              <identifier type="Ticker">GLW</identifier>
+            </identifiers>
+			<companyParticipants>
+              <participant>
+                <person>
+                  <firstName>Sergei</firstName>
+                  <lastName>Brin</lastName> 
+                  
+                  <email>CompanyPersonemail@email.com</email>
+                  <phone>322223</phone>
+                  <title>some title</title>
+                </person>
+                <roles>
+                  <role>HeadOfBusiness</role>
+                </roles>
+                <status>Confirmed</status>
+              </participant>
+			  </companyParticipants>
+          </company>
+        </companies>
+ 
+        <investorParticipants>
+          <participant>
+            <person>
+              <firstName>Ken</firstName>
+              <lastName>Chang</lastName>
+              <email>investor@email.com</email>
+              
+              <title />
+            </person>
+            <roles>
+              <role>PortfolioManager</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </investorParticipants>
+		<thirdPartyParticipants>
+          <participant>
+            <person>
+              <firstName>Ken1</firstName>
+              <lastName>Chang1</lastName>
+              
+              <title>experttitle</title>
+              
+              <title />
+            </person>
+            <roles>
+              <role>IndustryExpert</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </thirdPartyParticipants>
+      </interaction>
+	    <interaction>
+        <parentID>000088121</parentID>
+		<interactionID>000088121</interactionID>
+        <interactionType>NonDealRoadshow</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionTitle>22_MISSING BROCKER (NonDealRoadshow)</interactionTitle>
+        <start>2016-07-28</start>
+        <startTime>
+          <datetime>2016-07-28T12:00:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </startTime>
+        <end>2016-07-31</end>
+        <endTime>
+          <datetime>2016-07-31T12:05:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </endTime>
+        
+          <originatingRegion>North America</originatingRegion>
+        
+       <sectors><sector>45</sector></sectors>
+        <location>
+          <address>
+            <type>Offsite</type>
+            <city>New York</city>
+          </address>
+        </location>
+        <companies>
+          <company>
+            <companyName>Corning Inc</companyName>
+            <isPublic>true</isPublic>
+            <identifiers>
+              <identifier type="Ticker">GLW</identifier>
+            </identifiers>
+			<companyParticipants>
+              <participant>
+                <person>
+                  <firstName>Sergei</firstName>
+                  <lastName>Brin</lastName> 
+                  
+                  <email>CompanyPersonemail@email.com</email>
+                  <phone>322223</phone>
+                  <title>some title</title>
+                </person>
+                <roles>
+                  <role>HeadOfBusiness</role>
+                </roles>
+                <status>Confirmed</status>
+              </participant>
+			  </companyParticipants>
+          </company>
+        </companies>
+
+        <investorParticipants>
+          <participant>
+            <person>
+              <firstName>Ken</firstName>
+              <lastName>Chang</lastName>
+              <email>investor@email.com</email>
+              
+              <title />
+            </person>
+            <roles>
+              <role>PortfolioManager</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </investorParticipants>
+		<thirdPartyParticipants>
+          <participant>
+            <person>
+              <firstName>Ken1</firstName>
+              <lastName>Chang1</lastName>
+              
+              <title>experttitle</title>
+              
+              <title />
+            </person>
+            <roles>
+              <role>IndustryExpert</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </thirdPartyParticipants>
+      </interaction>
+	    <interaction>
+        <parentID>000088120</parentID>
+		<interactionID>000088120</interactionID>
+        <interactionType>DealRoadshow</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionTitle>22_MISSING BROCKER (DealRoadshow)</interactionTitle>
+        <start>2016-07-28</start>
+        <startTime>
+          <datetime>2016-07-28T12:00:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </startTime>
+        <end>2016-07-31</end>
+        <endTime>
+          <datetime>2016-07-31T12:05:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </endTime>
+        
+          <originatingRegion>North America</originatingRegion>
+        
+       <sectors><sector>45</sector></sectors>
+        <location>
+          <address>
+            <type>Offsite</type>
+            <city>New York</city>
+          </address>
+        </location>
+        <companies>
+          <company>
+            <companyName>Corning Inc</companyName>
+            <isPublic>true</isPublic>
+            <identifiers>
+              <identifier type="Ticker">GLW</identifier>
+            </identifiers>
+			<companyParticipants>
+              <participant>
+                <person>
+                  <firstName>Sergei</firstName>
+                  <lastName>Brin</lastName> 
+                  
+                  <email>CompanyPersonemail@email.com</email>
+                  <phone>322223</phone>
+                  <title>some title</title>
+                </person>
+                <roles>
+                  <role>HeadOfBusiness</role>
+                </roles>
+                <status>Confirmed</status>
+              </participant>
+			  </companyParticipants>
+          </company>
+        </companies>
+
+        <investorParticipants>
+          <participant>
+            <person>
+              <firstName>Ken</firstName>
+              <lastName>Chang</lastName>
+              <email>investor@email.com</email>
+              
+              <title />
+            </person>
+            <roles>
+              <role>PortfolioManager</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </investorParticipants>
+		<thirdPartyParticipants>
+          <participant>
+            <person>
+              <firstName>Ken1</firstName>
+              <lastName>Chang1</lastName>
+              
+              <title>experttitle</title>
+              
+              <title />
+            </person>
+            <roles>
+              <role>IndustryExpert</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </thirdPartyParticipants>
+      </interaction>
+	    <interaction>
+        <parentID>000088119</parentID>
+		<interactionID>000088119</interactionID>
+        <interactionType>CorporateBroking</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionTitle>22_MISSING BROCKER (CorporateBroking)</interactionTitle>
+        <start>2016-07-28</start>
+        <startTime>
+          <datetime>2016-07-28T12:00:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </startTime>
+        <end>2016-07-31</end>
+        <endTime>
+          <datetime>2016-07-31T12:05:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </endTime>
+        
+          <originatingRegion>North America</originatingRegion>
+        
+       <sectors><sector>45</sector></sectors>
+        <location>
+          <address>
+            <type>Offsite</type>
+            <city>New York</city>
+          </address>
+        </location>
+        <companies>
+          <company>
+            <companyName>Corning Inc</companyName>
+            <isPublic>true</isPublic>
+            <identifiers>
+              <identifier type="Ticker">GLW</identifier>
+            </identifiers>
+			<companyParticipants>
+              <participant>
+                <person>
+                  <firstName>Sergei</firstName>
+                  <lastName>Brin</lastName> 
+                  
+                  <email>CompanyPersonemail@email.com</email>
+                  <phone>322223</phone>
+                  <title>some title</title>
+                </person>
+                <roles>
+                  <role>HeadOfBusiness</role>
+                </roles>
+                <status>Confirmed</status>
+              </participant>
+			  </companyParticipants>
+          </company>
+        </companies>
+ 
+        <investorParticipants>
+          <participant>
+            <person>
+              <firstName>Ken</firstName>
+              <lastName>Chang</lastName>
+              <email>investor@email.com</email>
+              
+              <title />
+            </person>
+            <roles>
+              <role>PortfolioManager</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </investorParticipants>
+		<thirdPartyParticipants>
+          <participant>
+            <person>
+              <firstName>Ken1</firstName>
+              <lastName>Chang1</lastName>
+              
+              <title>experttitle</title>
+              
+              <title />
+            </person>
+            <roles>
+              <role>IndustryExpert</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </thirdPartyParticipants>
+      </interaction>
+	    <interaction>
+        <parentID>000088118</parentID>
+		<interactionID>000088118</interactionID>
+        <interactionType>FieldTrip</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionTitle>22_MISSING BROCKER (FieldTrip)</interactionTitle>
+        <start>2016-07-28</start>
+        <startTime>
+          <datetime>2016-07-28T12:00:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </startTime>
+        <end>2016-07-31</end>
+        <endTime>
+          <datetime>2016-07-31T12:05:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </endTime>
+        
+          <originatingRegion>North America</originatingRegion>
+        
+       <sectors><sector>45</sector></sectors>
+        <location>
+          <address>
+            <type>Offsite</type>
+            <city>New York</city>
+          </address>
+        </location>
+        <companies>
+          <company>
+            <companyName>Corning Inc</companyName>
+            <isPublic>true</isPublic>
+            <identifiers>
+              <identifier type="Ticker">GLW</identifier>
+            </identifiers>  
+			
+			 <companyParticipants>
+              <participant>
+                <person>
+                  <firstName>Sergei</firstName>
+                  <lastName>Brin</lastName> 
+                  
+                  <email>CompanyPersonemail@email.com</email>
+                  <phone>322223</phone>
+                  <title>some title</title>
+                </person>
+                <roles>
+                  <role>HeadOfBusiness</role>
+                </roles>
+                <status>Confirmed</status>
+              </participant>
+            </companyParticipants>
+          </company>
+        </companies>
+  
+        <investorParticipants>
+          <participant>
+            <person>
+              <firstName>Ken</firstName>
+              <lastName>Chang</lastName>
+              <email>investor@email.com</email>
+              
+              <title />
+            </person>
+            <roles>
+              <role>PortfolioManager</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </investorParticipants>
+		<thirdPartyParticipants>
+          <participant>
+            <person>
+              <firstName>Ken1</firstName>
+              <lastName>Chang1</lastName>
+              
+              <title>experttitle</title>
+              
+              <title />
+            </person>
+            <roles>
+              <role>IndustryExpert</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </thirdPartyParticipants>
+      </interaction>
+	    <interaction>
+        <parentID>000088117</parentID>
+		<interactionID>000088117</interactionID>
+        <interactionType>BusTour</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionTitle>22_MISSING BROCKER (BusTour)</interactionTitle>
+        <start>2016-07-28</start>
+        <startTime>
+          <datetime>2016-07-28T12:00:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </startTime>
+        <end>2016-07-31</end>
+        <endTime>
+          <datetime>2016-07-31T12:05:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </endTime>
+        
+          <originatingRegion>North America</originatingRegion>
+        
+       <sectors><sector>45</sector></sectors>
+        <location>
+          <address>
+            <type>Offsite</type>
+            <city>New York</city>
+          </address>
+        </location>
+        <companies>
+          <company>
+            <companyName>Corning Inc</companyName>
+            <isPublic>true</isPublic>
+            <identifiers>
+              <identifier type="Ticker">GLW</identifier>
+            </identifiers>
+			 <companyParticipants>
+              <participant>
+                <person>
+                  <firstName>Sergei</firstName>
+                  <lastName>Brin</lastName> 
+                  
+                  <email>CompanyPersonemail@email.com</email>
+                  <phone>322223</phone>
+                  <title>some title</title>
+                </person>
+                <roles>
+                  <role>HeadOfBusiness</role>
+                </roles>
+                <status>Confirmed</status>
+              </participant>
+            </companyParticipants>
+          </company>
+        </companies>
+
+        <investorParticipants>
+          <participant>
+            <person>
+              <firstName>Ken</firstName>
+              <lastName>Chang</lastName>
+              <email>investor@email.com</email>
+              
+              <title />
+            </person>
+            <roles>
+              <role>PortfolioManager</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </investorParticipants>
+		<thirdPartyParticipants>
+          <participant>
+            <person>
+              <firstName>Ken1</firstName>
+              <lastName>Chang1</lastName>
+              
+              <title>experttitle</title>
+              
+              <title />
+            </person>
+            <roles>
+              <role>IndustryExpert</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </thirdPartyParticipants>
+      </interaction>
+	    <interaction>
+        <parentID>000088116</parentID>
+		<interactionID>000088116</interactionID>
+        <interactionType>BoothTour</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionTitle>22_MISSING BROCKER (BoothTour)</interactionTitle>
+        <start>2016-07-28</start>
+        <startTime>
+          <datetime>2016-07-28T12:00:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </startTime>
+        <end>2016-07-31</end>
+        <endTime>
+          <datetime>2016-07-31T12:05:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </endTime>
+        
+          <originatingRegion>North America</originatingRegion>
+        
+       <sectors><sector>45</sector></sectors>
+        <location>
+          <address>
+            <type>Offsite</type>
+            <city>New York</city>
+          </address>
+        </location>
+        <companies>
+          <company>
+            <companyName>Corning Inc</companyName>
+            <isPublic>true</isPublic>
+            <identifiers>
+              <identifier type="Ticker">GLW</identifier>
+            </identifiers>
+			<companyParticipants>
+              <participant>
+                <person>
+                  <firstName>Sergei</firstName>
+                  <lastName>Brin</lastName> 
+                  
+                  <email>CompanyPersonemail@email.com</email>
+                  <phone>322223</phone>
+                  <title>some title</title>
+                </person>
+                <roles>
+                  <role>HeadOfBusiness</role>
+                </roles>
+                <status>Confirmed</status>
+              </participant>
+			  </companyParticipants>
+          </company>
+        </companies>
+
+        <investorParticipants>
+          <participant>
+            <person>
+              <firstName>Ken</firstName>
+              <lastName>Chang</lastName>
+              <email>investor@email.com</email>
+              
+              <title />
+            </person>
+            <roles>
+              <role>PortfolioManager</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </investorParticipants>
+		<thirdPartyParticipants>
+          <participant>
+            <person>
+              <firstName>Ken1</firstName>
+              <lastName>Chang1</lastName>
+              
+              <title>experttitle</title>
+              
+              <title />
+            </person>
+            <roles>
+              <role>IndustryExpert</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </thirdPartyParticipants>
+      </interaction>
+	    <interaction>
+        <parentID>000088115</parentID>
+		<interactionID>000088115</interactionID>
+        <interactionType>IndustryExpert</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionTitle>22_MISSING BROCKER (IndustryExpert)</interactionTitle>
+        <start>2016-07-28</start>
+        <startTime>
+          <datetime>2016-07-28T12:00:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </startTime>
+        <end>2016-07-31</end>
+        <endTime>
+          <datetime>2016-07-31T12:05:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </endTime>
+        
+          <originatingRegion>North America</originatingRegion>
+        
+       <sectors><sector>45</sector></sectors>
+        <location>
+          <address>
+            <type>Offsite</type>
+            <city>New York</city>
+          </address>
+        </location>
+        <companies>
+          <company>
+            <companyName>Corning Inc</companyName>
+            <isPublic>true</isPublic>
+            <identifiers>
+              <identifier type="Ticker">GLW</identifier>
+            </identifiers>
+			<companyParticipants>
+              <participant>
+                <person>
+                  <firstName>Sergei</firstName>
+                  <lastName>Brin</lastName> 
+                  
+                  <email>CompanyPersonemail@email.com</email>
+                  <phone>322223</phone>
+                  <title>some title</title>
+                </person>
+                <roles>
+                  <role>HeadOfBusiness</role>
+                </roles>
+                <status>Confirmed</status>
+              </participant>
+			  </companyParticipants>
+          </company>
+        </companies>
+
+        <investorParticipants>
+          <participant>
+            <person>
+              <firstName>Ken</firstName>
+              <lastName>Chang</lastName>
+              <email>investor@email.com</email>
+              
+              <title />
+            </person>
+            <roles>
+              <role>PortfolioManager</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </investorParticipants>
+		<thirdPartyParticipants>
+          <participant>
+            <person>
+              <firstName>Ken1</firstName>
+              <lastName>Chang1</lastName>
+              
+              <title>experttitle</title>
+              
+              <title />
+            </person>
+            <roles>
+              <role>IndustryExpert</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </thirdPartyParticipants>
+      </interaction>
+	    <interaction>
+        <parentID>000088114</parentID>
+		<interactionID>000088114</interactionID>
+        <interactionType>GovernmentExpert</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionTitle>22_MISSING BROCKER (GovernmentExpert)</interactionTitle>
+        <start>2016-07-28</start>
+        <startTime>
+          <datetime>2016-07-28T12:00:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </startTime>
+        <end>2016-07-31</end>
+        <endTime>
+          <datetime>2016-07-31T12:05:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </endTime>
+        
+          <originatingRegion>North America</originatingRegion>
+        
+       <sectors><sector>45</sector></sectors>
+        <location>
+          <address>
+            <type>Offsite</type>
+            <city>New York</city>
+          </address>
+        </location>
+        <companies>
+          <company>
+            <companyName>Corning Inc</companyName>
+            <isPublic>true</isPublic>
+            <identifiers>
+              <identifier type="Ticker">GLW</identifier>
+            </identifiers>
+			<companyParticipants>
+              <participant>
+                <person>
+                  <firstName>Sergei</firstName>
+                  <lastName>Brin</lastName> 
+                  
+                  <email>CompanyPersonemail@email.com</email>
+                  <phone>322223</phone>
+                  <title>some title</title>
+                </person>
+                <roles>
+                  <role>HeadOfBusiness</role>
+                </roles>
+                <status>Confirmed</status>
+              </participant>
+			  </companyParticipants>
+          </company>
+        </companies>
+
+        <investorParticipants>
+          <participant>
+            <person>
+              <firstName>Ken</firstName>
+              <lastName>Chang</lastName>
+              <email>investor@email.com</email>
+              
+              <title />
+            </person>
+            <roles>
+              <role>PortfolioManager</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </investorParticipants>
+		<thirdPartyParticipants>
+          <participant>
+            <person>
+              <firstName>Ken1</firstName>
+              <lastName>Chang1</lastName>
+              
+              <title>experttitle</title>
+              
+              <title />
+            </person>
+            <roles>
+              <role>IndustryExpert</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </thirdPartyParticipants>
+      </interaction>
+	    <interaction>
+        <parentID>000088113</parentID>
+		<interactionID>000088113</interactionID>
+        <interactionType>KeyOpinionLeader</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionTitle>22_MISSING BROCKER (KeyOpinionLeader)</interactionTitle>
+        <start>2016-07-28</start>
+        <startTime>
+          <datetime>2016-07-28T12:00:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </startTime>
+        <end>2016-07-31</end>
+        <endTime>
+          <datetime>2016-07-31T12:05:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </endTime>
+        
+          <originatingRegion>North America</originatingRegion>
+        
+       <sectors><sector>45</sector></sectors>
+        <location>
+          <address>
+            <type>Offsite</type>
+            <city>New York</city>
+          </address>
+        </location>
+        <companies>
+          <company>
+            <companyName>Corning Inc</companyName>
+            <isPublic>true</isPublic>
+            <identifiers>
+              <identifier type="Ticker">GLW</identifier>
+            </identifiers>
+			<companyParticipants>
+              <participant>
+                <person>
+                  <firstName>Sergei</firstName>
+                  <lastName>Brin</lastName> 
+                  
+                  <email>CompanyPersonemail@email.com</email>
+                  <phone>322223</phone>
+                  <title>some title</title>
+                </person>
+                <roles>
+                  <role>HeadOfBusiness</role>
+                </roles>
+                <status>Confirmed</status>
+              </participant>
+			  </companyParticipants>
+          </company>
+        </companies>
+
+        <investorParticipants>
+          <participant>
+            <person>
+              <firstName>Ken</firstName>
+              <lastName>Chang</lastName>
+              <email>investor@email.com</email>
+              
+              <title />
+            </person>
+            <roles>
+              <role>PortfolioManager</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </investorParticipants>
+		<thirdPartyParticipants>
+          <participant>
+            <person>
+              <firstName>Ken1</firstName>
+              <lastName>Chang1</lastName>
+              
+              <title>experttitle</title>
+              
+              <title />
+            </person>
+            <roles>
+              <role>IndustryExpert</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </thirdPartyParticipants>
+      </interaction>
+	    <interaction>
+        <parentID>000088112</parentID>
+		<interactionID>000088112</interactionID>
+        <interactionType>MacroStrategist</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionTitle>22_MISSING BROCKER (MacroStrategist)</interactionTitle>
+        <start>2016-07-28</start>
+        <startTime>
+          <datetime>2016-07-28T12:00:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </startTime>
+        <end>2016-07-31</end>
+        <endTime>
+          <datetime>2016-07-31T12:05:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </endTime>
+        
+          <originatingRegion>North America</originatingRegion>
+        
+       <sectors><sector>45</sector></sectors>
+        <location>
+          <address>
+            <type>Offsite</type>
+            <city>New York</city>
+          </address>
+        </location>
+        <companies>
+          <company>
+            <companyName>Corning Inc</companyName>
+            <isPublic>true</isPublic>
+            <identifiers>
+              <identifier type="Ticker">GLW</identifier>
+            </identifiers>
+			<companyParticipants>
+              <participant>
+                <person>
+                  <firstName>Sergei</firstName>
+                  <lastName>Brin</lastName> 
+                  
+                  <email>CompanyPersonemail@email.com</email>
+                  <phone>322223</phone>
+                  <title>some title</title>
+                </person>
+                <roles>
+                  <role>HeadOfBusiness</role>
+                </roles>
+                <status>Confirmed</status>
+              </participant>
+			  </companyParticipants>
+          </company>
+        </companies>
+
+        <investorParticipants>
+          <participant>
+            <person>
+              <firstName>Ken</firstName>
+              <lastName>Chang</lastName>
+              <email>investor@email.com</email>
+              
+              <title />
+            </person>
+            <roles>
+              <role>PortfolioManager</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </investorParticipants>
+		<thirdPartyParticipants>
+          <participant>
+            <person>
+              <firstName>Ken1</firstName>
+              <lastName>Chang1</lastName>
+              
+              <title>experttitle</title>
+              
+              <title />
+            </person>
+            <roles>
+              <role>IndustryExpert</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </thirdPartyParticipants>
+      </interaction>
+	    <interaction>
+        <parentID>000088111</parentID>
+		<interactionID>000088111</interactionID>
+        <interactionType>BankerEvent</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionTitle>22_MISSING BROCKER (BankerEvent)</interactionTitle>
+        <start>2016-07-28</start>
+        <startTime>
+          <datetime>2016-07-28T12:00:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </startTime>
+        <end>2016-07-31</end>
+        <endTime>
+          <datetime>2016-07-31T12:05:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </endTime>
+        
+          <originatingRegion>North America</originatingRegion>
+        
+       <sectors><sector>45</sector></sectors>
+        <location>
+          <address>
+            <type>Offsite</type>
+            <city>New York</city>
+          </address>
+        </location>
+        <companies>
+          <company>
+            <companyName>Corning Inc</companyName>
+            <isPublic>true</isPublic>
+            <identifiers>
+              <identifier type="Ticker">GLW</identifier>
+            </identifiers>
+			<companyParticipants>
+              <participant>
+                <person>
+                  <firstName>Sergei</firstName>
+                  <lastName>Brin</lastName> 
+                  
+                  <email>CompanyPersonemail@email.com</email>
+                  <phone>322223</phone>
+                  <title>some title</title>
+                </person>
+                <roles>
+                  <role>HeadOfBusiness</role>
+                </roles>
+                <status>Confirmed</status>
+              </participant>
+			  </companyParticipants>
+          </company>
+        </companies>
+
+        <investorParticipants>
+          <participant>
+            <person>
+              <firstName>Ken</firstName>
+              <lastName>Chang</lastName>
+              <email>investor@email.com</email>
+              
+              <title />
+            </person>
+            <roles>
+              <role>PortfolioManager</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </investorParticipants>
+		<thirdPartyParticipants>
+          <participant>
+            <person>
+              <firstName>Ken1</firstName>
+              <lastName>Chang1</lastName>
+              
+              <title>experttitle</title>
+              
+              <title />
+            </person>
+            <roles>
+              <role>IndustryExpert</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </thirdPartyParticipants>
+      </interaction>
+	    <interaction>
+        <parentID>0000881100</parentID>
+		<interactionID>0000881100</interactionID>
+        <interactionType>Idea</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionTitle>22_MISSING BROCKER (Other)</interactionTitle>
+        <start>2016-07-28</start>
+        <startTime>
+          <datetime>2016-07-28T12:00:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </startTime>
+        <end>2016-07-31</end>
+        <endTime>
+          <datetime>2016-07-31T12:05:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </endTime>
+        
+          <originatingRegion>North America</originatingRegion>
+        
+       <sectors><sector>45</sector></sectors>
+        <location>
+          <address>
+            <type>Offsite</type>
+            <city>New York</city>
+          </address>
+        </location>
+        <companies>
+          <company>
+            <companyName>Corning Inc</companyName>
+            <isPublic>true</isPublic>
+            <identifiers>
+              <identifier type="Ticker">GLW</identifier>
+            </identifiers>
+			<companyParticipants>
+              <participant>
+                <person>
+                  <firstName>Sergei</firstName>
+                  <lastName>Brin</lastName> 
+                  
+                  <email>CompanyPersonemail@email.com</email>
+                  <phone>322223</phone>
+                  <title>some title</title>
+                </person>
+                <roles>
+                  <role>HeadOfBusiness</role>
+                </roles>
+                <status>Confirmed</status>
+              </participant>
+			  </companyParticipants>
+          </company>
+        </companies>
+ 
+        <investorParticipants>
+          <participant>
+            <person>
+              <firstName>Ken</firstName>
+              <lastName>Chang</lastName>
+              <email>investor@email.com</email>
+              
+              <title />
+            </person>
+            <roles>
+              <role>PortfolioManager</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </investorParticipants>
+		<thirdPartyParticipants>
+          <participant>
+            <person>
+              <firstName>Ken1</firstName>
+              <lastName>Chang1</lastName>
+              
+              <title>experttitle</title>
+              
+              <title />
+            </person>
+            <roles>
+              <role>IndustryExpert</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </thirdPartyParticipants>
+      </interaction>
+	  <interaction>
+        <parentID>000088110</parentID>
+		<interactionID>000088110</interactionID>
+        <interactionType>Other</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionTitle>22_MISSING BROCKER (Other)</interactionTitle>
+        <start>2016-07-28</start>
+        <startTime>
+          <datetime>2016-07-28T12:00:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </startTime>
+        <end>2016-07-31</end>
+        <endTime>
+          <datetime>2016-07-31T12:05:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </endTime>
+        
+          <originatingRegion>North America</originatingRegion>
+        
+       <sectors><sector>45</sector></sectors>
+        <location>
+          <address>
+            <type>Offsite</type>
+            <city>New York</city>
+          </address>
+        </location>
+        <companies>
+          <company>
+            <companyName>Corning Inc</companyName>
+            <isPublic>true</isPublic>
+            <identifiers>
+              <identifier type="Ticker">GLW</identifier>
+            </identifiers>
+			<companyParticipants>
+              <participant>
+                <person>
+                  <firstName>Sergei</firstName>
+                  <lastName>Brin</lastName> 
+                  
+                  <email>CompanyPersonemail@email.com</email>
+                  <phone>322223</phone>
+                  <title>some title</title>
+                </person>
+                <roles>
+                  <role>HeadOfBusiness</role>
+                </roles>
+                <status>Confirmed</status>
+              </participant>
+			  </companyParticipants>
+          </company>
+        </companies>
+
+        <investorParticipants>
+          <participant>
+            <person>
+              <firstName>Ken</firstName>
+              <lastName>Chang</lastName>
+              <email>investor@email.com</email>
+              
+              <title />
+            </person>
+            <roles>
+              <role>PortfolioManager</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </investorParticipants>
+		<thirdPartyParticipants>
+          <participant>
+            <person>
+              <firstName>Ken1</firstName>
+              <lastName>Chang1</lastName>
+              
+              <title>experttitle</title>
+              
+              <title />
+            </person>
+            <roles>
+              <role>IndustryExpert</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </thirdPartyParticipants>
+      </interaction>
+	    <interaction>
+        <parentID>00008819</parentID>
+		<interactionID>00008819</interactionID>
+        <interactionType>ClientEducation</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionTitle>22_MISSING BROCKER (ClientEducation)</interactionTitle>
+        <start>2016-07-28</start>
+        <startTime>
+          <datetime>2016-07-28T12:00:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </startTime>
+        <end>2016-07-31</end>
+        <endTime>
+          <datetime>2016-07-31T12:05:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </endTime>
+        
+          <originatingRegion>North America</originatingRegion>
+        
+       <sectors><sector>45</sector></sectors>
+        <location>
+          <address>
+            <type>Offsite</type>
+            <city>New York</city>
+          </address>
+        </location>
+        <companies>
+          <company>
+            <companyName>Corning Inc</companyName>
+            <isPublic>true</isPublic>
+            <identifiers>
+              <identifier type="Ticker">GLW</identifier>
+            </identifiers>
+			<companyParticipants>
+              <participant>
+                <person>
+                  <firstName>Sergei</firstName>
+                  <lastName>Brin</lastName> 
+                  
+                  <email>CompanyPersonemail@email.com</email>
+                  <phone>322223</phone>
+                  <title>some title</title>
+                </person>
+                <roles>
+                  <role>HeadOfBusiness</role>
+                </roles>
+                <status>Confirmed</status>
+              </participant>
+			  </companyParticipants>
+          </company>
+        </companies>
+ 
+        <investorParticipants>
+          <participant>
+            <person>
+              <firstName>Ken</firstName>
+              <lastName>Chang</lastName>
+              <email>investor@email.com</email>
+              
+              <title />
+            </person>
+            <roles>
+              <role>PortfolioManager</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </investorParticipants>
+		<thirdPartyParticipants>
+          <participant>
+            <person>
+              <firstName>Ken1</firstName>
+              <lastName>Chang1</lastName>
+              
+              <title>experttitle</title>
+              
+              <title />
+            </person>
+            <roles>
+              <role>IndustryExpert</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </thirdPartyParticipants>
+      </interaction>
+	    <interaction>
+        <parentID>00008818</parentID>
+		<interactionID>00008818</interactionID>
+        <interactionType>RelationshipMeeting</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionTitle>22_MISSING BROCKER (RelationshipMeeting)</interactionTitle>
+        <start>2016-07-28</start>
+        <startTime>
+          <datetime>2016-07-28T12:00:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </startTime>
+        <end>2016-07-31</end>
+        <endTime>
+          <datetime>2016-07-31T12:05:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </endTime>
+        
+          <originatingRegion>North America</originatingRegion>
+        
+       <sectors><sector>45</sector></sectors>
+        <location>
+          <address>
+            <type>Offsite</type>
+            <city>New York</city>
+          </address>
+        </location>
+        <companies>
+          <company>
+            <companyName>Corning Inc</companyName>
+            <isPublic>true</isPublic>
+            <identifiers>
+              <identifier type="Ticker">GLW</identifier>
+            </identifiers>
+			<companyParticipants>
+              <participant>
+                <person>
+                  <firstName>Sergei</firstName>
+                  <lastName>Brin</lastName> 
+                  
+                  <email>CompanyPersonemail@email.com</email>
+                  <phone>322223</phone>
+                  <title>some title</title>
+                </person>
+                <roles>
+                  <role>HeadOfBusiness</role>
+                </roles>
+                <status>Confirmed</status>
+              </participant>
+			  </companyParticipants>
+          </company>
+        </companies>
+
+        <investorParticipants>
+          <participant>
+            <person>
+              <firstName>Ken</firstName>
+              <lastName>Chang</lastName>
+              <email>investor@email.com</email>
+              
+              <title />
+            </person>
+            <roles>
+              <role>PortfolioManager</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </investorParticipants>
+		<thirdPartyParticipants>
+          <participant>
+            <person>
+              <firstName>Ken1</firstName>
+              <lastName>Chang1</lastName>
+              
+              <title>experttitle</title>
+              
+              <title />
+            </person>
+            <roles>
+              <role>IndustryExpert</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </thirdPartyParticipants>
+      </interaction>
+	    <interaction>
+        <parentID>00008817</parentID>
+		<interactionID>00008817</interactionID>
+        <interactionType>Internal</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionTitle>22_MISSING BROCKER (Internal)</interactionTitle>
+        <start>2016-07-28</start>
+        <startTime>
+          <datetime>2016-07-28T12:00:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </startTime>
+        <end>2016-07-31</end>
+        <endTime>
+          <datetime>2016-07-31T12:05:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </endTime>
+        
+          <originatingRegion>North America</originatingRegion>
+        
+       <sectors><sector>45</sector></sectors>
+        <location>
+          <address>
+            <type>Offsite</type>
+            <city>New York</city>
+          </address>
+        </location>
+        <companies>
+          <company>
+            <companyName>Corning Inc</companyName>
+            <isPublic>true</isPublic>
+            <identifiers>
+              <identifier type="Ticker">GLW</identifier>
+            </identifiers>
+			<companyParticipants>
+              <participant>
+                <person>
+                  <firstName>Sergei</firstName>
+                  <lastName>Brin</lastName> 
+                  
+                  <email>CompanyPersonemail@email.com</email>
+                  <phone>322223</phone>
+                  <title>some title</title>
+                </person>
+                <roles>
+                  <role>HeadOfBusiness</role>
+                </roles>
+                <status>Confirmed</status>
+              </participant>
+			  </companyParticipants>
+          </company>
+        </companies>
+
+        <investorParticipants>
+          <participant>
+            <person>
+              <firstName>Ken</firstName>
+              <lastName>Chang</lastName>
+              <email>investor@email.com</email>
+              
+              <title />
+            </person>
+            <roles>
+              <role>PortfolioManager</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </investorParticipants>
+		<thirdPartyParticipants>
+          <participant>
+            <person>
+              <firstName>Ken1</firstName>
+              <lastName>Chang1</lastName>
+              
+              <title>experttitle</title>
+              
+              <title />
+            </person>
+            <roles>
+              <role>IndustryExpert</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </thirdPartyParticipants>
+      </interaction>
+	    <interaction>
+        <parentID>00008816</parentID>
+		<interactionID>00008816</interactionID>
+        <interactionType>Social</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionTitle>22_MISSING BROCKER (Social)</interactionTitle>
+        <start>2016-07-28</start>
+        <startTime>
+          <datetime>2016-07-28T12:00:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </startTime>
+        <end>2016-07-31</end>
+        <endTime>
+          <datetime>2016-07-31T12:05:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </endTime>
+        
+          <originatingRegion>North America</originatingRegion>
+        
+       <sectors><sector>45</sector></sectors>
+        <location>
+          <address>
+            <type>Offsite</type>
+            <city>New York</city>
+          </address>
+        </location>
+        <companies>
+          <company>
+            <companyName>Corning Inc</companyName>
+            <isPublic>true</isPublic>
+            <identifiers>
+              <identifier type="Ticker">GLW</identifier>
+            </identifiers>
+			<companyParticipants>
+              <participant>
+                <person>
+                  <firstName>Sergei</firstName>
+                  <lastName>Brin</lastName> 
+                  
+                  <email>CompanyPersonemail@email.com</email>
+                  <phone>322223</phone>
+                  <title>some title</title>
+                </person>
+                <roles>
+                  <role>HeadOfBusiness</role>
+                </roles>
+                <status>Confirmed</status>
+              </participant>
+			  </companyParticipants>
+          </company>
+        </companies>
+
+        <investorParticipants>
+          <participant>
+            <person>
+              <firstName>Ken</firstName>
+              <lastName>Chang</lastName>
+              <email>investor@email.com</email>
+              
+              <title />
+            </person>
+            <roles>
+              <role>PortfolioManager</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </investorParticipants>
+		<thirdPartyParticipants>
+          <participant>
+            <person>
+              <firstName>Ken1</firstName>
+              <lastName>Chang1</lastName>
+              
+              <title>experttitle</title>
+              
+              <title />
+            </person>
+            <roles>
+              <role>IndustryExpert</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </thirdPartyParticipants>
+      </interaction>
+	    <interaction>
+        <parentID>00008815</parentID>
+		<interactionID>00008815</interactionID>
+        <interactionType>ModelRequest</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionTitle>22_MISSING BROCKER (ModelRequest)</interactionTitle>
+        <start>2016-07-28</start>
+        <startTime>
+          <datetime>2016-07-28T12:00:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </startTime>
+        <end>2016-07-31</end>
+        <endTime>
+          <datetime>2016-07-31T12:05:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </endTime>
+        
+          <originatingRegion>North America</originatingRegion>
+        
+       <sectors><sector>45</sector></sectors>
+        <location>
+          <address>
+            <type>Offsite</type>
+            <city>New York</city>
+          </address>
+        </location>
+        <companies>
+          <company>
+            <companyName>Corning Inc</companyName>
+            <isPublic>true</isPublic>
+            <identifiers>
+              <identifier type="Ticker">GLW</identifier>
+            </identifiers>
+			<companyParticipants>
+              <participant>
+                <person>
+                  <firstName>Sergei</firstName>
+                  <lastName>Brin</lastName> 
+                  
+                  <email>CompanyPersonemail@email.com</email>
+                  <phone>322223</phone>
+                  <title>some title</title>
+                </person>
+                <roles>
+                  <role>HeadOfBusiness</role>
+                </roles>
+                <status>Confirmed</status>
+              </participant>
+			  </companyParticipants>
+          </company>
+        </companies>
+ 
+        <investorParticipants>
+          <participant>
+            <person>
+              <firstName>Ken</firstName>
+              <lastName>Chang</lastName>
+              <email>investor@email.com</email>
+              
+              <title />
+            </person>
+            <roles>
+              <role>PortfolioManager</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </investorParticipants>
+		<thirdPartyParticipants>
+          <participant>
+            <person>
+              <firstName>Ken1</firstName>
+              <lastName>Chang1</lastName>
+              
+              <title>experttitle</title>
+              
+              <title />
+            </person>
+            <roles>
+              <role>IndustryExpert</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </thirdPartyParticipants>
+      </interaction>
+	    <interaction>
+        <parentID>00008814</parentID>
+		<interactionID>00008815</interactionID>
+        <interactionType>CustomWork</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionTitle>22_MISSING BROCKER (CustomWork)</interactionTitle>
+        <start>2016-07-28</start>
+        <startTime>
+          <datetime>2016-07-28T12:00:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </startTime>
+        <end>2016-07-31</end>
+        <endTime>
+          <datetime>2016-07-31T12:05:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </endTime>
+        
+          <originatingRegion>North America</originatingRegion>
+        
+       <sectors><sector>45</sector></sectors>
+        <location>
+          <address>
+            <type>Offsite</type>
+            <city>New York</city>
+          </address>
+        </location>
+        <companies>
+          <company>
+            <companyName>Corning Inc</companyName>
+            <isPublic>true</isPublic>
+            <identifiers>
+              <identifier type="Ticker">GLW</identifier>
+            </identifiers>
+			<companyParticipants>
+              <participant>
+                <person>
+                  <firstName>Sergei</firstName>
+                  <lastName>Brin</lastName> 
+                  
+                  <email>CompanyPersonemail@email.com</email>
+                  <phone>322223</phone>
+                  <title>some title</title>
+                </person>
+                <roles>
+                  <role>HeadOfBusiness</role>
+                </roles>
+                <status>Confirmed</status>
+              </participant>
+			  </companyParticipants>
+          </company>
+        </companies>
+
+        <investorParticipants>
+          <participant>
+            <person>
+              <firstName>Ken</firstName>
+              <lastName>Chang</lastName>
+              <email>investor@email.com</email>
+              
+              <title />
+            </person>
+            <roles>
+              <role>PortfolioManager</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </investorParticipants>
+		<thirdPartyParticipants>
+          <participant>
+            <person>
+              <firstName>Ken1</firstName>
+              <lastName>Chang1</lastName>
+              
+              <title>experttitle</title>
+              
+              <title />
+            </person>
+            <roles>
+              <role>IndustryExpert</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </thirdPartyParticipants>
+      </interaction>
+	    <interaction>
+        <parentID>00008813</parentID>
+		<interactionID>00008813</interactionID>
+        <interactionType>BespokeAccess</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionTitle>22_MISSING BROCKER (BespokeAccess)</interactionTitle>
+        <start>2016-07-28</start>
+        <startTime>
+          <datetime>2016-07-28T12:00:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </startTime>
+        <end>2016-07-31</end>
+        <endTime>
+          <datetime>2016-07-31T12:05:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </endTime>
+        
+          <originatingRegion>North America</originatingRegion>
+        
+       <sectors><sector>45</sector></sectors>
+        <location>
+          <address>
+            <type>Offsite</type>
+            <city>New York</city>
+          </address>
+        </location>
+        <companies>
+          <company>
+            <companyName>Corning Inc</companyName>
+            <isPublic>true</isPublic>
+            <identifiers>
+              <identifier type="Ticker">GLW</identifier>
+            </identifiers>
+			<companyParticipants>
+              <participant>
+                <person>
+                  <firstName>Sergei</firstName>
+                  <lastName>Brin</lastName> 
+                  
+                  <email>CompanyPersonemail@email.com</email>
+                  <phone>322223</phone>
+                  <title>some title</title>
+                </person>
+                <roles>
+                  <role>HeadOfBusiness</role>
+                </roles>
+                <status>Confirmed</status>
+              </participant>
+			  </companyParticipants>
+          </company>
+        </companies>
+    
+        <investorParticipants>
+          <participant>
+            <person>
+              <firstName>Ken</firstName>
+              <lastName>Chang</lastName>
+              <email>investor@email.com</email>
+              
+              <title />
+            </person>
+            <roles>
+              <role>PortfolioManager</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </investorParticipants>
+		<thirdPartyParticipants>
+          <participant>
+            <person>
+              <firstName>Ken1</firstName>
+              <lastName>Chang1</lastName>
+              
+              <title>experttitle</title>
+              
+              <title />
+            </person>
+            <roles>
+              <role>IndustryExpert</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </thirdPartyParticipants>
+      </interaction>
+	    <interaction>
+        <parentID>00008812</parentID>
+		<interactionID>00008812</interactionID>
+        <interactionType>SalesSpecialist</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionTitle>22_MISSING BROCKER (SalesSpecialist)</interactionTitle>
+        <start>2016-07-28</start>
+        <startTime>
+          <datetime>2016-07-28T12:00:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </startTime>
+        <end>2016-07-31</end>
+        <endTime>
+          <datetime>2016-07-31T12:05:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </endTime>
+        
+          <originatingRegion>North America</originatingRegion>
+        
+       <sectors><sector>45</sector></sectors>
+        <location>
+          <address>
+            <type>Offsite</type>
+            <city>New York</city>
+          </address>
+        </location>
+        <companies>
+          <company>
+            <companyName>Corning Inc</companyName>
+            <isPublic>true</isPublic>
+            <identifiers>
+              <identifier type="Ticker">GLW</identifier>
+            </identifiers>
+			<companyParticipants>
+              <participant>
+                <person>
+                  <firstName>Sergei</firstName>
+                  <lastName>Brin</lastName> 
+                  
+                  <email>CompanyPersonemail@email.com</email>
+                  <phone>322223</phone>
+                  <title>some title</title>
+                </person>
+                <roles>
+                  <role>HeadOfBusiness</role>
+                </roles>
+                <status>Confirmed</status>
+              </participant>
+			  </companyParticipants>
+          </company>
+        </companies>
+
+        <investorParticipants>
+          <participant>
+            <person>
+              <firstName>Ken</firstName>
+              <lastName>Chang</lastName>
+              <email>investor@email.com</email>
+              
+              <title />
+            </person>
+            <roles>
+              <role>PortfolioManager</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </investorParticipants>
+		<thirdPartyParticipants>
+          <participant>
+            <person>
+              <firstName>Ken1</firstName>
+              <lastName>Chang1</lastName>
+              
+              <title>experttitle</title>
+              
+              <title />
+            </person>
+            <roles>
+              <role>IndustryExpert</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </thirdPartyParticipants>
+      </interaction>
+	    <interaction>
+        <parentID>0000881131</parentID>
+		<interactionID>0000881131</interactionID>
+        <interactionType>Sales</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionTitle>22_MISSING BROCKER (Sales)</interactionTitle>
+        <start>2016-07-28</start>
+        <startTime>
+          <datetime>2016-07-28T12:00:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </startTime>
+        <end>2016-07-31</end>
+        <endTime>
+          <datetime>2016-07-31T12:05:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </endTime>
+        
+          <originatingRegion>North America</originatingRegion>
+        
+       <sectors><sector>45</sector></sectors>
+        <location>
+          <address>
+            <type>Offsite</type>
+            <city>New York</city>
+          </address>
+        </location>
+        <companies>
+          <company>
+            <companyName>Corning Inc</companyName>
+            <isPublic>true</isPublic>
+            <identifiers>
+              <identifier type="Ticker">GLW</identifier>
+            </identifiers>
+			<companyParticipants>
+              <participant>
+                <person>
+                  <firstName>Sergei</firstName>
+                  <lastName>Brin</lastName> 
+                  
+                  <email>CompanyPersonemail@email.com</email>
+                  <phone>322223</phone>
+                  <title>some title</title>
+                </person>
+                <roles>
+                  <role>HeadOfBusiness</role>
+                </roles>
+                <status>Confirmed</status>
+              </participant>
+			  </companyParticipants>
+          </company>
+        </companies>
+   
+        <investorParticipants>
+          <participant>
+            <person>
+              <firstName>Ken</firstName>
+              <lastName>Chang</lastName>
+              <email>investor@email.com</email>
+              
+              <title />
+            </person>
+            <roles>
+              <role>PortfolioManager</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </investorParticipants>
+		<thirdPartyParticipants>
+          <participant>
+            <person>
+              <firstName>Ken1</firstName>
+              <lastName>Chang1</lastName>
+              
+              <title>experttitle</title>
+              
+              <title />
+            </person>
+            <roles>
+              <role>IndustryExpert</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </thirdPartyParticipants>
+      </interaction>
+	  </investor>
+  </interactions>
+</clientinteraction>

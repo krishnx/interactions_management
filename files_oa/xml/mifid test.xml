@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clientinteraction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://oneaccess.io/corporateaccess/clientinteraction/2.1.1">
+  <updated>
+    <datetime>2018-01-10T14:28:22.7471059Z</datetime>
+    <timezone>UTC</timezone>
+  </updated>
+  <broker>ONE-18422 Kate</broker>
+  <interactions>
+    <investor>
+      <investorName>ONE-18422</investorName>
+      <interaction>
+        <interactionID>1770704_1</interactionID>
+        <oneaccessInteractionID>1770704_1</oneaccessInteractionID>
+        <interactionType>ResearchReadership</interactionType>
+        <interactionSubType>DailyDistribution</interactionSubType>
+        <interactionStatus>New</interactionStatus>
+        <source>Broker</source>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <regions />
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <createdBy>
+          <participant>
+            <person>
+              <firstName>admin</firstName>
+              <lastName>admin</lastName>
+              <email>admin@admin.com</email>
+            </person>
+          </participant>
+        </createdBy>
+        <ratesValues>
+          <rateValue>
+            <rate>0</rate>
+            <rateType>Dollars</rateType>
+            <value>0</value>
+          </rateValue>
+        </ratesValues>
+        <assetClasses />
+		<mifid>
+        <affected>Yes</affected>
+        </mifid>
+        <comments />
+      </interaction>
+    
+	<interaction>
+        <interactionID>1770704_2</interactionID>
+        <oneaccessInteractionID>1770704_2</oneaccessInteractionID>
+        <interactionType>ResearchReadership</interactionType>
+        <interactionSubType>DailyDistribution</interactionSubType>
+        <interactionStatus>New</interactionStatus>
+        <source>Broker</source>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <regions />
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <createdBy>
+          <participant>
+            <person>
+              <firstName>admin</firstName>
+              <lastName>admin</lastName>
+              <email>admin@admin.com</email>
+            </person>
+          </participant>
+        </createdBy>
+        <ratesValues>
+          <rateValue>
+            <rate>0</rate>
+            <rateType>Dollars</rateType>
+            <value>0</value>
+          </rateValue>
+        </ratesValues>
+        <assetClasses />
+		<mifid>
+        <affected>No</affected>
+        </mifid>
+        <comments />
+      </interaction>
+
+    <interaction>
+        <interactionID>1770704_3</interactionID>
+        <oneaccessInteractionID>1770704_3</oneaccessInteractionID>
+        <interactionType>ResearchReadership</interactionType>
+        <interactionSubType>DailyDistribution</interactionSubType>
+        <interactionStatus>New</interactionStatus>
+        <source>Broker</source>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <regions />
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <createdBy>
+          <participant>
+            <person>
+              <firstName>admin</firstName>
+              <lastName>admin</lastName>
+              <email>admin@admin.com</email>
+            </person>
+          </participant>
+        </createdBy>
+        <ratesValues>
+          <rateValue>
+            <rate>0</rate>
+            <rateType>Dollars</rateType>
+            <value>0</value>
+          </rateValue>
+        </ratesValues>
+        <assetClasses />
+		<mifid>
+        <affected>N/A</affected>
+        </mifid>
+        <comments />
+      </interaction>
+
+   </investor>
+  </interactions>
+</clientinteraction>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clientinteraction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://oneaccess.io/corporateaccess/clientinteraction/2.1.1">
+  <updated>
+    <datetime>2016-05-09T16:43:49.3823692Z</datetime>
+    <timezone>Etc/UTC</timezone>
+  </updated>
+  <broker>HIGH TEST KATE</broker>
+  <interactions>
+    <investor>
+      <investorName>KATE 02_12</investorName>
+      <interaction>
+        <parentID>0000225132</parentID>
+		<interactionID>0000225132</interactionID>
+        <interactionType>AnalystMarketing</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionTitle>MISSING BROKER EMAIL(AnalystMarketing)</interactionTitle>
+        <start>2016-07-28</start>
+        <startTime>
+          <datetime>2016-07-28T12:00:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </startTime>
+        <end>2016-07-31</end>
+        <endTime>
+          <datetime>2016-07-31T12:05:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </endTime> 
+          <originatingRegion>North America</originatingRegion>
+       <sectors>
+	   <sector>45</sector>
+	   </sectors>
+        <location>
+          <address>
+            <type>Offsite</type>
+            <city>New York</city>
+          </address>
+        </location>
+        <companies>
+          <company>
+            <companyName>Corning Inc</companyName>
+            <isPublic>true</isPublic>
+            <identifiers>
+              <identifier type="Ticker">GLW</identifier>
+            </identifiers>
+			<companyParticipants>
+              <participant>
+                <person>
+                  <firstName>Sergei</firstName>
+                  <lastName>Brin</lastName> 
+                  
+                  <email>CompanyPersonemail@email.com</email>
+                  <phone>322223</phone>
+                  <title>some title</title>
+                </person>
+                <roles>
+                  <role>HeadOfBusiness</role>
+                </roles>
+                <status>Confirmed</status>
+              </participant>
+			  </companyParticipants>
+          </company>
+        </companies>
+        <brokerParticipants>
+          <participant>
+            <person>
+              <firstName>George</firstName>
+              <lastName>Notter</lastName>
+              <email />
+              <title>Analyst</title>
+            </person>
+            <roles>
+              <role>SellsideAnalyst</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+          <participant>
+            <person>
+              <firstName>Shanelle</firstName>
+              <lastName>Trinidad</lastName>
+              <email>Broker2@email.com</email>
+              <email></email>
+              <title>Research Sales</title>
+            </person>
+            <roles>
+              <role>CoveringAnalyst</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+		  <participant>
+            <person>
+              <firstName>Shanelle1</firstName>
+              <lastName>Trinidad1</lastName>
+              <email />
+              <title>Research Sales</title>
+            </person>
+            <roles>
+              <role>Other</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+        </brokerParticipants>
+        <investorParticipants>
+          <participant>
+            <person>
+              <firstName>Ken</firstName>
+              <lastName>Chang</lastName>
+              <email>investor@email.com</email>
+              
+              <title />
+            </person>
+            <roles>
+              <role>PortfolioManager</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </investorParticipants>
+		<thirdPartyParticipants>
+          <participant>
+            <person>
+              <firstName>Ken1</firstName>
+              <lastName>Chang1</lastName>
+              
+              <title>experttitle</title>
+              
+              <title />
+            </person>
+            <roles>
+              <role>IndustryExpert</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </thirdPartyParticipants>
+      </interaction>
+	   </investor>
+  </interactions>
+</clientinteraction>

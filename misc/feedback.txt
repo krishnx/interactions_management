@@ -1,0 +1,6 @@
+1. Content Type: help menu change. Interaction/Readership - done
+2. Upload 1/0 : more explanatory done
+3. xls shoud be considered. 
+4. Commments properly. - added
+5. Put example files for future references.
+

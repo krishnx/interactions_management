@@ -1,0 +1,2263 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clientinteraction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://oneaccess.io/corporateaccess/clientinteraction/2.1.1">
+  <updated>
+    <datetime>2017-05-25T08:46:02.2746867Z</datetime>
+    <timezone>UTC</timezone>
+  </updated>
+  <broker>ONE-13531 Kate new OA targets</broker>
+  <interactions>
+    <investor>
+      <investorName>Kate ONEaccess - Balyasny</investorName>
+      <interaction>
+        <interactionID>10259384</interactionID>
+        <interactionType>Sales</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionTitle>Unknown Interaction Subtype</interactionTitle>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <comments />
+      </interaction>
+      <interaction>
+        <interactionID>10259383</interactionID>
+        <interactionType>Sales</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionTitle>Missing Interaction Subtype</interactionTitle>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <sectors>
+          <sector>100</sector>
+        </sectors>
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <comments />
+      </interaction>
+      <interaction>
+        <interactionID>10259382</interactionID>
+        <interactionType>SalesSpecialist</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionTitle>Missing Interaction Subtype</interactionTitle>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <sectors>
+          <sector>100</sector>
+        </sectors>
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <comments />
+      </interaction>
+      <interaction>
+        <interactionID>10259381</interactionID>
+        <interactionType>CustomWork</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionTitle>Missing Interaction Subtype</interactionTitle>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <sectors>
+          <sector>100</sector>
+        </sectors>
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <comments />
+      </interaction>
+      <interaction>
+        <interactionID>10259380</interactionID>
+        <interactionType>ModelRequest</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionTitle>Missing Interaction Subtype</interactionTitle>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <sectors>
+          <sector>100</sector>
+        </sectors>
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <comments />
+      </interaction>
+      <interaction>
+        <interactionID>10259379</interactionID>
+        <interactionType>Internal</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionTitle>Missing Interaction Subtype</interactionTitle>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <sectors>
+          <sector>100</sector>
+        </sectors>
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <comments />
+      </interaction>
+      <interaction>
+        <interactionID>10259378</interactionID>
+        <interactionType>RelationshipMeeting</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionTitle>Missing Interaction Subtype</interactionTitle>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <sectors>
+          <sector>100</sector>
+        </sectors>
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <comments />
+      </interaction>
+      <interaction>
+        <interactionID>10259377</interactionID>
+        <interactionType>ClientEducation</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionTitle>Missing Interaction Subtype</interactionTitle>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <sectors>
+          <sector>100</sector>
+        </sectors>
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <comments />
+      </interaction>
+      <interaction>
+        <interactionID>10259376</interactionID>
+        <interactionType>Other</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionTitle>Missing Interaction Subtype</interactionTitle>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <sectors>
+          <sector>100</sector>
+        </sectors>
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <comments />
+      </interaction>
+      <interaction>
+        <interactionID>10259375</interactionID>
+        <interactionType>Idea</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionTitle>Missing Interaction Subtype</interactionTitle>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <sectors>
+          <sector>100</sector>
+        </sectors>
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <comments />
+      </interaction>
+      <interaction>
+        <interactionID>10259374</interactionID>
+        <interactionType>BankerEvent</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionTitle>Missing Interaction Subtype</interactionTitle>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <sectors>
+          <sector>100</sector>
+        </sectors>
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <comments />
+      </interaction>
+      <interaction>
+        <interactionID>10259373</interactionID>
+        <interactionType>MacroStrategist</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionTitle>Missing Interaction Subtype</interactionTitle>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <sectors>
+          <sector>100</sector>
+        </sectors>
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <comments />
+      </interaction>
+      <interaction>
+        <interactionID>10259372</interactionID>
+        <interactionType>GovernmentExpert</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionTitle>Missing Interaction Subtype</interactionTitle>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <sectors>
+          <sector>100</sector>
+        </sectors>
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <comments />
+      </interaction>
+      <interaction>
+        <interactionID>10259371</interactionID>
+        <interactionType>CorporateBroking</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionTitle>Missing Interaction Subtype</interactionTitle>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <sectors>
+          <sector>100</sector>
+        </sectors>
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <comments />
+      </interaction>
+      <interaction>
+        <interactionID>10259370</interactionID>
+        <interactionType>IndustryEvent</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionTitle>Missing Interaction Subtype</interactionTitle>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <sectors>
+          <sector>100</sector>
+        </sectors>
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <comments />
+      </interaction>
+      <interaction>
+        <interactionID>10259369</interactionID>
+        <interactionType>MultiCompanyEvent</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionTitle>Missing Interaction Subtype</interactionTitle>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <sectors>
+          <sector>100</sector>
+        </sectors>
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <comments />
+      </interaction>
+      <interaction>
+        <interactionID>10259368</interactionID>
+        <interactionType>Show</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionTitle>Missing Interaction Subtype</interactionTitle>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <sectors>
+          <sector>100</sector>
+        </sectors>
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <comments />
+      </interaction>
+      <interaction>
+        <interactionID>10259367</interactionID>
+        <interactionType>AnalystDay</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionTitle>Missing Interaction Subtype</interactionTitle>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <sectors>
+          <sector>100</sector>
+        </sectors>
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <comments />
+      </interaction>
+      <interaction>
+        <interactionID>10259366</interactionID>
+        <interactionType>InvestorRelationsDay</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionTitle>Missing Interaction Subtype</interactionTitle>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <sectors>
+          <sector>100</sector>
+        </sectors>
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <comments />
+      </interaction>
+      <interaction>
+        <interactionID>10259365</interactionID>
+        <interactionType>CorporateAccessDay</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionTitle>Missing Interaction Subtype</interactionTitle>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <sectors>
+          <sector>100</sector>
+        </sectors>
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <comments />
+      </interaction>
+      <interaction>
+        <interactionID>10259364</interactionID>
+        <interactionType>Conference</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionTitle>Missing Interaction Subtype</interactionTitle>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <sectors>
+          <sector>100</sector>
+        </sectors>
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <comments />
+      </interaction>
+      <interaction>
+        <interactionID>10259363</interactionID>
+        <interactionType>AnalystMarketing</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionTitle>Missing Interaction Subtype</interactionTitle>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <sectors>
+          <sector>100</sector>
+        </sectors>
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <comments />
+      </interaction>
+      <interaction>
+        <interactionID>10259362</interactionID>
+        <interactionType>Other</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionTitle>Missing Interaction Type</interactionTitle>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <comments />
+      </interaction>
+      <interaction>
+        <interactionID>1193652</interactionID>
+        <interactionType>Sales</interactionType>
+        <interactionSubType>Email</interactionSubType>
+        <interactionTitle>Missing id</interactionTitle>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <comments />
+      </interaction>
+      <interaction>
+        <interactionID>10259361</interactionID>
+        <interactionType>Sales</interactionType>
+        <interactionSubType>Email</interactionSubType>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <comments />
+      </interaction>
+      <interaction>
+        <interactionID>10259360</interactionID>
+        <interactionType>SalesSpecialist</interactionType>
+        <interactionSubType>Email</interactionSubType>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <comments />
+      </interaction>
+      <interaction>
+        <interactionID>10259359</interactionID>
+        <interactionType>CustomWork</interactionType>
+        <interactionSubType>Email</interactionSubType>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <comments />
+      </interaction>
+      <interaction>
+        <interactionID>10259358</interactionID>
+        <interactionType>ModelRequest</interactionType>
+        <interactionSubType>Email</interactionSubType>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <comments />
+      </interaction>
+      <interaction>
+        <interactionID>10259357</interactionID>
+        <interactionType>Internal</interactionType>
+        <interactionSubType>Email</interactionSubType>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <comments />
+      </interaction>
+      <interaction>
+        <interactionID>10259356</interactionID>
+        <interactionType>RelationshipMeeting</interactionType>
+        <interactionSubType>Email</interactionSubType>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <comments />
+      </interaction>
+      <interaction>
+        <interactionID>10259355</interactionID>
+        <interactionType>ClientEducation</interactionType>
+        <interactionSubType>Email</interactionSubType>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <comments />
+      </interaction>
+      <interaction>
+        <interactionID>10259354</interactionID>
+        <interactionType>Other</interactionType>
+        <interactionSubType>Email</interactionSubType>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <comments />
+      </interaction>
+      <interaction>
+        <interactionID>10259353</interactionID>
+        <interactionType>Idea</interactionType>
+        <interactionSubType>Email</interactionSubType>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <comments />
+      </interaction>
+      <interaction>
+        <interactionID>10259352</interactionID>
+        <interactionType>BankerEvent</interactionType>
+        <interactionSubType>Email</interactionSubType>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <comments />
+      </interaction>
+      <interaction>
+        <interactionID>10259351</interactionID>
+        <interactionType>MacroStrategist</interactionType>
+        <interactionSubType>Email</interactionSubType>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <comments />
+      </interaction>
+      <interaction>
+        <interactionID>10259350</interactionID>
+        <interactionType>GovernmentExpert</interactionType>
+        <interactionSubType>Email</interactionSubType>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <comments />
+      </interaction>
+      <interaction>
+        <interactionID>10259349</interactionID>
+        <interactionType>CorporateBroking</interactionType>
+        <interactionSubType>Other</interactionSubType>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <comments />
+      </interaction>
+      <interaction>
+        <interactionID>10259348</interactionID>
+        <interactionType>IndustryEvent</interactionType>
+        <interactionSubType>Other</interactionSubType>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <comments />
+      </interaction>
+      <interaction>
+        <interactionID>10259347</interactionID>
+        <interactionType>MultiCompanyEvent</interactionType>
+        <interactionSubType>Other</interactionSubType>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <comments />
+      </interaction>
+      <interaction>
+        <interactionID>10259346</interactionID>
+        <interactionType>Show</interactionType>
+        <interactionSubType>Other</interactionSubType>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <comments />
+      </interaction>
+      <interaction>
+        <interactionID>10259345</interactionID>
+        <interactionType>AnalystDay</interactionType>
+        <interactionSubType>Other</interactionSubType>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <comments />
+      </interaction>
+      <interaction>
+        <interactionID>10259344</interactionID>
+        <interactionType>InvestorRelationsDay</interactionType>
+        <interactionSubType>Other</interactionSubType>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <comments />
+      </interaction>
+      <interaction>
+        <interactionID>10259343</interactionID>
+        <interactionType>CorporateAccessDay</interactionType>
+        <interactionSubType>Other</interactionSubType>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <comments />
+      </interaction>
+      <interaction>
+        <interactionID>10259342</interactionID>
+        <interactionType>Conference</interactionType>
+        <interactionSubType>Other</interactionSubType>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <comments />
+      </interaction>
+      <interaction>
+        <interactionID>10259341</interactionID>
+        <interactionType>AnalystMarketing</interactionType>
+        <interactionSubType>Email</interactionSubType>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <comments />
+      </interaction>
+      <interaction>
+        <interactionID>10259340</interactionID>
+        <interactionType>Sales</interactionType>
+        <interactionSubType>Call1x1</interactionSubType>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <comments />
+      </interaction>
+      <interaction>
+        <interactionID>10259339</interactionID>
+        <interactionType>SalesSpecialist</interactionType>
+        <interactionSubType>Call1x1</interactionSubType>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <comments />
+      </interaction>
+      <interaction>
+        <interactionID>10259338</interactionID>
+        <interactionType>BespokeAccess</interactionType>
+        <interactionSubType>Call1x1</interactionSubType>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <comments />
+      </interaction>
+      <interaction>
+        <interactionID>10259336</interactionID>
+        <interactionType>ModelRequest</interactionType>
+        <interactionSubType>Call1x1</interactionSubType>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <comments />
+      </interaction>
+      <interaction>
+        <interactionID>10259335</interactionID>
+        <interactionType>Social</interactionType>
+        <interactionSubType>Call1x1</interactionSubType>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <comments />
+      </interaction>
+      <interaction>
+        <interactionID>10259334</interactionID>
+        <interactionType>RelationshipMeeting</interactionType>
+        <interactionSubType>Call1x1</interactionSubType>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <comments />
+      </interaction>
+      <interaction>
+        <interactionID>10259333</interactionID>
+        <interactionType>ClientEducation</interactionType>
+        <interactionSubType>Call1x1</interactionSubType>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <comments />
+      </interaction>
+      <interaction>
+        <interactionID>10259332</interactionID>
+        <interactionType>Other</interactionType>
+        <interactionSubType>Call1x1</interactionSubType>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <comments />
+      </interaction>
+      <interaction>
+        <interactionID>10259331</interactionID>
+        <interactionType>Idea</interactionType>
+        <interactionSubType>Call1x1</interactionSubType>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <comments />
+      </interaction>
+      <interaction>
+        <interactionID>10259330</interactionID>
+        <interactionType>BankerEvent</interactionType>
+        <interactionSubType>Call1x1</interactionSubType>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <comments />
+      </interaction>
+      <interaction>
+        <interactionID>10259329</interactionID>
+        <interactionType>MacroStrategist</interactionType>
+        <interactionSubType>Call1x1</interactionSubType>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <comments />
+      </interaction>
+      <interaction>
+        <interactionID>10259328</interactionID>
+        <interactionType>GovernmentExpert</interactionType>
+        <interactionSubType>Call1x1</interactionSubType>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <comments />
+      </interaction>
+      <interaction>
+        <interactionID>10259327</interactionID>
+        <interactionType>IndustryExpert</interactionType>
+        <interactionSubType>Call1x1</interactionSubType>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <comments />
+      </interaction>
+      <interaction>
+        <interactionID>10259326</interactionID>
+        <interactionType>BoothTour</interactionType>
+        <interactionSubType>Call1x1</interactionSubType>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <comments />
+      </interaction>
+      <interaction>
+        <interactionID>10259325</interactionID>
+        <interactionType>BusTour</interactionType>
+        <interactionSubType>Call1x1</interactionSubType>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <comments />
+      </interaction>
+      <interaction>
+        <interactionID>10259324</interactionID>
+        <interactionType>FieldTrip</interactionType>
+        <interactionSubType>Video1x1</interactionSubType>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <comments />
+      </interaction>
+      <interaction>
+        <interactionID>10259323</interactionID>
+        <interactionType>CorporateBroking</interactionType>
+        <interactionSubType>Call1x1</interactionSubType>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <comments />
+      </interaction>
+      <interaction>
+        <interactionID>10259322</interactionID>
+        <interactionType>DealRoadshow</interactionType>
+        <interactionSubType>Call1x1</interactionSubType>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <comments />
+      </interaction>
+      <interaction>
+        <interactionID>10259321</interactionID>
+        <interactionType>NonDealRoadshow</interactionType>
+        <interactionSubType>Call1x1</interactionSubType>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <comments />
+      </interaction>
+      <interaction>
+        <interactionID>10259320</interactionID>
+        <interactionType>IndustryEvent</interactionType>
+        <interactionSubType>Call1x1</interactionSubType>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <comments />
+      </interaction>
+      <interaction>
+        <interactionID>10259319</interactionID>
+        <interactionType>Forum</interactionType>
+        <interactionSubType>Call1x1</interactionSubType>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <comments />
+      </interaction>
+      <interaction>
+        <interactionID>10259318</interactionID>
+        <interactionType>MultiCompanyEvent</interactionType>
+        <interactionSubType>Call1x1</interactionSubType>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <comments />
+      </interaction>
+      <interaction>
+        <interactionID>10259317</interactionID>
+        <interactionType>Show</interactionType>
+        <interactionSubType>Call1x1</interactionSubType>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <comments />
+      </interaction>
+      <interaction>
+        <interactionID>10259316</interactionID>
+        <interactionType>AnalystDay</interactionType>
+        <interactionSubType>Call1x1</interactionSubType>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <comments />
+      </interaction>
+      <interaction>
+        <interactionID>10259315</interactionID>
+        <interactionType>InvestorRelationsDay</interactionType>
+        <interactionSubType>Call1x1</interactionSubType>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <comments />
+      </interaction>
+      <interaction>
+        <interactionID>10259314</interactionID>
+        <interactionType>CorporateAccessDay</interactionType>
+        <interactionSubType>Call1x1</interactionSubType>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <comments />
+      </interaction>
+      <interaction>
+        <interactionID>10259313</interactionID>
+        <interactionType>Conference</interactionType>
+        <interactionSubType>Call1x1</interactionSubType>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <comments />
+      </interaction>
+      <interaction>
+        <interactionID>10259312</interactionID>
+        <interactionType>AnalystMarketing</interactionType>
+        <interactionSubType>Call1x1</interactionSubType>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <comments />
+      </interaction>
+      <interaction>
+        <interactionID>10259311</interactionID>
+        <interactionType>Sales</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <comments />
+      </interaction>
+      <interaction>
+        <interactionID>10259310</interactionID>
+        <interactionType>SalesSpecialist</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <comments />
+      </interaction>
+      <interaction>
+        <interactionID>10259309</interactionID>
+        <interactionType>BespokeAccess</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <comments />
+      </interaction>
+      <interaction>
+        <interactionID>10259308</interactionID>
+        <interactionType>CustomWork</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <comments />
+      </interaction>
+      <interaction>
+        <interactionID>10259307</interactionID>
+        <interactionType>ModelRequest</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <comments />
+      </interaction>
+      <interaction>
+        <interactionID>10259306</interactionID>
+        <interactionType>Social</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <comments />
+      </interaction>
+      <interaction>
+        <interactionID>10259305</interactionID>
+        <interactionType>Internal</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <comments />
+      </interaction>
+      <interaction>
+        <interactionID>10259304</interactionID>
+        <interactionType>RelationshipMeeting</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <comments />
+      </interaction>
+      <interaction>
+        <interactionID>10259303</interactionID>
+        <interactionType>ClientEducation</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <comments />
+      </interaction>
+      <interaction>
+        <interactionID>10259302</interactionID>
+        <interactionType>Other</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <comments />
+      </interaction>
+      <interaction>
+        <interactionID>10259301</interactionID>
+        <interactionType>Idea</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <comments />
+      </interaction>
+      <interaction>
+        <interactionID>10259300</interactionID>
+        <interactionType>BankerEvent</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <comments />
+      </interaction>
+      <interaction>
+        <interactionID>10259299</interactionID>
+        <interactionType>MacroStrategist</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <comments />
+      </interaction>
+      <interaction>
+        <interactionID>10259298</interactionID>
+        <interactionType>KeyOpinionLeader</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <comments />
+      </interaction>
+      <interaction>
+        <interactionID>10259297</interactionID>
+        <interactionType>GovernmentExpert</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <comments />
+      </interaction>
+      <interaction>
+        <interactionID>10259296</interactionID>
+        <interactionType>IndustryExpert</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <comments />
+      </interaction>
+      <interaction>
+        <interactionID>10259295</interactionID>
+        <interactionType>BoothTour</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <comments />
+      </interaction>
+      <interaction>
+        <interactionID>10259294</interactionID>
+        <interactionType>BusTour</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <comments />
+      </interaction>
+      <interaction>
+        <interactionID>10259293</interactionID>
+        <interactionType>FieldTrip</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <comments />
+      </interaction>
+      <interaction>
+        <interactionID>10259292</interactionID>
+        <interactionType>CorporateBroking</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <comments />
+      </interaction>
+      <interaction>
+        <interactionID>10259291</interactionID>
+        <interactionType>DealRoadshow</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <comments />
+      </interaction>
+      <interaction>
+        <interactionID>10259290</interactionID>
+        <interactionType>NonDealRoadshow</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <comments />
+      </interaction>
+      <interaction>
+        <interactionID>10259289</interactionID>
+        <interactionType>IndustryEvent</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <comments />
+      </interaction>
+      <interaction>
+        <interactionID>10259288</interactionID>
+        <interactionType>Forum</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <comments />
+      </interaction>
+      <interaction>
+        <interactionID>10259287</interactionID>
+        <interactionType>MultiCompanyEvent</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <comments />
+      </interaction>
+      <interaction>
+        <interactionID>10259286</interactionID>
+        <interactionType>Show</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <comments />
+      </interaction>
+      <interaction>
+        <interactionID>10259285</interactionID>
+        <interactionType>AnalystDay</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <comments />
+      </interaction>
+      <interaction>
+        <interactionID>10259284</interactionID>
+        <interactionType>InvestorRelationsDay</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <comments />
+      </interaction>
+      <interaction>
+        <interactionID>10259283</interactionID>
+        <interactionType>CorporateAccessDay</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <comments />
+      </interaction>
+      <interaction>
+        <interactionID>10259282</interactionID>
+        <interactionType>Conference</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <comments />
+      </interaction>
+      <interaction>
+        <interactionID>10259281</interactionID>
+        <interactionType>AnalystMarketing</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <comments />
+      </interaction>
+    </investor>
+  </interactions>
+</clientinteraction>

@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clientinteraction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://oneaccess.io/corporateaccess/clientinteraction/2.1.1">
+  <updated>
+    <datetime>2017-11-27T09:39:35.5185181Z</datetime>
+    <timezone>UTC</timezone>
+  </updated>
+  <broker>A2 TARGET KATE TEST </broker>
+  <interactions>
+    <investor>
+      <investorName>KATETEST_BUY_ORG_1</investorName>
+      <interaction>
+        <parentID>10465600251132_1</parentID>
+        <interactionID>10465600251132_1</interactionID>
+        <oneaccessInteractionID>1493560</oneaccessInteractionID>
+        <interactionType>Other</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionTitle>TEST1 (Other)</interactionTitle>
+        <interactionDescription>testinteraction descritiption</interactionDescription>
+        <investorInteractionStatus>InReview</investorInteractionStatus>
+        <source>Broker</source>
+        <initiator>Broker</initiator>
+        <group>group</group>
+        <start>2016-11-30</start>
+        <startTime>
+          <datetime>2016-11-30T11:00:00</datetime>
+          <timezone>UTC</timezone>
+        </startTime>
+        <end>2016-11-30</end>
+        <endTime>
+          <datetime>2016-11-30T19:30:00</datetime>
+          <timezone>UTC</timezone>
+        </endTime>
+        <regions>
+          <region>North America</region>
+        </regions>
+        <originatingRegion>North America</originatingRegion>
+        <sectors>
+          <sector description="Information Technology">45</sector>
+        </sectors>
+        <duration>10</duration>
+        <location>
+          <address>
+            <type>Offsite</type>
+            <streetAddress>New street</streetAddress>
+            <city>New York</city>
+            <state>NY</state>
+            <country>USA</country>
+            <postalCode>212121</postalCode>
+          </address>
+        </location>
+        <companies>
+          <company>
+            <companyName>Apple</companyName>
+            <isPublic>true</isPublic>
+            <identifiers>
+              <identifier type="Ticker">APPL</identifier>
+            </identifiers>
+            <companyParticipants>
+              <participant>
+                <person>
+                  <firstName>comp</firstName>
+                  <lastName>comp</lastName>
+                  <email>comp@test.com</email>
+                  <phone />
+                  <title>comptitle</title>
+                  <company>Apple</company>
+                  <bio>test_bio_comp_attendee</bio>
+                </person>
+                <roles>
+                  <role>CEO</role>
+                </roles>
+                <status>Attended</status>
+              </participant>
+            </companyParticipants>
+          </company>
+        </companies>
+        <brokerParticipants>
+          <participant>
+            <person>
+              <firstName>George</firstName>
+              <lastName>Notter</lastName>
+              <email>Broker@email.com</email>
+              <phone />
+              <title>Analyst</title>
+              <bio>test_bio_broker_attendee</bio>
+            </person>
+            <roles>
+              <role>SellsideSales</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+          <participant>
+            <person>
+              <firstName>Shanelle</firstName>
+              <lastName>Trinidad</lastName>
+              <email>Broker2@email.com</email>
+              <phone />
+              <title>Research Sales</title>
+              <bio>test_bio_broker_attendee</bio>
+            </person>
+            <roles>
+              <role>SellsideSales</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+        </brokerParticipants>
+        <thirdPartyParticipants>
+          <participant>
+            <person>
+              <firstName>Ken1</firstName>
+              <lastName>Chang1</lastName>
+              <email>expert@email.com</email>
+              <phone />
+              <title>experttitle</title>
+              <bio>test_bio_exp_attendee</bio>
+            </person>
+            <roles>
+              <role>IndustryExpert</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+          <participant>
+            <person>
+              <firstName>Sergei</firstName>
+              <lastName>Brin</lastName>
+              <email>CompanyPersonemail@email.com</email>
+              <phone>322223</phone>
+              <title>some title</title>
+              <company>Apple</company>
+              <bio>test_bio_exp_attendee</bio>
+            </person>
+            <roles>
+              <role>HeadOfBusiness</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+        </thirdPartyParticipants>
+        <investorParticipants>
+          <participant>
+            <person>
+              <firstName>1_kate5</firstName>
+              <lastName>1_kate5</lastName>
+              <email>ekater.inasemyonov.a654@gmail.com</email>
+              <title>Title4</title>
+			  <bio>test_bio_invest_attendee</bio>
+            </person>
+            <roles>
+              <role>BuysideAnalyst</role>
+              <role>PortfolioManager</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </investorParticipants>
+        <createdBy>
+          <participant>
+            <person>
+              <firstName>admin</firstName>
+              <lastName>admin</lastName>
+              <email>admin@admin.com</email>
+            </person>
+          </participant>
+        </createdBy>
+        <ratesValues>
+          <rateValue>
+            <rate>0</rate>
+            <rateType>Dollars</rateType>
+            <value>0</value>
+          </rateValue>
+        </ratesValues>
+        <assetClasses />
+        <comments>
+          <comment>comment1</comment>
+          <comment>comment2</comment>
+        </comments>
+      </interaction>
+    </investor>
+  </interactions>
+</clientinteraction>

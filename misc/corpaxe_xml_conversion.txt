@@ -1,0 +1,2040 @@
+{
+  u 'ArrayOfOneWayMapper': {
+    u 'OneWayMapper': [{
+      u 'BundleMap': [{
+        u 'To': {
+          u 'string': u 'Other'
+        },
+        u 'From': {
+          u 'string': u 'Other'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'Conference'
+        },
+        u 'From': {
+          u 'string': u 'Conference'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'CorporateAccessDay'
+        },
+        u 'From': {
+          u 'string': u 'CorporateAccessDay'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'InvestorRelationsDay'
+        },
+        u 'From': {
+          u 'string': u 'InvestorRelationsDay'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'Forum'
+        },
+        u 'From': {
+          u 'string': u 'Summit'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'Forum'
+        },
+        u 'From': {
+          u 'string': u 'Symposium'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'Forum'
+        },
+        u 'From': {
+          u 'string': u 'Forum'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'NonDealRoadshow'
+        },
+        u 'From': {
+          u 'string': u 'NonDealRoadshow'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'BespokeAccess'
+        },
+        u 'From': {
+          u 'string': u 'Bespoke'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'BusTour'
+        },
+        u 'From': {
+          u 'string': u 'BusTour'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'FieldTrip'
+        },
+        u 'From': {
+          u 'string': u 'FieldTrip'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'Forum'
+        },
+        u 'From': {
+          u 'string': u 'Expo'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'Show'
+        },
+        u 'From': {
+          u 'string': u 'Show'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'BoothTour'
+        },
+        u 'From': {
+          u 'string': u 'BoothTour'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'DealRoadshow'
+        },
+        u 'From': {
+          u 'string': u 'DealRelated'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'AnalystMarketing'
+        },
+        u 'From': {
+          u 'string': u 'AnalystMarketing'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'IndustryExpert'
+        },
+        u 'From': {
+          u 'string': u 'IndustryExpert'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'MacroStrategist'
+        },
+        u 'From': {
+          u 'string': u 'MacroStrategist'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'GovernmentExpert'
+        },
+        u 'From': {
+          u 'string': u 'GovernmentExpert'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'MedicalExpert'
+        },
+        u 'From': {
+          u 'string': u 'MedicalExpert'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'InternalIndustryExpert'
+        },
+        u 'From': {
+          u 'string': u 'InternalIndustryExpert'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'IdeaDinner'
+        },
+        u 'From': {
+          u 'string': u 'IdeaDinner'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'BankerEvent'
+        },
+        u 'From': {
+          u 'string': u 'BankerMeeting'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'CorporateBroking'
+        },
+        u 'From': {
+          u 'string': u 'CorporateBroking'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'ModelRequest'
+        },
+        u 'From': {
+          u 'string': u 'ResearchModel'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'AnalystDay'
+        },
+        u 'From': {
+          u 'string': u 'AnalystDay'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'CustomWork'
+        },
+        u 'From': {
+          u 'string': u 'ChannelCheck'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'CustomWork'
+        },
+        u 'From': {
+          u 'string': u 'DataRequest'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'CustomWork'
+        },
+        u 'From': {
+          u 'string': u 'InvestmentWork'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'CustomWork'
+        },
+        u 'From': {
+          u 'string': u 'CustomSurvey'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'Idea'
+        },
+        u 'From': {
+          u 'string': u 'IdeaPitch'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'Social'
+        },
+        u 'From': {
+          u 'string': u 'Social'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'Internal'
+        },
+        u 'From': {
+          u 'string': u 'Internal'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'RelationshipMeeting'
+        },
+        u 'From': {
+          u 'string': u 'ClientManagementMeeting'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'MultiCompanyEvent'
+        },
+        u 'From': {
+          u 'string': u 'MultiCompanyEvent'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'KeyOpinionLeader'
+        },
+        u 'From': {
+          u 'string': u 'KeyOpinionLeader'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'CustomWork'
+        },
+        u 'From': {
+          u 'string': u 'BespokeDataRequest'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'ClientEducation'
+        },
+        u 'From': {
+          u 'string': u 'InvestmentDiscussion'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'CustomWork'
+        },
+        u 'From': {
+          u 'string': u 'CustomWork'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'SalesSpecialist'
+        },
+        u 'From': {
+          u 'string': u 'SpecialistSales'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'Sales'
+        },
+        u 'From': {
+          u 'string': u 'SalesInteraction'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'ResearchReadership'
+        },
+        u 'From': {
+          u 'string': u 'Note'
+        }
+      }],
+      u '@Name': u 'EventType'
+    }, {
+      u 'BundleMap': [{
+        u 'To': {
+          u 'string': u '1x1'
+        },
+        u 'From': {
+          u 'string': u '1x1'
+        }
+      }, {
+        u 'To': {
+          u 'string': u '2x1'
+        },
+        u 'From': {
+          u 'string': u '2x1'
+        }
+      }, {
+        u 'To': {
+          u 'string': u '3x1'
+        },
+        u 'From': {
+          u 'string': u '3x1'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'Group'
+        },
+        u 'From': {
+          u 'string': u 'Group'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'Call1x1'
+        },
+        u 'From': {
+          u 'string': u 'Call1x1'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'CallGroup'
+        },
+        u 'From': {
+          u 'string': u 'CallGroup'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'Video1x1'
+        },
+        u 'From': {
+          u 'string': u 'Video1x1'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'VideoGroup'
+        },
+        u 'From': {
+          u 'string': u 'VideoGroup'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'Other'
+        },
+        u 'From': {
+          u 'string': u 'NA'
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'Call1x1', u 'Buyside']
+        },
+        u 'From': {
+          u 'string': u 'IncomingCall'
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'Call1x1', u 'Sellside']
+        },
+        u 'From': {
+          u 'string': u 'OutgoingCall'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'Email'
+        },
+        u 'From': {
+          u 'string': u 'ElectronicCommunication'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'Delivered'
+        },
+        u 'From': {
+          u 'string': u 'Delivered'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'ChannelCheck'
+        },
+        u 'From': {
+          u 'string': u 'ChannelCheck'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'Data'
+        },
+        u 'From': {
+          u 'string': u 'Data'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'Survey'
+        },
+        u 'From': {
+          u 'string': u 'Survey'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'IM'
+        },
+        u 'From': {
+          u 'string': u 'IM'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'Email'
+        },
+        u 'From': {
+          u 'string': u 'Email'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'BlastVoiceMail'
+        },
+        u 'From': {
+          u 'string': u 'BlastVoicemail'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'BlastEmail'
+        },
+        u 'From': {
+          u 'string': u 'BlastEmail'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'Presentation'
+        },
+        u 'From': {
+          u 'string': u 'Presentation'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'GeneralAttendance'
+        },
+        u 'From': {
+          u 'string': u 'GeneralAttendance'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'VoiceMail'
+        },
+        u 'From': {
+          u 'string': u 'Voicemail'
+        }
+      }],
+      u '@Name': u 'MeetingType'
+    }, {
+      u 'BundleMap': [{
+        u 'To': {
+          u 'string': u 'Requested'
+        },
+        u 'From': {
+          u 'string': u 'Requested'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'Offered'
+        },
+        u 'From': {
+          u 'string': u 'Offered'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'Waitlisted'
+        },
+        u 'From': {
+          u 'string': u 'Waitlisted'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'Passed'
+        },
+        u 'From': {
+          u 'string': u 'Passed'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'SellsideRejected'
+        },
+        u 'From': {
+          u 'string': u 'SellsideRejected'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'Confirmed'
+        },
+        u 'From': {
+          u 'string': u 'Confirmed'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'Canceled'
+        },
+        u 'From': {
+          u 'string': u 'Canceled'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'SellsideCanceled'
+        },
+        u 'From': {
+          u 'string': u 'SellsideCanceled'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'Attended'
+        },
+        u 'From': {
+          u 'string': u 'Attended'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'Canceled'
+        },
+        u 'From': {
+          u 'string': u 'Deleted'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'NoShow'
+        },
+        u 'From': {
+          u 'string': u 'NoShow'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'CorporateRejected'
+        },
+        u 'From': {
+          u 'string': u 'CorporateRejected'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'CorporateCanceled'
+        },
+        u 'From': {
+          u 'string': u 'CorporateCanceled'
+        }
+      }],
+      u '@Name': u 'Status'
+    }, {
+      u 'BundleMap': [{
+        u 'To': {
+          u 'string': u 'Offsite'
+        },
+        u 'From': {
+          u 'string': u 'Away'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'Onsite'
+        },
+        u 'From': {
+          u 'string': u 'Home'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'NA'
+        },
+        u 'From': {
+          u 'string': u 'NA'
+        }
+      }],
+      u '@Name': u 'LocationType'
+    }, {
+      u 'BundleMap': [{
+        u 'To': {
+          u 'string': u 'BoardMember'
+        },
+        u 'From': {
+          u 'string': u 'BoardMember'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'BoardMember'
+        },
+        u 'From': {
+          u 'string': u 'BoardSecretary'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'BrokerLiaison'
+        },
+        u 'From': {
+          u 'string': u 'BrokerLiaison'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'Other'
+        },
+        u 'From': {
+          u 'string': u 'BusinessDevelopment'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'BuysideAnalyst'
+        },
+        u 'From': {
+          u 'string': u 'BuysideAnalyst'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'BuysideCoordinator'
+        },
+        u 'From': {
+          u 'string': u 'BuysideCoordinator'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'CEO'
+        },
+        u 'From': {
+          u 'string': u 'CEO'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'CFO'
+        },
+        u 'From': {
+          u 'string': u 'CFO'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'Chairman'
+        },
+        u 'From': {
+          u 'string': u 'Chairman'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'CIOInformation'
+        },
+        u 'From': {
+          u 'string': u 'CIOInformation'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'CIOInvestment'
+        },
+        u 'From': {
+          u 'string': u 'CIOInvestment'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'CSO'
+        },
+        u 'From': {
+          u 'string': u 'CISO'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'CMO'
+        },
+        u 'From': {
+          u 'string': u 'CMO'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'CSO'
+        },
+        u 'From': {
+          u 'string': u 'CMOMedical'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'COO'
+        },
+        u 'From': {
+          u 'string': u 'COO'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'CRO'
+        },
+        u 'From': {
+          u 'string': u 'CRO'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'CSO'
+        },
+        u 'From': {
+          u 'string': u 'CSO'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'CTO'
+        },
+        u 'From': {
+          u 'string': u 'CTO'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'Director'
+        },
+        u 'From': {
+          u 'string': u 'Director'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'DirectorOfResearch'
+        },
+        u 'From': {
+          u 'string': u 'DirectorOfResearch'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'President'
+        },
+        u 'From': {
+          u 'string': u 'DivisionalPresident'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'MacroStrategist'
+        },
+        u 'From': {
+          u 'string': u 'Economist'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'ExecVicePresident'
+        },
+        u 'From': {
+          u 'string': u 'ExecVicePresident'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'Founder'
+        },
+        u 'From': {
+          u 'string': u 'Founder'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'GeneralCounsel'
+        },
+        u 'From': {
+          u 'string': u 'GeneralCounsel'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'GovernmentExpert'
+        },
+        u 'From': {
+          u 'string': u 'GovernmentExpert'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'HeadOfBusiness'
+        },
+        u 'From': {
+          u 'string': u 'HeadOfBusiness'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'IndustryExpert'
+        },
+        u 'From': {
+          u 'string': u 'IndustryExpert'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'InvestmentBanker'
+        },
+        u 'From': {
+          u 'string': u 'InvestmentBanker'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'InvestorRelations'
+        },
+        u 'From': {
+          u 'string': u 'InvestorRelations'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'BuysideAnalyst'
+        },
+        u 'From': {
+          u 'string': u 'JuniorAnalyst'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'KeyOpinionLeader'
+        },
+        u 'From': {
+          u 'string': u 'KeyOpinionLeader'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'MacroStrategist'
+        },
+        u 'From': {
+          u 'string': u 'MacroStrategist'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'ManagingDirector'
+        },
+        u 'From': {
+          u 'string': u 'ManagingDirector'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'ManagingPartner'
+        },
+        u 'From': {
+          u 'string': u 'ManagingPartner'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'MedicalExpert'
+        },
+        u 'From': {
+          u 'string': u 'MedicalExpert'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'Other'
+        },
+        u 'From': {
+          u 'string': u 'Other'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'Partner'
+        },
+        u 'From': {
+          u 'string': u 'Partner'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'PortfolioManager'
+        },
+        u 'From': {
+          u 'string': u 'PortfolioManager'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'Other'
+        },
+        u 'From': {
+          u 'string': u 'PositionTrader'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'President'
+        },
+        u 'From': {
+          u 'string': u 'President'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'Other'
+        },
+        u 'From': {
+          u 'string': u 'SalesTraderCash'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'Other'
+        },
+        u 'From': {
+          u 'string': u 'SalesTraderElectronic'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'Other'
+        },
+        u 'From': {
+          u 'string': u 'SalesTraderProgram'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'Other'
+        },
+        u 'From': {
+          u 'string': u 'Secretary'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'SellsideAnalyst'
+        },
+        u 'From': {
+          u 'string': u 'SellsideAnalyst'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'SellsideClientManagement'
+        },
+        u 'From': {
+          u 'string': u 'SellsideClientManagement'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'SellsideCoordinator'
+        },
+        u 'From': {
+          u 'string': u 'SellsideCoordinator'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'SellsideIT'
+        },
+        u 'From': {
+          u 'string': u 'SellsideIT'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'SellsideSales'
+        },
+        u 'From': {
+          u 'string': u 'SellsideSales'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'SpecialistSales'
+        },
+        u 'From': {
+          u 'string': u 'SellsideSyndicate'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'SpecialistSales'
+        },
+        u 'From': {
+          u 'string': u 'SpecialistSales'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'Treasurer'
+        },
+        u 'From': {
+          u 'string': u 'Treasurer'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'ViceChairman'
+        },
+        u 'From': {
+          u 'string': u 'ViceChairman'
+        }
+      }, {
+        u 'To': {
+          u 'string': u 'VicePresident'
+        },
+        u 'From': {
+          u 'string': u 'VicePresident'
+        }
+      }],
+      u '@Name': u 'Roles'
+    }, {
+      u 'BundleMap': [{
+        u 'To': {
+          u 'string': [u 'AnalystMarketing', u '1x1']
+        },
+        u 'From': {
+          u 'string': [u 'AnalystMarketing', u '1x1']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'AnalystMarketing', u '2x1']
+        },
+        u 'From': {
+          u 'string': [u 'AnalystMarketing', u '2x1']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'AnalystMarketing', u '3x1']
+        },
+        u 'From': {
+          u 'string': [u 'AnalystMarketing', u '3x1']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'AnalystMarketing', u 'Group']
+        },
+        u 'From': {
+          u 'string': [u 'AnalystMarketing', u 'Group']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'AnalystMarketing', u 'Call1x1', u 'Broker']
+        },
+        u 'From': {
+          u 'string': [u 'AnalystMarketing', u 'OutgoingCall']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'AnalystMarketing', u 'Call1x1', u 'Investor']
+        },
+        u 'From': {
+          u 'string': [u 'AnalystMarketing', u 'IncomingCall']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'AnalystMarketing', u 'CallGroup']
+        },
+        u 'From': {
+          u 'string': [u 'AnalystMarketing', u 'CallGroup']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'AnalystMarketing', u 'Video1x1']
+        },
+        u 'From': {
+          u 'string': [u 'AnalystMarketing', u 'Video1x1']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'AnalystMarketing', u 'VideoGroup']
+        },
+        u 'From': {
+          u 'string': [u 'AnalystMarketing', u 'VideoGroup']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'AnalystMarketing', u 'VoiceMail']
+        },
+        u 'From': {
+          u 'string': [u 'AnalystMarketing', u 'Voicemail']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'AnalystMarketing', u 'BlastVoiceMail']
+        },
+        u 'From': {
+          u 'string': [u 'AnalystMarketing', u 'BlastVoicemail']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'AnalystMarketing', u 'Email']
+        },
+        u 'From': {
+          u 'string': [u 'AnalystMarketing', u 'Email']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'AnalystMarketing', u 'BlastEmail']
+        },
+        u 'From': {
+          u 'string': [u 'AnalystMarketing', u 'BlastEmail']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'AnalystMarketing', u 'IM']
+        },
+        u 'From': {
+          u 'string': [u 'AnalystMarketing', u 'IM']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'BankerEvent', u '1x1']
+        },
+        u 'From': {
+          u 'string': [u 'BankerMeeting', u '1x1']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'BankerEvent', u '2x1']
+        },
+        u 'From': {
+          u 'string': [u 'BankerMeeting', u '2x1']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'BankerEvent', u '3x1']
+        },
+        u 'From': {
+          u 'string': [u 'BankerMeeting', u '3x1']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'BankerEvent', u 'Group']
+        },
+        u 'From': {
+          u 'string': [u 'BankerMeeting', u 'Group']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'BankerEvent', u 'Call1x1', u 'Broker']
+        },
+        u 'From': {
+          u 'string': [u 'BankerMeeting', u 'OutgoingCall']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'BankerEvent', u 'Call1x1', u 'Investor']
+        },
+        u 'From': {
+          u 'string': [u 'BankerMeeting', u 'IncomingCall']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'BankerEvent', u 'CallGroup']
+        },
+        u 'From': {
+          u 'string': [u 'BankerMeeting', u 'CallGroup']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'BankerEvent', u 'Video1x1']
+        },
+        u 'From': {
+          u 'string': [u 'BankerMeeting', u 'Video1x1']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'BankerEvent', u 'VideoGroup']
+        },
+        u 'From': {
+          u 'string': [u 'BankerMeeting', u 'VideoGroup']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'BankerEvent', u 'VoiceMail']
+        },
+        u 'From': {
+          u 'string': [u 'BankerMeeting', u 'Voicemail']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'BankerEvent', u 'BlastVoiceMail']
+        },
+        u 'From': {
+          u 'string': [u 'BankerMeeting', u 'BlastVoicemail']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'BankerEvent', u 'Email']
+        },
+        u 'From': {
+          u 'string': [u 'BankerMeeting', u 'Email']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'BankerEvent', u 'BlastEmail']
+        },
+        u 'From': {
+          u 'string': [u 'BankerMeeting', u 'BlastEmail']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'BankerEvent', u 'IM']
+        },
+        u 'From': {
+          u 'string': [u 'BankerMeeting', u 'IM']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'BespokeAccess', u '1x1']
+        },
+        u 'From': {
+          u 'string': [u 'Bespoke', u '1x1']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'BespokeAccess', u '2x1']
+        },
+        u 'From': {
+          u 'string': [u 'Bespoke', u '2x1']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'BespokeAccess', u '3x1']
+        },
+        u 'From': {
+          u 'string': [u 'Bespoke', u '3x1']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'BespokeAccess', u 'Group']
+        },
+        u 'From': {
+          u 'string': [u 'Bespoke', u 'Group']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'BespokeAccess', u 'Call1x1']
+        },
+        u 'From': {
+          u 'string': [u 'Bespoke', u 'Call1x1']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'BespokeAccess', u 'CallGroup']
+        },
+        u 'From': {
+          u 'string': [u 'Bespoke', u 'CallGroup']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'BespokeAccess', u 'Video1x1']
+        },
+        u 'From': {
+          u 'string': [u 'Bespoke', u 'Video1x1']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'BespokeAccess', u 'VideoGroup']
+        },
+        u 'From': {
+          u 'string': [u 'Bespoke', u 'VideoGroup']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'RelationshipMeeting', u '1x1']
+        },
+        u 'From': {
+          u 'string': [u 'ClientManagementMeeting', u '1x1']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'RelationshipMeeting', u 'Group']
+        },
+        u 'From': {
+          u 'string': [u 'ClientManagementMeeting', u 'Group']
+        }
+      }, {
+        u 'To': {Status
+          u 'string': [u 'Conference', u '1x1']
+        },
+        u 'From': {
+          u 'string': [u 'Conference', u '1x1']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'Conference', u '2x1']
+        },
+        u 'From': {
+          u 'string': [u 'Conference', u '2x1']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'Conference', u '3x1']
+        },
+        u 'From': {
+          u 'string': [u 'Conference', u '3x1']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'Conference', u 'Group']
+        },
+        u 'From': {
+          u 'string': [u 'Conference', u 'Group']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'Conference', u 'Video1x1']
+        },
+        u 'From': {
+          u 'string': [u 'Conference', u 'Video1x1']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'Conference', u 'VideoGroup']
+        },
+        u 'From': {
+          u 'string': [u 'Conference', u 'VideoGroup']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'Conference', u 'GeneralAttendance']
+        },
+        u 'From': {
+          u 'string': [u 'Conference', u 'GeneralAttendance']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'Conference', u 'Presentation']
+        },
+        u 'From': {
+          u 'string': [u 'Conference', u 'Presentation']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'CorporateBroking', u '1x1']
+        },
+        u 'From': {
+          u 'string': [u 'CorporateBroking', u '1x1']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'CorporateBroking', u '2x1']
+        },
+        u 'From': {
+          u 'string': [u 'CorporateBroking', u '2x1']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'CorporateBroking', u '3x1']
+        },
+        u 'From': {
+          u 'string': [u 'CorporateBroking', u '3x1']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'CorporateBroking', u 'Group']
+        },
+        u 'From': {
+          u 'string': [u 'CorporateBroking', u 'Group']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'CorporateBroking', u 'Call1x1']
+        },
+        u 'From': {
+          u 'string': [u 'CorporateBroking', u 'Call1x1']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'CorporateBroking', u 'CallGroup']
+        },
+        u 'From': {
+          u 'string': [u 'CorporateBroking', u 'CallGroup']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'CorporateBroking', u 'Video1x1']
+        },
+        u 'From': {
+          u 'string': [u 'CorporateBroking', u 'Video1x1']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'CorporateBroking', u 'VideoGroup']
+        },
+        u 'From': {
+          u 'string': [u 'CorporateBroking', u 'VideoGroup']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'CustomWork', u 'Delivered']
+        },
+        u 'From': {
+          u 'string': [u 'CustomWork', u 'Delivered']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'CustomWork', u 'Data']
+        },
+        u 'From': {
+          u 'string': [u 'CustomWork', u 'Data']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'CustomWork', u 'Survey']
+        },
+        u 'From': {
+          u 'string': [u 'CustomWork', u 'Survey']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'DealRoadshow', u '1x1']
+        },
+        u 'From': {
+          u 'string': [u 'DealRelated', u '1x1']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'DealRoadshow', u '2x1']
+        },
+        u 'From': {
+          u 'string': [u 'DealRelated', u '2x1']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'DealRoadshow', u '3x1']
+        },
+        u 'From': {
+          u 'string': [u 'DealRelated', u '3x1']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'DealRoadshow', u 'Group']
+        },
+        u 'From': {
+          u 'string': [u 'DealRelated', u 'Group']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'DealRoadshow', u 'Call1x1']
+        },
+        u 'From': {
+          u 'string': [u 'DealRelated', u 'Call1x1']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'DealRoadshow', u 'CallGroup']
+        },
+        u 'From': {
+          u 'string': [u 'DealRelated', u 'CallGroup']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'DealRoadshow', u 'Video1x1']
+        },
+        u 'From': {
+          u 'string': [u 'DealRelated', u 'Video1x1']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'DealRoadshow', u 'VideoGroup']
+        },
+        u 'From': {
+          u 'string': [u 'DealRelated', u 'VideoGroup']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'DealRoadshow', u 'Roadshow']
+        },
+        u 'From': {
+          u 'string': [u 'DealRelated', u 'Roadshow']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'DealRoadshow', u 'LiveDeal']
+        },
+        u 'From': {
+          u 'string': [u 'DealRelated', u 'LiveDeal']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'DealRoadshow', u 'WallCross']
+        },
+        u 'From': {
+          u 'string': [u 'DealRelated', u 'WallCross']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'DealRoadshow', u 'PilotFishing']
+        },
+        u 'From': {
+          u 'string': [u 'DealRelated', u 'PilotFishing']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'DealRoadshow', u 'TestingofWaters']
+        },
+        u 'From': {
+          u 'string': [u 'DealRelated', u 'TestingofWaters']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'DealRoadshow', u 'PrivateMeeting']
+        },
+        u 'From': {
+          u 'string': [u 'DealRelated', u 'PrivateMeeting']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'FieldTrip', u '1x1']
+        },
+        u 'From': {
+          u 'string': [u 'FieldTrip', u '1x1']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'FieldTrip', u '2x1']
+        },
+        u 'From': {
+          u 'string': [u 'FieldTrip', u '2x1']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'FieldTrip', u '3x1']
+        },
+        u 'From': {
+          u 'string': [u 'FieldTrip', u '3x1']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'FieldTrip', u 'Group']
+        },
+        u 'From': {
+          u 'string': [u 'FieldTrip', u 'Group']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'FieldTrip', u 'Video1x1']
+        },
+        u 'From': {
+          u 'string': [u 'FieldTrip', u 'Video1x1']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'FieldTrip', u 'VideoGroup']
+        },
+        u 'From': {
+          u 'string': [u 'FieldTrip', u 'VideoGroup']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'IdeaDinner', u '1x1']
+        },
+        u 'From': {
+          u 'string': [u 'IdeaDinner', u '1x1']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'IdeaDinner', u '2x1']
+        },
+        u 'From': {
+          u 'string': [u 'IdeaDinner', u '2x1']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'IdeaDinner', u '3x1']
+        },
+        u 'From': {
+          u 'string': [u 'IdeaDinner', u '3x1']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'IdeaDinner', u 'Group']
+        },
+        u 'From': {
+          u 'string': [u 'IdeaDinner', u 'Group']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'Idea', u 'Delivered']
+        },
+        u 'From': {
+          u 'string': [u 'IdeaPitch', u 'Delivered']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'IndustryExpert', u '1x1']
+        },
+        u 'From': {
+          u 'string': [u 'IndustryExpert', u '1x1']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'IndustryExpert', u '2x1']
+        },
+        u 'From': {
+          u 'string': [u 'IndustryExpert', u '2x1']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'IndustryExpert', u '3x1']
+        },
+        u 'From': {
+          u 'string': [u 'IndustryExpert', u '3x1']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'IndustryExpert', u 'Group']
+        },
+        u 'From': {
+          u 'string': [u 'IndustryExpert', u 'Group']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'IndustryExpert', u 'Call1x1']
+        },
+        u 'From': {
+          u 'string': [u 'IndustryExpert', u 'Call1x1']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'IndustryExpert', u 'CallGroup']
+        },
+        u 'From': {
+          u 'string': [u 'IndustryExpert', u 'CallGroup']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'IndustryExpert', u 'Video1x1']
+        },
+        u 'From': {
+          u 'string': [u 'IndustryExpert', u 'Video1x1']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'IndustryExpert', u 'VideoGroup']
+        },
+        u 'From': {
+          u 'string': [u 'IndustryExpert', u 'VideoGroup']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'InternalIndustryExpert', u '1x1']
+        },
+        u 'From': {
+          u 'string': [u 'InternalIndustryExpert', u '1x1']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'InternalIndustryExpert', u '2x1']
+        },
+        u 'From': {
+          u 'string': [u 'InternalIndustryExpert', u '2x1']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'InternalIndustryExpert', u '3x1']
+        },
+        u 'From': {
+          u 'string': [u 'InternalIndustryExpert', u '3x1']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'InternalIndustryExpert', u 'Group']
+        },
+        u 'From': {
+          u 'string': [u 'InternalIndustryExpert', u 'Group']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'InternalIndustryExpert', u 'Call1x1']
+        },
+        u 'From': {
+          u 'string': [u 'InternalIndustryExpert', u 'Call1x1']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'InternalIndustryExpert', u 'CallGroup']
+        },
+        u 'From': {
+          u 'string': [u 'InternalIndustryExpert', u 'CallGroup']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'InternalIndustryExpert', u 'Video1x1']
+        },
+        u 'From': {
+          u 'string': [u 'InternalIndustryExpert', u 'Video1x1']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'InternalIndustryExpert', u 'VideoGroup']
+        },
+        u 'From': {
+          u 'string': [u 'InternalIndustryExpert', u 'VideoGroup']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'MacroStrategist', u '1x1']
+        },
+        u 'From': {
+          u 'string': [u 'MacroStrategist', u '1x1']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'MacroStrategist', u '2x1']
+        },
+        u 'From': {
+          u 'string': [u 'MacroStrategist', u '2x1']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'MacroStrategist', u '3x1']
+        },
+        u 'From': {
+          u 'string': [u 'MacroStrategist', u '3x1']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'MacroStrategist', u 'Group']
+        },
+        u 'From': {
+          u 'string': [u 'MacroStrategist', u 'Group']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'MacroStrategist', u 'Call1x1', u 'Broker']
+        },
+        u 'From': {
+          u 'string': [u 'MacroStrategist', u 'OutgoingCall']
+        }
+      }, {Status
+        u 'To': {
+          u 'string': [u 'MacroStrategist', u 'Call1x1', u 'Investor']
+        },
+        u 'From': {
+          u 'string': [u 'MacroStrategist', u 'IncomingCall']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'MacroStrategist', u 'CallGroup']
+        },
+        u 'From': {
+          u 'string': [u 'MacroStrategist', u 'CallGroup']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'MacroStrategist', u 'Video1x1']
+        },
+        u 'From': {
+          u 'string': [u 'MacroStrategist', u 'Video1x1']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'MacroStrategist', u 'VideoGroup']
+        },
+        u 'From': {
+          u 'string': [u 'MacroStrategist', u 'VideoGroup']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'MacroStrategist', u 'VoiceMail']
+        },
+        u 'From': {
+          u 'string': [u 'MacroStrategist', u 'Voicemail']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'MacroStrategist', u 'BlastVoiceMail']
+        },
+        u 'From': {
+          u 'string': [u 'MacroStrategist', u 'BlastVoicemail']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'MacroStrategist', u 'Email']
+        },
+        u 'From': {
+          u 'string': [u 'MacroStrategist', u 'Email']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'MacroStrategist', u 'BlastEmail']
+        },
+        u 'From': {
+          u 'string': [u 'MacroStrategist', u 'BlastEmail']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'MacroStrategist', u 'IM']
+        },
+        u 'From': {
+          u 'string': [u 'MacroStrategist', u 'IM']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'NonDealRoadshow', u '1x1']
+        },
+        u 'From': {
+          u 'string': [u 'NonDealRoadshow', u '1x1']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'NonDealRoadshow', u '2x1']
+        },
+        u 'From': {
+          u 'string': [u 'NonDealRoadshow', u '2x1']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'NonDealRoadshow', u '3x1']
+        },
+        u 'From': {
+          u 'string': [u 'NonDealRoadshow', u '3x1']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'NonDealRoadshow', u 'Group']
+        },
+        u 'From': {
+          u 'string': [u 'NonDealRoadshow', u 'Group']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'NonDealRoadshow', u 'Call1x1']
+        },
+        u 'From': {
+          u 'string': [u 'NonDealRoadshow', u 'Call1x1']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'NonDealRoadshow', u 'CallGroup']
+        },
+        u 'From': {
+          u 'string': [u 'NonDealRoadshow', u 'CallGroup']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'NonDealRoadshow', u 'Video1x1']
+        },
+        u 'From': {
+          u 'string': [u 'NonDealRoadshow', u 'Video1x1']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'NonDealRoadshow', u 'VideoGroup']
+        },
+        u 'From': {
+          u 'string': [u 'NonDealRoadshow', u 'VideoGroup']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'ModelRequest', u 'Delivered']
+        },
+        u 'From': {
+          u 'string': [u 'ResearchModel', u 'Delivered']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'Sales', u '1x1']
+        },
+        u 'From': {
+          u 'string': [u 'SalesInteraction', u '1x1']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'Sales', u '2x1']
+        },
+        u 'From': {
+          u 'string': [u 'SalesInteraction', u '2x1']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'Sales', u '3x1']
+        },
+        u 'From': {
+          u 'string': [u 'SalesInteraction', u '3x1']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'Sales', u 'Group']
+        },
+        u 'From': {
+          u 'string': [u 'SalesInteraction', u 'Group']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'Sales', u 'Call1x1', u 'Broker']
+        },
+        u 'From': {
+          u 'string': [u 'SalesInteraction', u 'OutgoingCall']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'Sales', u 'Call1x1', u 'Investor']
+        },
+        u 'From': {
+          u 'string': [u 'SalesInteraction', u 'IncomingCall']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'Sales', u 'CallGroup']
+        },
+        u 'From': {
+          u 'string': [u 'SalesInteraction', u 'CallGroup']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'Sales', u 'Video1x1']
+        },
+        u 'From': {
+          u 'string': [u 'SalesInteraction', u 'Video1x1']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'Sales', u 'VideoGroup']
+        },
+        u 'From': {
+          u 'string': [u 'SalesInteraction', u 'VideoGroup']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'Sales', u 'VoiceMail']
+        },
+        u 'From': {
+          u 'string': [u 'SalesInteraction', u 'Voicemail']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'Sales', u 'BlastVoiceMail']
+        },
+        u 'From': {
+          u 'string': [u 'SalesInteraction', u 'BlastVoicemail']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'Sales', u 'Email']
+        },
+        u 'From': {
+          u 'string': [u 'SalesInteraction', u 'Email']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'Sales', u 'BlastEmail']
+        },
+        u 'From': {
+          u 'string': [u 'SalesInteraction', u 'BlastEmail']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'Sales', u 'IM']
+        },
+        u 'From': {
+          u 'string': [u 'SalesInteraction', u 'IM']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'Social', u '1x1']
+        },
+        u 'From': {
+          u 'string': [u 'Social', u '1x1']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'Social', u 'Group']
+        },
+        u 'From': {
+          u 'string': [u 'Social', u 'Group']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'SalesSpecialist', u '1x1']
+        },
+        u 'From': {
+          u 'string': [u 'SpecialistSales', u '1x1']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'SalesSpecialist', u '2x1']
+        },
+        u 'From': {
+          u 'string': [u 'SpecialistSales', u '2x1']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'SalesSpecialist', u '3x1']
+        },
+        u 'From': {
+          u 'string': [u 'SpecialistSales', u '3x1']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'SalesSpecialist', u 'Group']
+        },
+        u 'From': {
+          u 'string': [u 'SpecialistSales', u 'Group']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'SalesSpecialist', u 'Call1x1', u 'Broker']
+        },
+        u 'From': {
+          u 'string': [u 'SpecialistSales', u 'OutgoingCall']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'SalesSpecialist', u 'Call1x1', u 'Investor']
+        },
+        u 'From': {
+          u 'string': [u 'SpecialistSales', u 'IncomingCall']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'SalesSpecialist', u 'CallGroup']
+        },
+        u 'From': {
+          u 'string': [u 'SpecialistSales', u 'CallGroup']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'SalesSpecialist', u 'Video1x1']
+        },
+        u 'From': {
+          u 'string': [u 'SpecialistSales', u 'Video1x1']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'SalesSpecialist', u 'VideoGroup']
+        },
+        u 'From': {
+          u 'string': [u 'SpecialistSales', u 'VideoGroup']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'SalesSpecialist', u 'VoiceMail']
+        },
+        u 'From': {
+          u 'string': [u 'SpecialistSales', u 'Voicemail']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'SalesSpecialist', u 'BlastVoiceMail']
+        },
+        u 'From': {
+          u 'string': [u 'SpecialistSales', u 'BlastVoicemail']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'SalesSpecialist', u 'Email']
+        },
+        u 'From': {
+          u 'string': [u 'SpecialistSales', u 'Email']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'SalesSpecialist', u 'BlastEmail']
+        },
+        u 'From': {
+          u 'string': [u 'SpecialistSales', u 'BlastEmail']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'SalesSpecialist', u 'IM']
+        },
+        u 'From': {
+          u 'string': [u 'SpecialistSales', u 'IM']
+        }
+      }, {
+        u 'To': {
+          u 'string': [u 'ResearchReadership', u 'Viewed']
+        },
+        u 'From': {
+          u 'string': [u 'Note', u 'Viewed']
+        }
+      }],
+      u '@Name': u 'Types'
+    }],
+    u '@xmlns:xsd': u 'http://www.w3.org/2001/XMLSchema'
+  }
+}

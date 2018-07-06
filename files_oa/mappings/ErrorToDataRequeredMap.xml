@@ -1,0 +1,149 @@
+﻿<?xml version="1.0"?>
+<ArrayOfOneWayMapper xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<OneWayMapper Name="InteractionTargetErrorType">
+		<!--Missing Analyst Details-->
+		<BundleMap>
+			<From>
+				<string>195</string>
+			</From>
+			<To>
+				<string>Provide a Broker Attendee First Name and Last Name</string>
+			</To>
+		</BundleMap>
+		<BundleMap>
+			<From>
+				<string>208</string>
+			</From>
+			<To>
+				<string>Provide a Broker Attendee First Name and Last Name</string>
+			</To>
+		</BundleMap>
+		<BundleMap>
+			<From>
+				<string>246</string>
+			</From>
+			<To>
+				<string>Provide a Broker Attendee First Name and Last Name</string>
+			</To>
+		</BundleMap>
+		<!--Missing Analyst Role-->
+		<BundleMap>
+			<From>
+				<string>27</string>
+			</From>
+			<To>
+				<string>Provide a Broker Attendee with Role of SellsideAnalyst or CoveringAnalyst</string>
+			</To>
+		</BundleMap>
+		<BundleMap>
+			<From>
+				<string>60</string>
+			</From>
+			<To>
+				<string>Provide a Broker Attendee with Role of SellsideAnalyst or CoveringAnalyst</string>
+			</To>
+		</BundleMap>
+		<BundleMap>
+			<From>
+				<string>98</string>
+			</From>
+			<To>
+				<string>Provide a Broker Attendee with Role of SellsideAnalyst or CoveringAnalyst</string>
+			</To>
+		</BundleMap>
+		<!--Missing Company Attendee Details-->
+		<BundleMap>
+			<From>
+				<string>193</string>
+			</From>
+			<To>
+				<string>Provide a Company Attendee First Name and Last Name</string>
+			</To>
+		</BundleMap>
+		<BundleMap>
+			<From>
+				<string>210</string>
+			</From>
+			<To>
+				<string>Provide a Company Attendee First Name and Last Name</string>
+			</To>
+		</BundleMap>
+		<BundleMap>
+			<From>
+				<string>244</string>
+			</From>
+			<To>
+				<string>Provide a Company Attendee First Name and Last Name</string>
+			</To>
+		</BundleMap>
+		<!--Missing Company-->
+		<BundleMap>
+			<From>
+				<string>243</string>
+			</From>
+			<To>
+				<string>Provide a Company Name or Ticker</string>
+			</To>
+		</BundleMap>
+		<!--Unknown Company-->
+		<BundleMap>
+			<From>
+				<string>197</string>
+			</From>
+			<To>
+				<string>Company was not recognized by the ONEaccess system.</string>
+			</To>
+		</BundleMap>
+		<!--Missing Expert Details-->
+		<BundleMap>
+			<From>
+				<string>196</string>
+			</From>
+			<To>
+				<string>Provide an Expert Attendee First Name and Last Name</string>
+			</To>
+		</BundleMap>
+		<BundleMap>
+			<From>
+				<string>212</string>
+			</From>
+			<To>
+				<string>Provide an Expert Attendee First Name and Last Name</string>
+			</To>
+		</BundleMap>
+		<BundleMap>
+			<From>
+				<string>245</string>
+			</From>
+			<To>
+				<string>Provide an Expert Attendee First Name and Last Name</string>
+			</To>
+		</BundleMap>
+		<!--Missing Expert Attendee Role-->
+		<BundleMap>
+			<From>
+				<string>31</string>
+			</From>
+			<To>
+				<string>Provide an Expert Attendee with Role of Industry Expert, Medical Expert, Government Expert</string>
+			</To>
+		</BundleMap>
+		<BundleMap>
+			<From>
+				<string>65</string>
+			</From>
+			<To>
+				<string>Provide an Expert Attendee with Role of Industry Expert, Medical Expert, Government Expert</string>
+			</To>
+		</BundleMap>
+		<BundleMap>
+			<From>
+				<string>97</string>
+			</From>
+			<To>
+				<string>Provide an Expert Attendee with Role of Industry Expert, Medical Expert, Government Expert</string>
+			</To>
+		</BundleMap>
+
+	</OneWayMapper>	
+</ArrayOfOneWayMapper>

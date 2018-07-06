@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clientinteraction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://oneaccess.io/corporateaccess/clientinteraction/2.1">
+  <updated>
+    <datetime>2016-05-09T16:43:49.3823692Z</datetime>
+    <timezone>Etc/UTC</timezone>
+  </updated>
+  <broker>Jefferies</broker>
+  <interactions>
+    <investor>
+      <investorName>Kate 02_12</investorName>
+      <interaction>
+        <parentID>0000b76</parentID>
+		<interactionID>0000b76</interactionID>
+        <interactionType>InvestorRelationsDay</interactionType>
+        <interactionSubType>Call1x1</interactionSubType>
+        <interactionTitle>TEST 1</interactionTitle>
+        <start>2016-07-31</start>
+        <startTime>
+          <datetime>2016-07-31T12:00:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </startTime>
+        <end>2016-07-31</end>
+        <endTime>
+          <datetime>2016-07-31T12:05:00-04:00</datetime>
+          <timezone>US/Eastern</timezone>
+        </endTime>
+        <regions>
+          <region>North America</region>
+        </regions>
+        <sectors>
+          <sector>45</sector>
+          <sector>452010</sector>
+          <sector>452020</sector>
+        </sectors>
+        <location>
+          <address>
+            <type>N/A</type>
+            <city>New York</city>
+          </address>
+        </location>
+        <companies>
+          <company>
+            <companyName>Corning Inc</companyName>
+            <isPublic>true</isPublic>
+            <identifiers>
+              <identifier type="Ticker">GLW</identifier>
+            </identifiers>
+			<isPublicSpecified>false</isPublicSpecified>
+            <companyParticipants>
+              <participant>
+                <person>
+                  <firstName>Sergei</firstName>
+                  <lastName>Brin</lastName>
+                  <email>craig.helfer@ipreo.com</email>
+                  <phone>322223</phone>
+                </person>
+                <roles>
+                  <role>HeadOfBusiness</role>
+                </roles>
+                <status>Confirmed</status>
+              </participant>
+            </companyParticipants>
+          </company>
+        </companies>
+        <brokerParticipants>
+          <participant>
+            <person>
+              <firstName>George</firstName>
+              <lastName>Notter</lastName>
+              <email>gnotter@Jefferies.com</email>
+              <title>Analyst</title>
+            </person>
+            <roles>
+              <role>SellsideAnalyst</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+          <participant>
+            <person>
+              <firstName>Shanelle</firstName>
+              <lastName>Trinidad</lastName>
+              <email>strinidad@jefferies.com</email>
+              <title>Research Sales</title>
+            </person>
+            <roles>
+              <role>SellsideSales</role>
+            </roles>
+            <status>Confirmed</status>
+          </participant>
+        </brokerParticipants>
+        <investorParticipants>
+          <participant>
+            <person>
+              <firstName>testfirstname</firstName>
+              <lastName>testlastname</lastName>
+              <email>test16870@example.com</email>
+              <title />
+            </person>
+            <roles>
+              <role>PortfolioManager</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </investorParticipants>
+      </interaction>
+	  </investor>
+  </interactions>
+</clientinteraction>

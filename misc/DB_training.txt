@@ -1,0 +1,1 @@
+BCP to insert XL into DB table.

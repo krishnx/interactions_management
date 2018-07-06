@@ -1,0 +1,4805 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clientinteraction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://oneaccess.io/corporateaccess/clientinteraction/2.1.1">
+  <updated>
+    <datetime>2018-03-01T10:45:24.7879336Z</datetime>
+    <timezone>UTC</timezone>
+  </updated>
+  <broker>FC Barcelona</broker>
+  <interactions>
+    <investor>
+      <investorName>OA CG</investorName>
+      <interaction>
+        <interactionID>OAinteraction_108</interactionID>
+        <oneaccessInteractionID>1859848</oneaccessInteractionID>
+        <interactionType>ResearchReadership</interactionType>
+        <interactionSubType></interactionSubType>
+        <interactionTitle>Unknown Asset Type,Unknown Asset Class </interactionTitle>
+        <interactionDescription>description</interactionDescription>
+        <interactionStatus>New</interactionStatus>
+        <source>Broker</source>
+        <initiator>Broker</initiator>
+        <group>group</group>
+        <start>2020-05-03</start>
+        <startTime>
+          <datetime>2020-05-03T08:00:00</datetime>
+          <timezone>UTC</timezone>
+        </startTime>
+        <end>2020-05-03</end>
+        <endTime>
+          <datetime>2020-05-03T08:30:00</datetime>
+          <timezone>UTC</timezone>
+        </endTime>
+        <regions />
+        <originatingRegion>United States</originatingRegion>
+        <sectors>
+          <sector description="Industrials">20</sector>
+          <sector description="Commercial &amp; Professional Services">2020</sector>
+          <sector description="Commercial Services &amp; Supplies">202010</sector>
+        </sectors>
+        <duration>30</duration>
+        <location>
+          <address>
+            <type>Offsite</type>
+            <streetAddress>street</streetAddress>
+            <city>New York</city>
+            <state>NY</state>
+            <country>USA</country>
+            <postalCode />
+          </address>
+        </location>
+        <readership>
+          <brokerReportID>3213</brokerReportID>
+          <publishedDateTime>
+            <datetime>2018-02-01T00:30:00</datetime>
+            <timezone>UTC</timezone>
+          </publishedDateTime>
+          <pageCount>3</pageCount>
+        </readership>
+        <companies>
+          <company>
+            <companyName>Automatic Data Processing Inc</companyName>
+            <isPublic>true</isPublic>
+            <identifiers>
+              <identifier type="Ticker">ADP US</identifier>
+            </identifiers>
+            <companyParticipants>
+              <participant>
+                <person>
+                  <firstName>c</firstName>
+                  <lastName>c</lastName>
+                  <email>c@test.test</email>
+                  <phone />
+                  <title>title</title>
+                  <company>Automatic Data Processing Inc</company>
+                  <bio />
+                </person>
+                <roles>
+                  <role>CEO</role>
+                </roles>
+                <status>Attended</status>
+              </participant>
+            </companyParticipants>
+          </company>
+        </companies>
+        <brokerParticipants>
+          <participant>
+            <person>
+              <firstName>test</firstName>
+              <lastName>test</lastName>
+              <email>test@test.test</email>
+              <phone />
+              <title>title</title>
+              <bio />
+            </person>
+            <roles>
+              <role>SellsideSales</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </brokerParticipants>
+        <thirdPartyParticipants>
+          <participant>
+            <person>
+              <firstName>e</firstName>
+              <lastName>e</lastName>
+              <email>e</email>
+              <phone />
+              <title>e</title>
+              <bio />
+            </person>
+            <roles>
+              <role>Economist</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </thirdPartyParticipants>
+        <investorParticipants>
+          <participant>
+            <person>
+              <firstName>investorF</firstName>
+              <lastName>investorL</lastName>
+              <email>investor1email@test.com</email>
+              <title>investor title</title>
+            </person>
+            <roles>
+              <role>BuysideAnalyst</role>
+              <role>BuysideSales</role>
+              <role>ReceivingClient</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </investorParticipants>
+        <createdBy>
+          <participant>
+            <person>
+              <firstName>admin</firstName>
+              <lastName>admin</lastName>
+              <email>admin@admin.com</email>
+            </person>
+          </participant>
+        </createdBy>
+        <ratesValues>
+          <rateValue>
+            <rate>0</rate>
+            <rateType>Dollars</rateType>
+            <value>0</value>
+          </rateValue>
+        </ratesValues>
+        <assetClasses />
+        <contractID>21312</contractID>
+        <comments>
+          <comment>comment</comment>
+        </comments>
+        <investorComments />
+        <tags>
+          <tag>
+            <value>tag</value>
+          </tag>
+        </tags>
+      </interaction>
+      <interaction>
+        <interactionID>OAinteraction_107</interactionID>
+        <oneaccessInteractionID>1859847</oneaccessInteractionID>
+        <interactionType>Data</interactionType>
+        <interactionSubType></interactionSubType>
+        <interactionTitle>Unknown Subtype, Future Interaction, Unknown sector, Unknown Company</interactionTitle>
+        <interactionStatus>New</interactionStatus>
+        <source>Broker</source>
+        <start>2020-05-03</start>
+        <startTime>
+          <datetime>2020-05-03T08:00:00</datetime>
+          <timezone>UTC</timezone>
+        </startTime>
+        <end>2020-05-03</end>
+        <endTime>
+          <datetime>2020-05-03T08:30:00</datetime>
+          <timezone>UTC</timezone>
+        </endTime>
+        <regions />
+        <sectors />
+        <duration>30</duration>
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies>
+          <company>
+            <companyName>oaTestUnknown_company</companyName>
+            <isPublic>true</isPublic>
+            <identifiers />
+            <companyParticipants />
+          </company>
+        </companies>
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <createdBy>
+          <participant>
+            <person>
+              <firstName>admin</firstName>
+              <lastName>admin</lastName>
+              <email>admin@admin.com</email>
+            </person>
+          </participant>
+        </createdBy>
+        <ratesValues>
+          <rateValue>
+            <rate>0</rate>
+            <rateType>Dollars</rateType>
+            <value>0</value>
+          </rateValue>
+        </ratesValues>
+        <assetClasses />
+        <comments />
+        <investorComments />
+      </interaction>
+      <interaction>
+        <interactionID>OAinteraction_106</interactionID>
+        <oneaccessInteractionID>1859846</oneaccessInteractionID>
+        <interactionType>Other</interactionType>
+        <interactionSubType></interactionSubType>
+        <interactionTitle>Unknown InteractionType and Subtype</interactionTitle>
+        <interactionStatus>New</interactionStatus>
+        <source>Broker</source>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <regions />
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <createdBy>
+          <participant>
+            <person>
+              <firstName>admin</firstName>
+              <lastName>admin</lastName>
+              <email>admin@admin.com</email>
+            </person>
+          </participant>
+        </createdBy>
+        <ratesValues>
+          <rateValue>
+            <rate>0</rate>
+            <rateType>Dollars</rateType>
+            <value>0</value>
+          </rateValue>
+        </ratesValues>
+        <assetClasses />
+        <comments />
+        <investorComments />
+      </interaction>
+      <interaction>
+        <interactionID>OAinteraction_105</interactionID>
+        <oneaccessInteractionID>1859845</oneaccessInteractionID>
+        <interactionType>Other</interactionType>
+        <interactionSubType></interactionSubType>
+        <interactionTitle>Missing Interaction Type</interactionTitle>
+        <interactionStatus>New</interactionStatus>
+        <source>Broker</source>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <regions />
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <createdBy>
+          <participant>
+            <person>
+              <firstName>admin</firstName>
+              <lastName>admin</lastName>
+              <email>admin@admin.com</email>
+            </person>
+          </participant>
+        </createdBy>
+        <ratesValues>
+          <rateValue>
+            <rate>0</rate>
+            <rateType>Dollars</rateType>
+            <value>0</value>
+          </rateValue>
+        </ratesValues>
+        <assetClasses />
+        <comments />
+        <investorComments />
+      </interaction>
+      <interaction>
+        <interactionID>OAinteraction_104</interactionID>
+        <oneaccessInteractionID>1859844</oneaccessInteractionID>
+        <interactionType>Data</interactionType>
+        <interactionSubType></interactionSubType>
+        <interactionTitle>Missing Interaction Subtype</interactionTitle>
+        <interactionStatus>New</interactionStatus>
+        <source>Broker</source>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <regions />
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <createdBy>
+          <participant>
+            <person>
+              <firstName>admin</firstName>
+              <lastName>admin</lastName>
+              <email>admin@admin.com</email>
+            </person>
+          </participant>
+        </createdBy>
+        <ratesValues>
+          <rateValue>
+            <rate>0</rate>
+            <rateType>Dollars</rateType>
+            <value>0</value>
+          </rateValue>
+        </ratesValues>
+        <assetClasses />
+        <comments />
+        <investorComments />
+      </interaction>
+      <interaction>
+        <interactionID>OAinteraction_103</interactionID>
+        <oneaccessInteractionID>1859843</oneaccessInteractionID>
+        <interactionType>IdeaDinner</interactionType>
+        <interactionSubType></interactionSubType>
+        <interactionTitle>Missing Interaction Subtype</interactionTitle>
+        <interactionStatus>New</interactionStatus>
+        <source>Broker</source>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <regions />
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <createdBy>
+          <participant>
+            <person>
+              <firstName>admin</firstName>
+              <lastName>admin</lastName>
+              <email>admin@admin.com</email>
+            </person>
+          </participant>
+        </createdBy>
+        <ratesValues>
+          <rateValue>
+            <rate>0</rate>
+            <rateType>Dollars</rateType>
+            <value>0</value>
+          </rateValue>
+        </ratesValues>
+        <assetClasses />
+        <comments />
+        <investorComments />
+      </interaction>
+      <interaction>
+        <interactionID>OAinteraction_102</interactionID>
+        <oneaccessInteractionID>1859842</oneaccessInteractionID>
+        <interactionType>InternalIndustryExpert</interactionType>
+        <interactionSubType></interactionSubType>
+        <interactionTitle>Missing Interaction Subtype</interactionTitle>
+        <interactionStatus>New</interactionStatus>
+        <source>Broker</source>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <regions />
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <createdBy>
+          <participant>
+            <person>
+              <firstName>admin</firstName>
+              <lastName>admin</lastName>
+              <email>admin@admin.com</email>
+            </person>
+          </participant>
+        </createdBy>
+        <ratesValues>
+          <rateValue>
+            <rate>0</rate>
+            <rateType>Dollars</rateType>
+            <value>0</value>
+          </rateValue>
+        </ratesValues>
+        <assetClasses />
+        <comments />
+        <investorComments />
+      </interaction>
+      <interaction>
+        <interactionID>OAinteraction_101</interactionID>
+        <oneaccessInteractionID>1859841</oneaccessInteractionID>
+        <interactionType>ResearchReadership</interactionType>
+        <interactionSubType></interactionSubType>
+        <interactionTitle>Missing Interaction Subtype</interactionTitle>
+        <interactionStatus>New</interactionStatus>
+        <source>Broker</source>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <regions />
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <createdBy>
+          <participant>
+            <person>
+              <firstName>admin</firstName>
+              <lastName>admin</lastName>
+              <email>admin@admin.com</email>
+            </person>
+          </participant>
+        </createdBy>
+        <ratesValues>
+          <rateValue>
+            <rate>0</rate>
+            <rateType>Dollars</rateType>
+            <value>0</value>
+          </rateValue>
+        </ratesValues>
+        <assetClasses />
+        <comments />
+        <investorComments />
+      </interaction>
+      <interaction>
+        <interactionID>OAinteraction_100</interactionID>
+        <oneaccessInteractionID>1859840</oneaccessInteractionID>
+        <interactionType>KeyOpinionLeader</interactionType>
+        <interactionSubType></interactionSubType>
+        <interactionTitle>Missing Interaction Subtype</interactionTitle>
+        <interactionStatus>New</interactionStatus>
+        <source>Broker</source>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <regions />
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <createdBy>
+          <participant>
+            <person>
+              <firstName>admin</firstName>
+              <lastName>admin</lastName>
+              <email>admin@admin.com</email>
+            </person>
+          </participant>
+        </createdBy>
+        <ratesValues>
+          <rateValue>
+            <rate>0</rate>
+            <rateType>Dollars</rateType>
+            <value>0</value>
+          </rateValue>
+        </ratesValues>
+        <assetClasses />
+        <comments />
+        <investorComments />
+      </interaction>
+      <interaction>
+        <interactionID>OAinteraction_99</interactionID>
+        <oneaccessInteractionID>1859839</oneaccessInteractionID>
+        <interactionType>Other</interactionType>
+        <interactionSubType></interactionSubType>
+        <interactionTitle>Missing Interaction Subtype</interactionTitle>
+        <interactionStatus>New</interactionStatus>
+        <source>Broker</source>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <regions />
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <createdBy>
+          <participant>
+            <person>
+              <firstName>admin</firstName>
+              <lastName>admin</lastName>
+              <email>admin@admin.com</email>
+            </person>
+          </participant>
+        </createdBy>
+        <ratesValues>
+          <rateValue>
+            <rate>0</rate>
+            <rateType>Dollars</rateType>
+            <value>0</value>
+          </rateValue>
+        </ratesValues>
+        <assetClasses />
+        <comments />
+        <investorComments />
+      </interaction>
+      <interaction>
+        <interactionID>OAinteraction_98</interactionID>
+        <oneaccessInteractionID>1859838</oneaccessInteractionID>
+        <interactionType>CustomWork</interactionType>
+        <interactionSubType></interactionSubType>
+       <interactionSubType></interactionSubType>
+        <interactionStatus>New</interactionStatus>
+        <source>Broker</source>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <regions />
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <createdBy>
+          <participant>
+            <person>
+              <firstName>admin</firstName>
+              <lastName>admin</lastName>
+              <email>admin@admin.com</email>
+            </person>
+          </participant>
+        </createdBy>
+        <ratesValues>
+          <rateValue>
+            <rate>0</rate>
+            <rateType>Dollars</rateType>
+            <value>0</value>
+          </rateValue>
+        </ratesValues>
+        <assetClasses />
+        <comments />
+        <investorComments />
+      </interaction>
+      <interaction>
+        <interactionID>OAinteraction_97</interactionID>
+        <oneaccessInteractionID>1859837</oneaccessInteractionID>
+        <interactionType>Social</interactionType>
+        <interactionSubType></interactionSubType>
+        <interactionStatus>New</interactionStatus>
+        <source>Broker</source>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <regions />
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <createdBy>
+          <participant>
+            <person>
+              <firstName>admin</firstName>
+              <lastName>admin</lastName>
+              <email>admin@admin.com</email>
+            </person>
+          </participant>
+        </createdBy>
+        <ratesValues>
+          <rateValue>
+            <rate>0</rate>
+            <rateType>Dollars</rateType>
+            <value>0</value>
+          </rateValue>
+        </ratesValues>
+        <assetClasses />
+        <comments />
+        <investorComments />
+      </interaction>
+      <interaction>
+        <interactionID>OAinteraction_96</interactionID>
+        <oneaccessInteractionID>1859836</oneaccessInteractionID>
+        <interactionType>IndustryEvent</interactionType>
+        <interactionSubType></interactionSubType>
+        <interactionStatus>New</interactionStatus>
+        <source>Broker</source>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <regions />
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <createdBy>
+          <participant>
+            <person>
+              <firstName>admin</firstName>
+              <lastName>admin</lastName>
+              <email>admin@admin.com</email>
+            </person>
+          </participant>
+        </createdBy>
+        <ratesValues>
+          <rateValue>
+            <rate>0</rate>
+            <rateType>Dollars</rateType>
+            <value>0</value>
+          </rateValue>
+        </ratesValues>
+        <assetClasses />
+        <comments />
+        <investorComments />
+      </interaction>
+      <interaction>
+        <interactionID>OAinteraction_95</interactionID>
+        <oneaccessInteractionID>1859835</oneaccessInteractionID>
+        <interactionType>SalesSpecialist</interactionType>
+        <interactionSubType></interactionSubType>
+        <interactionStatus>New</interactionStatus>
+        <source>Broker</source>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <regions />
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <createdBy>
+          <participant>
+            <person>
+              <firstName>admin</firstName>
+              <lastName>admin</lastName>
+              <email>admin@admin.com</email>
+            </person>
+          </participant>
+        </createdBy>
+        <ratesValues>
+          <rateValue>
+            <rate>0</rate>
+            <rateType>Dollars</rateType>
+            <value>0</value>
+          </rateValue>
+        </ratesValues>
+        <assetClasses />
+        <comments />
+        <investorComments />
+      </interaction>
+      <interaction>
+        <interactionID>OAinteraction_94</interactionID>
+        <oneaccessInteractionID>1859834</oneaccessInteractionID>
+        <interactionType>Sales</interactionType>
+        <interactionSubType></interactionSubType>
+        <interactionTitle>Missing Interaction Subtype</interactionTitle>
+        <interactionStatus>New</interactionStatus>
+        <source>Broker</source>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <regions />
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <createdBy>
+          <participant>
+            <person>
+              <firstName>admin</firstName>
+              <lastName>admin</lastName>
+              <email>admin@admin.com</email>
+            </person>
+          </participant>
+        </createdBy>
+        <ratesValues>
+          <rateValue>
+            <rate>0</rate>
+            <rateType>Dollars</rateType>
+            <value>0</value>
+          </rateValue>
+        </ratesValues>
+        <assetClasses />
+        <comments />
+        <investorComments />
+      </interaction>
+      <interaction>
+        <interactionID>OAinteraction_93</interactionID>
+        <oneaccessInteractionID>1859833</oneaccessInteractionID>
+        <interactionType>RelationshipMeeting</interactionType>
+        <interactionSubType></interactionSubType>
+        <interactionTitle>Missing Interaction Subtype</interactionTitle>
+        <interactionStatus>New</interactionStatus>
+        <source>Broker</source>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <regions />
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <createdBy>
+          <participant>
+            <person>
+              <firstName>admin</firstName>
+              <lastName>admin</lastName>
+              <email>admin@admin.com</email>
+            </person>
+          </participant>
+        </createdBy>
+        <ratesValues>
+          <rateValue>
+            <rate>0</rate>
+            <rateType>Dollars</rateType>
+            <value>0</value>
+          </rateValue>
+        </ratesValues>
+        <assetClasses />
+        <comments />
+        <investorComments />
+      </interaction>
+      <interaction>
+        <interactionID>OAinteraction_92</interactionID>
+        <oneaccessInteractionID>1859832</oneaccessInteractionID>
+        <interactionType>BankerEvent</interactionType>
+        <interactionSubType></interactionSubType>
+        <interactionTitle>Missing Interaction Subtype</interactionTitle>
+        <interactionStatus>New</interactionStatus>
+        <source>Broker</source>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <regions />
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <createdBy>
+          <participant>
+            <person>
+              <firstName>admin</firstName>
+              <lastName>admin</lastName>
+              <email>admin@admin.com</email>
+            </person>
+          </participant>
+        </createdBy>
+        <ratesValues>
+          <rateValue>
+            <rate>0</rate>
+            <rateType>Dollars</rateType>
+            <value>0</value>
+          </rateValue>
+        </ratesValues>
+        <assetClasses />
+        <comments />
+        <investorComments />
+      </interaction>
+      <interaction>
+        <interactionID>OAinteraction_91</interactionID>
+        <oneaccessInteractionID>1859831</oneaccessInteractionID>
+        <interactionType>CorporateBroking</interactionType>
+        <interactionSubType></interactionSubType>
+        <interactionTitle>Missing Interaction Subtype</interactionTitle>
+        <interactionStatus>New</interactionStatus>
+        <source>Broker</source>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <regions />
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <createdBy>
+          <participant>
+            <person>
+              <firstName>admin</firstName>
+              <lastName>admin</lastName>
+              <email>admin@admin.com</email>
+            </person>
+          </participant>
+        </createdBy>
+        <ratesValues>
+          <rateValue>
+            <rate>0</rate>
+            <rateType>Dollars</rateType>
+            <value>0</value>
+          </rateValue>
+        </ratesValues>
+        <assetClasses />
+        <comments />
+        <investorComments />
+      </interaction>
+      <interaction>
+        <interactionID>OAinteraction_90</interactionID>
+        <oneaccessInteractionID>1859830</oneaccessInteractionID>
+        <interactionType>MacroStrategist</interactionType>
+        <interactionSubType></interactionSubType>
+        <interactionTitle>Missing Interaction Subtype</interactionTitle>
+        <interactionStatus>New</interactionStatus>
+        <source>Broker</source>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <regions />
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <createdBy>
+          <participant>
+            <person>
+              <firstName>admin</firstName>
+              <lastName>admin</lastName>
+              <email>admin@admin.com</email>
+            </person>
+          </participant>
+        </createdBy>
+        <ratesValues>
+          <rateValue>
+            <rate>0</rate>
+            <rateType>Dollars</rateType>
+            <value>0</value>
+          </rateValue>
+        </ratesValues>
+        <assetClasses />
+        <comments />
+        <investorComments />
+      </interaction>
+      <interaction>
+        <interactionID>OAinteraction_89</interactionID>
+        <oneaccessInteractionID>1859829</oneaccessInteractionID>
+        <interactionType>MedicalExpert</interactionType>
+        <interactionSubType></interactionSubType>
+        <interactionTitle>Missing Interaction Subtype</interactionTitle>
+        <interactionStatus>New</interactionStatus>
+        <source>Broker</source>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <regions />
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <createdBy>
+          <participant>
+            <person>
+              <firstName>admin</firstName>
+              <lastName>admin</lastName>
+              <email>admin@admin.com</email>
+            </person>
+          </participant>
+        </createdBy>
+        <ratesValues>
+          <rateValue>
+            <rate>0</rate>
+            <rateType>Dollars</rateType>
+            <value>0</value>
+          </rateValue>
+        </ratesValues>
+        <assetClasses />
+        <comments />
+        <investorComments />
+      </interaction>
+      <interaction>
+        <interactionID>OAinteraction_88</interactionID>
+        <oneaccessInteractionID>1859828</oneaccessInteractionID>
+        <interactionType>GovernmentExpert</interactionType>
+        <interactionSubType></interactionSubType>
+        <interactionTitle>Missing Interaction Subtype</interactionTitle>
+        <interactionStatus>New</interactionStatus>
+        <source>Broker</source>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <regions />
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <createdBy>
+          <participant>
+            <person>
+              <firstName>admin</firstName>
+              <lastName>admin</lastName>
+              <email>admin@admin.com</email>
+            </person>
+          </participant>
+        </createdBy>
+        <ratesValues>
+          <rateValue>
+            <rate>0</rate>
+            <rateType>Dollars</rateType>
+            <value>0</value>
+          </rateValue>
+        </ratesValues>
+        <assetClasses />
+        <comments />
+        <investorComments />
+      </interaction>
+      <interaction>
+        <interactionID>OAinteraction_87</interactionID>
+        <oneaccessInteractionID>1859827</oneaccessInteractionID>
+        <interactionType>IndustryExpert</interactionType>
+        <interactionSubType></interactionSubType>
+        <interactionTitle>Missing Interaction Subtype</interactionTitle>
+        <interactionStatus>New</interactionStatus>
+        <source>Broker</source>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <regions />
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <createdBy>
+          <participant>
+            <person>
+              <firstName>admin</firstName>
+              <lastName>admin</lastName>
+              <email>admin@admin.com</email>
+            </person>
+          </participant>
+        </createdBy>
+        <ratesValues>
+          <rateValue>
+            <rate>0</rate>
+            <rateType>Dollars</rateType>
+            <value>0</value>
+          </rateValue>
+        </ratesValues>
+        <assetClasses />
+        <comments />
+        <investorComments />
+      </interaction>
+      <interaction>
+        <interactionID>OAinteraction_86</interactionID>
+        <oneaccessInteractionID>1859826</oneaccessInteractionID>
+        <interactionType>AnalystMarketing</interactionType>
+        <interactionSubType></interactionSubType>
+        <interactionTitle>Missing Interaction Subtype</interactionTitle>
+        <interactionStatus>New</interactionStatus>
+        <source>Broker</source>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <regions />
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <createdBy>
+          <participant>
+            <person>
+              <firstName>admin</firstName>
+              <lastName>admin</lastName>
+              <email>admin@admin.com</email>
+            </person>
+          </participant>
+        </createdBy>
+        <ratesValues>
+          <rateValue>
+            <rate>0</rate>
+            <rateType>Dollars</rateType>
+            <value>0</value>
+          </rateValue>
+        </ratesValues>
+        <assetClasses />
+        <comments />
+        <investorComments />
+      </interaction>
+      <interaction>
+        <interactionID>OAinteraction_85</interactionID>
+        <oneaccessInteractionID>1859825</oneaccessInteractionID>
+        <interactionType>Idea</interactionType>
+        <interactionSubType></interactionSubType>
+        <interactionTitle>Missing Interaction Subtype</interactionTitle>
+        <interactionStatus>New</interactionStatus>
+        <source>Broker</source>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <regions />
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <createdBy>
+          <participant>
+            <person>
+              <firstName>admin</firstName>
+              <lastName>admin</lastName>
+              <email>admin@admin.com</email>
+            </person>
+          </participant>
+        </createdBy>
+        <ratesValues>
+          <rateValue>
+            <rate>0</rate>
+            <rateType>Dollars</rateType>
+            <value>0</value>
+          </rateValue>
+        </ratesValues>
+        <assetClasses />
+        <comments />
+        <investorComments />
+      </interaction>
+      <interaction>
+        <interactionID>OAinteraction_84</interactionID>
+        <oneaccessInteractionID>1859824</oneaccessInteractionID>
+        <interactionType>DealRoadshow</interactionType>
+        <interactionSubType></interactionSubType>
+        <interactionTitle>Missing Interaction Subtype</interactionTitle>
+        <interactionStatus>New</interactionStatus>
+        <source>Broker</source>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <regions />
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <createdBy>
+          <participant>
+            <person>
+              <firstName>admin</firstName>
+              <lastName>admin</lastName>
+              <email>admin@admin.com</email>
+            </person>
+          </participant>
+        </createdBy>
+        <ratesValues>
+          <rateValue>
+            <rate>0</rate>
+            <rateType>Dollars</rateType>
+            <value>0</value>
+          </rateValue>
+        </ratesValues>
+        <assetClasses />
+        <comments />
+        <investorComments />
+      </interaction>
+      <interaction>
+        <interactionID>OAinteraction_83</interactionID>
+        <oneaccessInteractionID>1859823</oneaccessInteractionID>
+        <interactionType>NonDealRoadshow</interactionType>
+        <interactionSubType></interactionSubType>
+        <interactionTitle>Missing Interaction Subtype</interactionTitle>
+        <interactionStatus>New</interactionStatus>
+        <source>Broker</source>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <regions />
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <createdBy>
+          <participant>
+            <person>
+              <firstName>admin</firstName>
+              <lastName>admin</lastName>
+              <email>admin@admin.com</email>
+            </person>
+          </participant>
+        </createdBy>
+        <ratesValues>
+          <rateValue>
+            <rate>0</rate>
+            <rateType>Dollars</rateType>
+            <value>0</value>
+          </rateValue>
+        </ratesValues>
+        <assetClasses />
+        <comments />
+        <investorComments />
+      </interaction>
+      <interaction>
+        <interactionID>OAinteraction_82</interactionID>
+        <oneaccessInteractionID>1859822</oneaccessInteractionID>
+        <interactionType>FieldTrip</interactionType>
+        <interactionSubType></interactionSubType>
+        <interactionTitle>Missing Interaction Subtype</interactionTitle>
+        <interactionStatus>New</interactionStatus>
+        <source>Broker</source>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <regions />
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <createdBy>
+          <participant>
+            <person>
+              <firstName>admin</firstName>
+              <lastName>admin</lastName>
+              <email>admin@admin.com</email>
+            </person>
+          </participant>
+        </createdBy>
+        <ratesValues>
+          <rateValue>
+            <rate>0</rate>
+            <rateType>Dollars</rateType>
+            <value>0</value>
+          </rateValue>
+        </ratesValues>
+        <assetClasses />
+        <comments />
+        <investorComments />
+      </interaction>
+      <interaction>
+        <interactionID>OAinteraction_81</interactionID>
+        <oneaccessInteractionID>1859821</oneaccessInteractionID>
+        <interactionType>Conference</interactionType>
+        <interactionSubType></interactionSubType>
+        <interactionTitle>Missing Interaction Subtype</interactionTitle>
+        <interactionStatus>New</interactionStatus>
+        <source>Broker</source>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <regions />
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <createdBy>
+          <participant>
+            <person>
+              <firstName>admin</firstName>
+              <lastName>admin</lastName>
+              <email>admin@admin.com</email>
+            </person>
+          </participant>
+        </createdBy>
+        <ratesValues>
+          <rateValue>
+            <rate>0</rate>
+            <rateType>Dollars</rateType>
+            <value>0</value>
+          </rateValue>
+        </ratesValues>
+        <assetClasses />
+        <comments />
+        <investorComments />
+      </interaction>
+      <interaction>
+        <interactionID>OAinteraction_80</interactionID>
+        <oneaccessInteractionID>1859820</oneaccessInteractionID>
+        <interactionType>BespokeAccess</interactionType>
+        <interactionSubType></interactionSubType>
+        <interactionTitle>Missing Interaction Subtype</interactionTitle>
+        <interactionStatus>New</interactionStatus>
+        <source>Broker</source>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <regions />
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <createdBy>
+          <participant>
+            <person>
+              <firstName>admin</firstName>
+              <lastName>admin</lastName>
+              <email>admin@admin.com</email>
+            </person>
+          </participant>
+        </createdBy>
+        <ratesValues>
+          <rateValue>
+            <rate>0</rate>
+            <rateType>Dollars</rateType>
+            <value>0</value>
+          </rateValue>
+        </ratesValues>
+        <assetClasses />
+        <comments />
+        <investorComments />
+      </interaction>
+      <interaction>
+        <interactionID>OAinteraction_79</interactionID>
+        <oneaccessInteractionID>1859819</oneaccessInteractionID>
+        <interactionType>ModelRequest</interactionType>
+        <interactionSubType></interactionSubType>
+        <interactionTitle>Missing Interaction Subtype</interactionTitle>
+        <interactionStatus>New</interactionStatus>
+        <source>Broker</source>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <regions />
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <createdBy>
+          <participant>
+            <person>
+              <firstName>admin</firstName>
+              <lastName>admin</lastName>
+              <email>admin@admin.com</email>
+            </person>
+          </participant>
+        </createdBy>
+        <ratesValues>
+          <rateValue>
+            <rate>0</rate>
+            <rateType>Dollars</rateType>
+            <value>0</value>
+          </rateValue>
+        </ratesValues>
+        <assetClasses />
+        <comments />
+        <investorComments />
+      </interaction>
+      <interaction>
+        <interactionID>OAinteraction_78</interactionID>
+        <oneaccessInteractionID>1859818</oneaccessInteractionID>
+        <interactionType>Data</interactionType>
+        <interactionSubType>Email</interactionSubType>
+        <interactionStatus>New</interactionStatus>
+        <source>Broker</source>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <regions />
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <createdBy>
+          <participant>
+            <person>
+              <firstName>admin</firstName>
+              <lastName>admin</lastName>
+              <email>admin@admin.com</email>
+            </person>
+          </participant>
+        </createdBy>
+        <ratesValues>
+          <rateValue>
+            <rate>0</rate>
+            <rateType>Dollars</rateType>
+            <value>0</value>
+          </rateValue>
+        </ratesValues>
+        <assetClasses />
+        <comments />
+        <investorComments />
+      </interaction>
+      <interaction>
+        <interactionID>OAinteraction_77</interactionID>
+        <oneaccessInteractionID>1859817</oneaccessInteractionID>
+        <interactionType>IdeaDinner</interactionType>
+        <interactionSubType>Email</interactionSubType>
+        <interactionStatus>New</interactionStatus>
+        <source>Broker</source>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <regions />
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <createdBy>
+          <participant>
+            <person>
+              <firstName>admin</firstName>
+              <lastName>admin</lastName>
+              <email>admin@admin.com</email>
+            </person>
+          </participant>
+        </createdBy>
+        <ratesValues>
+          <rateValue>
+            <rate>0</rate>
+            <rateType>Dollars</rateType>
+            <value>0</value>
+          </rateValue>
+        </ratesValues>
+        <assetClasses />
+        <comments />
+        <investorComments />
+      </interaction>
+      <interaction>
+        <interactionID>OAinteraction_76</interactionID>
+        <oneaccessInteractionID>1859816</oneaccessInteractionID>
+        <interactionType>InternalIndustryExpert</interactionType>
+        <interactionSubType>Email</interactionSubType>
+        <interactionStatus>New</interactionStatus>
+        <source>Broker</source>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <regions />
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <createdBy>
+          <participant>
+            <person>
+              <firstName>admin</firstName>
+              <lastName>admin</lastName>
+              <email>admin@admin.com</email>
+            </person>
+          </participant>
+        </createdBy>
+        <ratesValues>
+          <rateValue>
+            <rate>0</rate>
+            <rateType>Dollars</rateType>
+            <value>0</value>
+          </rateValue>
+        </ratesValues>
+        <assetClasses />
+        <comments />
+        <investorComments />
+      </interaction>
+      <interaction>
+        <interactionID>OAinteraction_75</interactionID>
+        <oneaccessInteractionID>1859815</oneaccessInteractionID>
+        <interactionType>ResearchReadership</interactionType>
+        <interactionSubType>Email</interactionSubType>
+        <interactionStatus>New</interactionStatus>
+        <source>Broker</source>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <regions />
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <createdBy>
+          <participant>
+            <person>
+              <firstName>admin</firstName>
+              <lastName>admin</lastName>
+              <email>admin@admin.com</email>
+            </person>
+          </participant>
+        </createdBy>
+        <ratesValues>
+          <rateValue>
+            <rate>0</rate>
+            <rateType>Dollars</rateType>
+            <value>0</value>
+          </rateValue>
+        </ratesValues>
+        <assetClasses />
+        <comments />
+        <investorComments />
+      </interaction>
+      <interaction>
+        <interactionID>OAinteraction_74</interactionID>
+        <oneaccessInteractionID>1859814</oneaccessInteractionID>
+        <interactionType>KeyOpinionLeader</interactionType>
+        <interactionSubType>Email</interactionSubType>
+        <interactionStatus>New</interactionStatus>
+        <source>Broker</source>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <regions />
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <createdBy>
+          <participant>
+            <person>
+              <firstName>admin</firstName>
+              <lastName>admin</lastName>
+              <email>admin@admin.com</email>
+            </person>
+          </participant>
+        </createdBy>
+        <ratesValues>
+          <rateValue>
+            <rate>0</rate>
+            <rateType>Dollars</rateType>
+            <value>0</value>
+          </rateValue>
+        </ratesValues>
+        <assetClasses />
+        <comments />
+        <investorComments />
+      </interaction>
+      <interaction>
+        <interactionID>OAinteraction_73</interactionID>
+        <oneaccessInteractionID>1859813</oneaccessInteractionID>
+        <interactionType>Other</interactionType>
+        <interactionSubType>Email</interactionSubType>
+        <interactionStatus>New</interactionStatus>
+        <source>Broker</source>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <regions />
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <createdBy>
+          <participant>
+            <person>
+              <firstName>admin</firstName>
+              <lastName>admin</lastName>
+              <email>admin@admin.com</email>
+            </person>
+          </participant>
+        </createdBy>
+        <ratesValues>
+          <rateValue>
+            <rate>0</rate>
+            <rateType>Dollars</rateType>
+            <value>0</value>
+          </rateValue>
+        </ratesValues>
+        <assetClasses />
+        <comments />
+        <investorComments />
+      </interaction>
+      <interaction>
+        <interactionID>OAinteraction_72</interactionID>
+        <oneaccessInteractionID>1859812</oneaccessInteractionID>
+        <interactionType>CustomWork</interactionType>
+        <interactionSubType>Email</interactionSubType>
+        <interactionStatus>New</interactionStatus>
+        <source>Broker</source>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <regions />
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <createdBy>
+          <participant>
+            <person>
+              <firstName>admin</firstName>
+              <lastName>admin</lastName>
+              <email>admin@admin.com</email>
+            </person>
+          </participant>
+        </createdBy>
+        <ratesValues>
+          <rateValue>
+            <rate>0</rate>
+            <rateType>Dollars</rateType>
+            <value>0</value>
+          </rateValue>
+        </ratesValues>
+        <assetClasses />
+        <comments />
+        <investorComments />
+      </interaction>
+      <interaction>
+        <interactionID>OAinteraction_71</interactionID>
+        <oneaccessInteractionID>1859811</oneaccessInteractionID>
+        <interactionType>Social</interactionType>
+        <interactionSubType>Email</interactionSubType>
+        <interactionStatus>New</interactionStatus>
+        <source>Broker</source>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <regions />
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <createdBy>
+          <participant>
+            <person>
+              <firstName>admin</firstName>
+              <lastName>admin</lastName>
+              <email>admin@admin.com</email>
+            </person>
+          </participant>
+        </createdBy>
+        <ratesValues>
+          <rateValue>
+            <rate>0</rate>
+            <rateType>Dollars</rateType>
+            <value>0</value>
+          </rateValue>
+        </ratesValues>
+        <assetClasses />
+        <comments />
+        <investorComments />
+      </interaction>
+      <interaction>
+        <interactionID>OAinteraction_70</interactionID>
+        <oneaccessInteractionID>1859810</oneaccessInteractionID>
+        <interactionType>IndustryEvent</interactionType>
+        <interactionSubType>Email</interactionSubType>
+        <interactionStatus>New</interactionStatus>
+        <source>Broker</source>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <regions />
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <createdBy>
+          <participant>
+            <person>
+              <firstName>admin</firstName>
+              <lastName>admin</lastName>
+              <email>admin@admin.com</email>
+            </person>
+          </participant>
+        </createdBy>
+        <ratesValues>
+          <rateValue>
+            <rate>0</rate>
+            <rateType>Dollars</rateType>
+            <value>0</value>
+          </rateValue>
+        </ratesValues>
+        <assetClasses />
+        <comments />
+        <investorComments />
+      </interaction>
+      <interaction>
+        <interactionID>OAinteraction_69</interactionID>
+        <oneaccessInteractionID>1859809</oneaccessInteractionID>
+        <interactionType>SalesSpecialist</interactionType>
+        <interactionSubType>Email</interactionSubType>
+        <interactionStatus>New</interactionStatus>
+        <source>Broker</source>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <regions />
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <createdBy>
+          <participant>
+            <person>
+              <firstName>admin</firstName>
+              <lastName>admin</lastName>
+              <email>admin@admin.com</email>
+            </person>
+          </participant>
+        </createdBy>
+        <ratesValues>
+          <rateValue>
+            <rate>0</rate>
+            <rateType>Dollars</rateType>
+            <value>0</value>
+          </rateValue>
+        </ratesValues>
+        <assetClasses />
+        <comments />
+        <investorComments />
+      </interaction>
+      <interaction>
+        <interactionID>OAinteraction_68</interactionID>
+        <oneaccessInteractionID>1859808</oneaccessInteractionID>
+        <interactionType>Sales</interactionType>
+        <interactionSubType>Email</interactionSubType>
+        <interactionStatus>New</interactionStatus>
+        <source>Broker</source>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <regions />
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <createdBy>
+          <participant>
+            <person>
+              <firstName>admin</firstName>
+              <lastName>admin</lastName>
+              <email>admin@admin.com</email>
+            </person>
+          </participant>
+        </createdBy>
+        <ratesValues>
+          <rateValue>
+            <rate>0</rate>
+            <rateType>Dollars</rateType>
+            <value>0</value>
+          </rateValue>
+        </ratesValues>
+        <assetClasses />
+        <comments />
+        <investorComments />
+      </interaction>
+      <interaction>
+        <interactionID>OAinteraction_67</interactionID>
+        <oneaccessInteractionID>1859807</oneaccessInteractionID>
+        <interactionType>RelationshipMeeting</interactionType>
+        <interactionSubType>Email</interactionSubType>
+        <interactionStatus>New</interactionStatus>
+        <source>Broker</source>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <regions />
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <createdBy>
+          <participant>
+            <person>
+              <firstName>admin</firstName>
+              <lastName>admin</lastName>
+              <email>admin@admin.com</email>
+            </person>
+          </participant>
+        </createdBy>
+        <ratesValues>
+          <rateValue>
+            <rate>0</rate>
+            <rateType>Dollars</rateType>
+            <value>0</value>
+          </rateValue>
+        </ratesValues>
+        <assetClasses />
+        <comments />
+        <investorComments />
+      </interaction>
+      <interaction>
+        <interactionID>OAinteraction_66</interactionID>
+        <oneaccessInteractionID>1859806</oneaccessInteractionID>
+        <interactionType>BankerEvent</interactionType>
+        <interactionSubType>Email</interactionSubType>
+        <interactionStatus>New</interactionStatus>
+        <source>Broker</source>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <regions />
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <createdBy>
+          <participant>
+            <person>
+              <firstName>admin</firstName>
+              <lastName>admin</lastName>
+              <email>admin@admin.com</email>
+            </person>
+          </participant>
+        </createdBy>
+        <ratesValues>
+          <rateValue>
+            <rate>0</rate>
+            <rateType>Dollars</rateType>
+            <value>0</value>
+          </rateValue>
+        </ratesValues>
+        <assetClasses />
+        <comments />
+        <investorComments />
+      </interaction>
+      <interaction>
+        <interactionID>OAinteraction_65</interactionID>
+        <oneaccessInteractionID>1859805</oneaccessInteractionID>
+        <interactionType>CorporateBroking</interactionType>
+        <interactionSubType>Email</interactionSubType>
+        <interactionStatus>New</interactionStatus>
+        <source>Broker</source>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <regions />
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <createdBy>
+          <participant>
+            <person>
+              <firstName>admin</firstName>
+              <lastName>admin</lastName>
+              <email>admin@admin.com</email>
+            </person>
+          </participant>
+        </createdBy>
+        <ratesValues>
+          <rateValue>
+            <rate>0</rate>
+            <rateType>Dollars</rateType>
+            <value>0</value>
+          </rateValue>
+        </ratesValues>
+        <assetClasses />
+        <comments />
+        <investorComments />
+      </interaction>
+      <interaction>
+        <interactionID>OAinteraction_64</interactionID>
+        <oneaccessInteractionID>1859804</oneaccessInteractionID>
+        <interactionType>MacroStrategist</interactionType>
+        <interactionSubType>Email</interactionSubType>
+        <interactionStatus>New</interactionStatus>
+        <source>Broker</source>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <regions />
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <createdBy>
+          <participant>
+            <person>
+              <firstName>admin</firstName>
+              <lastName>admin</lastName>
+              <email>admin@admin.com</email>
+            </person>
+          </participant>
+        </createdBy>
+        <ratesValues>
+          <rateValue>
+            <rate>0</rate>
+            <rateType>Dollars</rateType>
+            <value>0</value>
+          </rateValue>
+        </ratesValues>
+        <assetClasses />
+        <comments />
+        <investorComments />
+      </interaction>
+      <interaction>
+        <interactionID>OAinteraction_63</interactionID>
+        <oneaccessInteractionID>1859803</oneaccessInteractionID>
+        <interactionType>MedicalExpert</interactionType>
+        <interactionSubType>Email</interactionSubType>
+        <interactionStatus>New</interactionStatus>
+        <source>Broker</source>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <regions />
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <createdBy>
+          <participant>
+            <person>
+              <firstName>admin</firstName>
+              <lastName>admin</lastName>
+              <email>admin@admin.com</email>
+            </person>
+          </participant>
+        </createdBy>
+        <ratesValues>
+          <rateValue>
+            <rate>0</rate>
+            <rateType>Dollars</rateType>
+            <value>0</value>
+          </rateValue>
+        </ratesValues>
+        <assetClasses />
+        <comments />
+        <investorComments />
+      </interaction>
+      <interaction>
+        <interactionID>OAinteraction_62</interactionID>
+        <oneaccessInteractionID>1859802</oneaccessInteractionID>
+        <interactionType>GovernmentExpert</interactionType>
+        <interactionSubType>Email</interactionSubType>
+        <interactionStatus>New</interactionStatus>
+        <source>Broker</source>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <regions />
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <createdBy>
+          <participant>
+            <person>
+              <firstName>admin</firstName>
+              <lastName>admin</lastName>
+              <email>admin@admin.com</email>
+            </person>
+          </participant>
+        </createdBy>
+        <ratesValues>
+          <rateValue>
+            <rate>0</rate>
+            <rateType>Dollars</rateType>
+            <value>0</value>
+          </rateValue>
+        </ratesValues>
+        <assetClasses />
+        <comments />
+        <investorComments />
+      </interaction>
+      <interaction>
+        <interactionID>OAinteraction_61</interactionID>
+        <oneaccessInteractionID>1859801</oneaccessInteractionID>
+        <interactionType>IndustryExpert</interactionType>
+        <interactionSubType>Email</interactionSubType>
+        <interactionStatus>New</interactionStatus>
+        <source>Broker</source>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <regions />
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <createdBy>
+          <participant>
+            <person>
+              <firstName>admin</firstName>
+              <lastName>admin</lastName>
+              <email>admin@admin.com</email>
+            </person>
+          </participant>
+        </createdBy>
+        <ratesValues>
+          <rateValue>
+            <rate>0</rate>
+            <rateType>Dollars</rateType>
+            <value>0</value>
+          </rateValue>
+        </ratesValues>
+        <assetClasses />
+        <comments />
+        <investorComments />
+      </interaction>
+      <interaction>
+        <interactionID>OAinteraction_60</interactionID>
+        <oneaccessInteractionID>1859800</oneaccessInteractionID>
+        <interactionType>AnalystMarketing</interactionType>
+        <interactionSubType>Email</interactionSubType>
+        <interactionStatus>New</interactionStatus>
+        <source>Broker</source>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <regions />
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <createdBy>
+          <participant>
+            <person>
+              <firstName>admin</firstName>
+              <lastName>admin</lastName>
+              <email>admin@admin.com</email>
+            </person>
+          </participant>
+        </createdBy>
+        <ratesValues>
+          <rateValue>
+            <rate>0</rate>
+            <rateType>Dollars</rateType>
+            <value>0</value>
+          </rateValue>
+        </ratesValues>
+        <assetClasses />
+        <comments />
+        <investorComments />
+      </interaction>
+      <interaction>
+        <interactionID>OAinteraction_59</interactionID>
+        <oneaccessInteractionID>1859799</oneaccessInteractionID>
+        <interactionType>Idea</interactionType>
+        <interactionSubType>Email</interactionSubType>
+        <interactionStatus>New</interactionStatus>
+        <source>Broker</source>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <regions />
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <createdBy>
+          <participant>
+            <person>
+              <firstName>admin</firstName>
+              <lastName>admin</lastName>
+              <email>admin@admin.com</email>
+            </person>
+          </participant>
+        </createdBy>
+        <ratesValues>
+          <rateValue>
+            <rate>0</rate>
+            <rateType>Dollars</rateType>
+            <value>0</value>
+          </rateValue>
+        </ratesValues>
+        <assetClasses />
+        <comments />
+        <investorComments />
+      </interaction>
+      <interaction>
+        <interactionID>OAinteraction_58</interactionID>
+        <oneaccessInteractionID>1859798</oneaccessInteractionID>
+        <interactionType>DealRoadshow</interactionType>
+        <interactionSubType>Email</interactionSubType>
+        <interactionStatus>New</interactionStatus>
+        <source>Broker</source>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <regions />
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <createdBy>
+          <participant>
+            <person>
+              <firstName>admin</firstName>
+              <lastName>admin</lastName>
+              <email>admin@admin.com</email>
+            </person>
+          </participant>
+        </createdBy>
+        <ratesValues>
+          <rateValue>
+            <rate>0</rate>
+            <rateType>Dollars</rateType>
+            <value>0</value>
+          </rateValue>
+        </ratesValues>
+        <assetClasses />
+        <comments />
+        <investorComments />
+      </interaction>
+      <interaction>
+        <interactionID>OAinteraction_57</interactionID>
+        <oneaccessInteractionID>1859797</oneaccessInteractionID>
+        <interactionType>NonDealRoadshow</interactionType>
+        <interactionSubType>Email</interactionSubType>
+        <interactionStatus>New</interactionStatus>
+        <source>Broker</source>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <regions />
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <createdBy>
+          <participant>
+            <person>
+              <firstName>admin</firstName>
+              <lastName>admin</lastName>
+              <email>admin@admin.com</email>
+            </person>
+          </participant>
+        </createdBy>
+        <ratesValues>
+          <rateValue>
+            <rate>0</rate>
+            <rateType>Dollars</rateType>
+            <value>0</value>
+          </rateValue>
+        </ratesValues>
+        <assetClasses />
+        <comments />
+        <investorComments />
+      </interaction>
+      <interaction>
+        <interactionID>OAinteraction_56</interactionID>
+        <oneaccessInteractionID>1859796</oneaccessInteractionID>
+        <interactionType>FieldTrip</interactionType>
+        <interactionSubType>Email</interactionSubType>
+        <interactionStatus>New</interactionStatus>
+        <source>Broker</source>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <regions />
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <createdBy>
+          <participant>
+            <person>
+              <firstName>admin</firstName>
+              <lastName>admin</lastName>
+              <email>admin@admin.com</email>
+            </person>
+          </participant>
+        </createdBy>
+        <ratesValues>
+          <rateValue>
+            <rate>0</rate>
+            <rateType>Dollars</rateType>
+            <value>0</value>
+          </rateValue>
+        </ratesValues>
+        <assetClasses />
+        <comments />
+        <investorComments />
+      </interaction>
+      <interaction>
+        <interactionID>OAinteraction_55</interactionID>
+        <oneaccessInteractionID>1859795</oneaccessInteractionID>
+        <interactionType>Conference</interactionType>
+        <interactionSubType>Email</interactionSubType>
+        <interactionStatus>New</interactionStatus>
+        <source>Broker</source>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <regions />
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <createdBy>
+          <participant>
+            <person>
+              <firstName>admin</firstName>
+              <lastName>admin</lastName>
+              <email>admin@admin.com</email>
+            </person>
+          </participant>
+        </createdBy>
+        <ratesValues>
+          <rateValue>
+            <rate>0</rate>
+            <rateType>Dollars</rateType>
+            <value>0</value>
+          </rateValue>
+        </ratesValues>
+        <assetClasses />
+        <comments />
+        <investorComments />
+      </interaction>
+      <interaction>
+        <interactionID>OAinteraction_54</interactionID>
+        <oneaccessInteractionID>1859794</oneaccessInteractionID>
+        <interactionType>BespokeAccess</interactionType>
+        <interactionSubType>Email</interactionSubType>
+        <interactionStatus>New</interactionStatus>
+        <source>Broker</source>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <regions />
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <createdBy>
+          <participant>
+            <person>
+              <firstName>admin</firstName>
+              <lastName>admin</lastName>
+              <email>admin@admin.com</email>
+            </person>
+          </participant>
+        </createdBy>
+        <ratesValues>
+          <rateValue>
+            <rate>0</rate>
+            <rateType>Dollars</rateType>
+            <value>0</value>
+          </rateValue>
+        </ratesValues>
+        <assetClasses />
+        <comments />
+        <investorComments />
+      </interaction>
+      <interaction>
+        <interactionID>OAinteraction_53</interactionID>
+        <oneaccessInteractionID>1859793</oneaccessInteractionID>
+        <interactionType>ModelRequest</interactionType>
+        <interactionSubType>Email</interactionSubType>
+        <interactionStatus>New</interactionStatus>
+        <source>Broker</source>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <regions />
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <createdBy>
+          <participant>
+            <person>
+              <firstName>admin</firstName>
+              <lastName>admin</lastName>
+              <email>admin@admin.com</email>
+            </person>
+          </participant>
+        </createdBy>
+        <ratesValues>
+          <rateValue>
+            <rate>0</rate>
+            <rateType>Dollars</rateType>
+            <value>0</value>
+          </rateValue>
+        </ratesValues>
+        <assetClasses />
+        <comments />
+        <investorComments />
+      </interaction>
+      <interaction>
+        <interactionID>OAinteraction_52</interactionID>
+        <oneaccessInteractionID>1859792</oneaccessInteractionID>
+        <interactionType>Data</interactionType>
+        <interactionSubType>Call1x1</interactionSubType>
+        <interactionStatus>New</interactionStatus>
+        <source>Broker</source>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <regions />
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <createdBy>
+          <participant>
+            <person>
+              <firstName>admin</firstName>
+              <lastName>admin</lastName>
+              <email>admin@admin.com</email>
+            </person>
+          </participant>
+        </createdBy>
+        <ratesValues>
+          <rateValue>
+            <rate>0</rate>
+            <rateType>Dollars</rateType>
+            <value>0</value>
+          </rateValue>
+        </ratesValues>
+        <assetClasses />
+        <comments />
+        <investorComments />
+      </interaction>
+      <interaction>
+        <interactionID>OAinteraction_51</interactionID>
+        <oneaccessInteractionID>1859791</oneaccessInteractionID>
+        <interactionType>IdeaDinner</interactionType>
+        <interactionSubType>Call1x1</interactionSubType>
+        <interactionStatus>New</interactionStatus>
+        <source>Broker</source>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <regions />
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <createdBy>
+          <participant>
+            <person>
+              <firstName>admin</firstName>
+              <lastName>admin</lastName>
+              <email>admin@admin.com</email>
+            </person>
+          </participant>
+        </createdBy>
+        <ratesValues>
+          <rateValue>
+            <rate>0</rate>
+            <rateType>Dollars</rateType>
+            <value>0</value>
+          </rateValue>
+        </ratesValues>
+        <assetClasses />
+        <comments />
+        <investorComments />
+      </interaction>
+      <interaction>
+        <interactionID>OAinteraction_50</interactionID>
+        <oneaccessInteractionID>1859790</oneaccessInteractionID>
+        <interactionType>InternalIndustryExpert</interactionType>
+        <interactionSubType>Call1x1</interactionSubType>
+        <interactionStatus>New</interactionStatus>
+        <source>Broker</source>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <regions />
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <createdBy>
+          <participant>
+            <person>
+              <firstName>admin</firstName>
+              <lastName>admin</lastName>
+              <email>admin@admin.com</email>
+            </person>
+          </participant>
+        </createdBy>
+        <ratesValues>
+          <rateValue>
+            <rate>0</rate>
+            <rateType>Dollars</rateType>
+            <value>0</value>
+          </rateValue>
+        </ratesValues>
+        <assetClasses />
+        <comments />
+        <investorComments />
+      </interaction>
+      <interaction>
+        <interactionID>OAinteraction_49</interactionID>
+        <oneaccessInteractionID>1859789</oneaccessInteractionID>
+        <interactionType>ResearchReadership</interactionType>
+        <interactionSubType>Call1x1</interactionSubType>
+        <interactionStatus>New</interactionStatus>
+        <source>Broker</source>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <regions />
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <createdBy>
+          <participant>
+            <person>
+              <firstName>admin</firstName>
+              <lastName>admin</lastName>
+              <email>admin@admin.com</email>
+            </person>
+          </participant>
+        </createdBy>
+        <ratesValues>
+          <rateValue>
+            <rate>0</rate>
+            <rateType>Dollars</rateType>
+            <value>0</value>
+          </rateValue>
+        </ratesValues>
+        <assetClasses />
+        <comments />
+        <investorComments />
+      </interaction>
+      <interaction>
+        <interactionID>OAinteraction_48</interactionID>
+        <oneaccessInteractionID>1859788</oneaccessInteractionID>
+        <interactionType>KeyOpinionLeader</interactionType>
+        <interactionSubType>Call1x1</interactionSubType>
+        <interactionStatus>New</interactionStatus>
+        <source>Broker</source>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <regions />
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <createdBy>
+          <participant>
+            <person>
+              <firstName>admin</firstName>
+              <lastName>admin</lastName>
+              <email>admin@admin.com</email>
+            </person>
+          </participant>
+        </createdBy>
+        <ratesValues>
+          <rateValue>
+            <rate>0</rate>
+            <rateType>Dollars</rateType>
+            <value>0</value>
+          </rateValue>
+        </ratesValues>
+        <assetClasses />
+        <comments />
+        <investorComments />
+      </interaction>
+      <interaction>
+        <interactionID>OAinteraction_47</interactionID>
+        <oneaccessInteractionID>1859787</oneaccessInteractionID>
+        <interactionType>Other</interactionType>
+        <interactionSubType>Call1x1</interactionSubType>
+        <interactionStatus>New</interactionStatus>
+        <source>Broker</source>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <regions />
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <createdBy>
+          <participant>
+            <person>
+              <firstName>admin</firstName>
+              <lastName>admin</lastName>
+              <email>admin@admin.com</email>
+            </person>
+          </participant>
+        </createdBy>
+        <ratesValues>
+          <rateValue>
+            <rate>0</rate>
+            <rateType>Dollars</rateType>
+            <value>0</value>
+          </rateValue>
+        </ratesValues>
+        <assetClasses />
+        <comments />
+        <investorComments />
+      </interaction>
+      <interaction>
+        <interactionID>OAinteraction_46</interactionID>
+        <oneaccessInteractionID>1859786</oneaccessInteractionID>
+        <interactionType>CustomWork</interactionType>
+        <interactionSubType>Call1x1</interactionSubType>
+        <interactionStatus>New</interactionStatus>
+        <source>Broker</source>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <regions />
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <createdBy>
+          <participant>
+            <person>
+              <firstName>admin</firstName>
+              <lastName>admin</lastName>
+              <email>admin@admin.com</email>
+            </person>
+          </participant>
+        </createdBy>
+        <ratesValues>
+          <rateValue>
+            <rate>0</rate>
+            <rateType>Dollars</rateType>
+            <value>0</value>
+          </rateValue>
+        </ratesValues>
+        <assetClasses />
+        <comments />
+        <investorComments />
+      </interaction>
+      <interaction>
+        <interactionID>OAinteraction_45</interactionID>
+        <oneaccessInteractionID>1859785</oneaccessInteractionID>
+        <interactionType>Social</interactionType>
+        <interactionSubType>Call1x1</interactionSubType>
+        <interactionStatus>New</interactionStatus>
+        <source>Broker</source>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <regions />
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <createdBy>
+          <participant>
+            <person>
+              <firstName>admin</firstName>
+              <lastName>admin</lastName>
+              <email>admin@admin.com</email>
+            </person>
+          </participant>
+        </createdBy>
+        <ratesValues>
+          <rateValue>
+            <rate>0</rate>
+            <rateType>Dollars</rateType>
+            <value>0</value>
+          </rateValue>
+        </ratesValues>
+        <assetClasses />
+        <comments />
+        <investorComments />
+      </interaction>
+      <interaction>
+        <interactionID>OAinteraction_44</interactionID>
+        <oneaccessInteractionID>1859784</oneaccessInteractionID>
+        <interactionType>IndustryEvent</interactionType>
+        <interactionSubType>Call1x1</interactionSubType>
+        <interactionStatus>New</interactionStatus>
+        <source>Broker</source>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <regions />
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <createdBy>
+          <participant>
+            <person>
+              <firstName>admin</firstName>
+              <lastName>admin</lastName>
+              <email>admin@admin.com</email>
+            </person>
+          </participant>
+        </createdBy>
+        <ratesValues>
+          <rateValue>
+            <rate>0</rate>
+            <rateType>Dollars</rateType>
+            <value>0</value>
+          </rateValue>
+        </ratesValues>
+        <assetClasses />
+        <comments />
+        <investorComments />
+      </interaction>
+      <interaction>
+        <interactionID>OAinteraction_43</interactionID>
+        <oneaccessInteractionID>1859783</oneaccessInteractionID>
+        <interactionType>SalesSpecialist</interactionType>
+        <interactionSubType>Call1x1</interactionSubType>
+        <interactionStatus>New</interactionStatus>
+        <source>Broker</source>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <regions />
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <createdBy>
+          <participant>
+            <person>
+              <firstName>admin</firstName>
+              <lastName>admin</lastName>
+              <email>admin@admin.com</email>
+            </person>
+          </participant>
+        </createdBy>
+        <ratesValues>
+          <rateValue>
+            <rate>0</rate>
+            <rateType>Dollars</rateType>
+            <value>0</value>
+          </rateValue>
+        </ratesValues>
+        <assetClasses />
+        <comments />
+        <investorComments />
+      </interaction>
+      <interaction>
+        <interactionID>OAinteraction_42</interactionID>
+        <oneaccessInteractionID>1859782</oneaccessInteractionID>
+        <interactionType>Sales</interactionType>
+        <interactionSubType>Call1x1</interactionSubType>
+        <interactionStatus>New</interactionStatus>
+        <source>Broker</source>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <regions />
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <createdBy>
+          <participant>
+            <person>
+              <firstName>admin</firstName>
+              <lastName>admin</lastName>
+              <email>admin@admin.com</email>
+            </person>
+          </participant>
+        </createdBy>
+        <ratesValues>
+          <rateValue>
+            <rate>0</rate>
+            <rateType>Dollars</rateType>
+            <value>0</value>
+          </rateValue>
+        </ratesValues>
+        <assetClasses />
+        <comments />
+        <investorComments />
+      </interaction>
+      <interaction>
+        <interactionID>OAinteraction_41</interactionID>
+        <oneaccessInteractionID>1859781</oneaccessInteractionID>
+        <interactionType>RelationshipMeeting</interactionType>
+        <interactionSubType>Call1x1</interactionSubType>
+        <interactionStatus>New</interactionStatus>
+        <source>Broker</source>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <regions />
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <createdBy>
+          <participant>
+            <person>
+              <firstName>admin</firstName>
+              <lastName>admin</lastName>
+              <email>admin@admin.com</email>
+            </person>
+          </participant>
+        </createdBy>
+        <ratesValues>
+          <rateValue>
+            <rate>0</rate>
+            <rateType>Dollars</rateType>
+            <value>0</value>
+          </rateValue>
+        </ratesValues>
+        <assetClasses />
+        <comments />
+        <investorComments />
+      </interaction>
+      <interaction>
+        <interactionID>OAinteraction_40</interactionID>
+        <oneaccessInteractionID>1859780</oneaccessInteractionID>
+        <interactionType>BankerEvent</interactionType>
+        <interactionSubType>Call1x1</interactionSubType>
+        <interactionStatus>New</interactionStatus>
+        <source>Broker</source>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <regions />
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <createdBy>
+          <participant>
+            <person>
+              <firstName>admin</firstName>
+              <lastName>admin</lastName>
+              <email>admin@admin.com</email>
+            </person>
+          </participant>
+        </createdBy>
+        <ratesValues>
+          <rateValue>
+            <rate>0</rate>
+            <rateType>Dollars</rateType>
+            <value>0</value>
+          </rateValue>
+        </ratesValues>
+        <assetClasses />
+        <comments />
+        <investorComments />
+      </interaction>
+      <interaction>
+        <interactionID>OAinteraction_39</interactionID>
+        <oneaccessInteractionID>1859779</oneaccessInteractionID>
+        <interactionType>CorporateBroking</interactionType>
+        <interactionSubType>Call1x1</interactionSubType>
+        <interactionStatus>New</interactionStatus>
+        <source>Broker</source>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <regions />
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <createdBy>
+          <participant>
+            <person>
+              <firstName>admin</firstName>
+              <lastName>admin</lastName>
+              <email>admin@admin.com</email>
+            </person>
+          </participant>
+        </createdBy>
+        <ratesValues>
+          <rateValue>
+            <rate>0</rate>
+            <rateType>Dollars</rateType>
+            <value>0</value>
+          </rateValue>
+        </ratesValues>
+        <assetClasses />
+        <comments />
+        <investorComments />
+      </interaction>
+      <interaction>
+        <interactionID>OAinteraction_38</interactionID>
+        <oneaccessInteractionID>1859778</oneaccessInteractionID>
+        <interactionType>MacroStrategist</interactionType>
+        <interactionSubType>Call1x1</interactionSubType>
+        <interactionStatus>New</interactionStatus>
+        <source>Broker</source>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <regions />
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <createdBy>
+          <participant>
+            <person>
+              <firstName>admin</firstName>
+              <lastName>admin</lastName>
+              <email>admin@admin.com</email>
+            </person>
+          </participant>
+        </createdBy>
+        <ratesValues>
+          <rateValue>
+            <rate>0</rate>
+            <rateType>Dollars</rateType>
+            <value>0</value>
+          </rateValue>
+        </ratesValues>
+        <assetClasses />
+        <comments />
+        <investorComments />
+      </interaction>
+      <interaction>
+        <interactionID>OAinteraction_37</interactionID>
+        <oneaccessInteractionID>1859777</oneaccessInteractionID>
+        <interactionType>MedicalExpert</interactionType>
+        <interactionSubType>Call1x1</interactionSubType>
+        <interactionStatus>New</interactionStatus>
+        <source>Broker</source>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <regions />
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <createdBy>
+          <participant>
+            <person>
+              <firstName>admin</firstName>
+              <lastName>admin</lastName>
+              <email>admin@admin.com</email>
+            </person>
+          </participant>
+        </createdBy>
+        <ratesValues>
+          <rateValue>
+            <rate>0</rate>
+            <rateType>Dollars</rateType>
+            <value>0</value>
+          </rateValue>
+        </ratesValues>
+        <assetClasses />
+        <comments />
+        <investorComments />
+      </interaction>
+      <interaction>
+        <interactionID>OAinteraction_36</interactionID>
+        <oneaccessInteractionID>1859776</oneaccessInteractionID>
+        <interactionType>GovernmentExpert</interactionType>
+        <interactionSubType>Call1x1</interactionSubType>
+        <interactionStatus>New</interactionStatus>
+        <source>Broker</source>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <regions />
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <createdBy>
+          <participant>
+            <person>
+              <firstName>admin</firstName>
+              <lastName>admin</lastName>
+              <email>admin@admin.com</email>
+            </person>
+          </participant>
+        </createdBy>
+        <ratesValues>
+          <rateValue>
+            <rate>0</rate>
+            <rateType>Dollars</rateType>
+            <value>0</value>
+          </rateValue>
+        </ratesValues>
+        <assetClasses />
+        <comments />
+        <investorComments />
+      </interaction>
+      <interaction>
+        <interactionID>OAinteraction_35</interactionID>
+        <oneaccessInteractionID>1859775</oneaccessInteractionID>
+        <interactionType>IndustryExpert</interactionType>
+        <interactionSubType>Call1x1</interactionSubType>
+        <interactionStatus>New</interactionStatus>
+        <source>Broker</source>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <regions />
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <createdBy>
+          <participant>
+            <person>
+              <firstName>admin</firstName>
+              <lastName>admin</lastName>
+              <email>admin@admin.com</email>
+            </person>
+          </participant>
+        </createdBy>
+        <ratesValues>
+          <rateValue>
+            <rate>0</rate>
+            <rateType>Dollars</rateType>
+            <value>0</value>
+          </rateValue>
+        </ratesValues>
+        <assetClasses />
+        <comments />
+        <investorComments />
+      </interaction>
+      <interaction>
+        <interactionID>OAinteraction_34</interactionID>
+        <oneaccessInteractionID>1859774</oneaccessInteractionID>
+        <interactionType>AnalystMarketing</interactionType>
+        <interactionSubType>Call1x1</interactionSubType>
+        <interactionStatus>New</interactionStatus>
+        <source>Broker</source>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <regions />
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <createdBy>
+          <participant>
+            <person>
+              <firstName>admin</firstName>
+              <lastName>admin</lastName>
+              <email>admin@admin.com</email>
+            </person>
+          </participant>
+        </createdBy>
+        <ratesValues>
+          <rateValue>
+            <rate>0</rate>
+            <rateType>Dollars</rateType>
+            <value>0</value>
+          </rateValue>
+        </ratesValues>
+        <assetClasses />
+        <comments />
+        <investorComments />
+      </interaction>
+      <interaction>
+        <interactionID>OAinteraction_33</interactionID>
+        <oneaccessInteractionID>1859773</oneaccessInteractionID>
+        <interactionType>Idea</interactionType>
+        <interactionSubType>Call1x1</interactionSubType>
+        <interactionStatus>New</interactionStatus>
+        <source>Broker</source>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <regions />
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <createdBy>
+          <participant>
+            <person>
+              <firstName>admin</firstName>
+              <lastName>admin</lastName>
+              <email>admin@admin.com</email>
+            </person>
+          </participant>
+        </createdBy>
+        <ratesValues>
+          <rateValue>
+            <rate>0</rate>
+            <rateType>Dollars</rateType>
+            <value>0</value>
+          </rateValue>
+        </ratesValues>
+        <assetClasses />
+        <comments />
+        <investorComments />
+      </interaction>
+      <interaction>
+        <interactionID>OAinteraction_32</interactionID>
+        <oneaccessInteractionID>1859772</oneaccessInteractionID>
+        <interactionType>DealRoadshow</interactionType>
+        <interactionSubType>Call1x1</interactionSubType>
+        <interactionStatus>New</interactionStatus>
+        <source>Broker</source>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <regions />
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <createdBy>
+          <participant>
+            <person>
+              <firstName>admin</firstName>
+              <lastName>admin</lastName>
+              <email>admin@admin.com</email>
+            </person>
+          </participant>
+        </createdBy>
+        <ratesValues>
+          <rateValue>
+            <rate>0</rate>
+            <rateType>Dollars</rateType>
+            <value>0</value>
+          </rateValue>
+        </ratesValues>
+        <assetClasses />
+        <comments />
+        <investorComments />
+      </interaction>
+      <interaction>
+        <interactionID>OAinteraction_31</interactionID>
+        <oneaccessInteractionID>1859771</oneaccessInteractionID>
+        <interactionType>NonDealRoadshow</interactionType>
+        <interactionSubType>Call1x1</interactionSubType>
+        <interactionStatus>New</interactionStatus>
+        <source>Broker</source>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <regions />
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <createdBy>
+          <participant>
+            <person>
+              <firstName>admin</firstName>
+              <lastName>admin</lastName>
+              <email>admin@admin.com</email>
+            </person>
+          </participant>
+        </createdBy>
+        <ratesValues>
+          <rateValue>
+            <rate>0</rate>
+            <rateType>Dollars</rateType>
+            <value>0</value>
+          </rateValue>
+        </ratesValues>
+        <assetClasses />
+        <comments />
+        <investorComments />
+      </interaction>
+      <interaction>
+        <interactionID>OAinteraction_30</interactionID>
+        <oneaccessInteractionID>1859770</oneaccessInteractionID>
+        <interactionType>FieldTrip</interactionType>
+        <interactionSubType>Call1x1</interactionSubType>
+        <interactionStatus>New</interactionStatus>
+        <source>Broker</source>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <regions />
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <createdBy>
+          <participant>
+            <person>
+              <firstName>admin</firstName>
+              <lastName>admin</lastName>
+              <email>admin@admin.com</email>
+            </person>
+          </participant>
+        </createdBy>
+        <ratesValues>
+          <rateValue>
+            <rate>0</rate>
+            <rateType>Dollars</rateType>
+            <value>0</value>
+          </rateValue>
+        </ratesValues>
+        <assetClasses />
+        <comments />
+        <investorComments />
+      </interaction>
+      <interaction>
+        <interactionID>OAinteraction_29</interactionID>
+        <oneaccessInteractionID>1859769</oneaccessInteractionID>
+        <interactionType>Conference</interactionType>
+        <interactionSubType>Call1x1</interactionSubType>
+        <interactionStatus>New</interactionStatus>
+        <source>Broker</source>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <regions />
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <createdBy>
+          <participant>
+            <person>
+              <firstName>admin</firstName>
+              <lastName>admin</lastName>
+              <email>admin@admin.com</email>
+            </person>
+          </participant>
+        </createdBy>
+        <ratesValues>
+          <rateValue>
+            <rate>0</rate>
+            <rateType>Dollars</rateType>
+            <value>0</value>
+          </rateValue>
+        </ratesValues>
+        <assetClasses />
+        <comments />
+        <investorComments />
+      </interaction>
+      <interaction>
+        <interactionID>OAinteraction_28</interactionID>
+        <oneaccessInteractionID>1859768</oneaccessInteractionID>
+        <interactionType>BespokeAccess</interactionType>
+        <interactionSubType>Call1x1</interactionSubType>
+        <interactionStatus>New</interactionStatus>
+        <source>Broker</source>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <regions />
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <createdBy>
+          <participant>
+            <person>
+              <firstName>admin</firstName>
+              <lastName>admin</lastName>
+              <email>admin@admin.com</email>
+            </person>
+          </participant>
+        </createdBy>
+        <ratesValues>
+          <rateValue>
+            <rate>0</rate>
+            <rateType>Dollars</rateType>
+            <value>0</value>
+          </rateValue>
+        </ratesValues>
+        <assetClasses />
+        <comments />
+        <investorComments />
+      </interaction>
+      <interaction>
+        <interactionID>OAinteraction_27</interactionID>
+        <oneaccessInteractionID>1859767</oneaccessInteractionID>
+        <interactionType>ModelRequest</interactionType>
+        <interactionSubType>Call1x1</interactionSubType>
+        <interactionStatus>New</interactionStatus>
+        <source>Broker</source>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <regions />
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <createdBy>
+          <participant>
+            <person>
+              <firstName>admin</firstName>
+              <lastName>admin</lastName>
+              <email>admin@admin.com</email>
+            </person>
+          </participant>
+        </createdBy>
+        <ratesValues>
+          <rateValue>
+            <rate>0</rate>
+            <rateType>Dollars</rateType>
+            <value>0</value>
+          </rateValue>
+        </ratesValues>
+        <assetClasses />
+        <comments />
+        <investorComments />
+      </interaction>
+      <interaction>
+        <interactionID>OAinteraction_26</interactionID>
+        <oneaccessInteractionID>1859766</oneaccessInteractionID>
+        <interactionType>Data</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionStatus>New</interactionStatus>
+        <source>Broker</source>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <regions />
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <createdBy>
+          <participant>
+            <person>
+              <firstName>admin</firstName>
+              <lastName>admin</lastName>
+              <email>admin@admin.com</email>
+            </person>
+          </participant>
+        </createdBy>
+        <ratesValues>
+          <rateValue>
+            <rate>0</rate>
+            <rateType>Dollars</rateType>
+            <value>0</value>
+          </rateValue>
+        </ratesValues>
+        <assetClasses />
+        <comments />
+        <investorComments />
+      </interaction>
+      <interaction>
+        <interactionID>OAinteraction_25</interactionID>
+        <oneaccessInteractionID>1859765</oneaccessInteractionID>
+        <interactionType>IdeaDinner</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionStatus>New</interactionStatus>
+        <source>Broker</source>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <regions />
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <createdBy>
+          <participant>
+            <person>
+              <firstName>admin</firstName>
+              <lastName>admin</lastName>
+              <email>admin@admin.com</email>
+            </person>
+          </participant>
+        </createdBy>
+        <ratesValues>
+          <rateValue>
+            <rate>0</rate>
+            <rateType>Dollars</rateType>
+            <value>0</value>
+          </rateValue>
+        </ratesValues>
+        <assetClasses />
+        <comments />
+        <investorComments />
+      </interaction>
+      <interaction>
+        <interactionID>OAinteraction_24</interactionID>
+        <oneaccessInteractionID>1859764</oneaccessInteractionID>
+        <interactionType>InternalIndustryExpert</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionStatus>New</interactionStatus>
+        <source>Broker</source>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <regions />
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <createdBy>
+          <participant>
+            <person>
+              <firstName>admin</firstName>
+              <lastName>admin</lastName>
+              <email>admin@admin.com</email>
+            </person>
+          </participant>
+        </createdBy>
+        <ratesValues>
+          <rateValue>
+            <rate>0</rate>
+            <rateType>Dollars</rateType>
+            <value>0</value>
+          </rateValue>
+        </ratesValues>
+        <assetClasses />
+        <comments />
+        <investorComments />
+      </interaction>
+      <interaction>
+        <interactionID>OAinteraction_23</interactionID>
+        <oneaccessInteractionID>1859763</oneaccessInteractionID>
+        <interactionType>ResearchReadership</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionStatus>New</interactionStatus>
+        <source>Broker</source>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <regions />
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <createdBy>
+          <participant>
+            <person>
+              <firstName>admin</firstName>
+              <lastName>admin</lastName>
+              <email>admin@admin.com</email>
+            </person>
+          </participant>
+        </createdBy>
+        <ratesValues>
+          <rateValue>
+            <rate>0</rate>
+            <rateType>Dollars</rateType>
+            <value>0</value>
+          </rateValue>
+        </ratesValues>
+        <assetClasses />
+        <comments />
+        <investorComments />
+      </interaction>
+      <interaction>
+        <interactionID>OAinteraction_22</interactionID>
+        <oneaccessInteractionID>1859762</oneaccessInteractionID>
+        <interactionType>KeyOpinionLeader</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionStatus>New</interactionStatus>
+        <source>Broker</source>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <regions />
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <createdBy>
+          <participant>
+            <person>
+              <firstName>admin</firstName>
+              <lastName>admin</lastName>
+              <email>admin@admin.com</email>
+            </person>
+          </participant>
+        </createdBy>
+        <ratesValues>
+          <rateValue>
+            <rate>0</rate>
+            <rateType>Dollars</rateType>
+            <value>0</value>
+          </rateValue>
+        </ratesValues>
+        <assetClasses />
+        <comments />
+        <investorComments />
+      </interaction>
+      <interaction>
+        <interactionID>OAinteraction_21</interactionID>
+        <oneaccessInteractionID>1859761</oneaccessInteractionID>
+        <interactionType>Other</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionStatus>New</interactionStatus>
+        <source>Broker</source>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <regions />
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <createdBy>
+          <participant>
+            <person>
+              <firstName>admin</firstName>
+              <lastName>admin</lastName>
+              <email>admin@admin.com</email>
+            </person>
+          </participant>
+        </createdBy>
+        <ratesValues>
+          <rateValue>
+            <rate>0</rate>
+            <rateType>Dollars</rateType>
+            <value>0</value>
+          </rateValue>
+        </ratesValues>
+        <assetClasses />
+        <comments />
+        <investorComments />
+      </interaction>
+      <interaction>
+        <interactionID>OAinteraction_20</interactionID>
+        <oneaccessInteractionID>1859760</oneaccessInteractionID>
+        <interactionType>CustomWork</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionStatus>New</interactionStatus>
+        <source>Broker</source>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <regions />
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <createdBy>
+          <participant>
+            <person>
+              <firstName>admin</firstName>
+              <lastName>admin</lastName>
+              <email>admin@admin.com</email>
+            </person>
+          </participant>
+        </createdBy>
+        <ratesValues>
+          <rateValue>
+            <rate>0</rate>
+            <rateType>Dollars</rateType>
+            <value>0</value>
+          </rateValue>
+        </ratesValues>
+        <assetClasses />
+        <comments />
+        <investorComments />
+      </interaction>
+      <interaction>
+        <interactionID>OAinteraction_19</interactionID>
+        <oneaccessInteractionID>1859759</oneaccessInteractionID>
+        <interactionType>Social</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionStatus>New</interactionStatus>
+        <source>Broker</source>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <regions />
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <createdBy>
+          <participant>
+            <person>
+              <firstName>admin</firstName>
+              <lastName>admin</lastName>
+              <email>admin@admin.com</email>
+            </person>
+          </participant>
+        </createdBy>
+        <ratesValues>
+          <rateValue>
+            <rate>0</rate>
+            <rateType>Dollars</rateType>
+            <value>0</value>
+          </rateValue>
+        </ratesValues>
+        <assetClasses />
+        <comments />
+        <investorComments />
+      </interaction>
+      <interaction>
+        <interactionID>OAinteraction_18</interactionID>
+        <oneaccessInteractionID>1859758</oneaccessInteractionID>
+        <interactionType>IndustryEvent</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionStatus>New</interactionStatus>
+        <source>Broker</source>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <regions />
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <createdBy>
+          <participant>
+            <person>
+              <firstName>admin</firstName>
+              <lastName>admin</lastName>
+              <email>admin@admin.com</email>
+            </person>
+          </participant>
+        </createdBy>
+        <ratesValues>
+          <rateValue>
+            <rate>0</rate>
+            <rateType>Dollars</rateType>
+            <value>0</value>
+          </rateValue>
+        </ratesValues>
+        <assetClasses />
+        <comments />
+        <investorComments />
+      </interaction>
+      <interaction>
+        <interactionID>OAinteraction_17</interactionID>
+        <oneaccessInteractionID>1859757</oneaccessInteractionID>
+        <interactionType>SalesSpecialist</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionStatus>New</interactionStatus>
+        <source>Broker</source>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <regions />
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <createdBy>
+          <participant>
+            <person>
+              <firstName>admin</firstName>
+              <lastName>admin</lastName>
+              <email>admin@admin.com</email>
+            </person>
+          </participant>
+        </createdBy>
+        <ratesValues>
+          <rateValue>
+            <rate>0</rate>
+            <rateType>Dollars</rateType>
+            <value>0</value>
+          </rateValue>
+        </ratesValues>
+        <assetClasses />
+        <comments />
+        <investorComments />
+      </interaction>
+      <interaction>
+        <interactionID>OAinteraction_16</interactionID>
+        <oneaccessInteractionID>1859756</oneaccessInteractionID>
+        <interactionType>Sales</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionStatus>New</interactionStatus>
+        <source>Broker</source>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <regions />
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <createdBy>
+          <participant>
+            <person>
+              <firstName>admin</firstName>
+              <lastName>admin</lastName>
+              <email>admin@admin.com</email>
+            </person>
+          </participant>
+        </createdBy>
+        <ratesValues>
+          <rateValue>
+            <rate>0</rate>
+            <rateType>Dollars</rateType>
+            <value>0</value>
+          </rateValue>
+        </ratesValues>
+        <assetClasses />
+        <comments />
+        <investorComments />
+      </interaction>
+      <interaction>
+        <interactionID>OAinteraction_15</interactionID>
+        <oneaccessInteractionID>1859755</oneaccessInteractionID>
+        <interactionType>RelationshipMeeting</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionStatus>New</interactionStatus>
+        <source>Broker</source>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <regions />
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <createdBy>
+          <participant>
+            <person>
+              <firstName>admin</firstName>
+              <lastName>admin</lastName>
+              <email>admin@admin.com</email>
+            </person>
+          </participant>
+        </createdBy>
+        <ratesValues>
+          <rateValue>
+            <rate>0</rate>
+            <rateType>Dollars</rateType>
+            <value>0</value>
+          </rateValue>
+        </ratesValues>
+        <assetClasses />
+        <comments />
+        <investorComments />
+      </interaction>
+      <interaction>
+        <interactionID>OAinteraction_14</interactionID>
+        <oneaccessInteractionID>1859754</oneaccessInteractionID>
+        <interactionType>BankerEvent</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionStatus>New</interactionStatus>
+        <source>Broker</source>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <regions />
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <createdBy>
+          <participant>
+            <person>
+              <firstName>admin</firstName>
+              <lastName>admin</lastName>
+              <email>admin@admin.com</email>
+            </person>
+          </participant>
+        </createdBy>
+        <ratesValues>
+          <rateValue>
+            <rate>0</rate>
+            <rateType>Dollars</rateType>
+            <value>0</value>
+          </rateValue>
+        </ratesValues>
+        <assetClasses />
+        <comments />
+        <investorComments />
+      </interaction>
+      <interaction>
+        <interactionID>OAinteraction_13</interactionID>
+        <oneaccessInteractionID>1859753</oneaccessInteractionID>
+        <interactionType>CorporateBroking</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionStatus>New</interactionStatus>
+        <source>Broker</source>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <regions />
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <createdBy>
+          <participant>
+            <person>
+              <firstName>admin</firstName>
+              <lastName>admin</lastName>
+              <email>admin@admin.com</email>
+            </person>
+          </participant>
+        </createdBy>
+        <ratesValues>
+          <rateValue>
+            <rate>0</rate>
+            <rateType>Dollars</rateType>
+            <value>0</value>
+          </rateValue>
+        </ratesValues>
+        <assetClasses />
+        <comments />
+        <investorComments />
+      </interaction>
+      <interaction>
+        <interactionID>OAinteraction_12</interactionID>
+        <oneaccessInteractionID>1859752</oneaccessInteractionID>
+        <interactionType>MacroStrategist</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionStatus>New</interactionStatus>
+        <source>Broker</source>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <regions />
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <createdBy>
+          <participant>
+            <person>
+              <firstName>admin</firstName>
+              <lastName>admin</lastName>
+              <email>admin@admin.com</email>
+            </person>
+          </participant>
+        </createdBy>
+        <ratesValues>
+          <rateValue>
+            <rate>0</rate>
+            <rateType>Dollars</rateType>
+            <value>0</value>
+          </rateValue>
+        </ratesValues>
+        <assetClasses />
+        <comments />
+        <investorComments />
+      </interaction>
+      <interaction>
+        <interactionID>OAinteraction_11</interactionID>
+        <oneaccessInteractionID>1859751</oneaccessInteractionID>
+        <interactionType>MedicalExpert</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionStatus>New</interactionStatus>
+        <source>Broker</source>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <regions />
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <createdBy>
+          <participant>
+            <person>
+              <firstName>admin</firstName>
+              <lastName>admin</lastName>
+              <email>admin@admin.com</email>
+            </person>
+          </participant>
+        </createdBy>
+        <ratesValues>
+          <rateValue>
+            <rate>0</rate>
+            <rateType>Dollars</rateType>
+            <value>0</value>
+          </rateValue>
+        </ratesValues>
+        <assetClasses />
+        <comments />
+        <investorComments />
+      </interaction>
+      <interaction>
+        <interactionID>OAinteraction_10</interactionID>
+        <oneaccessInteractionID>1859750</oneaccessInteractionID>
+        <interactionType>GovernmentExpert</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionStatus>New</interactionStatus>
+        <source>Broker</source>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <regions />
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <createdBy>
+          <participant>
+            <person>
+              <firstName>admin</firstName>
+              <lastName>admin</lastName>
+              <email>admin@admin.com</email>
+            </person>
+          </participant>
+        </createdBy>
+        <ratesValues>
+          <rateValue>
+            <rate>0</rate>
+            <rateType>Dollars</rateType>
+            <value>0</value>
+          </rateValue>
+        </ratesValues>
+        <assetClasses />
+        <comments />
+        <investorComments />
+      </interaction>
+      <interaction>
+        <interactionID>OAinteraction_9</interactionID>
+        <oneaccessInteractionID>1859749</oneaccessInteractionID>
+        <interactionType>IndustryExpert</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionStatus>New</interactionStatus>
+        <source>Broker</source>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <regions />
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <createdBy>
+          <participant>
+            <person>
+              <firstName>admin</firstName>
+              <lastName>admin</lastName>
+              <email>admin@admin.com</email>
+            </person>
+          </participant>
+        </createdBy>
+        <ratesValues>
+          <rateValue>
+            <rate>0</rate>
+            <rateType>Dollars</rateType>
+            <value>0</value>
+          </rateValue>
+        </ratesValues>
+        <assetClasses />
+        <comments />
+        <investorComments />
+      </interaction>
+      <interaction>
+        <interactionID>OAinteraction_8</interactionID>
+        <oneaccessInteractionID>1859748</oneaccessInteractionID>
+        <interactionType>AnalystMarketing</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionStatus>New</interactionStatus>
+        <source>Broker</source>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <regions />
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <createdBy>
+          <participant>
+            <person>
+              <firstName>admin</firstName>
+              <lastName>admin</lastName>
+              <email>admin@admin.com</email>
+            </person>
+          </participant>
+        </createdBy>
+        <ratesValues>
+          <rateValue>
+            <rate>0</rate>
+            <rateType>Dollars</rateType>
+            <value>0</value>
+          </rateValue>
+        </ratesValues>
+        <assetClasses />
+        <comments />
+        <investorComments />
+      </interaction>
+      <interaction>
+        <interactionID>OAinteraction_7</interactionID>
+        <oneaccessInteractionID>1859747</oneaccessInteractionID>
+        <interactionType>Idea</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionStatus>New</interactionStatus>
+        <source>Broker</source>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <regions />
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <createdBy>
+          <participant>
+            <person>
+              <firstName>admin</firstName>
+              <lastName>admin</lastName>
+              <email>admin@admin.com</email>
+            </person>
+          </participant>
+        </createdBy>
+        <ratesValues>
+          <rateValue>
+            <rate>0</rate>
+            <rateType>Dollars</rateType>
+            <value>0</value>
+          </rateValue>
+        </ratesValues>
+        <assetClasses />
+        <comments />
+        <investorComments />
+      </interaction>
+      <interaction>
+        <interactionID>OAinteraction_6</interactionID>
+        <oneaccessInteractionID>1859746</oneaccessInteractionID>
+        <interactionType>DealRoadshow</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionStatus>New</interactionStatus>
+        <source>Broker</source>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <regions />
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <createdBy>
+          <participant>
+            <person>
+              <firstName>admin</firstName>
+              <lastName>admin</lastName>
+              <email>admin@admin.com</email>
+            </person>
+          </participant>
+        </createdBy>
+        <ratesValues>
+          <rateValue>
+            <rate>0</rate>
+            <rateType>Dollars</rateType>
+            <value>0</value>
+          </rateValue>
+        </ratesValues>
+        <assetClasses />
+        <comments />
+        <investorComments />
+      </interaction>
+      <interaction>
+        <interactionID>OAinteraction_5</interactionID>
+        <oneaccessInteractionID>1859745</oneaccessInteractionID>
+        <interactionType>NonDealRoadshow</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionStatus>New</interactionStatus>
+        <source>Broker</source>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <regions />
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <createdBy>
+          <participant>
+            <person>
+              <firstName>admin</firstName>
+              <lastName>admin</lastName>
+              <email>admin@admin.com</email>
+            </person>
+          </participant>
+        </createdBy>
+        <ratesValues>
+          <rateValue>
+            <rate>0</rate>
+            <rateType>Dollars</rateType>
+            <value>0</value>
+          </rateValue>
+        </ratesValues>
+        <assetClasses />
+        <comments />
+        <investorComments />
+      </interaction>
+      <interaction>
+        <interactionID>OAinteraction_4</interactionID>
+        <oneaccessInteractionID>1859744</oneaccessInteractionID>
+        <interactionType>FieldTrip</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionStatus>New</interactionStatus>
+        <source>Broker</source>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <regions />
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <createdBy>
+          <participant>
+            <person>
+              <firstName>admin</firstName>
+              <lastName>admin</lastName>
+              <email>admin@admin.com</email>
+            </person>
+          </participant>
+        </createdBy>
+        <ratesValues>
+          <rateValue>
+            <rate>0</rate>
+            <rateType>Dollars</rateType>
+            <value>0</value>
+          </rateValue>
+        </ratesValues>
+        <assetClasses />
+        <comments />
+        <investorComments />
+      </interaction>
+      <interaction>
+        <interactionID>OAinteraction_3</interactionID>
+        <oneaccessInteractionID>1859743</oneaccessInteractionID>
+        <interactionType>Conference</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionStatus>New</interactionStatus>
+        <source>Broker</source>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <regions />
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <createdBy>
+          <participant>
+            <person>
+              <firstName>admin</firstName>
+              <lastName>admin</lastName>
+              <email>admin@admin.com</email>
+            </person>
+          </participant>
+        </createdBy>
+        <ratesValues>
+          <rateValue>
+            <rate>0</rate>
+            <rateType>Dollars</rateType>
+            <value>0</value>
+          </rateValue>
+        </ratesValues>
+        <assetClasses />
+        <comments />
+        <investorComments />
+      </interaction>
+      <interaction>
+        <interactionID>OAinteraction_2</interactionID>
+        <oneaccessInteractionID>1859742</oneaccessInteractionID>
+        <interactionType>BespokeAccess</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionStatus>New</interactionStatus>
+        <source>Broker</source>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <regions />
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <createdBy>
+          <participant>
+            <person>
+              <firstName>admin</firstName>
+              <lastName>admin</lastName>
+              <email>admin@admin.com</email>
+            </person>
+          </participant>
+        </createdBy>
+        <ratesValues>
+          <rateValue>
+            <rate>0</rate>
+            <rateType>Dollars</rateType>
+            <value>0</value>
+          </rateValue>
+        </ratesValues>
+        <assetClasses />
+        <comments />
+        <investorComments />
+      </interaction>
+      <interaction>
+        <interactionID>OAinteraction_1</interactionID>
+        <oneaccessInteractionID>1859741</oneaccessInteractionID>
+        <interactionType>ModelRequest</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionStatus>New</interactionStatus>
+        <source>Broker</source>
+        <start>0001-01-01</start>
+        <end>0001-01-01</end>
+        <regions />
+        <sectors />
+        <location>
+          <address>
+            <type>N/A</type>
+            <streetAddress />
+            <city />
+            <postalCode />
+          </address>
+        </location>
+        <companies />
+        <brokerParticipants />
+        <thirdPartyParticipants />
+        <investorParticipants />
+        <createdBy>
+          <participant>
+            <person>
+              <firstName>admin</firstName>
+              <lastName>admin</lastName>
+              <email>admin@admin.com</email>
+            </person>
+          </participant>
+        </createdBy>
+        <ratesValues>
+          <rateValue>
+            <rate>0</rate>
+            <rateType>Dollars</rateType>
+            <value>0</value>
+          </rateValue>
+        </ratesValues>
+        <assetClasses />
+        <comments />
+        <investorComments />
+      </interaction>
+    </investor>
+  </interactions>
+</clientinteraction>

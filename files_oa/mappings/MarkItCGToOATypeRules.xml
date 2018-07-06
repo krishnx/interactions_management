@@ -1,0 +1,221 @@
+﻿<?xml version="1.0"?>
+<ArrayOfOneWayMapper xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<OneWayMapper Name="EventType">
+		<!--Conference-->
+		<BundleMap>
+			<From>
+				<string>Conference</string>
+			</From>
+			<To>
+				<string>Conference</string>
+			</To>
+		</BundleMap>
+		<!--Conference 1:1-->
+		<BundleMap>
+			<From>
+				<string>Conference 1:1</string>
+			</From>
+			<To>
+				<string>Conference</string>
+				<string>1x1</string>
+			</To>
+		</BundleMap>
+		<!--Conference Group-->
+		<BundleMap>
+			<From>
+				<string>Conference Group</string>
+			</From>
+			<To>
+				<string>Conference</string>
+				<string>Group</string>
+			</To>
+		</BundleMap>
+		<!--Trip-->
+		<BundleMap>
+			<From>
+				<string>Trip</string>
+			</From>
+			<To>
+				<string>FieldTrip</string>
+				<string>Group</string>
+			</To>
+		</BundleMap>
+		<!--Analyst Models-->
+		<BundleMap>
+			<From>
+				<string>Analyst Models</string>
+			</From>
+			<To>
+				<string>ModelRequest</string>
+				<string>Delivered</string>
+			</To>
+		</BundleMap>
+		<!--Analyst Meeting, 1:1-->
+		<BundleMap>
+			<From>
+				<string>Analyst Meeting, 1:1</string>
+			</From>
+			<To>
+				<string>AnalystMarketing</string>
+				<string>1x1</string>
+			</To>
+		</BundleMap>
+		<!--Analyst Meeting, Group-->
+		<BundleMap>
+			<From>
+				<string>Analyst Meeting, Group</string>
+			</From>
+			<To>
+				<string>AnalystMarketing</string>
+				<string>Group</string>
+			</To>
+		</BundleMap>
+		<!--Analyst Meeting, Conference Call-->
+		<BundleMap>
+			<From>
+				<string>Analyst Meeting, Conference Call</string>
+			</From>
+			<To>
+				<string>AnalystMarketing</string>
+				<string>CallGroup</string>
+			</To>
+		</BundleMap>
+		<!--Banker Meeting-->
+		<BundleMap>
+			<From>
+				<string>Banker Meeting</string>
+			</From>
+			<To>
+				<string>BankerEvent</string>
+			</To>
+		</BundleMap>
+		<!--Bespoke Research-->
+		<BundleMap>
+			<From>
+				<string>Bespoke Research</string>
+			</From>
+			<To>
+				<string>CustomWork</string>
+				<string>Delivered</string>
+			</To>
+		</BundleMap>
+		<!--Company Meeting, 1:1-->
+		<BundleMap>
+			<From>
+				<string>Company Meeting, 1:1</string>
+			</From>
+			<To>
+				<string>NonDealRoadshow</string>
+				<string>1x1</string>
+			</To>
+		</BundleMap>
+		<!--Company Meeting, Group-->
+		<BundleMap>
+			<From>
+				<string>Company Meeting, Group</string>
+			</From>
+			<To>
+				<string>NonDealRoadshow</string>
+				<string>Group</string>
+			</To>
+		</BundleMap>
+		<!--Company Meeting, Conference Call-->
+		<BundleMap>
+			<From>
+				<string>Company Meeting, Conference Call</string>
+			</From>
+			<To>
+				<string>NonDealRoadshow</string>
+				<string>CallGroup</string>
+			</To>
+		</BundleMap>
+		<!-->Company Meeting, Deal-->
+		<BundleMap>
+			<From>
+				<string>Company Meeting, Deal</string>
+			</From>
+			<To>
+				<string>DealRoadshow</string>
+			</To>
+		</BundleMap>
+		<!--Company Meeting, Non-Deal-->
+		<BundleMap>
+			<From>
+				<string>Company Meeting, Non-Deal</string>
+			</From>
+			<To>
+				<string>NonDealRoadshow</string>
+			</To>
+		</BundleMap>
+		<!--Expert Meeting, 1:1-->
+		<BundleMap>
+			<From>
+				<string>Expert Meeting, 1:1</string>
+			</From>
+			<To>
+				<string>IndustryExpert</string>
+				<string>1x1</string>
+			</To>
+		</BundleMap>
+		<!--Expert Meeting, Group-->
+		<BundleMap>
+			<From>
+				<string>Expert Meeting, Group</string>
+			</From>
+			<To>
+				<string>IndustryExpert</string>
+				<string>Group</string>
+			</To>
+		</BundleMap>
+		<!--Expert Meeting, Conference Call-->
+		<BundleMap>
+			<From>
+				<string>Expert Meeting, Conference Call</string>
+			</From>
+			<To>
+				<string>IndustryExpert</string>
+				<string>CallGroup</string>
+			</To>
+		</BundleMap>
+		<!--Relationship Management Meeting-->
+		<BundleMap>
+			<From>
+				<string>Relationship Management Meeting</string>
+			</From>
+			<To>
+				<string>RelationshipMeeting</string>
+			</To>
+		</BundleMap>
+		<!--Other-->
+		<BundleMap>
+			<From>
+				<string>Other</string>
+			</From>
+			<To>
+				<string>Other</string>
+				<string>Other</string>
+			</To>
+		</BundleMap>
+		<!--Substantive Phone Call-->
+		<BundleMap>
+			<From>
+				<string>Substantive Phone Call</string>
+			</From>
+			<To>
+				<string>Other</string>
+				<string>Call1x1</string>
+			</To>
+		</BundleMap>
+		<!--Data-->
+		<BundleMap>
+			<From>
+				<string>Data</string>
+			</From>
+			<To>
+				<string>CustomWork</string>
+				<string>Data</string>
+			</To>
+		</BundleMap>
+
+	</OneWayMapper>
+</ArrayOfOneWayMapper>

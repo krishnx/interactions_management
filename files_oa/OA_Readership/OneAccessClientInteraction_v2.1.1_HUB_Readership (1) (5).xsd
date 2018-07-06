@@ -1,0 +1,1597 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema id="ClientInteraction"
+    targetNamespace="http://oneaccess.io/corporateaccess/clientinteraction/2.1.1"
+    elementFormDefault="qualified"
+    xmlns="http://oneaccess.io/corporateaccess/clientinteraction/2.1.1"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema" version="2.1.1">
+    <xs:element name="clientinteraction">
+        <xs:complexType>
+            <xs:all>
+                <xs:element name="updated" type="DateTimeZone">
+                    <xs:annotation>
+                        <xs:documentation>Unique timestamp for each data file.  To resend a file, be sure to reuse the same update timestamp.</xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element minOccurs="0" name="vendor" type="xs:string"/>
+                <xs:element name="broker" type="xs:string"/>
+                <xs:element minOccurs="1" name="interactions">
+                    <xs:complexType>
+                        <xs:sequence maxOccurs="unbounded">
+                            <xs:element name="investor">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="investorName" type="xs:string"/>
+                                        <xs:element name="interaction" type="Interaction"
+                                            maxOccurs="unbounded"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:all>
+        </xs:complexType>
+    </xs:element>
+    <xs:complexType name="Interaction">
+        <xs:sequence>
+            <xs:element minOccurs="0" name="parentID" type="xs:string"/>
+            <xs:element minOccurs="0" name="interactionID" type="xs:string">
+                <xs:annotation>
+                    <xs:documentation>If present, identifier must be unique across all interactions for all time.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="interactionType" minOccurs="0">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="ModelRequest"/>
+                        <xs:enumeration value="BespokeAccess"/>
+                        <xs:enumeration value="Conference"/>
+                        <xs:enumeration value="FieldTrip"/>
+                        <xs:enumeration value="NonDealRoadshow"/>
+                        <xs:enumeration value="DealRoadshow"/>
+                        <xs:enumeration value="Idea"/>
+                        <xs:enumeration value="AnalystMarketing"/>
+                        <xs:enumeration value="CorporateAccessDay"/>
+                        <xs:enumeration value="InvestorRelationsDay"/>
+                        <xs:enumeration value="AnalystDay"/>
+                        <xs:enumeration value="BusTour"/>
+                        <xs:enumeration value="BoothTour"/>
+                        <xs:enumeration value="Show"/>
+                        <xs:enumeration value="Forum"/>
+                        <xs:enumeration value="ClientEducation"/>
+                        <xs:enumeration value="IndustryExpert"/>
+                        <xs:enumeration value="GovernmentExpert"/>
+                        <xs:enumeration value="MedicalExpert"/>
+                        <xs:enumeration value="MacroStrategist"/>
+                        <xs:enumeration value="CorporateBroking"/>
+                        <xs:enumeration value="BankerEvent"/>
+                        <xs:enumeration value="RelationshipMeeting"/>
+                        <xs:enumeration value="Sales"/>
+                        <xs:enumeration value="SalesSpecialist"/>
+                        <xs:enumeration value="IndustryEvent"/>
+                        <xs:enumeration value="Social"/>
+                        <xs:enumeration value="CustomWork"/>
+                        <xs:enumeration value="Other"/>
+                        <xs:enumeration value="Internal"/>
+                        <xs:enumeration value="MultiCompanyEvent"/>
+                        <xs:enumeration value="KeyOpinionLeader"/>
+                        <xs:enumeration value="ResearchReadership"/>
+                        <xs:enumeration value="InternalIndustryExpert"/>
+                        <xs:enumeration value="IdeaDinner"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="interactionSubType" minOccurs="0">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="1x1"/>
+                        <xs:enumeration value="2x1"/>
+                        <xs:enumeration value="3x1"/>
+                        <xs:enumeration value="LargeGroup"/>
+                        <xs:enumeration value="SmallGroup"/>
+                        <xs:enumeration value="Group"/>
+                        <xs:enumeration value="VoiceMail"/>
+                        <xs:enumeration value="Call1x1"/>
+                        <xs:enumeration value="CallGroup"/>
+                        <xs:enumeration value="Video1x1"/>
+                        <xs:enumeration value="VideoGroup"/>
+                        <xs:enumeration value="Email"/>
+                        <xs:enumeration value="IM"/>
+                        <xs:enumeration value="Other"/>
+                        <xs:enumeration value="Delivered"/>
+                        <xs:enumeration value="ChannelCheck"/>
+                        <xs:enumeration value="Data"/>
+                        <xs:enumeration value="Survey"/>
+                        <xs:enumeration value="InvestmentWork"/>
+                        <xs:enumeration value="Idea"/>
+                        <xs:enumeration value="Complex"/>
+                        <xs:enumeration value="Bespoke"/>
+                        <xs:enumeration value="N/A"/>
+                        <xs:enumeration value="BlastVoiceMail"/>
+                        <xs:enumeration value="BlastEmail"/>
+                        <xs:enumeration value="Presentation"/>
+                        <xs:enumeration value="GeneralAttendance"/>
+                        <xs:enumeration value="Saved"/>
+                        <xs:enumeration value="Clipped"/>
+                        <xs:enumeration value="Printed"/>
+                        <xs:enumeration value="Downloaded"/>
+                        <xs:enumeration value="Viewed"/>
+                        <xs:enumeration value="Annotated"/>
+                        <xs:enumeration value="Shared"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="interactionTitle" type="xs:string" minOccurs="0"/>
+            <xs:element minOccurs="0" name="interactionDescription" type="xs:string"/>
+            <xs:element minOccurs="0" name="interactionStatus">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="New"/>
+                        <xs:enumeration value="Scheduled"/>
+                        <xs:enumeration value="Canceled"/>
+                        <xs:enumeration value="Postponed"/>
+                        <xs:enumeration value="Tentative"/>
+                        <xs:enumeration value="Confirmed"/>
+                        <xs:enumeration value="Inactive"/>
+                        <xs:enumeration value="Deleted"/>
+                        <xs:enumeration value="Rejected"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element minOccurs="0" name="initiator">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="Broker"/>
+                        <xs:enumeration value="Investor"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element minOccurs="0" name="group" type="xs:string"/>
+            <xs:element name="start" type="xs:date" minOccurs="0"/>
+            <xs:element minOccurs="0" name="startTime" type="DateTimeZone"/>
+            <xs:element minOccurs="0" name="end" type="xs:date"/>
+            <xs:element minOccurs="0" name="endTime" type="DateTimeZone"/>
+            <xs:element minOccurs="0" name="regions">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="region" type="Region" maxOccurs="unbounded"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element minOccurs="0" name="originatingRegion" type="Region"/>
+            <xs:element name="sectors" minOccurs="0">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="1" name="sector" type="GICS" maxOccurs="unbounded"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element minOccurs="0" name="duration" type="xs:int"/>
+            <xs:element minOccurs="0" name="location" type="Location"/>
+            <xs:element maxOccurs="1" minOccurs="0" name="readership">
+                <xs:complexType>
+                    <xs:sequence maxOccurs="1">
+                        <xs:element name="brokerReportID" type="xs:string"/>
+                        <xs:element maxOccurs="1" minOccurs="0" name="vendorReportID"
+                            type="xs:string"/>
+                        <xs:element minOccurs="0" name="oneaccessReportID" type="xs:string"/>
+                        <xs:element minOccurs="0" name="publishedDateTime" type="DateTimeZone"/>
+                        <xs:element minOccurs="0" name="pageCount" type="xs:nonNegativeInteger"/>
+                        <xs:element maxOccurs="1" minOccurs="0" name="assetType">
+                            <xs:simpleType>
+                                <xs:restriction base="xs:string">
+                                    <xs:enumeration value="AgencyCredit"/>
+                                    <xs:enumeration value="ABS"/>
+                                    <xs:enumeration value="CDO"/>
+                                    <xs:enumeration value="HighYield"/>
+                                    <xs:enumeration value="InvestmentGrade"/>
+                                    <xs:enumeration value="Commodity"/>
+                                    <xs:enumeration value="Stock"/>
+                                </xs:restriction>
+                            </xs:simpleType>
+                        </xs:element>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element minOccurs="0" name="companies">
+                <xs:complexType>
+                    <xs:sequence maxOccurs="unbounded">
+                        <xs:element name="company" type="Company"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element minOccurs="0" name="brokerParticipants">
+                <xs:complexType>
+                    <xs:sequence maxOccurs="unbounded">
+                        <xs:element name="participant" type="Participant"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element maxOccurs="1" minOccurs="0" name="thirdPartyParticipants">
+                <xs:complexType>
+                    <xs:sequence maxOccurs="unbounded">
+                        <xs:element name="participant" type="Participant"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="investorParticipants" minOccurs="0">
+                <xs:complexType>
+                    <xs:sequence maxOccurs="unbounded">
+                        <xs:element name="participant" type="Participant"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element minOccurs="0" name="assetClass" type="AssetClass"> </xs:element>
+            <xs:element minOccurs="0" name="contractID" type="xs:string"/>
+            <xs:element maxOccurs="1" minOccurs="0" name="comments">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="comment" type="xs:string" maxOccurs="unbounded"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element minOccurs="0" name="tags">
+                <xs:annotation>
+                    <xs:documentation>Ad-hoc or custom information to add to this interaction.</xs:documentation>
+                </xs:annotation>
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="tag" type="Tag"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="Location">
+        <xs:sequence>
+            <xs:element minOccurs="0" name="locationName" type="xs:string"/>
+            <xs:element name="address" type="Address"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="Address">
+        <xs:sequence>
+            <xs:element minOccurs="1" name="type">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="Onsite"/>
+                        <xs:enumeration value="Offsite"/>
+                        <xs:enumeration value="N/A"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element minOccurs="0" name="streetAddress" type="xs:string"/>
+            <xs:element minOccurs="1" name="city" type="xs:string"/>
+            <xs:element minOccurs="0" name="state" type="State"/>
+            <xs:element name="country" type="Country" minOccurs="0"/>
+            <xs:element minOccurs="0" name="postalCode" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="Company">
+        <xs:sequence>
+            <xs:element name="companyName" type="xs:string"/>
+            <xs:element minOccurs="1" name="isPublic" type="xs:boolean"/>
+            <xs:element minOccurs="1" name="identifiers">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="identifier" maxOccurs="unbounded">
+                            <xs:complexType>
+                                <xs:simpleContent>
+                                    <xs:extension base="xs:string">
+                                        <xs:attribute name="type" use="required"/>
+                                    </xs:extension>
+                                </xs:simpleContent>
+                            </xs:complexType>
+                        </xs:element>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element minOccurs="0" name="companyParticipants">
+                <xs:complexType>
+                    <xs:sequence maxOccurs="unbounded">
+                        <xs:element name="participant" type="Participant"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="Participant">
+        <xs:sequence>
+            <xs:element name="person" type="Person" minOccurs="1"/>
+            <xs:element minOccurs="0" name="roles">
+                <xs:complexType>
+                    <xs:sequence maxOccurs="unbounded" minOccurs="1">
+                        <xs:element name="role" minOccurs="1">
+                            <xs:simpleType>
+                                <xs:restriction base="xs:string">
+                                    <xs:enumeration value="Other"/>
+                                    <xs:enumeration value="BuysideAnalyst"/>
+                                    <xs:enumeration value="SellsideAnalyst"/>
+                                    <xs:enumeration value="BuysideCoordinator"/>
+                                    <xs:enumeration value="SellsideCoordinator"/>
+                                    <xs:enumeration value="BuysideIT"/>
+                                    <xs:enumeration value="SellsideIT"/>
+                                    <xs:enumeration value="BuysideSales"/>
+                                    <xs:enumeration value="SellsideSales"/>
+                                    <xs:enumeration value="BuysideClientManagement"/>
+                                    <xs:enumeration value="SellsideClientManagement"/>
+                                    <xs:enumeration value="BrokerCoordinator"/>
+                                    <xs:enumeration value="IndustryExpert"/>
+                                    <xs:enumeration value="GovernmentExpert"/>
+                                    <xs:enumeration value="MacroStrategist"/>
+                                    <xs:enumeration value="InvestmentBanker"/>
+                                    <xs:enumeration value="ClientRepresentative"/>
+                                    <xs:enumeration value="CoveringAnalyst"/>
+                                    <xs:enumeration value="ReceivingClient"/>
+                                    <xs:enumeration value="MedicalExpert"/>
+                                    <xs:enumeration value="CEO"/>
+                                    <xs:enumeration value="CFO"/>
+                                    <xs:enumeration value="CIO-Information"/>
+                                    <xs:enumeration value="CIO-Investment"/>
+                                    <xs:enumeration value="CTO"/>
+                                    <xs:enumeration value="CMO"/>
+                                    <xs:enumeration value="CSO"/>
+                                    <xs:enumeration value="Chairman"/>
+                                    <xs:enumeration value="Founder"/>
+                                    <xs:enumeration value="President"/>
+                                    <xs:enumeration value="BoardMember"/>
+                                    <xs:enumeration value="ExecVicePresident"/>
+                                    <xs:enumeration value="SeniorVicePresident"/>
+                                    <xs:enumeration value="VicePresident"/>
+                                    <xs:enumeration value="PortfolioManager"/>
+                                    <xs:enumeration value="Director"/>
+                                    <xs:enumeration value="ManagingDirector"/>
+                                    <xs:enumeration value="GeneralCounsel"/>
+                                    <xs:enumeration value="DirectorOfResearch"/>
+                                    <xs:enumeration value="ViceChairman"/>
+                                    <xs:enumeration value="ManagingPartner"/>
+                                    <xs:enumeration value="Partner"/>
+                                    <xs:enumeration value="InvestorRelations"/>
+                                    <xs:enumeration value="HeadOfBusiness"/>
+                                    <xs:enumeration value="BrokerLiaison"/>
+                                    <xs:enumeration value="Treasurer"/>
+                                    <xs:enumeration value="Executive"/>
+                                    <xs:enumeration value="CRO"/>
+                                    <xs:enumeration value="COO"/>
+                                    <xs:enumeration value="KeyOpinionLeader"/>
+                                    <xs:enumeration value="SpecialistSales"/>
+                                    <xs:enumeration value="BoardSecretary"/>
+                                    <xs:enumeration value="BusinessDevelopment"/>
+                                    <xs:enumeration value="JuniorAnalyst"/>
+                                    <xs:enumeration value="Economist"/>
+                                    <xs:enumeration value="SalesTrader-Cash"/>
+                                    <xs:enumeration value="SalesTrader-Electronic"/>
+                                    <xs:enumeration value="SalesTrader-Program"/>
+                                    <xs:enumeration value="PositionTrader"/>
+                                    <xs:enumeration value="SellsideSyndicate"/>
+                                </xs:restriction>
+                            </xs:simpleType>
+                        </xs:element>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element minOccurs="0" name="status" maxOccurs="1">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="Requested"/>
+                        <xs:enumeration value="Offered"/>
+                        <xs:enumeration value="Accepted"/>
+                        <xs:enumeration value="Canceled"/>
+                        <xs:enumeration value="CorporateCanceled"/>
+                        <xs:enumeration value="SellsideCanceled"/>
+                        <xs:enumeration value="CorporateRejected"/>
+                        <xs:enumeration value="SellsideRejected"/>
+                        <xs:enumeration value="Attended"/>
+                        <xs:enumeration value="NoShow"/>
+                        <xs:enumeration value="Rejected"/>
+                        <xs:enumeration value="Postponed"/>
+                        <xs:enumeration value="Waitlisted"/>
+                        <xs:enumeration value="Passed"/>
+                        <xs:enumeration value="Confirmed"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="Person">
+        <xs:sequence>
+            <xs:element name="firstName" type="xs:string"/>
+            <xs:element name="lastName" type="xs:string"/>
+            <xs:element name="email" type="xs:string" minOccurs="0"/>
+            <xs:element name="altEmail" type="xs:string" minOccurs="0"/>
+            <xs:element name="phone" type="xs:string" minOccurs="0"/>
+            <xs:element name="title" minOccurs="0" type="xs:string"> </xs:element>
+            <xs:element name="company" minOccurs="0" type="xs:string"> </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="Tag">
+        <xs:annotation>
+            <xs:documentation>Tags are key-value pairs that are used to add ad-hoc or custom information to an element.</xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <xs:element name="key" type="xs:string"/>
+            <xs:element name="value" type="xs:string"/>
+            <xs:element name="scope" type="xs:string" minOccurs="0">
+                <xs:annotation>
+                    <xs:documentation>Optional element used to specify the conditions under which this key-value pair should be used.  This can specify a particular output target or permissioning level.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="DateTimeZone">
+        <xs:annotation>
+            <xs:documentation>Extension of datetime to include timezone information.</xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <xs:element name="datetime" type="xs:dateTime"/>
+            <xs:element name="timezone" type="TimeZone"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:simpleType name="AssetClass">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Equities"/>
+            <xs:enumeration value="FixedIncome/Rates"/>
+            <xs:enumeration value="Global Strategy"/>
+            <xs:enumeration value="Commodities"/>
+            <xs:enumeration value="Macro/Economics"/>
+            <xs:enumeration value="Other"/>
+            <xs:enumeration value="FX/Currency"/>
+            <xs:enumeration value="RealEstate"/>
+            <xs:enumeration value="Credit"/>
+            <xs:enumeration value="Derivatives"/>
+            <xs:enumeration value="ETF"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="GICS">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="0"/>
+            <xs:enumeration value="10"/>
+            <xs:enumeration value="15"/>
+            <xs:enumeration value="20"/>
+            <xs:enumeration value="25"/>
+            <xs:enumeration value="30"/>
+            <xs:enumeration value="35"/>
+            <xs:enumeration value="40"/>
+            <xs:enumeration value="45"/>
+            <xs:enumeration value="50"/>
+            <xs:enumeration value="55"/>
+            <xs:enumeration value="1010"/>
+            <xs:enumeration value="1510"/>
+            <xs:enumeration value="2010"/>
+            <xs:enumeration value="2020"/>
+            <xs:enumeration value="2030"/>
+            <xs:enumeration value="2510"/>
+            <xs:enumeration value="2520"/>
+            <xs:enumeration value="2530"/>
+            <xs:enumeration value="2540"/>
+            <xs:enumeration value="2550"/>
+            <xs:enumeration value="3010"/>
+            <xs:enumeration value="3020"/>
+            <xs:enumeration value="3030"/>
+            <xs:enumeration value="3510"/>
+            <xs:enumeration value="3520"/>
+            <xs:enumeration value="4010"/>
+            <xs:enumeration value="4020"/>
+            <xs:enumeration value="4030"/>
+            <xs:enumeration value="4040"/>
+            <xs:enumeration value="4510"/>
+            <xs:enumeration value="4520"/>
+            <xs:enumeration value="4530"/>
+            <xs:enumeration value="5010"/>
+            <xs:enumeration value="5510"/>
+            <xs:enumeration value="101010"/>
+            <xs:enumeration value="101020"/>
+            <xs:enumeration value="151010"/>
+            <xs:enumeration value="151020"/>
+            <xs:enumeration value="151030"/>
+            <xs:enumeration value="151040"/>
+            <xs:enumeration value="151050"/>
+            <xs:enumeration value="201010"/>
+            <xs:enumeration value="201020"/>
+            <xs:enumeration value="201030"/>
+            <xs:enumeration value="201040"/>
+            <xs:enumeration value="201050"/>
+            <xs:enumeration value="201060"/>
+            <xs:enumeration value="201070"/>
+            <xs:enumeration value="202010"/>
+            <xs:enumeration value="202020"/>
+            <xs:enumeration value="203010"/>
+            <xs:enumeration value="203020"/>
+            <xs:enumeration value="203030"/>
+            <xs:enumeration value="203040"/>
+            <xs:enumeration value="203050"/>
+            <xs:enumeration value="251010"/>
+            <xs:enumeration value="251020"/>
+            <xs:enumeration value="252010"/>
+            <xs:enumeration value="252020"/>
+            <xs:enumeration value="252030"/>
+            <xs:enumeration value="253010"/>
+            <xs:enumeration value="253020"/>
+            <xs:enumeration value="254010"/>
+            <xs:enumeration value="255010"/>
+            <xs:enumeration value="255020"/>
+            <xs:enumeration value="255030"/>
+            <xs:enumeration value="255040"/>
+            <xs:enumeration value="301010"/>
+            <xs:enumeration value="302010"/>
+            <xs:enumeration value="302020"/>
+            <xs:enumeration value="302030"/>
+            <xs:enumeration value="303010"/>
+            <xs:enumeration value="303020"/>
+            <xs:enumeration value="351010"/>
+            <xs:enumeration value="351020"/>
+            <xs:enumeration value="351030"/>
+            <xs:enumeration value="352010"/>
+            <xs:enumeration value="352020"/>
+            <xs:enumeration value="352030"/>
+            <xs:enumeration value="401010"/>
+            <xs:enumeration value="401020"/>
+            <xs:enumeration value="402010"/>
+            <xs:enumeration value="402020"/>
+            <xs:enumeration value="402030"/>
+            <xs:enumeration value="403010"/>
+            <xs:enumeration value="404020"/>
+            <xs:enumeration value="404030"/>
+            <xs:enumeration value="451010"/>
+            <xs:enumeration value="451020"/>
+            <xs:enumeration value="451030"/>
+            <xs:enumeration value="452010"/>
+            <xs:enumeration value="452020"/>
+            <xs:enumeration value="452030"/>
+            <xs:enumeration value="453010"/>
+            <xs:enumeration value="501010"/>
+            <xs:enumeration value="501020"/>
+            <xs:enumeration value="551010"/>
+            <xs:enumeration value="551020"/>
+            <xs:enumeration value="551030"/>
+            <xs:enumeration value="551040"/>
+            <xs:enumeration value="551050"/>
+            <xs:enumeration value="10101010"/>
+            <xs:enumeration value="10101020"/>
+            <xs:enumeration value="10102010"/>
+            <xs:enumeration value="10102020"/>
+            <xs:enumeration value="10102030"/>
+            <xs:enumeration value="10102040"/>
+            <xs:enumeration value="10102050"/>
+            <xs:enumeration value="15101010"/>
+            <xs:enumeration value="15101020"/>
+            <xs:enumeration value="15101030"/>
+            <xs:enumeration value="15101040"/>
+            <xs:enumeration value="15101050"/>
+            <xs:enumeration value="15102010"/>
+            <xs:enumeration value="15103010"/>
+            <xs:enumeration value="15103020"/>
+            <xs:enumeration value="15104010"/>
+            <xs:enumeration value="15104020"/>
+            <xs:enumeration value="15104030"/>
+            <xs:enumeration value="15104040"/>
+            <xs:enumeration value="15104045"/>
+            <xs:enumeration value="15104050"/>
+            <xs:enumeration value="15105010"/>
+            <xs:enumeration value="15105020"/>
+            <xs:enumeration value="20101010"/>
+            <xs:enumeration value="20102010"/>
+            <xs:enumeration value="20103010"/>
+            <xs:enumeration value="20104010"/>
+            <xs:enumeration value="20104020"/>
+            <xs:enumeration value="20105010"/>
+            <xs:enumeration value="20106010"/>
+            <xs:enumeration value="20106015"/>
+            <xs:enumeration value="20106020"/>
+            <xs:enumeration value="20107010"/>
+            <xs:enumeration value="20201010"/>
+            <xs:enumeration value="20201050"/>
+            <xs:enumeration value="20201060"/>
+            <xs:enumeration value="20201070"/>
+            <xs:enumeration value="20201080"/>
+            <xs:enumeration value="20202010"/>
+            <xs:enumeration value="20202020"/>
+            <xs:enumeration value="20301010"/>
+            <xs:enumeration value="20302010"/>
+            <xs:enumeration value="20303010"/>
+            <xs:enumeration value="20304010"/>
+            <xs:enumeration value="20304020"/>
+            <xs:enumeration value="20305010"/>
+            <xs:enumeration value="20305020"/>
+            <xs:enumeration value="20305030"/>
+            <xs:enumeration value="25101010"/>
+            <xs:enumeration value="25101020"/>
+            <xs:enumeration value="25102010"/>
+            <xs:enumeration value="25102020"/>
+            <xs:enumeration value="25201010"/>
+            <xs:enumeration value="25201020"/>
+            <xs:enumeration value="25201030"/>
+            <xs:enumeration value="25201040"/>
+            <xs:enumeration value="25201050"/>
+            <xs:enumeration value="25202010"/>
+            <xs:enumeration value="25203010"/>
+            <xs:enumeration value="25203020"/>
+            <xs:enumeration value="25203030"/>
+            <xs:enumeration value="25301010"/>
+            <xs:enumeration value="25301020"/>
+            <xs:enumeration value="25301030"/>
+            <xs:enumeration value="25301040"/>
+            <xs:enumeration value="25302010"/>
+            <xs:enumeration value="25302020"/>
+            <xs:enumeration value="25401010"/>
+            <xs:enumeration value="25401020"/>
+            <xs:enumeration value="25401025"/>
+            <xs:enumeration value="25401030"/>
+            <xs:enumeration value="25401040"/>
+            <xs:enumeration value="25501010"/>
+            <xs:enumeration value="25502010"/>
+            <xs:enumeration value="25502020"/>
+            <xs:enumeration value="25503010"/>
+            <xs:enumeration value="25503020"/>
+            <xs:enumeration value="25504010"/>
+            <xs:enumeration value="25504020"/>
+            <xs:enumeration value="25504030"/>
+            <xs:enumeration value="25504040"/>
+            <xs:enumeration value="25504050"/>
+            <xs:enumeration value="25504060"/>
+            <xs:enumeration value="30101010"/>
+            <xs:enumeration value="30101020"/>
+            <xs:enumeration value="30101030"/>
+            <xs:enumeration value="30101040"/>
+            <xs:enumeration value="30201010"/>
+            <xs:enumeration value="30201020"/>
+            <xs:enumeration value="30201030"/>
+            <xs:enumeration value="30202010"/>
+            <xs:enumeration value="30202030"/>
+            <xs:enumeration value="30203010"/>
+            <xs:enumeration value="30301010"/>
+            <xs:enumeration value="30302010"/>
+            <xs:enumeration value="35101010"/>
+            <xs:enumeration value="35101020"/>
+            <xs:enumeration value="35102010"/>
+            <xs:enumeration value="35102015"/>
+            <xs:enumeration value="35102020"/>
+            <xs:enumeration value="35102030"/>
+            <xs:enumeration value="35103010"/>
+            <xs:enumeration value="35201010"/>
+            <xs:enumeration value="35202010"/>
+            <xs:enumeration value="35203010"/>
+            <xs:enumeration value="40101010"/>
+            <xs:enumeration value="40101015"/>
+            <xs:enumeration value="40102010"/>
+            <xs:enumeration value="40201020"/>
+            <xs:enumeration value="40201030"/>
+            <xs:enumeration value="40201040"/>
+            <xs:enumeration value="40202010"/>
+            <xs:enumeration value="40203010"/>
+            <xs:enumeration value="40203020"/>
+            <xs:enumeration value="40203030"/>
+            <xs:enumeration value="40301010"/>
+            <xs:enumeration value="40301020"/>
+            <xs:enumeration value="40301030"/>
+            <xs:enumeration value="40301040"/>
+            <xs:enumeration value="40301050"/>
+            <xs:enumeration value="40402010"/>
+            <xs:enumeration value="40402020"/>
+            <xs:enumeration value="40402030"/>
+            <xs:enumeration value="40402035"/>
+            <xs:enumeration value="40402040"/>
+            <xs:enumeration value="40402045"/>
+            <xs:enumeration value="40402050"/>
+            <xs:enumeration value="40402060"/>
+            <xs:enumeration value="40402070"/>
+            <xs:enumeration value="40403010"/>
+            <xs:enumeration value="40403020"/>
+            <xs:enumeration value="40403030"/>
+            <xs:enumeration value="40403040"/>
+            <xs:enumeration value="45101010"/>
+            <xs:enumeration value="45102010"/>
+            <xs:enumeration value="45102020"/>
+            <xs:enumeration value="45103010"/>
+            <xs:enumeration value="45103020"/>
+            <xs:enumeration value="45103030"/>
+            <xs:enumeration value="45201020"/>
+            <xs:enumeration value="45202030"/>
+            <xs:enumeration value="45203010"/>
+            <xs:enumeration value="45203015"/>
+            <xs:enumeration value="45203020"/>
+            <xs:enumeration value="45203030"/>
+            <xs:enumeration value="45301010"/>
+            <xs:enumeration value="45301020"/>
+            <xs:enumeration value="50101010"/>
+            <xs:enumeration value="50101020"/>
+            <xs:enumeration value="50102010"/>
+            <xs:enumeration value="55101010"/>
+            <xs:enumeration value="55102010"/>
+            <xs:enumeration value="55103010"/>
+            <xs:enumeration value="55104010"/>
+            <xs:enumeration value="55105010"/>
+            <xs:enumeration value="55105020"/>
+            <xs:enumeration value="100"/>
+            <xs:enumeration value="200"/>
+            <xs:enumeration value="60"/>
+            <xs:enumeration value="6010"/>
+            <xs:enumeration value="601010"/>
+            <xs:enumeration value="601020"/>
+            <xs:enumeration value="60101010"/>
+            <xs:enumeration value="60101020"/>
+            <xs:enumeration value="60101030"/>
+            <xs:enumeration value="60101040"/>
+            <xs:enumeration value="60101050"/>
+            <xs:enumeration value="60101060"/>
+            <xs:enumeration value="60101070"/>
+            <xs:enumeration value="60101080"/>
+            <xs:enumeration value="60102010"/>
+            <xs:enumeration value="60102020"/>
+            <xs:enumeration value="60102030"/>
+            <xs:enumeration value="60102040"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="Region">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="North America"/>
+            <xs:enumeration value="Latin America"/>
+            <xs:enumeration value="MEA"/>
+            <xs:enumeration value="Asia (ex-Japan)"/>
+            <xs:enumeration value="Japan"/>
+            <xs:enumeration value="Europe"/>
+            <xs:enumeration value="United States"/>
+            <xs:enumeration value="EEMEA"/>
+            <xs:enumeration value="Australia"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="State">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Undefined"/>
+            <xs:enumeration value="AL"/>
+            <xs:enumeration value="AK"/>
+            <xs:enumeration value="AZ"/>
+            <xs:enumeration value="AR"/>
+            <xs:enumeration value="CA"/>
+            <xs:enumeration value="CO"/>
+            <xs:enumeration value="CT"/>
+            <xs:enumeration value="DE"/>
+            <xs:enumeration value="DC"/>
+            <xs:enumeration value="FL"/>
+            <xs:enumeration value="GA"/>
+            <xs:enumeration value="HI"/>
+            <xs:enumeration value="ID"/>
+            <xs:enumeration value="IL"/>
+            <xs:enumeration value="IN"/>
+            <xs:enumeration value="IA"/>
+            <xs:enumeration value="KS"/>
+            <xs:enumeration value="KY"/>
+            <xs:enumeration value="LA"/>
+            <xs:enumeration value="ME"/>
+            <xs:enumeration value="MD"/>
+            <xs:enumeration value="MA"/>
+            <xs:enumeration value="MI"/>
+            <xs:enumeration value="MN"/>
+            <xs:enumeration value="MS"/>
+            <xs:enumeration value="MO"/>
+            <xs:enumeration value="MT"/>
+            <xs:enumeration value="NE"/>
+            <xs:enumeration value="NV"/>
+            <xs:enumeration value="NH"/>
+            <xs:enumeration value="NJ"/>
+            <xs:enumeration value="NM"/>
+            <xs:enumeration value="NY"/>
+            <xs:enumeration value="NC"/>
+            <xs:enumeration value="ND"/>
+            <xs:enumeration value="OH"/>
+            <xs:enumeration value="OK"/>
+            <xs:enumeration value="OR"/>
+            <xs:enumeration value="PA"/>
+            <xs:enumeration value="RI"/>
+            <xs:enumeration value="SC"/>
+            <xs:enumeration value="SD"/>
+            <xs:enumeration value="TN"/>
+            <xs:enumeration value="TX"/>
+            <xs:enumeration value="UT"/>
+            <xs:enumeration value="VT"/>
+            <xs:enumeration value="VA"/>
+            <xs:enumeration value="WA"/>
+            <xs:enumeration value="WV"/>
+            <xs:enumeration value="WI"/>
+            <xs:enumeration value="WY"/>
+            <xs:enumeration value="AS"/>
+            <xs:enumeration value="GU"/>
+            <xs:enumeration value="MP"/>
+            <xs:enumeration value="PR"/>
+            <xs:enumeration value="VI"/>
+            <xs:enumeration value="UM"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="Country">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="USA"/>
+            <xs:enumeration value="GBR"/>
+            <xs:enumeration value="AFG"/>
+            <xs:enumeration value="ALA"/>
+            <xs:enumeration value="ALB"/>
+            <xs:enumeration value="DZA"/>
+            <xs:enumeration value="ASM"/>
+            <xs:enumeration value="AND"/>
+            <xs:enumeration value="AGO"/>
+            <xs:enumeration value="AIA"/>
+            <xs:enumeration value="ATA"/>
+            <xs:enumeration value="ATG"/>
+            <xs:enumeration value="ARG"/>
+            <xs:enumeration value="ARM"/>
+            <xs:enumeration value="ABW"/>
+            <xs:enumeration value="AUS"/>
+            <xs:enumeration value="AUT"/>
+            <xs:enumeration value="AZE"/>
+            <xs:enumeration value="BHS"/>
+            <xs:enumeration value="BHR"/>
+            <xs:enumeration value="BGD"/>
+            <xs:enumeration value="BRB"/>
+            <xs:enumeration value="BLR"/>
+            <xs:enumeration value="BEL"/>
+            <xs:enumeration value="BLZ"/>
+            <xs:enumeration value="BEN"/>
+            <xs:enumeration value="BMU"/>
+            <xs:enumeration value="BTN"/>
+            <xs:enumeration value="BOL"/>
+            <xs:enumeration value="BES"/>
+            <xs:enumeration value="BIH"/>
+            <xs:enumeration value="BWA"/>
+            <xs:enumeration value="BVT"/>
+            <xs:enumeration value="BRA"/>
+            <xs:enumeration value="IOT"/>
+            <xs:enumeration value="BRN"/>
+            <xs:enumeration value="BGR"/>
+            <xs:enumeration value="BFA"/>
+            <xs:enumeration value="BDI"/>
+            <xs:enumeration value="KHM"/>
+            <xs:enumeration value="CMR"/>
+            <xs:enumeration value="CAN"/>
+            <xs:enumeration value="CPV"/>
+            <xs:enumeration value="CYM"/>
+            <xs:enumeration value="CAF"/>
+            <xs:enumeration value="TCD"/>
+            <xs:enumeration value="CHL"/>
+            <xs:enumeration value="CHN"/>
+            <xs:enumeration value="CXR"/>
+            <xs:enumeration value="CCK"/>
+            <xs:enumeration value="COL"/>
+            <xs:enumeration value="COM"/>
+            <xs:enumeration value="COG"/>
+            <xs:enumeration value="COD"/>
+            <xs:enumeration value="COK"/>
+            <xs:enumeration value="CRI"/>
+            <xs:enumeration value="CIV"/>
+            <xs:enumeration value="HRV"/>
+            <xs:enumeration value="CUB"/>
+            <xs:enumeration value="CUW"/>
+            <xs:enumeration value="CYP"/>
+            <xs:enumeration value="CZE"/>
+            <xs:enumeration value="DNK"/>
+            <xs:enumeration value="DJI"/>
+            <xs:enumeration value="DMA"/>
+            <xs:enumeration value="DOM"/>
+            <xs:enumeration value="ECU"/>
+            <xs:enumeration value="EGY"/>
+            <xs:enumeration value="SLV"/>
+            <xs:enumeration value="GNQ"/>
+            <xs:enumeration value="ERI"/>
+            <xs:enumeration value="EST"/>
+            <xs:enumeration value="ETH"/>
+            <xs:enumeration value="FLK"/>
+            <xs:enumeration value="FRO"/>
+            <xs:enumeration value="FJI"/>
+            <xs:enumeration value="FIN"/>
+            <xs:enumeration value="FRA"/>
+            <xs:enumeration value="GUF"/>
+            <xs:enumeration value="PYF"/>
+            <xs:enumeration value="ATF"/>
+            <xs:enumeration value="GAB"/>
+            <xs:enumeration value="GMB"/>
+            <xs:enumeration value="GEO"/>
+            <xs:enumeration value="DEU"/>
+            <xs:enumeration value="GHA"/>
+            <xs:enumeration value="GIB"/>
+            <xs:enumeration value="GRC"/>
+            <xs:enumeration value="GRL"/>
+            <xs:enumeration value="GRD"/>
+            <xs:enumeration value="GLP"/>
+            <xs:enumeration value="GUM"/>
+            <xs:enumeration value="GTM"/>
+            <xs:enumeration value="GGY"/>
+            <xs:enumeration value="GIN"/>
+            <xs:enumeration value="GNB"/>
+            <xs:enumeration value="GUY"/>
+            <xs:enumeration value="HTI"/>
+            <xs:enumeration value="HMD"/>
+            <xs:enumeration value="VAT"/>
+            <xs:enumeration value="HND"/>
+            <xs:enumeration value="HKG"/>
+            <xs:enumeration value="HUN"/>
+            <xs:enumeration value="ISL"/>
+            <xs:enumeration value="IND"/>
+            <xs:enumeration value="IDN"/>
+            <xs:enumeration value="IRN"/>
+            <xs:enumeration value="IRQ"/>
+            <xs:enumeration value="IRL"/>
+            <xs:enumeration value="IMN"/>
+            <xs:enumeration value="ISR"/>
+            <xs:enumeration value="ITA"/>
+            <xs:enumeration value="JAM"/>
+            <xs:enumeration value="JPN"/>
+            <xs:enumeration value="JEY"/>
+            <xs:enumeration value="JOR"/>
+            <xs:enumeration value="KAZ"/>
+            <xs:enumeration value="KEN"/>
+            <xs:enumeration value="KIR"/>
+            <xs:enumeration value="PRK"/>
+            <xs:enumeration value="KOR"/>
+            <xs:enumeration value="KWT"/>
+            <xs:enumeration value="KGZ"/>
+            <xs:enumeration value="LAO"/>
+            <xs:enumeration value="LVA"/>
+            <xs:enumeration value="LBN"/>
+            <xs:enumeration value="LSO"/>
+            <xs:enumeration value="LBR"/>
+            <xs:enumeration value="LBY"/>
+            <xs:enumeration value="LIE"/>
+            <xs:enumeration value="LTU"/>
+            <xs:enumeration value="LUX"/>
+            <xs:enumeration value="MAC"/>
+            <xs:enumeration value="MKD"/>
+            <xs:enumeration value="MDG"/>
+            <xs:enumeration value="MWI"/>
+            <xs:enumeration value="MYS"/>
+            <xs:enumeration value="MDV"/>
+            <xs:enumeration value="MLI"/>
+            <xs:enumeration value="MLT"/>
+            <xs:enumeration value="MHL"/>
+            <xs:enumeration value="MTQ"/>
+            <xs:enumeration value="MRT"/>
+            <xs:enumeration value="MUS"/>
+            <xs:enumeration value="MYT"/>
+            <xs:enumeration value="MEX"/>
+            <xs:enumeration value="FSM"/>
+            <xs:enumeration value="MDA"/>
+            <xs:enumeration value="MCO"/>
+            <xs:enumeration value="MNG"/>
+            <xs:enumeration value="MNE"/>
+            <xs:enumeration value="MSR"/>
+            <xs:enumeration value="MAR"/>
+            <xs:enumeration value="MOZ"/>
+            <xs:enumeration value="MMR"/>
+            <xs:enumeration value="NAM"/>
+            <xs:enumeration value="NRU"/>
+            <xs:enumeration value="NPL"/>
+            <xs:enumeration value="NLD"/>
+            <xs:enumeration value="NCL"/>
+            <xs:enumeration value="NZL"/>
+            <xs:enumeration value="NIC"/>
+            <xs:enumeration value="NER"/>
+            <xs:enumeration value="NGA"/>
+            <xs:enumeration value="NIU"/>
+            <xs:enumeration value="NFK"/>
+            <xs:enumeration value="MNP"/>
+            <xs:enumeration value="NOR"/>
+            <xs:enumeration value="OMN"/>
+            <xs:enumeration value="PAK"/>
+            <xs:enumeration value="PLW"/>
+            <xs:enumeration value="PSE"/>
+            <xs:enumeration value="PAN"/>
+            <xs:enumeration value="PNG"/>
+            <xs:enumeration value="PRY"/>
+            <xs:enumeration value="PER"/>
+            <xs:enumeration value="PHL"/>
+            <xs:enumeration value="PCN"/>
+            <xs:enumeration value="POL"/>
+            <xs:enumeration value="PRT"/>
+            <xs:enumeration value="PRI"/>
+            <xs:enumeration value="QAT"/>
+            <xs:enumeration value="REU"/>
+            <xs:enumeration value="ROU"/>
+            <xs:enumeration value="RUS"/>
+            <xs:enumeration value="RWA"/>
+            <xs:enumeration value="BLM"/>
+            <xs:enumeration value="SHN"/>
+            <xs:enumeration value="KNA"/>
+            <xs:enumeration value="LCA"/>
+            <xs:enumeration value="MAF"/>
+            <xs:enumeration value="SPM"/>
+            <xs:enumeration value="VCT"/>
+            <xs:enumeration value="WSM"/>
+            <xs:enumeration value="SMR"/>
+            <xs:enumeration value="STP"/>
+            <xs:enumeration value="SAU"/>
+            <xs:enumeration value="SEN"/>
+            <xs:enumeration value="SRB"/>
+            <xs:enumeration value="SYC"/>
+            <xs:enumeration value="SLE"/>
+            <xs:enumeration value="SGP"/>
+            <xs:enumeration value="SXM"/>
+            <xs:enumeration value="SVK"/>
+            <xs:enumeration value="SVN"/>
+            <xs:enumeration value="SLB"/>
+            <xs:enumeration value="SOM"/>
+            <xs:enumeration value="ZAF"/>
+            <xs:enumeration value="SGS"/>
+            <xs:enumeration value="SSD"/>
+            <xs:enumeration value="ESP"/>
+            <xs:enumeration value="LKA"/>
+            <xs:enumeration value="SDN"/>
+            <xs:enumeration value="SUR"/>
+            <xs:enumeration value="SJM"/>
+            <xs:enumeration value="SWZ"/>
+            <xs:enumeration value="SWE"/>
+            <xs:enumeration value="CHE"/>
+            <xs:enumeration value="SYR"/>
+            <xs:enumeration value="TWN"/>
+            <xs:enumeration value="TJK"/>
+            <xs:enumeration value="TZA"/>
+            <xs:enumeration value="THA"/>
+            <xs:enumeration value="TLS"/>
+            <xs:enumeration value="TGO"/>
+            <xs:enumeration value="TKL"/>
+            <xs:enumeration value="TON"/>
+            <xs:enumeration value="TTO"/>
+            <xs:enumeration value="TUN"/>
+            <xs:enumeration value="TUR"/>
+            <xs:enumeration value="TKM"/>
+            <xs:enumeration value="TCA"/>
+            <xs:enumeration value="TUV"/>
+            <xs:enumeration value="UGA"/>
+            <xs:enumeration value="UKR"/>
+            <xs:enumeration value="ARE"/>
+            <xs:enumeration value="UMI"/>
+            <xs:enumeration value="URY"/>
+            <xs:enumeration value="UZB"/>
+            <xs:enumeration value="VUT"/>
+            <xs:enumeration value="VEN"/>
+            <xs:enumeration value="VNM"/>
+            <xs:enumeration value="VGB"/>
+            <xs:enumeration value="VIR"/>
+            <xs:enumeration value="WLF"/>
+            <xs:enumeration value="ESH"/>
+            <xs:enumeration value="YEM"/>
+            <xs:enumeration value="ZMB"/>
+            <xs:enumeration value="ZWE"/>
+            <xs:enumeration value="Unknown"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="TimeZone">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Africa/Abidjan"/>
+            <xs:enumeration value="Africa/Accra"/>
+            <xs:enumeration value="Africa/Addis_Ababa"/>
+            <xs:enumeration value="Africa/Algiers"/>
+            <xs:enumeration value="Africa/Asmara"/>
+            <xs:enumeration value="Africa/Asmera"/>
+            <xs:enumeration value="Africa/Bamako"/>
+            <xs:enumeration value="Africa/Bangui"/>
+            <xs:enumeration value="Africa/Banjul"/>
+            <xs:enumeration value="Africa/Bissau"/>
+            <xs:enumeration value="Africa/Blantyre"/>
+            <xs:enumeration value="Africa/Brazzaville"/>
+            <xs:enumeration value="Africa/Bujumbura"/>
+            <xs:enumeration value="Africa/Cairo"/>
+            <xs:enumeration value="Africa/Casablanca"/>
+            <xs:enumeration value="Africa/Ceuta"/>
+            <xs:enumeration value="Africa/Conakry"/>
+            <xs:enumeration value="Africa/Dakar"/>
+            <xs:enumeration value="Africa/Dar_es_Salaam"/>
+            <xs:enumeration value="Africa/Djibouti"/>
+            <xs:enumeration value="Africa/Douala"/>
+            <xs:enumeration value="Africa/El_Aaiun"/>
+            <xs:enumeration value="Africa/Freetown"/>
+            <xs:enumeration value="Africa/Gaborone"/>
+            <xs:enumeration value="Africa/Harare"/>
+            <xs:enumeration value="Africa/Johannesburg"/>
+            <xs:enumeration value="Africa/Juba"/>
+            <xs:enumeration value="Africa/Kampala"/>
+            <xs:enumeration value="Africa/Khartoum"/>
+            <xs:enumeration value="Africa/Kigali"/>
+            <xs:enumeration value="Africa/Kinshasa"/>
+            <xs:enumeration value="Africa/Lagos"/>
+            <xs:enumeration value="Africa/Libreville"/>
+            <xs:enumeration value="Africa/Lome"/>
+            <xs:enumeration value="Africa/Luanda"/>
+            <xs:enumeration value="Africa/Lubumbashi"/>
+            <xs:enumeration value="Africa/Lusaka"/>
+            <xs:enumeration value="Africa/Malabo"/>
+            <xs:enumeration value="Africa/Maputo"/>
+            <xs:enumeration value="Africa/Maseru"/>
+            <xs:enumeration value="Africa/Mbabane"/>
+            <xs:enumeration value="Africa/Mogadishu"/>
+            <xs:enumeration value="Africa/Monrovia"/>
+            <xs:enumeration value="Africa/Nairobi"/>
+            <xs:enumeration value="Africa/Ndjamena"/>
+            <xs:enumeration value="Africa/Niamey"/>
+            <xs:enumeration value="Africa/Nouakchott"/>
+            <xs:enumeration value="Africa/Ouagadougou"/>
+            <xs:enumeration value="Africa/Porto-Novo"/>
+            <xs:enumeration value="Africa/Sao_Tome"/>
+            <xs:enumeration value="Africa/Timbuktu"/>
+            <xs:enumeration value="Africa/Tripoli"/>
+            <xs:enumeration value="Africa/Tunis"/>
+            <xs:enumeration value="Africa/Windhoek"/>
+            <xs:enumeration value="America/Adak"/>
+            <xs:enumeration value="America/Anchorage"/>
+            <xs:enumeration value="America/Anguilla"/>
+            <xs:enumeration value="America/Antigua"/>
+            <xs:enumeration value="America/Araguaina"/>
+            <xs:enumeration value="America/Argentina/Buenos_Aires"/>
+            <xs:enumeration value="America/Argentina/Catamarca"/>
+            <xs:enumeration value="America/Argentina/ComodRivadavia"/>
+            <xs:enumeration value="America/Argentina/Cordoba"/>
+            <xs:enumeration value="America/Argentina/Jujuy"/>
+            <xs:enumeration value="America/Argentina/La_Rioja"/>
+            <xs:enumeration value="America/Argentina/Mendoza"/>
+            <xs:enumeration value="America/Argentina/Rio_Gallegos"/>
+            <xs:enumeration value="America/Argentina/Salta"/>
+            <xs:enumeration value="America/Argentina/San_Juan"/>
+            <xs:enumeration value="America/Argentina/San_Luis"/>
+            <xs:enumeration value="America/Argentina/Tucuman"/>
+            <xs:enumeration value="America/Argentina/Ushuaia"/>
+            <xs:enumeration value="America/Aruba"/>
+            <xs:enumeration value="America/Asuncion"/>
+            <xs:enumeration value="America/Atikokan"/>
+            <xs:enumeration value="America/Atka"/>
+            <xs:enumeration value="America/Bahia"/>
+            <xs:enumeration value="America/Bahia_Banderas"/>
+            <xs:enumeration value="America/Barbados"/>
+            <xs:enumeration value="America/Belem"/>
+            <xs:enumeration value="America/Belize"/>
+            <xs:enumeration value="America/Blanc-Sablon"/>
+            <xs:enumeration value="America/Boa_Vista"/>
+            <xs:enumeration value="America/Bogota"/>
+            <xs:enumeration value="America/Boise"/>
+            <xs:enumeration value="America/Buenos_Aires"/>
+            <xs:enumeration value="America/Cambridge_Bay"/>
+            <xs:enumeration value="America/Campo_Grande"/>
+            <xs:enumeration value="America/Cancun"/>
+            <xs:enumeration value="America/Caracas"/>
+            <xs:enumeration value="America/Catamarca"/>
+            <xs:enumeration value="America/Cayenne"/>
+            <xs:enumeration value="America/Cayman"/>
+            <xs:enumeration value="America/Chicago"/>
+            <xs:enumeration value="America/Chihuahua"/>
+            <xs:enumeration value="America/Coral_Harbour"/>
+            <xs:enumeration value="America/Cordoba"/>
+            <xs:enumeration value="America/Costa_Rica"/>
+            <xs:enumeration value="America/Creston"/>
+            <xs:enumeration value="America/Cuiaba"/>
+            <xs:enumeration value="America/Curacao"/>
+            <xs:enumeration value="America/Danmarkshavn"/>
+            <xs:enumeration value="America/Dawson"/>
+            <xs:enumeration value="America/Dawson_Creek"/>
+            <xs:enumeration value="America/Denver"/>
+            <xs:enumeration value="America/Detroit"/>
+            <xs:enumeration value="America/Dominica"/>
+            <xs:enumeration value="America/Edmonton"/>
+            <xs:enumeration value="America/Eirunepe"/>
+            <xs:enumeration value="America/El_Salvador"/>
+            <xs:enumeration value="America/Ensenada"/>
+            <xs:enumeration value="America/Fort_Wayne"/>
+            <xs:enumeration value="America/Fortaleza"/>
+            <xs:enumeration value="America/Glace_Bay"/>
+            <xs:enumeration value="America/Godthab"/>
+            <xs:enumeration value="America/Goose_Bay"/>
+            <xs:enumeration value="America/Grand_Turk"/>
+            <xs:enumeration value="America/Grenada"/>
+            <xs:enumeration value="America/Guadeloupe"/>
+            <xs:enumeration value="America/Guatemala"/>
+            <xs:enumeration value="America/Guayaquil"/>
+            <xs:enumeration value="America/Guyana"/>
+            <xs:enumeration value="America/Halifax"/>
+            <xs:enumeration value="America/Havana"/>
+            <xs:enumeration value="America/Hermosillo"/>
+            <xs:enumeration value="America/Indiana/Indianapolis"/>
+            <xs:enumeration value="America/Indiana/Knox"/>
+            <xs:enumeration value="America/Indiana/Marengo"/>
+            <xs:enumeration value="America/Indiana/Petersburg"/>
+            <xs:enumeration value="America/Indiana/Tell_City"/>
+            <xs:enumeration value="America/Indiana/Valparaiso"/>
+            <xs:enumeration value="America/Indiana/Vevay"/>
+            <xs:enumeration value="America/Indiana/Vincennes"/>
+            <xs:enumeration value="America/Indiana/Winamac"/>
+            <xs:enumeration value="America/Indianapolis"/>
+            <xs:enumeration value="America/Inuvik"/>
+            <xs:enumeration value="America/Iqaluit"/>
+            <xs:enumeration value="America/Jamaica"/>
+            <xs:enumeration value="America/Jujuy"/>
+            <xs:enumeration value="America/Juneau"/>
+            <xs:enumeration value="America/Kentucky/Louisville"/>
+            <xs:enumeration value="America/Kentucky/Monticello"/>
+            <xs:enumeration value="America/Knox_IN"/>
+            <xs:enumeration value="America/Kralendijk"/>
+            <xs:enumeration value="America/La_Paz"/>
+            <xs:enumeration value="America/Lima"/>
+            <xs:enumeration value="America/Los_Angeles"/>
+            <xs:enumeration value="America/Louisville"/>
+            <xs:enumeration value="America/Lower_Princes"/>
+            <xs:enumeration value="America/Maceio"/>
+            <xs:enumeration value="America/Managua"/>
+            <xs:enumeration value="America/Manaus"/>
+            <xs:enumeration value="America/Marigot"/>
+            <xs:enumeration value="America/Martinique"/>
+            <xs:enumeration value="America/Matamoros"/>
+            <xs:enumeration value="America/Mazatlan"/>
+            <xs:enumeration value="America/Mendoza"/>
+            <xs:enumeration value="America/Menominee"/>
+            <xs:enumeration value="America/Merida"/>
+            <xs:enumeration value="America/Metlakatla"/>
+            <xs:enumeration value="America/Mexico_City"/>
+            <xs:enumeration value="America/Miquelon"/>
+            <xs:enumeration value="America/Moncton"/>
+            <xs:enumeration value="America/Monterrey"/>
+            <xs:enumeration value="America/Montevideo"/>
+            <xs:enumeration value="America/Montreal"/>
+            <xs:enumeration value="America/Montserrat"/>
+            <xs:enumeration value="America/Nassau"/>
+            <xs:enumeration value="America/New_York"/>
+            <xs:enumeration value="America/Nipigon"/>
+            <xs:enumeration value="America/Nome"/>
+            <xs:enumeration value="America/Noronha"/>
+            <xs:enumeration value="America/North_Dakota/Beulah"/>
+            <xs:enumeration value="America/North_Dakota/Center"/>
+            <xs:enumeration value="America/North_Dakota/New_Salem"/>
+            <xs:enumeration value="America/Ojinaga"/>
+            <xs:enumeration value="America/Panama"/>
+            <xs:enumeration value="America/Pangnirtung"/>
+            <xs:enumeration value="America/Paramaribo"/>
+            <xs:enumeration value="America/Phoenix"/>
+            <xs:enumeration value="America/Port_of_Spain"/>
+            <xs:enumeration value="America/Port-au-Prince"/>
+            <xs:enumeration value="America/Porto_Acre"/>
+            <xs:enumeration value="America/Porto_Velho"/>
+            <xs:enumeration value="America/Puerto_Rico"/>
+            <xs:enumeration value="America/Rainy_River"/>
+            <xs:enumeration value="America/Rankin_Inlet"/>
+            <xs:enumeration value="America/Recife"/>
+            <xs:enumeration value="America/Regina"/>
+            <xs:enumeration value="America/Resolute"/>
+            <xs:enumeration value="America/Rio_Branco"/>
+            <xs:enumeration value="America/Rosario"/>
+            <xs:enumeration value="America/Santa_Isabel"/>
+            <xs:enumeration value="America/Santarem"/>
+            <xs:enumeration value="America/Santiago"/>
+            <xs:enumeration value="America/Santo_Domingo"/>
+            <xs:enumeration value="America/Sao_Paulo"/>
+            <xs:enumeration value="America/Scoresbysund"/>
+            <xs:enumeration value="America/Shiprock"/>
+            <xs:enumeration value="America/Sitka"/>
+            <xs:enumeration value="America/St_Barthelemy"/>
+            <xs:enumeration value="America/St_Johns"/>
+            <xs:enumeration value="America/St_Kitts"/>
+            <xs:enumeration value="America/St_Lucia"/>
+            <xs:enumeration value="America/St_Thomas"/>
+            <xs:enumeration value="America/St_Vincent"/>
+            <xs:enumeration value="America/Swift_Current"/>
+            <xs:enumeration value="America/Tegucigalpa"/>
+            <xs:enumeration value="America/Thule"/>
+            <xs:enumeration value="America/Thunder_Bay"/>
+            <xs:enumeration value="America/Tijuana"/>
+            <xs:enumeration value="America/Toronto"/>
+            <xs:enumeration value="America/Tortola"/>
+            <xs:enumeration value="America/Vancouver"/>
+            <xs:enumeration value="America/Virgin"/>
+            <xs:enumeration value="America/Whitehorse"/>
+            <xs:enumeration value="America/Winnipeg"/>
+            <xs:enumeration value="America/Yakutat"/>
+            <xs:enumeration value="America/Yellowknife"/>
+            <xs:enumeration value="Antarctica/Casey"/>
+            <xs:enumeration value="Antarctica/Davis"/>
+            <xs:enumeration value="Antarctica/DumontDUrville"/>
+            <xs:enumeration value="Antarctica/Macquarie"/>
+            <xs:enumeration value="Antarctica/Mawson"/>
+            <xs:enumeration value="Antarctica/McMurdo"/>
+            <xs:enumeration value="Antarctica/Palmer"/>
+            <xs:enumeration value="Antarctica/Rothera"/>
+            <xs:enumeration value="Antarctica/South_Pole"/>
+            <xs:enumeration value="Antarctica/Syowa"/>
+            <xs:enumeration value="Antarctica/Troll"/>
+            <xs:enumeration value="Antarctica/Vostok"/>
+            <xs:enumeration value="Arctic/Longyearbyen"/>
+            <xs:enumeration value="Asia/Aden"/>
+            <xs:enumeration value="Asia/Almaty"/>
+            <xs:enumeration value="Asia/Amman"/>
+            <xs:enumeration value="Asia/Anadyr"/>
+            <xs:enumeration value="Asia/Aqtau"/>
+            <xs:enumeration value="Asia/Aqtobe"/>
+            <xs:enumeration value="Asia/Ashgabat"/>
+            <xs:enumeration value="Asia/Ashkhabad"/>
+            <xs:enumeration value="Asia/Baghdad"/>
+            <xs:enumeration value="Asia/Bahrain"/>
+            <xs:enumeration value="Asia/Baku"/>
+            <xs:enumeration value="Asia/Bangkok"/>
+            <xs:enumeration value="Asia/Beirut"/>
+            <xs:enumeration value="Asia/Bishkek"/>
+            <xs:enumeration value="Asia/Brunei"/>
+            <xs:enumeration value="Asia/Calcutta"/>
+            <xs:enumeration value="Asia/Choibalsan"/>
+            <xs:enumeration value="Asia/Chongqing"/>
+            <xs:enumeration value="Asia/Chungking"/>
+            <xs:enumeration value="Asia/Colombo"/>
+            <xs:enumeration value="Asia/Dacca"/>
+            <xs:enumeration value="Asia/Damascus"/>
+            <xs:enumeration value="Asia/Dhaka"/>
+            <xs:enumeration value="Asia/Dili"/>
+            <xs:enumeration value="Asia/Dubai"/>
+            <xs:enumeration value="Asia/Dushanbe"/>
+            <xs:enumeration value="Asia/Gaza"/>
+            <xs:enumeration value="Asia/Harbin"/>
+            <xs:enumeration value="Asia/Hebron"/>
+            <xs:enumeration value="Asia/Ho_Chi_Minh"/>
+            <xs:enumeration value="Asia/Hong_Kong"/>
+            <xs:enumeration value="Asia/Hovd"/>
+            <xs:enumeration value="Asia/Irkutsk"/>
+            <xs:enumeration value="Asia/Istanbul"/>
+            <xs:enumeration value="Asia/Jakarta"/>
+            <xs:enumeration value="Asia/Jayapura"/>
+            <xs:enumeration value="Asia/Jerusalem"/>
+            <xs:enumeration value="Asia/Kabul"/>
+            <xs:enumeration value="Asia/Kamchatka"/>
+            <xs:enumeration value="Asia/Karachi"/>
+            <xs:enumeration value="Asia/Kashgar"/>
+            <xs:enumeration value="Asia/Kathmandu"/>
+            <xs:enumeration value="Asia/Katmandu"/>
+            <xs:enumeration value="Asia/Khandyga"/>
+            <xs:enumeration value="Asia/Kolkata"/>
+            <xs:enumeration value="Asia/Krasnoyarsk"/>
+            <xs:enumeration value="Asia/Kuala_Lumpur"/>
+            <xs:enumeration value="Asia/Kuching"/>
+            <xs:enumeration value="Asia/Kuwait"/>
+            <xs:enumeration value="Asia/Macao"/>
+            <xs:enumeration value="Asia/Macau"/>
+            <xs:enumeration value="Asia/Magadan"/>
+            <xs:enumeration value="Asia/Makassar"/>
+            <xs:enumeration value="Asia/Manila"/>
+            <xs:enumeration value="Asia/Muscat"/>
+            <xs:enumeration value="Asia/Nicosia"/>
+            <xs:enumeration value="Asia/Novokuznetsk"/>
+            <xs:enumeration value="Asia/Novosibirsk"/>
+            <xs:enumeration value="Asia/Omsk"/>
+            <xs:enumeration value="Asia/Oral"/>
+            <xs:enumeration value="Asia/Phnom_Penh"/>
+            <xs:enumeration value="Asia/Pontianak"/>
+            <xs:enumeration value="Asia/Pyongyang"/>
+            <xs:enumeration value="Asia/Qatar"/>
+            <xs:enumeration value="Asia/Qyzylorda"/>
+            <xs:enumeration value="Asia/Rangoon"/>
+            <xs:enumeration value="Asia/Riyadh"/>
+            <xs:enumeration value="Asia/Saigon"/>
+            <xs:enumeration value="Asia/Sakhalin"/>
+            <xs:enumeration value="Asia/Samarkand"/>
+            <xs:enumeration value="Asia/Seoul"/>
+            <xs:enumeration value="Asia/Shanghai"/>
+            <xs:enumeration value="Asia/Singapore"/>
+            <xs:enumeration value="Asia/Taipei"/>
+            <xs:enumeration value="Asia/Tashkent"/>
+            <xs:enumeration value="Asia/Tbilisi"/>
+            <xs:enumeration value="Asia/Tehran"/>
+            <xs:enumeration value="Asia/Tel_Aviv"/>
+            <xs:enumeration value="Asia/Thimbu"/>
+            <xs:enumeration value="Asia/Thimphu"/>
+            <xs:enumeration value="Asia/Tokyo"/>
+            <xs:enumeration value="Asia/Ujung_Pandang"/>
+            <xs:enumeration value="Asia/Ulaanbaatar"/>
+            <xs:enumeration value="Asia/Ulan_Bator"/>
+            <xs:enumeration value="Asia/Urumqi"/>
+            <xs:enumeration value="Asia/Ust-Nera"/>
+            <xs:enumeration value="Asia/Vientiane"/>
+            <xs:enumeration value="Asia/Vladivostok"/>
+            <xs:enumeration value="Asia/Yakutsk"/>
+            <xs:enumeration value="Asia/Yekaterinburg"/>
+            <xs:enumeration value="Asia/Yerevan"/>
+            <xs:enumeration value="Atlantic/Azores"/>
+            <xs:enumeration value="Atlantic/Bermuda"/>
+            <xs:enumeration value="Atlantic/Canary"/>
+            <xs:enumeration value="Atlantic/Cape_Verde"/>
+            <xs:enumeration value="Atlantic/Faeroe"/>
+            <xs:enumeration value="Atlantic/Faroe"/>
+            <xs:enumeration value="Atlantic/Jan_Mayen"/>
+            <xs:enumeration value="Atlantic/Madeira"/>
+            <xs:enumeration value="Atlantic/Reykjavik"/>
+            <xs:enumeration value="Atlantic/South_Georgia"/>
+            <xs:enumeration value="Atlantic/St_Helena"/>
+            <xs:enumeration value="Atlantic/Stanley"/>
+            <xs:enumeration value="Australia/ACT"/>
+            <xs:enumeration value="Australia/Adelaide"/>
+            <xs:enumeration value="Australia/Brisbane"/>
+            <xs:enumeration value="Australia/Broken_Hill"/>
+            <xs:enumeration value="Australia/Canberra"/>
+            <xs:enumeration value="Australia/Currie"/>
+            <xs:enumeration value="Australia/Darwin"/>
+            <xs:enumeration value="Australia/Eucla"/>
+            <xs:enumeration value="Australia/Hobart"/>
+            <xs:enumeration value="Australia/LHI"/>
+            <xs:enumeration value="Australia/Lindeman"/>
+            <xs:enumeration value="Australia/Lord_Howe"/>
+            <xs:enumeration value="Australia/Melbourne"/>
+            <xs:enumeration value="Australia/North"/>
+            <xs:enumeration value="Australia/NSW"/>
+            <xs:enumeration value="Australia/Perth"/>
+            <xs:enumeration value="Australia/Queensland"/>
+            <xs:enumeration value="Australia/South"/>
+            <xs:enumeration value="Australia/Sydney"/>
+            <xs:enumeration value="Australia/Tasmania"/>
+            <xs:enumeration value="Australia/Victoria"/>
+            <xs:enumeration value="Australia/West"/>
+            <xs:enumeration value="Australia/Yancowinna"/>
+            <xs:enumeration value="Brazil/Acre"/>
+            <xs:enumeration value="Brazil/DeNoronha"/>
+            <xs:enumeration value="Brazil/East"/>
+            <xs:enumeration value="Brazil/West"/>
+            <xs:enumeration value="Canada/Atlantic"/>
+            <xs:enumeration value="Canada/Central"/>
+            <xs:enumeration value="Canada/Eastern"/>
+            <xs:enumeration value="Canada/East-Saskatchewan"/>
+            <xs:enumeration value="Canada/Mountain"/>
+            <xs:enumeration value="Canada/Newfoundland"/>
+            <xs:enumeration value="Canada/Pacific"/>
+            <xs:enumeration value="Canada/Saskatchewan"/>
+            <xs:enumeration value="Canada/Yukon"/>
+            <xs:enumeration value="Chile/Continental"/>
+            <xs:enumeration value="Chile/EasterIsland"/>
+            <xs:enumeration value="Cuba"/>
+            <xs:enumeration value="Egypt"/>
+            <xs:enumeration value="Eire"/>
+            <xs:enumeration value="Etc/GMT"/>
+            <xs:enumeration value="Etc/GMT+0"/>
+            <xs:enumeration value="Etc/UCT"/>
+            <xs:enumeration value="Etc/Universal"/>
+            <xs:enumeration value="Etc/UTC"/>
+            <xs:enumeration value="Etc/Zulu"/>
+            <xs:enumeration value="Europe/Amsterdam"/>
+            <xs:enumeration value="Europe/Andorra"/>
+            <xs:enumeration value="Europe/Athens"/>
+            <xs:enumeration value="Europe/Belfast"/>
+            <xs:enumeration value="Europe/Belgrade"/>
+            <xs:enumeration value="Europe/Berlin"/>
+            <xs:enumeration value="Europe/Bratislava"/>
+            <xs:enumeration value="Europe/Brussels"/>
+            <xs:enumeration value="Europe/Bucharest"/>
+            <xs:enumeration value="Europe/Budapest"/>
+            <xs:enumeration value="Europe/Busingen"/>
+            <xs:enumeration value="Europe/Chisinau"/>
+            <xs:enumeration value="Europe/Copenhagen"/>
+            <xs:enumeration value="Europe/Dublin"/>
+            <xs:enumeration value="Europe/Gibraltar"/>
+            <xs:enumeration value="Europe/Guernsey"/>
+            <xs:enumeration value="Europe/Helsinki"/>
+            <xs:enumeration value="Europe/Isle_of_Man"/>
+            <xs:enumeration value="Europe/Istanbul"/>
+            <xs:enumeration value="Europe/Jersey"/>
+            <xs:enumeration value="Europe/Kaliningrad"/>
+            <xs:enumeration value="Europe/Kiev"/>
+            <xs:enumeration value="Europe/Lisbon"/>
+            <xs:enumeration value="Europe/Ljubljana"/>
+            <xs:enumeration value="Europe/London"/>
+            <xs:enumeration value="Europe/Luxembourg"/>
+            <xs:enumeration value="Europe/Madrid"/>
+            <xs:enumeration value="Europe/Malta"/>
+            <xs:enumeration value="Europe/Mariehamn"/>
+            <xs:enumeration value="Europe/Minsk"/>
+            <xs:enumeration value="Europe/Monaco"/>
+            <xs:enumeration value="Europe/Moscow"/>
+            <xs:enumeration value="Europe/Nicosia"/>
+            <xs:enumeration value="Europe/Oslo"/>
+            <xs:enumeration value="Europe/Paris"/>
+            <xs:enumeration value="Europe/Podgorica"/>
+            <xs:enumeration value="Europe/Prague"/>
+            <xs:enumeration value="Europe/Riga"/>
+            <xs:enumeration value="Europe/Rome"/>
+            <xs:enumeration value="Europe/Samara"/>
+            <xs:enumeration value="Europe/San_Marino"/>
+            <xs:enumeration value="Europe/Sarajevo"/>
+            <xs:enumeration value="Europe/Simferopol"/>
+            <xs:enumeration value="Europe/Skopje"/>
+            <xs:enumeration value="Europe/Sofia"/>
+            <xs:enumeration value="Europe/Stockholm"/>
+            <xs:enumeration value="Europe/Tallinn"/>
+            <xs:enumeration value="Europe/Tirane"/>
+            <xs:enumeration value="Europe/Tiraspol"/>
+            <xs:enumeration value="Europe/Uzhgorod"/>
+            <xs:enumeration value="Europe/Vaduz"/>
+            <xs:enumeration value="Europe/Vatican"/>
+            <xs:enumeration value="Europe/Vienna"/>
+            <xs:enumeration value="Europe/Vilnius"/>
+            <xs:enumeration value="Europe/Volgograd"/>
+            <xs:enumeration value="Europe/Warsaw"/>
+            <xs:enumeration value="Europe/Zagreb"/>
+            <xs:enumeration value="Europe/Zaporozhye"/>
+            <xs:enumeration value="Europe/Zurich"/>
+            <xs:enumeration value="GB"/>
+            <xs:enumeration value="GB-Eire"/>
+            <xs:enumeration value="GMT"/>
+            <xs:enumeration value="GMT+0"/>
+            <xs:enumeration value="GMT0"/>
+            <xs:enumeration value="GMT-0"/>
+            <xs:enumeration value="Greenwich"/>
+            <xs:enumeration value="Hongkong"/>
+            <xs:enumeration value="Iceland"/>
+            <xs:enumeration value="Indian/Antananarivo"/>
+            <xs:enumeration value="Indian/Chagos"/>
+            <xs:enumeration value="Indian/Christmas"/>
+            <xs:enumeration value="Indian/Cocos"/>
+            <xs:enumeration value="Indian/Comoro"/>
+            <xs:enumeration value="Indian/Kerguelen"/>
+            <xs:enumeration value="Indian/Mahe"/>
+            <xs:enumeration value="Indian/Maldives"/>
+            <xs:enumeration value="Indian/Mauritius"/>
+            <xs:enumeration value="Indian/Mayotte"/>
+            <xs:enumeration value="Indian/Reunion"/>
+            <xs:enumeration value="Iran"/>
+            <xs:enumeration value="Israel"/>
+            <xs:enumeration value="Jamaica"/>
+            <xs:enumeration value="Japan"/>
+            <xs:enumeration value="Kwajalein"/>
+            <xs:enumeration value="Libya"/>
+            <xs:enumeration value="Mexico/BajaNorte"/>
+            <xs:enumeration value="Mexico/BajaSur"/>
+            <xs:enumeration value="Mexico/General"/>
+            <xs:enumeration value="Navajo"/>
+            <xs:enumeration value="NZ"/>
+            <xs:enumeration value="NZ-CHAT"/>
+            <xs:enumeration value="Pacific/Apia"/>
+            <xs:enumeration value="Pacific/Auckland"/>
+            <xs:enumeration value="Pacific/Chatham"/>
+            <xs:enumeration value="Pacific/Chuuk"/>
+            <xs:enumeration value="Pacific/Easter"/>
+            <xs:enumeration value="Pacific/Efate"/>
+            <xs:enumeration value="Pacific/Enderbury"/>
+            <xs:enumeration value="Pacific/Fakaofo"/>
+            <xs:enumeration value="Pacific/Fiji"/>
+            <xs:enumeration value="Pacific/Funafuti"/>
+            <xs:enumeration value="Pacific/Galapagos"/>
+            <xs:enumeration value="Pacific/Gambier"/>
+            <xs:enumeration value="Pacific/Guadalcanal"/>
+            <xs:enumeration value="Pacific/Guam"/>
+            <xs:enumeration value="Pacific/Honolulu"/>
+            <xs:enumeration value="Pacific/Johnston"/>
+            <xs:enumeration value="Pacific/Kiritimati"/>
+            <xs:enumeration value="Pacific/Kosrae"/>
+            <xs:enumeration value="Pacific/Kwajalein"/>
+            <xs:enumeration value="Pacific/Majuro"/>
+            <xs:enumeration value="Pacific/Marquesas"/>
+            <xs:enumeration value="Pacific/Midway"/>
+            <xs:enumeration value="Pacific/Nauru"/>
+            <xs:enumeration value="Pacific/Niue"/>
+            <xs:enumeration value="Pacific/Norfolk"/>
+            <xs:enumeration value="Pacific/Noumea"/>
+            <xs:enumeration value="Pacific/Pago_Pago"/>
+            <xs:enumeration value="Pacific/Palau"/>
+            <xs:enumeration value="Pacific/Pitcairn"/>
+            <xs:enumeration value="Pacific/Pohnpei"/>
+            <xs:enumeration value="Pacific/Ponape"/>
+            <xs:enumeration value="Pacific/Port_Moresby"/>
+            <xs:enumeration value="Pacific/Rarotonga"/>
+            <xs:enumeration value="Pacific/Saipan"/>
+            <xs:enumeration value="Pacific/Samoa"/>
+            <xs:enumeration value="Pacific/Tahiti"/>
+            <xs:enumeration value="Pacific/Tarawa"/>
+            <xs:enumeration value="Pacific/Tongatapu"/>
+            <xs:enumeration value="Pacific/Truk"/>
+            <xs:enumeration value="Pacific/Wake"/>
+            <xs:enumeration value="Pacific/Wallis"/>
+            <xs:enumeration value="Pacific/Yap"/>
+            <xs:enumeration value="Poland"/>
+            <xs:enumeration value="Portugal"/>
+            <xs:enumeration value="PRC"/>
+            <xs:enumeration value="ROC"/>
+            <xs:enumeration value="ROK"/>
+            <xs:enumeration value="Singapore"/>
+            <xs:enumeration value="Turkey"/>
+            <xs:enumeration value="UCT"/>
+            <xs:enumeration value="Universal"/>
+            <xs:enumeration value="US/Alaska"/>
+            <xs:enumeration value="US/Aleutian"/>
+            <xs:enumeration value="US/Arizona"/>
+            <xs:enumeration value="US/Central"/>
+            <xs:enumeration value="US/Eastern"/>
+            <xs:enumeration value="US/East-Indiana"/>
+            <xs:enumeration value="US/Hawaii"/>
+            <xs:enumeration value="US/Indiana-Starke"/>
+            <xs:enumeration value="US/Michigan"/>
+            <xs:enumeration value="US/Mountain"/>
+            <xs:enumeration value="US/Pacific"/>
+            <xs:enumeration value="US/Samoa"/>
+            <xs:enumeration value="UTC"/>
+            <xs:enumeration value="W-SU"/>
+            <xs:enumeration value="Zulu"/>
+            <xs:enumeration value="Local"/>
+        </xs:restriction>
+    </xs:simpleType>
+</xs:schema>

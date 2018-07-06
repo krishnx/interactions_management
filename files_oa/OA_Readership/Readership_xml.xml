@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clientinteraction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://oneaccess.io/corporateaccess/clientinteraction/2.1.1">
+  <updated>
+    <datetime>2017-11-28T12:00:04.1801926Z</datetime>
+    <timezone>UTC</timezone>
+  </updated>
+  <broker>KATE4</broker>
+  <interactions>
+    <investor>
+      <investorName> Aviva Plc</investorName>
+      <interaction>
+        <interactionID></interactionID>
+        <oneaccessInteractionID>1459616</oneaccessInteractionID>
+        <interactionType>ResearchReadership</interactionType>
+        <interactionSubType>1x1</interactionSubType>
+        <interactionTitle>TEST ResearchReadership from xml</interactionTitle>
+        <investorInteractionStatus>InReview</investorInteractionStatus>
+        <interactionDescription>testinteraction description</interactionDescription> 
+        <source>Broker</source>
+        <initiator>Investor</initiator>
+        <group>test</group>
+        <start>2017-11-01</start>
+        <startTime>
+          <datetime>2017-11-01T00:00:45</datetime>
+          <timezone>UTC</timezone>
+        </startTime>
+        <end>2017-11-01</end>
+        <endTime>
+          <datetime>2017-11-01T00:30:47</datetime>
+          <timezone>UTC</timezone>
+        </endTime>
+        <regions>
+          <region>Latin America</region>
+        </regions>
+        <originatingRegion>North America</originatingRegion>
+        <sectors>
+          <sector description="Energy">10</sector>
+        </sectors>
+        <duration>30</duration>
+        <location>
+          <address>
+            <type>Onsite</type>
+            <streetAddress>rty</streetAddress>
+            <city>Boca Raton</city>
+            <state>FL</state>
+            <country>USA</country>
+            <postalCode />
+          </address>
+        </location>
+        <companies>
+          <company>
+            <companyName>ArborGen Inc</companyName>
+            <isPublic>false</isPublic>
+            <identifiers />
+            <companyParticipants>
+              <participant>
+                <person>
+                  <firstName>c</firstName>
+                  <lastName>c</lastName>
+                  <email>c</email>
+                  <phone />
+                  <title>c</title>
+                  <company>ArborGen Inc</company>
+                  <bio>comp_bio</bio>
+                </person>
+                <roles>
+                  <role>CEO</role>
+                  <role>CFO</role>
+                  <role>CIO-Information</role>
+                  <role>CIO-Investment</role>
+                  <role>CMO</role>
+                  <role>COO</role>
+                </roles>
+                <status>Attended</status>
+              </participant>
+            </companyParticipants>
+          </company>
+          <company>
+            <companyName>American Campus Communities Inc</companyName>
+            <isPublic>true</isPublic>
+            <identifiers />
+            <companyParticipants>
+              <participant>
+                <person>
+                  <firstName>comp</firstName>
+                  <lastName>comp</lastName>
+                  <email>comp@test.com</email>
+                  <phone />
+                  <title>comp</title>
+                  <company>American Campus Communities Inc</company>
+                  <bio>comp_bio</bio>
+                </person>
+                <roles>
+                  <role>CFO</role>
+                </roles>
+                <status>Attended</status>
+              </participant>
+            </companyParticipants>
+          </company>
+        </companies>
+        <brokerParticipants>
+          <participant>
+            <person>
+              <firstName>broker</firstName>
+              <lastName>broker</lastName>
+              <email>broker@test.com</email>
+              <phone />
+              <title>broker</title>
+              <bio>broker_bio</bio>
+            </person>
+            <roles>
+              <role>SellsideAnalyst</role>
+              <role>BrokerCoordinator</role>
+              <role>BuysideAnalyst</role>
+              <role>MacroStrategist</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </brokerParticipants>
+        <thirdPartyParticipants>
+          <participant>
+            <person>
+              <firstName>exp</firstName>
+              <lastName>exp</lastName>
+              <email>exp@test.com</email>
+              <phone>23456789</phone>
+              <title>exp</title>
+              <bio>exp_bio</bio>
+            </person>
+            <roles>
+              <role>GovernmentExpert</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </thirdPartyParticipants>
+        <investorParticipants>
+          <participant>
+            <person>
+              <firstName>vikram</firstName>
+              <lastName>jadhav</lastName>
+              <email>test17689@example.com</email>
+              <title>inveestor</title>
+			  <bio>investor_bio</bio>
+            </person>
+            <roles>
+              <role>CEO</role>
+              <role>CFO</role>
+            </roles>
+            <status>Attended</status>
+          </participant>
+        </investorParticipants>
+        <createdBy>
+          <participant>
+            <person>
+              <firstName>admin</firstName>
+              <lastName>admin</lastName>
+              <email>admin@admin.com</email>
+            </person>
+          </participant>
+        </createdBy>
+        <ratesValues>
+          <rateValue>
+            <rate>0</rate>
+            <rateType>Dollars</rateType>
+            <value>0</value>
+          </rateValue>
+        </ratesValues>
+		     <readership>
+          <brokerReportID>13232_broker_rep_id</brokerReportID>
+          <publishedDateTime>
+            <datetime>2017-12-01T00:30:00</datetime>
+            <timezone>UTC</timezone>
+          </publishedDateTime>
+          <pageCount>1</pageCount>
+          <assetType>Convertible</assetType>
+        </readership>
+		<assetType>Convertible</assetType>
+            <assetClasses>
+          <assetClass>Equities</assetClass>
+          <assetClass>FixedIncome/Rates</assetClass>
+        </assetClasses>
+		<contractID>testcontractid</contractID>
+		<tags>
+          <tag>
+            <value>tag1</value>
+          </tag>
+        </tags>
+        <comments>
+          <comment>comment</comment>
+        </comments>
+      </interaction>
+    </investor>
+  </interactions>
+</clientinteraction>

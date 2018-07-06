@@ -1,0 +1,421 @@
+<?xml version="1.0"?>
+<ArrayOfOneWayMapper xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OneWayMapper Name="EventType">
+    <BundleMap>
+      <From>
+        <string>Analyst Call - 2x1</string>
+      </From>
+      <To>
+        <string>AnalystMarketing</string>
+        <string>CallGroup</string>
+      </To>
+    </BundleMap>
+    <BundleMap>
+      <From>
+        <string>Analyst Call - Group</string>
+      </From>
+      <To>
+        <string>AnalystMarketing</string>
+        <string>CallGroup</string>
+      </To>
+    </BundleMap>
+    <BundleMap>
+      <From>
+        <string>Analyst Call Incoming</string>
+      </From>
+      <To>
+        <string>AnalystMarketing</string>
+        <string>Call1x1</string>
+        <string>Broker</string>
+      </To>
+    </BundleMap>
+    <BundleMap>
+      <From>
+        <string>Analyst Call Outgoing</string>
+      </From>
+      <To>
+        <string>AnalystMarketing</string>
+        <string>Call1x1</string>
+        <string>Investor</string>
+      </To>
+    </BundleMap>
+    <BundleMap>
+      <From>
+        <string>Analyst Meeting - 1x1</string>
+      </From>
+      <To>
+        <string>AnalystMarketing</string>
+        <string>1x1</string>
+      </To>
+    </BundleMap>
+    <BundleMap>
+      <From>
+        <string>Analyst Meeting - 2x1</string>
+      </From>
+      <To>
+        <string>AnalystMarketing</string>
+        <string>2x1</string>
+      </To>
+    </BundleMap>
+    <BundleMap>
+      <From>
+        <string>Analyst Meeting - Group</string>
+      </From>
+      <To>
+        <string>AnalystMarketing</string>
+        <string>Group</string>
+      </To>
+    </BundleMap>
+    <BundleMap>
+      <From>
+        <string>Bespoke Access - 1x1</string>
+      </From>
+      <To>
+        <string>BespokeAccess</string>
+        <string>1x1</string>
+      </To>
+    </BundleMap>
+    <BundleMap>
+      <From>
+        <string>Bespoke Access - 2x1</string>
+      </From>
+      <To>
+        <string>BespokeAccess</string>
+        <string>2x1</string>
+      </To>
+    </BundleMap>
+    <BundleMap>
+      <From>
+        <string>Bespoke Access - Group</string>
+      </From>
+      <To>
+        <string>BespokeAccess</string>
+        <string>Group</string>
+      </To>
+    </BundleMap>
+    <BundleMap>
+      <From>
+        <string>Conference - 1x1</string>
+      </From>
+      <To>
+        <string>Conference</string>
+        <string>1x1</string>
+      </To>
+    </BundleMap>
+    <BundleMap>
+      <From>
+        <string>Conference - 2x1</string>
+      </From>
+      <To>
+        <string>Conference</string>
+        <string>2x1</string>
+      </To>
+    </BundleMap>
+    <BundleMap>
+      <From>
+        <string>Conference - Group</string>
+      </From>
+      <To>
+        <string>Conference</string>
+        <string>Group</string>
+      </To>
+    </BundleMap>
+    <BundleMap>
+      <From>
+        <string>Custom Work (Complex)</string>
+      </From>
+      <To>
+        <string>CustomWork</string>
+        <string>Complex</string>
+      </To>
+    </BundleMap>
+    <BundleMap>
+      <From>
+        <string>Custom Work (General)</string>
+      </From>
+      <To>
+        <string>Data</string>
+        <string>Delivered</string>
+      </To>
+    </BundleMap>
+    <BundleMap>
+      <From>
+        <string>Email</string>
+      </From>
+      <To>
+        <string>Other</string>
+        <string>Email</string>
+      </To>
+    </BundleMap>
+    <BundleMap>
+      <From>
+        <string>Expert Meeting - 1x1</string>
+      </From>
+      <To>
+        <string>IndustryExpert</string>
+        <string>1x1</string>
+      </To>
+    </BundleMap>
+    <BundleMap>
+      <From>
+        <string>Expert Meeting - 2x1</string>
+      </From>
+      <To>
+        <string>IndustryExpert</string>
+        <string>2x1</string>
+      </To>
+    </BundleMap>
+    <BundleMap>
+      <From>
+        <string>Expert Meeting - Group</string>
+      </From>
+      <To>
+        <string>IndustryExpert</string>
+        <string>Group</string>
+      </To>
+    </BundleMap>
+    <BundleMap>
+      <From>
+        <string>Field Trip - 1x1</string>
+      </From>
+      <To>
+        <string>FieldTrip</string>
+        <string>1x1</string>
+      </To>
+    </BundleMap>
+    <BundleMap>
+      <From>
+        <string>Field Trip - 2x1</string>
+      </From>
+      <To>
+        <string>FieldTrip</string>
+        <string>2x1</string>
+      </To>
+    </BundleMap>
+    <BundleMap>
+      <From>
+        <string>Field Trip - Group</string>
+      </From>
+      <To>
+        <string>FieldTrip</string>
+        <string>Group</string>
+      </To>
+    </BundleMap>
+    <BundleMap>
+      <From>
+        <string>Instant Message</string>
+      </From>
+      <To>
+        <string>Other</string>
+        <string>IM</string>
+      </To>
+    </BundleMap>
+    <BundleMap>
+      <From>
+        <string>Macro Call</string>
+      </From>
+      <To>
+        <string>MacroStrategist</string>
+        <string>Call1x1</string>
+      </To>
+    </BundleMap>
+    <BundleMap>
+      <From>
+        <string>Macro Meeting - 1x1</string>
+      </From>
+      <To>
+        <string>MacroStrategist</string>
+        <string>1x1</string>
+      </To>
+    </BundleMap>
+    <BundleMap>
+      <From>
+        <string>Macro Meeting - 2x1</string>
+      </From>
+      <To>
+        <string>MacroStrategist</string>
+        <string>2x1</string>
+      </To>
+    </BundleMap>
+    <BundleMap>
+      <From>
+        <string>Macro Meeting - Group</string>
+      </From>
+      <To>
+        <string>MacroStrategist</string>
+        <string>Group</string>
+      </To>
+    </BundleMap>
+    <BundleMap>
+      <From>
+        <string>Model (Bespoke)</string>
+      </From>
+      <To>
+        <string>ModelRequest</string>
+        <string>Bespoke</string>
+      </To>
+    </BundleMap>
+    <BundleMap>
+      <From>
+        <string>Model (Generic)</string>
+      </From>
+      <To>
+        <string>ModelRequest</string>
+        <string>Delivered</string>
+      </To>
+    </BundleMap>
+    <BundleMap>
+      <From>
+        <string>Relationship Meeting</string>
+      </From>
+      <To>
+        <string>RelationshipMeeting</string>
+        <string>1x1</string>
+      </To>
+    </BundleMap>
+    <BundleMap>
+      <From>
+        <string>Roadshow: Deal - 1x1</string>
+      </From>
+      <To>
+        <string>DealRoadshow</string>
+        <string>1x1</string>
+      </To>
+    </BundleMap>
+    <BundleMap>
+      <From>
+        <string>Roadshow: Deal - 2x1</string>
+      </From>
+      <To>
+        <string>DealRoadshow</string>
+        <string>2x1</string>
+      </To>
+    </BundleMap>
+    <BundleMap>
+      <From>
+        <string>Roadshow: Deal - Group</string>
+      </From>
+      <To>
+        <string>DealRoadshow</string>
+        <string>Group</string>
+      </To>
+    </BundleMap>
+    <BundleMap>
+      <From>
+        <string>Roadshow: Non-Deal - 1x1</string>
+      </From>
+      <To>
+        <string>NonDealRoadshow</string>
+        <string>1x1</string>
+      </To>
+    </BundleMap>
+    <BundleMap>
+      <From>
+        <string>Roadshow: Non-Deal - 2x1</string>
+      </From>
+      <To>
+        <string>NonDealRoadshow</string>
+        <string>2x1</string>
+      </To>
+    </BundleMap>
+    <BundleMap>
+      <From>
+        <string>Roadshow: Non-Deal - Group</string>
+      </From>
+      <To>
+        <string>NonDealRoadshow</string>
+        <string>Group</string>
+      </To>
+    </BundleMap>
+    <BundleMap>
+      <From>
+        <string>Sales Call</string>
+      </From>
+      <To>
+        <string>Sales</string>
+        <string>Call1x1</string>
+      </To>
+    </BundleMap>
+    <BundleMap>
+      <From>
+        <string>Sales Meeting - 1x1</string>
+      </From>
+      <To>
+        <string>Sales</string>
+        <string>1x1</string>
+      </To>
+    </BundleMap>
+    <BundleMap>
+      <From>
+        <string>Sales Meeting - 2x1</string>
+      </From>
+      <To>
+        <string>Sales</string>
+        <string>2x1</string>
+      </To>
+    </BundleMap>
+    <BundleMap>
+      <From>
+        <string>Sales Meeting - Group</string>
+      </From>
+      <To>
+        <string>Sales</string>
+        <string>Group</string>
+      </To>
+    </BundleMap>
+    <BundleMap>
+      <From>
+        <string>Sales Spec. Call</string>
+      </From>
+      <To>
+        <string>SalesSpecialist</string>
+        <string>Call1x1</string>
+      </To>
+    </BundleMap>
+    <BundleMap>
+      <From>
+        <string>Sales Spec. Meeting - 1x1</string>
+      </From>
+      <To>
+        <string>SalesSpecialist</string>
+        <string>1x1</string>
+      </To>
+    </BundleMap>
+    <BundleMap>
+      <From>
+        <string>Sales Spec. Meeting - 2x1</string>
+      </From>
+      <To>
+        <string>SalesSpecialist</string>
+        <string>2x1</string>
+      </To>
+    </BundleMap>
+    <BundleMap>
+      <From>
+        <string>Sales Spec. Meeting - Group</string>
+      </From>
+      <To>
+        <string>SalesSpecialist</string>
+        <string>Group</string>
+      </To>
+    </BundleMap>
+    <BundleMap>
+      <From>
+        <string>Voicemail</string>
+      </From>
+      <To>
+        <string>Other</string>
+        <string>VoiceMail</string>
+      </To>
+    </BundleMap>
+    <BundleMap>
+      <From>
+        <string>Written Report</string>
+      </From>
+      <To>
+        <string>ResearchReadership</string>
+        <string>Viewed</string>
+      </To>
+    </BundleMap>
+  </OneWayMapper>
+</ArrayOfOneWayMapper>
